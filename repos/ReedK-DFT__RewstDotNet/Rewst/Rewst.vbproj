@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>Rewst</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Rewst Webhooks</Title>
+    <Company>Dragonfly Technologies</Company>
+    <Description>Provides easy consumption of Rewst workflow webhooks.
+This is a community maintained assembly and is not supported by the ROC.</Description>
+    <PackageProjectUrl>https://github.com/ReedK-DFT/RewstDotNet/tree/master</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ReedK-DFT/RewstDotNet/tree/master</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.12.0" />
+    <PackageReference Include="Azure.Security.KeyVault.Secrets" Version="4.6.0" />
+  </ItemGroup>
+
+</Project>

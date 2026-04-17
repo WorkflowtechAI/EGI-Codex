@@ -1,0 +1,39 @@
+# Development directories
+.vscode/**
+.vscode-test/**
+.claude/**
+.LOCAL/**
+.husky/**
+node_modules/**
+src/**
+
+# Build and config files
+webpack.config.cjs
+tsconfig.json
+**/tsconfig.json
+eslint.config.mjs
+**/eslint.config.mjs
+.prettierignore
+.prettierrc
+.gitignore
+.nvmrc
+.yarnrc
+.editorconfig
+
+# Documentation (internal)
+CLAUDE.md
+vsc-extension-quickstart.md
+
+# Test files
+**/.vscode-test.*
+
+# Only include the bundled entrypoint, exclude all other dist artifacts
+dist/**
+!dist/extension.js
+
+# TypeScript source (keep only compiled)
+**/*.ts
+
+# Misc
+*.code-workspace
+../**

@@ -1,0 +1,683 @@
+{
+  "version": 2,
+  "exportedAt": "2025-10-11T16:14:19.966507+00:00",
+  "signing": {
+    "cert": "-----BEGIN CERTIFICATE-----\nMIICazCCAfGgAwIBAgIUFJtHAR8D+ZfChHcAXHemH7s8zRowCgYIKoZIzj0EAwIwfDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkZMMQ4wDAYDVQQHEwVUYW1wYTEOMAwGA1UEChMFUmV3c3QxEzARBgNVBAsTClJld3N0IERldnMxKzApBgNVBAMTImxvY2FsIFJld3N0IEltcG9ydC9FeHBvcnQgQ0EyIHYxLjEwHhcNMjIwNjAzMTkwMDU1WhcNMjUwNTIzMTkwMTI1WjBDMQswCQYDVQQGEwJVUzELMAkGA1UECBMCRkwxDjAMBgNVBAcTBVRhbXBhMRcwFQYDVQQDEw5sb2NhbC5yZXdzdC5pbzB2MBAGByqGSM49AgEGBSuBBAAiA2IABMcTJzyLIvX1+3545EJbFeNVjahxVq6TFQ7n/IYZs4yEMQzDWZjAyHhJPZk3Dxq/wFzesXMYJu41rhxfz7AZh15LtFGfy9V2B4X5KH7sGJWqOan0mabuF83llruTLA/NQaNtMGswDgYDVR0PAQH/BAQDAgeAMB0GA1UdDgQWBBTDePOSC6hckrg6usrK2giZv9GxpjAfBgNVHSMEGDAWgBTojdemsJqfnB19iyMxmIi3OGYw6TAZBgNVHREEEjAQgg5sb2NhbC5yZXdzdC5pbzAKBggqhkjOPQQDAgNoADBlAjEA8NsLnuGhfTPC7dB0ojWf5WmH64qFZuPFD6Q0RwGYO0D1Tn2x5+/37kW3HFcGHV0wAjBM7LSidsc7E9+fmcesnN5hM34eGMP+YWCoEeFIPPANXQKemAgUVf35iXyU64sVEC4=\n-----END CERTIFICATE-----",
+    "hash": "sha512",
+    "signature": "MGUCMQDWhPhDe20GkrNogXtgjNEpbWgVO9ZkNJeviVkyhCTWxsElW+pHtHtaS7LvEEPAO9QCMAcBs+0kUAphA+xEpY+2C7bp/o55Z41Hp9BW6JoAQuHP27Mr6JQFlktNtJwgYQ1XvA=="
+  },
+  "objects": {
+    "workflow_note_id:BtnpfqtnvgSjSYnH55ewSJcJPkZwvgQ9a92YE5Dxe5c": {
+      "type": "workflow_note_id",
+      "content_hash": "624R1fnSzNMEwq7UFrM6RWnMjAbewUfC2L8RhJt8WpEp",
+      "hash": "5PGyAfHSVJXrtpk1fx2NBrDmRQipBuoeLhRFLbhXWz7S",
+      "fields": {
+        "id": "3b827a6a-41c2-4c44-9c0c-c540c12c54bf"
+      }
+    },
+    "workflow_task_id:G71TZUnTWHoE5pdhtC8WYu85bqbip8LRMSSKg8vJLtWC": {
+      "type": "workflow_task_id",
+      "content_hash": "4zWrmHHpLFddfXpMYf98sdJTmHjn8uweHdtYyWm4UUpz",
+      "hash": "EQrcdbP3kg1z3M8eKQXUtm3qNhw3AGU7CoiM6icNCKL9",
+      "fields": {
+        "id": "74e86c0539404be589712731e22d9c1e"
+      }
+    },
+    "transition_id:HvyjHVA5YHLToVPyAXfJNNw2H6QDbphV3q6FzrzwyMAe": {
+      "type": "transition_id",
+      "content_hash": "FEvHwF2gMR8hEh7dW85UdHwDpnj7AU1ZURHEWyMFgAkZ",
+      "hash": "FDU9374D7U7fmxvCv8pH1xkAockrJ6jX5NiSPVjFkLge",
+      "fields": {
+        "id": "95fb15f4-09e2-4eb8-a609-4911d957fce7"
+      }
+    },
+    "workflow_task_id:978APB6KdKVVKfYd61EryJovsX2tg2E5Y89qwE7q9xW7": {
+      "type": "workflow_task_id",
+      "content_hash": "43g96nU8tR7cT8psE5LVbApp5AU2yqw899bVrLcq8YDc",
+      "hash": "HFjWmUpAMeyJfRxzxDWzzhXPdF54c8UAgRdcmrWU1qP4",
+      "fields": {
+        "id": "b7897203e4aa458cbe58b4987f50a2b2"
+      }
+    },
+    "action:13rZFU5xGzWNDZ2iEMNWNEqZ88XT8LPCu8yVchoygTVY": {
+      "type": "action",
+      "content_hash": "Aj7g63oBpFTyTLgcv25UHmfMB5WmghbjNdHZYGy7KxYN",
+      "hash": "JAbYYJfYDMeHf1dt791VFAinW1gZoCwsGcGznS61qhTC",
+      "fields": {
+        "ref": "transforms.set_variable"
+      }
+    },
+    "action:Gse9zj3ZXMhHGgoH6nnpRPiNp9bEhf6ukkJYV4aePk3S": {
+      "type": "action",
+      "content_hash": "EY6GD143YQfHX8XDjvYf9FXvdQbGa3bozzh4u7ShZ5eC",
+      "hash": "5NSq1FhqxcfdkfxHHM2yKSeXdXa7ju3BtYyVAniEPxvr",
+      "fields": {
+        "ref": "discord.generic_request"
+      }
+    },
+    "transition_id:4JiYboNMC96YdFRYatXiS2yjok3RPiAmH6MYHMf6wunN": {
+      "type": "transition_id",
+      "content_hash": "2SdfgJAjUJ6cuXjqDRG4s1HHvRffRmQ5SZSgmRHcGwpa",
+      "hash": "AiD7GCv4e9p6VijLQJY8ciTPF6abkDWjeqaYExN8qZav",
+      "fields": {
+        "id": "25398526-a5c2-4957-b9b4-0d6a7db350d4"
+      }
+    },
+    "transition_id:7MgJrFW5sfQRKQR6BW6oekgZMBqCXabisBahXvioQfzy": {
+      "type": "transition_id",
+      "content_hash": "GbpSeLZ6a7zrm1zqNWRg9M7xCUfiJcXkfCcLzGKeBgAy",
+      "hash": "6xy5AzYoZqT6d4jGDhQwvSSrQARvqmCHgrBZjsDU1VfD",
+      "fields": {
+        "id": "f0fa9fec-e058-4e07-86e1-6bdbce92bf9c"
+      }
+    },
+    "workflow_task_id:qmxv6ukUsJPuPx54h9vx4EarzZ9seeqZepioDMysWoE": {
+      "type": "workflow_task_id",
+      "content_hash": "PCVSaZCJRaqY6iDEABGFjUowmVZ4mfrCQBqXA3KD6Nu",
+      "hash": "FAFKPV8VUc96Tpc4u7WPKLPWot3onQdozuWPDvasDGd5",
+      "fields": {
+        "id": "737d85027f584c8983eeb1171fe99ea4"
+      }
+    },
+    "transition_id:71Hp3kNo7sKbvZE1ipLA9u5UCrA4yDjZWn8jDb86Br9L": {
+      "type": "transition_id",
+      "content_hash": "6UEgrchz1UDDKyYKNsMsoi2eWqucKC5v2KV59dUypq6z",
+      "hash": "2fJzkKuFPgr72f1GKVPntnCcC53CeEi8gWQSoN74VQfh",
+      "fields": {
+        "id": "2385fffc-278b-4dfa-95d8-9634d1bb34ef"
+      }
+    },
+    "action:CVdHSoiSFJcpU2oha4NS7no5ejckAaesye1aRx6vVP3Q": {
+      "type": "action",
+      "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+      "hash": "Arr2RCEM96WqU2EkvigszSfsW9GZHa4HJC5a1fL9qZ5g",
+      "fields": {
+        "ref": "core.noop"
+      }
+    },
+    "workflow_note_id:4WvruKXFLUd1AJqdrtVT7WfKyjYQRMP94sgKV5Ab8Eyc": {
+      "type": "workflow_note_id",
+      "content_hash": "2Ku8zU2bVVRbVGfQWTfBcBNVickbTH2FdkvT1WPptbi8",
+      "hash": "4zzFEXsaHVZUzP146knXgLGE34hoUMWiEvUWeJHpgYvW",
+      "fields": {
+        "id": "db1661cd-d4ad-4bfc-9a0c-e025768990d5"
+      }
+    },
+    "workflow_task_id:7yeES9Ho5z1VMWrMKqhkLvsPq74eJcBi3UbmNzwWVzZA": {
+      "type": "workflow_task_id",
+      "content_hash": "3Dg3bFNHyzsYAYHmX9ry11m7FJuEeYToxa7G9GThXvHt",
+      "hash": "DnFXpNv6sj2raMNK13VivX1Dh5eKkHLvzEZdmi2hZvAr",
+      "fields": {
+        "id": "b495e8ed77c44103816ece835f5f6dc2"
+      }
+    },
+    "workflow_note_id:pDbUiQmy3HinA36HsqKoLn6C9JMDbjuxtU8swXfCbAG": {
+      "type": "workflow_note_id",
+      "content_hash": "AUmCQQZVbdmscgjZXLTJHi9fmr8NNBv8oaYiYhg5R4SN",
+      "hash": "3bUMRQH7hcQ1hDj3M5em8fzbTNtQnoUGboUBCKcL55KA",
+      "fields": {
+        "id": "387f7005-5fd6-4d2f-b5e8-ffb8545ccd3d"
+      }
+    },
+    "workflow_task_id:HSWDm983sG5aDw9bKVGT6M4ghxZ9GjWfABomRaP6upW4": {
+      "type": "workflow_task_id",
+      "content_hash": "C3Wi524ztnYKa4tud6CYVAdRxMLmykUtUKx1V1FiD3DN",
+      "hash": "pigmyxwTuWP6JPHtatFosairjTuNYXtng54mUbEUVw3",
+      "fields": {
+        "id": "57532e5ee75e49ca9819dec4c7270848"
+      }
+    },
+    "transition_id:4DcVUV7Yz8FweBzHV9rm9pAQRatj3w1czeAf7ZXZQz2U": {
+      "type": "transition_id",
+      "content_hash": "6ZmQ5Euq64eNjY47pQGEVuywToUn7i8W7cDTn5WQkQzQ",
+      "hash": "6TA5J4YUB6At3QYYsVwLr3QT4mjJAwHSHFLKfjUVodbh",
+      "fields": {
+        "id": "69e6c658-4ead-4c04-b31e-6f9efc90eaf1"
+      }
+    },
+    "action:E3NGiK4QiEzwtypBxcUYMQQ268XeHw2GxcRbF5qe1G4C": {
+      "type": "action",
+      "content_hash": "2fWPuXmUgBYP7FMoY75ZnRAA3vaYRYSNS4BQS2AGtrbZ",
+      "hash": "CDs51378wwL3ipSx6Kw4kPk9bsmHR8jBpgdv7veo7isv",
+      "fields": {
+        "ref": "transforms.merge_lists"
+      }
+    },
+    "workflow:HzH9f1wouomPAr5PndKwg1h9eNy7ir6boF4fpJArgShq": {
+      "type": "workflow",
+      "content_hash": "GhXBRnCkVjVdiNuoYc2kBPWxoWiR5Pq8FEMNsX7HASrd",
+      "hash": "BUzfR2nCXWhVPELtsWaYVEKnarDFMwJMaCXiygD8QB8h",
+      "fields": {
+        "humanSecondsSaved": 0,
+        "notes": [
+          {
+            "id": "@@@workflow_note_id_ref1@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref2@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref3@@@"
+          }
+        ],
+        "output": [
+          {
+            "options": "{{ CTX.vertification_needed }}"
+          }
+        ],
+        "parameters": {},
+        "tasks": [
+          {
+            "id": "@@@workflow_task_id_ref1@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 1,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "core_noop",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref2@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref1@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_FIRST",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref2@@@",
+            "action": {
+              "id": "@@@action_ref2@@@"
+            },
+            "humanSecondsSaved": 30,
+            "input": {
+              "data": null,
+              "json": null,
+              "method": "GET",
+              "params": {
+                "limit": 1000
+              },
+              "cookies": null,
+              "headers": null,
+              "raw_json": null,
+              "url_path": "/guilds/${DISCORD_SERVER_ID}/members"
+            },
+            "isMocked": false,
+            "join": 1,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "discord_list_users",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref3@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref2@@@",
+                "publish": [
+                  {
+                    "key": "first_1000",
+                    "value": "{{\r\n    [\r\n        {\r\n        \"id\": member.user.id,\r\n        \"username\": member.user.username,\r\n        \"roles\": member.roles\r\n        }\r\n    for member in CTX.list_community_members_1\r\n    ]\r\n}}"
+                  },
+                  {
+                    "key": "last_id",
+                    "value": "{{ [user.id for user in CTX.first_1000]|last }}"
+                  }
+                ],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "list_community_members_1",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_FIRST",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref3@@@",
+            "action": {
+              "id": "@@@action_ref2@@@"
+            },
+            "humanSecondsSaved": 30,
+            "input": {
+              "data": null,
+              "json": null,
+              "method": "GET",
+              "params": {
+                "after": "{{ CTX.last_id }}",
+                "limit": 1000
+              },
+              "cookies": null,
+              "headers": null,
+              "raw_json": null,
+              "url_path": "/guilds/${DISCORD_SERVER_ID}/members"
+            },
+            "isMocked": false,
+            "join": 1,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "discord_list_users",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref4@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref3@@@",
+                "publish": [
+                  {
+                    "key": "next_1000",
+                    "value": "{{\r\n    [\r\n        {\r\n        \"id\": member.user.id,\r\n        \"username\": member.user.username,\r\n        \"roles\": member.roles\r\n        }\r\n    for member in CTX.list_community_members_2\r\n    ]\r\n}}"
+                  }
+                ],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "list_community_members_2",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_FIRST",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref4@@@",
+            "action": {
+              "id": "@@@action_ref3@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "params": {
+                "list_1": "{{ CTX.first_1000 }}",
+                "list_2": "{{ CTX.next_1000 }}",
+                "list1_key": "id",
+                "list2_key": "id",
+                "join_method": "outer"
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "transforms_beta_merge_lists",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref5@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref4@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "all_community_members",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref5@@@",
+            "action": {
+              "id": "@@@action_ref4@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "params": {
+                "text": "{{ member for member in CTX.all_community_members if \"${ROLE_ID_MEMBER}\" in member.roles and \"${ROLE_ID_VERIFIED}\" not in member.roles }}"
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "transforms_set_variable",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref5@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "vertification_needed",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          }
+        ],
+        "timeout": 28800,
+        "type": "OPTION_GENERATOR",
+        "varsSchema": {}
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "name": "List Unverified Discord Users [OG]",
+        "notes[0].content": "This block handles the initial startup of the workflow execution.\n\n**Purpose**: Provides a clean entry point for the workflow and ensures proper initialization before proceeding to data collection operations.\n\n**Tasks Included**:\n- `core_noop`: A no-operation task that serves as the workflow entry point and initialization step\n\n**Workflow Connection**: \n- **Input**: Workflow trigger/start\n- **Output**: Signals successful initialization to begin Discord data collection\n- **Next Block**: Flows into \"Discord Data Collection & Pagination\" block\n\n**Key Function**: Acts as a reliable starting point that can be used for workflow orchestration, logging, or future initialization logic without affecting the core Discord API operations.",
+        "notes[0].metadata": {
+          "x": 538.075609061131,
+          "y": 182.19083710924406,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367,
+          "height": 118,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "57532e5ee75e49ca9819dec4c7270848"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[0].title": "Workflow Initialization",
+        "notes[1].content": "This block handles the retrieval of Discord server member data using paginated API requests to collect comprehensive user information.\n\n**Purpose**: Fetches all Discord server members by making multiple API calls to handle Discord's pagination limits (1000 users per request).\n\n**Tasks Included**:\n- `discord_list_users` (First Request): Retrieves the first 1000 server members from Discord API, transforms the response into a structured format with user ID, username, and roles, and captures the last user ID for pagination\n- `discord_list_users` (Second Request): Fetches the next 1000 server members using the \"after\" parameter with the last ID from the previous request\n\n**Data Transformation**: \nEach API response is transformed into a standardized format:\n```json\n{\n  \"id\": \"user_id\",\n  \"username\": \"username\", \n  \"roles\": [\"role_id_1\", \"role_id_2\"]\n}\n```\n\n**Workflow Connection**:\n- **Input**: Initialization signal from the startup block\n- **Output**: Two separate lists of user data (`first_1000` and `next_1000`) ready for merging\n- **Next Block**: Flows into \"Data Processing & Filtering\" block\n\n**Key Function**: Ensures complete data collection from Discord's API while respecting rate limits and pagination constraints. The two-step approach handles servers with more than 1000 members effectively.",
+        "notes[1].metadata": {
+          "x": 537.055555848623,
+          "y": 370.4018050464287,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 368.8560228619024,
+          "height": 325.50007118495773,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "737d85027f584c8983eeb1171fe99ea4",
+            "b495e8ed77c44103816ece835f5f6dc2"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[1].title": "Discord Data Collection & Pagination",
+        "notes[2].content": "This block processes the collected Discord user data by merging paginated results and applying role-based filtering to identify unverified users.\n\n**Purpose**: Combines all collected user data and filters it to find users who have a specific role but are missing the verification role, effectively identifying unverified Discord users.\n\n**Tasks Included**:\n- `transforms_beta_merge_lists`: Merges the two user lists (`first_1000` and `next_1000`) using an outer join on the user ID field, creating a comprehensive list of all server members without duplicates\n- `transforms_set_variable`: Applies role-based filtering logic to identify unverified users by finding members who have role \"${ROLE_ID_MEMBER}\" but do NOT have role \"${ROLE_ID_VERIFIED}\"\n\n**Filtering Logic**:\nThe workflow identifies unverified users using this criteria:\n- **Has Role**: `${ROLE_ID_MEMBER}` (likely a general member or participant role)\n- **Missing Role**: `${ROLE_ID_VERIFIED}` (likely the verified user role)\n\n**Workflow Connection**:\n- **Input**: Two separate user lists from the Discord data collection block\n- **Output**: Final filtered list of unverified Discord users (`all_community_members` variable)\n- **Next Block**: This is the final processing block - results are ready for consumption\n\n**Key Function**: Transforms raw Discord API data into actionable insights by identifying users who need verification, enabling targeted moderation or engagement actions.",
+        "notes[2].metadata": {
+          "x": 533.7686085834879,
+          "y": 770.9088297516935,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 384.5140486381214,
+          "height": 319.6135422454563,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "74e86c0539404be589712731e22d9c1e",
+            "b7897203e4aa458cbe58b4987f50a2b2"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[2].title": "Data Processing & Filtering",
+        "tasks[0].description": "Action that does nothing",
+        "tasks[0].metadata": {
+          "x": 553.075609061131,
+          "y": 197.19083710924406
+        },
+        "tasks[0].next[0].label": "",
+        "tasks[1].description": "get all users of server",
+        "tasks[1].metadata": {
+          "x": 552,
+          "y": 384
+        },
+        "tasks[1].next[0].label": "",
+        "tasks[2].description": "get all users of server",
+        "tasks[2].metadata": {
+          "x": 552,
+          "y": 552
+        },
+        "tasks[2].next[0].label": "",
+        "tasks[3].description": "Merge two lists by matching items based on a specified key attribute.",
+        "tasks[3].metadata": {
+          "x": 552,
+          "y": 816
+        },
+        "tasks[3].next[0].label": "",
+        "tasks[4].description": "Set a variable as an action",
+        "tasks[4].metadata": {
+          "x": 552,
+          "y": 960
+        },
+        "tasks[4].next[0].label": ""
+      },
+      "references": {
+        "action_ref2": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "Gse9zj3ZXMhHGgoH6nnpRPiNp9bEhf6ukkJYV4aePk3S",
+          "content_hash": "EY6GD143YQfHX8XDjvYf9FXvdQbGa3bozzh4u7ShZ5eC",
+          "locations": [
+            "tasks[1].action.id",
+            "tasks[2].action.id"
+          ]
+        },
+        "action_ref4": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "13rZFU5xGzWNDZ2iEMNWNEqZ88XT8LPCu8yVchoygTVY",
+          "content_hash": "Aj7g63oBpFTyTLgcv25UHmfMB5WmghbjNdHZYGy7KxYN",
+          "locations": [
+            "tasks[4].action.id"
+          ]
+        },
+        "transition_id_ref3": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "4DcVUV7Yz8FweBzHV9rm9pAQRatj3w1czeAf7ZXZQz2U",
+          "content_hash": "6ZmQ5Euq64eNjY47pQGEVuywToUn7i8W7cDTn5WQkQzQ",
+          "locations": [
+            "tasks[2].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref3": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "7yeES9Ho5z1VMWrMKqhkLvsPq74eJcBi3UbmNzwWVzZA",
+          "content_hash": "3Dg3bFNHyzsYAYHmX9ry11m7FJuEeYToxa7G9GThXvHt",
+          "locations": [
+            "tasks[2].id",
+            "tasks[1].next[0].do[0]"
+          ]
+        },
+        "workflow_note_id_ref2": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "BtnpfqtnvgSjSYnH55ewSJcJPkZwvgQ9a92YE5Dxe5c",
+          "content_hash": "624R1fnSzNMEwq7UFrM6RWnMjAbewUfC2L8RhJt8WpEp",
+          "locations": [
+            "notes[1].id"
+          ]
+        },
+        "workflow_task_id_ref1": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "HSWDm983sG5aDw9bKVGT6M4ghxZ9GjWfABomRaP6upW4",
+          "content_hash": "C3Wi524ztnYKa4tud6CYVAdRxMLmykUtUKx1V1FiD3DN",
+          "locations": [
+            "tasks[0].id"
+          ]
+        },
+        "transition_id_ref1": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "4JiYboNMC96YdFRYatXiS2yjok3RPiAmH6MYHMf6wunN",
+          "content_hash": "2SdfgJAjUJ6cuXjqDRG4s1HHvRffRmQ5SZSgmRHcGwpa",
+          "locations": [
+            "tasks[0].next[0].id"
+          ]
+        },
+        "transition_id_ref2": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "7MgJrFW5sfQRKQR6BW6oekgZMBqCXabisBahXvioQfzy",
+          "content_hash": "GbpSeLZ6a7zrm1zqNWRg9M7xCUfiJcXkfCcLzGKeBgAy",
+          "locations": [
+            "tasks[1].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref2": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "qmxv6ukUsJPuPx54h9vx4EarzZ9seeqZepioDMysWoE",
+          "content_hash": "PCVSaZCJRaqY6iDEABGFjUowmVZ4mfrCQBqXA3KD6Nu",
+          "locations": [
+            "tasks[1].id",
+            "tasks[0].next[0].do[0]"
+          ]
+        },
+        "workflow_note_id_ref3": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "4WvruKXFLUd1AJqdrtVT7WfKyjYQRMP94sgKV5Ab8Eyc",
+          "content_hash": "2Ku8zU2bVVRbVGfQWTfBcBNVickbTH2FdkvT1WPptbi8",
+          "locations": [
+            "notes[2].id"
+          ]
+        },
+        "action_ref1": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "CVdHSoiSFJcpU2oha4NS7no5ejckAaesye1aRx6vVP3Q",
+          "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+          "locations": [
+            "tasks[0].action.id"
+          ]
+        },
+        "action_ref3": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "E3NGiK4QiEzwtypBxcUYMQQ268XeHw2GxcRbF5qe1G4C",
+          "content_hash": "2fWPuXmUgBYP7FMoY75ZnRAA3vaYRYSNS4BQS2AGtrbZ",
+          "locations": [
+            "tasks[3].action.id"
+          ]
+        },
+        "transition_id_ref4": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "71Hp3kNo7sKbvZE1ipLA9u5UCrA4yDjZWn8jDb86Br9L",
+          "content_hash": "6UEgrchz1UDDKyYKNsMsoi2eWqucKC5v2KV59dUypq6z",
+          "locations": [
+            "tasks[3].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref5": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "978APB6KdKVVKfYd61EryJovsX2tg2E5Y89qwE7q9xW7",
+          "content_hash": "43g96nU8tR7cT8psE5LVbApp5AU2yqw899bVrLcq8YDc",
+          "locations": [
+            "tasks[4].id",
+            "tasks[3].next[0].do[0]"
+          ]
+        },
+        "transition_id_ref5": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "HvyjHVA5YHLToVPyAXfJNNw2H6QDbphV3q6FzrzwyMAe",
+          "content_hash": "FEvHwF2gMR8hEh7dW85UdHwDpnj7AU1ZURHEWyMFgAkZ",
+          "locations": [
+            "tasks[4].next[0].id"
+          ]
+        },
+        "workflow_note_id_ref1": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "pDbUiQmy3HinA36HsqKoLn6C9JMDbjuxtU8swXfCbAG",
+          "content_hash": "AUmCQQZVbdmscgjZXLTJHi9fmr8NNBv8oaYiYhg5R4SN",
+          "locations": [
+            "notes[0].id"
+          ]
+        },
+        "workflow_task_id_ref4": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "G71TZUnTWHoE5pdhtC8WYu85bqbip8LRMSSKg8vJLtWC",
+          "content_hash": "4zWrmHHpLFddfXpMYf98sdJTmHjn8uweHdtYyWm4UUpz",
+          "locations": [
+            "tasks[3].id",
+            "tasks[2].next[0].do[0]"
+          ]
+        }
+      },
+      "dependencies": [
+        "workflow_note_id:BtnpfqtnvgSjSYnH55ewSJcJPkZwvgQ9a92YE5Dxe5c",
+        "workflow_task_id:G71TZUnTWHoE5pdhtC8WYu85bqbip8LRMSSKg8vJLtWC",
+        "transition_id:HvyjHVA5YHLToVPyAXfJNNw2H6QDbphV3q6FzrzwyMAe",
+        "workflow_task_id:978APB6KdKVVKfYd61EryJovsX2tg2E5Y89qwE7q9xW7",
+        "action:13rZFU5xGzWNDZ2iEMNWNEqZ88XT8LPCu8yVchoygTVY",
+        "action:Gse9zj3ZXMhHGgoH6nnpRPiNp9bEhf6ukkJYV4aePk3S",
+        "transition_id:4JiYboNMC96YdFRYatXiS2yjok3RPiAmH6MYHMf6wunN",
+        "transition_id:7MgJrFW5sfQRKQR6BW6oekgZMBqCXabisBahXvioQfzy",
+        "workflow_task_id:qmxv6ukUsJPuPx54h9vx4EarzZ9seeqZepioDMysWoE",
+        "transition_id:71Hp3kNo7sKbvZE1ipLA9u5UCrA4yDjZWn8jDb86Br9L",
+        "action:CVdHSoiSFJcpU2oha4NS7no5ejckAaesye1aRx6vVP3Q",
+        "workflow_note_id:4WvruKXFLUd1AJqdrtVT7WfKyjYQRMP94sgKV5Ab8Eyc",
+        "workflow_task_id:7yeES9Ho5z1VMWrMKqhkLvsPq74eJcBi3UbmNzwWVzZA",
+        "workflow_note_id:pDbUiQmy3HinA36HsqKoLn6C9JMDbjuxtU8swXfCbAG",
+        "workflow_task_id:HSWDm983sG5aDw9bKVGT6M4ghxZ9GjWfABomRaP6upW4",
+        "transition_id:4DcVUV7Yz8FweBzHV9rm9pAQRatj3w1czeAf7ZXZQz2U",
+        "action:E3NGiK4QiEzwtypBxcUYMQQ268XeHw2GxcRbF5qe1G4C"
+      ]
+    }
+  },
+  "__typename": "ExportBundle"
+}

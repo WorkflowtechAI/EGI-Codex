@@ -1,0 +1,41 @@
+Rewst Codex
+===========
+
+This repository is a curated catalog of community-built Rewst automation
+content maintained by Eudai Gestalt Integrations (EGI).
+
+Scope of the MIT License at the repository root
+-----------------------------------------------
+
+The MIT License at the root of this repository applies ONLY to material
+authored by EGI, including but not limited to:
+
+  INDEX.md
+  README.md
+  NOTICE
+  contributors/*.md
+  reference/*.md
+  blog-posts/*.md
+  discord-exports/*
+  dashboards/*
+  scripts/*
+  workflows/ (EGI-authored)
+
+Third-party content under repos/
+--------------------------------
+
+Each subdirectory under repos/ contains a snapshot of a third-party
+Rewst-related repository pulled from its public GitHub source. The original
+license and authorship of each snapshot are preserved within that subdirectory
+(look for the snapshot's own LICENSE, COPYING, or README files).
+
+The EGI MIT License at the repository root does NOT supersede the license of
+any snapshot under repos/. Users redistributing any snapshot must honor that
+snapshot's original license terms and attribution requirements.
+
+Removal and re-attribution requests
+-----------------------------------
+
+If you are the author of a snapshotted repository and would like it removed
+from this catalog, re-attributed, or updated, please open an issue on this
+repository or contact EGI directly. EGI will respond promptly.

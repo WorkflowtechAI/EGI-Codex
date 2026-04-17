@@ -1,0 +1,355 @@
+{
+  "version": 2,
+  "exportedAt": "2025-10-11T16:11:15.585160+00:00",
+  "signing": {
+    "cert": "-----BEGIN CERTIFICATE-----\nMIICazCCAfGgAwIBAgIUFJtHAR8D+ZfChHcAXHemH7s8zRowCgYIKoZIzj0EAwIwfDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkZMMQ4wDAYDVQQHEwVUYW1wYTEOMAwGA1UEChMFUmV3c3QxEzARBgNVBAsTClJld3N0IERldnMxKzApBgNVBAMTImxvY2FsIFJld3N0IEltcG9ydC9FeHBvcnQgQ0EyIHYxLjEwHhcNMjIwNjAzMTkwMDU1WhcNMjUwNTIzMTkwMTI1WjBDMQswCQYDVQQGEwJVUzELMAkGA1UECBMCRkwxDjAMBgNVBAcTBVRhbXBhMRcwFQYDVQQDEw5sb2NhbC5yZXdzdC5pbzB2MBAGByqGSM49AgEGBSuBBAAiA2IABMcTJzyLIvX1+3545EJbFeNVjahxVq6TFQ7n/IYZs4yEMQzDWZjAyHhJPZk3Dxq/wFzesXMYJu41rhxfz7AZh15LtFGfy9V2B4X5KH7sGJWqOan0mabuF83llruTLA/NQaNtMGswDgYDVR0PAQH/BAQDAgeAMB0GA1UdDgQWBBTDePOSC6hckrg6usrK2giZv9GxpjAfBgNVHSMEGDAWgBTojdemsJqfnB19iyMxmIi3OGYw6TAZBgNVHREEEjAQgg5sb2NhbC5yZXdzdC5pbzAKBggqhkjOPQQDAgNoADBlAjEA8NsLnuGhfTPC7dB0ojWf5WmH64qFZuPFD6Q0RwGYO0D1Tn2x5+/37kW3HFcGHV0wAjBM7LSidsc7E9+fmcesnN5hM34eGMP+YWCoEeFIPPANXQKemAgUVf35iXyU64sVEC4=\n-----END CERTIFICATE-----",
+    "hash": "sha512",
+    "signature": "MGYCMQD/b98HlU7SBOG8tmykSBAANDkcBUFEsh7Q1xWGsjmgefVBFvQTkFWjqUnX+vHaAP8CMQCvArA4wlvYJ30Gh+ZCViKXPYjfYnqztttrqsR6qbp8Fah6FW3wWimuSXzhl857aVg="
+  },
+  "objects": {
+    "transition_id:BeRgT8saz3V7EGJSxKetdMK6n9UK2avgJCQTkkkfgSss": {
+      "type": "transition_id",
+      "content_hash": "8TcUXqkFxLzwKEYXHApYjUgr3cm3cdDqtMFLQZ1ggkRL",
+      "hash": "5L9SpPb2k8vrirjqb5QwTzrTp2WJiY16TuKPBR1MHbqC",
+      "fields": {
+        "id": "696b08d6-b8ad-47fc-b30f-cc5388b27606"
+      }
+    },
+    "workflow_task_id:3J8tMaMRr6SaMoubUtS2z9wR7CgrDz4iegZp7xE4ZPud": {
+      "type": "workflow_task_id",
+      "content_hash": "E3J8aUkgcXMYDhjhdHH7m5GFPVwPdLhAJTEKcPaVWZSW",
+      "hash": "BNJTavZAvTVF1fVE7DzAcZzAhRuNDTF7wVEHBWQdPj27",
+      "fields": {
+        "id": "0ee56517bff0464e8adf0df3d664812a"
+      }
+    },
+    "workflow_note_id:JCWmUeoJWrQxcaLviAqmfCvUu6qhkRQSS9yn4Pj9CDL4": {
+      "type": "workflow_note_id",
+      "content_hash": "AVfqskCYE2keDqL6dz8osoYoGnoCpCA8hQ4RxMma1Esp",
+      "hash": "6frbRj4HwDnVEnhQuGvLpPzj3rLQtEefnVb2vwSHZP9d",
+      "fields": {
+        "id": "00102b50-8428-4300-a67c-c8148ac9199b"
+      }
+    },
+    "action:AkadZNVFzjw86YjTrvuk5zdPoWoi9gQpmZkVsbRiVbNt": {
+      "type": "action",
+      "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+      "hash": "Arr2RCEM96WqU2EkvigszSfsW9GZHa4HJC5a1fL9qZ5g",
+      "fields": {
+        "ref": "core.noop"
+      }
+    },
+    "action:135VFJf1Wp34WfJWHLezTtVLeGroQU5WPEn2hxguqwoz": {
+      "type": "action",
+      "content_hash": "34j4oexPk3Uipz1HuTzPPVjKA1iNywwQVm4eUgwjsA8m",
+      "hash": "7yLL6gAcZW4iL3u1ZJEJ7swMNCdLKoQ1u5APxJVx6LNY",
+      "fields": {
+        "ref": "hubspot.generic_request"
+      }
+    },
+    "transition_id:kN6uV8UJuZ8KFz5UEcWQ6FKsq4czYY6eDSEDsfr7cNV": {
+      "type": "transition_id",
+      "content_hash": "2Vu7eRtEWnKjRMj96RqnBgEExJXjnx2tM4aTxnvgRHrY",
+      "hash": "HzfdHsUcFtFb5r3ZT8QVnL2GZgCax26Tkz1Mcbqd4y5g",
+      "fields": {
+        "id": "b7ceb3ca-066a-4e7c-add9-83ba755ebfbb"
+      }
+    },
+    "workflow_note_id:91RDv5YJxAKFmy3x8Tw65LRSexr1A1qaXeQWn7bbBNZg": {
+      "type": "workflow_note_id",
+      "content_hash": "4EyKwFBwfGVkf3FSfRtSaqFkG93qMdvRfLdu9c1bzqrB",
+      "hash": "7QnyjiHG1HLDkt4CUe7LSQPP1QWztfD6nwvLp5g5Jnqn",
+      "fields": {
+        "id": "63c8814e-73a3-44eb-9710-e5598134af7a"
+      }
+    },
+    "workflow_task_id:AaMwAWuWdS9676PuGQcafmMv3qYuthUDdh3bTApTgbJQ": {
+      "type": "workflow_task_id",
+      "content_hash": "7a6M4XZftDRYxV9DaoMJnG8p2iz8iMcDuj3NYALy35G3",
+      "hash": "GHhwSCs4Zp8UK13vGF2Yw4sGgAeZpArvcMqQgW8AZTNK",
+      "fields": {
+        "id": "d4d37cc8626245a7858ac18a50584b04"
+      }
+    },
+    "transition_id:GTEYVkiEa8ujrCBsMjJbJcL1FPcwjVVWWeNyDZ43qKwr": {
+      "type": "transition_id",
+      "content_hash": "Ek2pFFhEr7AWcQEsygopx4ZD1a9q5PZESFhi28adNtmh",
+      "hash": "Am3Nb4wnSxxuv9TQLz1PB3ozxh83rQBB7m4fe1h7syag",
+      "fields": {
+        "id": "4f8b02ce-13cd-498a-885a-0830c564fea1"
+      }
+    },
+    "workflow:BAupK8cUETEbJJknmRhpUPzHmWfkLHK6cPcVP89iEwKY": {
+      "type": "workflow",
+      "content_hash": "FKTNSWdWKBwc6JmWQkCBS6kEjW1DyHGXZiYnBeAP1XP6",
+      "hash": "Hc3EtferYf6sGfYTcEPZ1cXqfdMgFyAt8X5aRQ3Xps3Q",
+      "fields": {
+        "humanSecondsSaved": 0,
+        "notes": [
+          {
+            "id": "@@@workflow_note_id_ref1@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref2@@@"
+          }
+        ],
+        "output": [],
+        "parameters": {
+          "training_id": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          }
+        },
+        "tasks": [
+          {
+            "id": "@@@workflow_task_id_ref1@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "BEGIN",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref2@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref1@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref2@@@",
+            "action": {
+              "id": "@@@action_ref2@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "data": null,
+              "json": null,
+              "method": "GET",
+              "params": null,
+              "cookies": null,
+              "headers": null,
+              "paginate": false,
+              "raw_json": null,
+              "url_path": "/crm/v3/objects/trainings/{{ CTX.training_id }}",
+              "follow_redirects": true,
+              "require_2xx_status": true
+            },
+            "isMocked": false,
+            "join": 1,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "list_trainings",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref2@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              },
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref3@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ FAILED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "search_trainings",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_FIRST",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          }
+        ],
+        "timeout": 28800,
+        "type": "STANDARD",
+        "varsSchema": {}
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "name": "[SUB] HubSpot: Update Training Property Fields",
+        "notes[0].content": "This functional block handles the initial setup and preparation phase of the workflow.\n\n**Purpose**: Establishes the workflow execution context and prepares for the main HubSpot API operations.\n\n**Tasks Included**:\n- **BEGIN**: Standard workflow initialization task that sets up the execution environment and triggers the main workflow logic\n\n**Key Characteristics**:\n- Entry point for all workflow executions\n- No-operation action that serves as a clean starting point\n- Automatically transitions to the data retrieval phase upon successful completion\n\n**Flow Connection**: This block serves as the foundation that enables the subsequent HubSpot data retrieval operations. It ensures proper workflow state initialization before any external API calls are made.",
+        "notes[0].metadata": {
+          "x": 268.22222900390625,
+          "y": 137.82638931274414,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367,
+          "height": 118,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "d4d37cc8626245a7858ac18a50584b04"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[0].title": "Workflow Initialization & Setup",
+        "notes[1].content": "This functional block handles the core business logic of retrieving training property data from HubSpot CRM.\n\n**Purpose**: Fetches specific training record information from HubSpot to update training property fields.\n\n**Tasks Included**:\n- **list_trainings**: Makes authenticated GET request to HubSpot CRM API to retrieve training object data using the provided training_id\n\n**Key Operations**:\n- Constructs API endpoint: `/crm/v3/objects/trainings/{{ CTX.training_id }}`\n- Uses GET method with authentication handled by HubSpot integration\n- Configured with pagination disabled for single record retrieval\n- Requires 2xx status code for successful completion\n- Results published as 'search_trainings' for downstream use\n\n**Input Requirements**:\n- `CTX.training_id`: The specific training record identifier to retrieve\n\n**Output Handling**:\n- **Success Path**: Training data retrieved and made available for property field updates\n- **Failure Path**: Error handling for failed API requests or invalid training IDs\n\n**Flow Connection**: This block represents the core data retrieval operation that enables the workflow's primary function of updating HubSpot training property fields. The retrieved training data serves as the foundation for any subsequent property updates or processing.",
+        "notes[1].metadata": {
+          "x": 266.22222900390625,
+          "y": 350.82638931274414,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367,
+          "height": 118,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "0ee56517bff0464e8adf0df3d664812a"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[1].title": "HubSpot Training Data Retrieval",
+        "parameters.training_id.description": "",
+        "parameters.training_id.label": "",
+        "tasks[0].description": "Action that does nothing",
+        "tasks[0].metadata": {
+          "x": 283.22222900390625,
+          "y": 152.82638931274414
+        },
+        "tasks[0].next[0].label": "",
+        "tasks[1].description": "",
+        "tasks[1].metadata": {
+          "x": 281.22222900390625,
+          "y": 365.82638931274414
+        },
+        "tasks[1].next[0].label": "",
+        "tasks[1].next[1].label": ""
+      },
+      "references": {
+        "workflow_note_id_ref2": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "91RDv5YJxAKFmy3x8Tw65LRSexr1A1qaXeQWn7bbBNZg",
+          "content_hash": "4EyKwFBwfGVkf3FSfRtSaqFkG93qMdvRfLdu9c1bzqrB",
+          "locations": [
+            "notes[1].id"
+          ]
+        },
+        "transition_id_ref2": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "kN6uV8UJuZ8KFz5UEcWQ6FKsq4czYY6eDSEDsfr7cNV",
+          "content_hash": "2Vu7eRtEWnKjRMj96RqnBgEExJXjnx2tM4aTxnvgRHrY",
+          "locations": [
+            "tasks[1].next[0].id"
+          ]
+        },
+        "action_ref2": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "135VFJf1Wp34WfJWHLezTtVLeGroQU5WPEn2hxguqwoz",
+          "content_hash": "34j4oexPk3Uipz1HuTzPPVjKA1iNywwQVm4eUgwjsA8m",
+          "locations": [
+            "tasks[1].action.id"
+          ]
+        },
+        "transition_id_ref3": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "GTEYVkiEa8ujrCBsMjJbJcL1FPcwjVVWWeNyDZ43qKwr",
+          "content_hash": "Ek2pFFhEr7AWcQEsygopx4ZD1a9q5PZESFhi28adNtmh",
+          "locations": [
+            "tasks[1].next[1].id"
+          ]
+        },
+        "workflow_note_id_ref1": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "JCWmUeoJWrQxcaLviAqmfCvUu6qhkRQSS9yn4Pj9CDL4",
+          "content_hash": "AVfqskCYE2keDqL6dz8osoYoGnoCpCA8hQ4RxMma1Esp",
+          "locations": [
+            "notes[0].id"
+          ]
+        },
+        "action_ref1": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "AkadZNVFzjw86YjTrvuk5zdPoWoi9gQpmZkVsbRiVbNt",
+          "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+          "locations": [
+            "tasks[0].action.id"
+          ]
+        },
+        "workflow_task_id_ref1": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "AaMwAWuWdS9676PuGQcafmMv3qYuthUDdh3bTApTgbJQ",
+          "content_hash": "7a6M4XZftDRYxV9DaoMJnG8p2iz8iMcDuj3NYALy35G3",
+          "locations": [
+            "tasks[0].id"
+          ]
+        },
+        "workflow_task_id_ref2": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "3J8tMaMRr6SaMoubUtS2z9wR7CgrDz4iegZp7xE4ZPud",
+          "content_hash": "E3J8aUkgcXMYDhjhdHH7m5GFPVwPdLhAJTEKcPaVWZSW",
+          "locations": [
+            "tasks[1].id",
+            "tasks[0].next[0].do[0]"
+          ]
+        },
+        "transition_id_ref1": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "BeRgT8saz3V7EGJSxKetdMK6n9UK2avgJCQTkkkfgSss",
+          "content_hash": "8TcUXqkFxLzwKEYXHApYjUgr3cm3cdDqtMFLQZ1ggkRL",
+          "locations": [
+            "tasks[0].next[0].id"
+          ]
+        }
+      },
+      "dependencies": [
+        "workflow_task_id:3J8tMaMRr6SaMoubUtS2z9wR7CgrDz4iegZp7xE4ZPud",
+        "transition_id:BeRgT8saz3V7EGJSxKetdMK6n9UK2avgJCQTkkkfgSss",
+        "workflow_note_id:JCWmUeoJWrQxcaLviAqmfCvUu6qhkRQSS9yn4Pj9CDL4",
+        "action:AkadZNVFzjw86YjTrvuk5zdPoWoi9gQpmZkVsbRiVbNt",
+        "action:135VFJf1Wp34WfJWHLezTtVLeGroQU5WPEn2hxguqwoz",
+        "transition_id:kN6uV8UJuZ8KFz5UEcWQ6FKsq4czYY6eDSEDsfr7cNV",
+        "workflow_note_id:91RDv5YJxAKFmy3x8Tw65LRSexr1A1qaXeQWn7bbBNZg",
+        "workflow_task_id:AaMwAWuWdS9676PuGQcafmMv3qYuthUDdh3bTApTgbJQ",
+        "transition_id:GTEYVkiEa8ujrCBsMjJbJcL1FPcwjVVWWeNyDZ43qKwr"
+      ]
+    }
+  },
+  "__typename": "ExportBundle"
+}

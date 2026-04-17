@@ -1,0 +1,69 @@
+name: Build
+
+on:
+  workflow_call:
+    inputs:
+      os_list:
+        description: "JSON list of OS"
+        required: false
+        type: string
+        default: "['windows-latest']"
+    secrets:
+      gh_pat:
+        required: true
+
+jobs:
+  build:
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        os: ${{ fromJson(inputs.os_list) }}
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+          fetch-depth: 0
+
+      - name: Download plugins (Windows)
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          gh release download --repo RewstApp/agent-smith-httpd --pattern "agent-smith-httpd.win.exe"
+        env:
+          GH_TOKEN: ${{ secrets.gh_pat }}
+
+      - name: Setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.12"
+
+      - name: Setup python packages
+        run: |
+          pip install pipx
+          pipx ensurepath
+          pipx install commitizen
+          pipx upgrade commitizen
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install node dependencies
+        run: |
+          npm ci
+
+      - name: Build binary
+        shell: pwsh
+        run: |
+          ./scripts/build.ps1
+
+      - name: Upload binary
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.os }}
+          path: "./release/agent-smith-tray-installer.exe"

@@ -1,0 +1,872 @@
+{
+  "version": 2,
+  "exportedAt": "2025-10-11T16:12:13.169333+00:00",
+  "signing": {
+    "cert": "-----BEGIN CERTIFICATE-----\nMIICazCCAfGgAwIBAgIUFJtHAR8D+ZfChHcAXHemH7s8zRowCgYIKoZIzj0EAwIwfDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkZMMQ4wDAYDVQQHEwVUYW1wYTEOMAwGA1UEChMFUmV3c3QxEzARBgNVBAsTClJld3N0IERldnMxKzApBgNVBAMTImxvY2FsIFJld3N0IEltcG9ydC9FeHBvcnQgQ0EyIHYxLjEwHhcNMjIwNjAzMTkwMDU1WhcNMjUwNTIzMTkwMTI1WjBDMQswCQYDVQQGEwJVUzELMAkGA1UECBMCRkwxDjAMBgNVBAcTBVRhbXBhMRcwFQYDVQQDEw5sb2NhbC5yZXdzdC5pbzB2MBAGByqGSM49AgEGBSuBBAAiA2IABMcTJzyLIvX1+3545EJbFeNVjahxVq6TFQ7n/IYZs4yEMQzDWZjAyHhJPZk3Dxq/wFzesXMYJu41rhxfz7AZh15LtFGfy9V2B4X5KH7sGJWqOan0mabuF83llruTLA/NQaNtMGswDgYDVR0PAQH/BAQDAgeAMB0GA1UdDgQWBBTDePOSC6hckrg6usrK2giZv9GxpjAfBgNVHSMEGDAWgBTojdemsJqfnB19iyMxmIi3OGYw6TAZBgNVHREEEjAQgg5sb2NhbC5yZXdzdC5pbzAKBggqhkjOPQQDAgNoADBlAjEA8NsLnuGhfTPC7dB0ojWf5WmH64qFZuPFD6Q0RwGYO0D1Tn2x5+/37kW3HFcGHV0wAjBM7LSidsc7E9+fmcesnN5hM34eGMP+YWCoEeFIPPANXQKemAgUVf35iXyU64sVEC4=\n-----END CERTIFICATE-----",
+    "hash": "sha512",
+    "signature": "MGUCMHECWTfhylRNgAiBOJ8BiXALSgPsNN9yvKlx2hkoavv/sLCcUrEvJSKKsc5+wHvBBQIxALY/zwnWsW3A2/QaqghWiRNbgbmokD+hqf0LTvm0TnqodLst59tcK9WR1Eny1YHRbg=="
+  },
+  "objects": {
+    "action:A1h7FsgQwgdWATE1d8r1nD2GKDmbinMq2WRN6dosAvr4": {
+      "type": "action",
+      "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+      "hash": "Arr2RCEM96WqU2EkvigszSfsW9GZHa4HJC5a1fL9qZ5g",
+      "fields": {
+        "ref": "core.noop"
+      }
+    },
+    "transition_id:3LTY7WJFamS7wvs3H3K2dVLS3ZFpBwNgyMwhJkx2HhKs": {
+      "type": "transition_id",
+      "content_hash": "q2eLMzZYz1KTmhApQcenHH9NRmgYpT8Dgtx1qFFPxyJ",
+      "hash": "DC1YxgT2N4ijns4jJHbSZR1AGSJe8G1sBUdoHzFF8nE1",
+      "fields": {
+        "id": "c4962185-9778-4ab2-9f09-c21f3b25a4fa"
+      }
+    },
+    "transition_id:AAaLRRKWwCPcZgVTDoc9U1wi4dKEcDtpd323HfAb1vRB": {
+      "type": "transition_id",
+      "content_hash": "8ikPEbMrYephGyJ9YScqwt8t7BG6Ag9CVy8VJ6cFgisA",
+      "hash": "5Q8BW5sBg3oEvFbQpjQJwGJeZAKiUx11WvR7FDbyDVns",
+      "fields": {
+        "id": "093a4538-9d41-47a2-8491-56d1601bb668"
+      }
+    },
+    "workflow_task_id:6jc5sD4aYiTEizZ2anPeMSHMWMVt2yWHdwMuDyYRw1mB": {
+      "type": "workflow_task_id",
+      "content_hash": "3WMGCsss594fzRWtV8ydNakYjDernUyg3kMWmbCpjtcD",
+      "hash": "HED8e2RKCkxnYfvtgnnWJjKVvusQr1opN2WB35yiNQea",
+      "fields": {
+        "id": "efd4ea1ba0e243f395a7b1878c97fdbc"
+      }
+    },
+    "action:2E4PN5ub7c48FtfK95eRZ4s17QqV4uCn75A43X7hhj8j": {
+      "type": "action",
+      "content_hash": "ErFWpeaNYKuPinHXogTf2cSzoCXbFKsHAoPuupz6D7mx",
+      "hash": "5QUngDc2L5NVvtFd7qBLHQSfsYaneF8f8d1xkngewBx4",
+      "fields": {
+        "ref": "transforms.parse_csv"
+      }
+    },
+    "transition_id:F8SmE1x7zVC3fKjsQQ1VeBHT93rdJvVXy6EYSfL83Ju7": {
+      "type": "transition_id",
+      "content_hash": "HNxxByvWbFphQ3PYhzKYiAPfkVK5shJ7umqRvvowxby4",
+      "hash": "7bgu1zuYLbRRFyLqSk3o8WRfZQ3sEJutkEP2G9JTDQyt",
+      "fields": {
+        "id": "f7cf5f77-0fa1-4a55-9c05-d88315ec06cf"
+      }
+    },
+    "workflow_note_id:4x7kPs8WCHbaHG7KTuBJ2oEKtK5VN77MeCJnRGMggA6J": {
+      "type": "workflow_note_id",
+      "content_hash": "35YFModStQrfgREggXHsg4znVvm6w4PnC23Q8ZvFXQJd",
+      "hash": "3fkQ9kNoCHwQXQGU6YMKr2FjfDYqueDpBLaD2TVh8sE4",
+      "fields": {
+        "id": "d1f1136f-844c-4ae4-87d7-b33fc5b21415"
+      }
+    },
+    "workflow_note_id:BLSfE7kw2FVod8ckAYYJfP9MGHqheznWVABx6snby31w": {
+      "type": "workflow_note_id",
+      "content_hash": "4uZXkxaATak1ui8vWHbZJNvWpdcKLKzr9pSwy7PW3gF3",
+      "hash": "XwzkYRNWN8Gk4MgRkFFLHo6e9JFJ9NApdThf8UkSPLf",
+      "fields": {
+        "id": "c0a232eb-17a7-4cc7-aec4-9bfde0fe210d"
+      }
+    },
+    "transition_id:8i1CqYBGKoAuLFczxvhqNWxdGSTBpjBo2BmxrfvKRJhY": {
+      "type": "transition_id",
+      "content_hash": "B8Wfy3KZBwGWzQwjyL3HHA5KhBVTpqmt2R9jSa5sL9NA",
+      "hash": "9eGvX3ypJbYY674sAFeRJ9zSFHAYyVswCdBub5Y1sk19",
+      "fields": {
+        "id": "06596fe0-b96b-732c-8000-389735668e9f"
+      }
+    },
+    "transition_id:5Ap38uiKc47FwykiqEpJba7CPiwEzEkAf8tAh1MPyrei": {
+      "type": "transition_id",
+      "content_hash": "4SWR3JgvEZ2W8GbP4bywfMadbvfF6mQUiTsHBtrSBtsV",
+      "hash": "C6SqF8smh6ujKBMhaaM3frKk2V9wcyfpESnGC1VVYntW",
+      "fields": {
+        "id": "2be7084f-e891-43c6-8996-317cc7901dd9"
+      }
+    },
+    "workflow_task_id:6BybMvkQAxrevSTDqJgk8zp59WNqK63dGGVeg37w8efa": {
+      "type": "workflow_task_id",
+      "content_hash": "Ga8XSyCNarKeNoqjDbdZsGibNUTk24RaM8bJNBgfeaJD",
+      "hash": "4EddFAT5pT8ozEux61FheWzKUmhjKsUd5aVCrmqYfBpC",
+      "fields": {
+        "id": "06596fe0b96c75a58000cecb3af6a12c"
+      }
+    },
+    "workflow_task_id:4bRDZcLoW64LJemg5gFCjpn28fBfgyK89MchMnTdJJ4i": {
+      "type": "workflow_task_id",
+      "content_hash": "3RZLdXjLgbBCt9yLa2AH6KTfySY8s9cBbwTaM38X8ofD",
+      "hash": "ENXs2VQSjhuG3ZJ4o1A52oEBSPc4nSKw6WvNUnkkgLMx",
+      "fields": {
+        "id": "b71c8e3f745943f5a24b7a9ead2e40b9"
+      }
+    },
+    "workflow_task_id:3JoZ6eS19euke3TS3abu1DyPYGhUSdNipW1NfbXKe76B": {
+      "type": "workflow_task_id",
+      "content_hash": "CTa9iT53qFZ1kdmFragZhBHasYyTqbkUfELJwgGVZ1KB",
+      "hash": "C3V4RBWDZ5SWKtw9UgoEG6UMcJqA6xtNFLfH2X95Xdbh",
+      "fields": {
+        "id": "06596fe0b96c72f48000064aa048dd7a"
+      }
+    },
+    "transition_id:3L2P1vP2CpZrpVeGeDR1DPURvSz3J7NSjhEg1iGyxvPV": {
+      "type": "transition_id",
+      "content_hash": "CZ3zZ6FMxhyXmenkPKXkSKhTXvkvpXE3ih8Y5TTxihDL",
+      "hash": "4Yt3o9zxpY15bMvBy1YjcAFcYEPwnUymVhADUh3KaC6E",
+      "fields": {
+        "id": "06596fe0-b8ef-7430-8000-700d8fd7e20a"
+      }
+    },
+    "action:2nCiVyrgxt8YAwDZKkQrBAq5jfz1MQs5MMUkA8qAEMUS": {
+      "type": "action",
+      "content_hash": "FMu3hsNV7SdbaFHCpQXe4YsxtfRZHq3LfQ8Ej6uv322w",
+      "hash": "CDXNu8XJkn4bBRzcx18z5UYnjXiUM2WB6hTMAwGhMQ4K",
+      "fields": {
+        "ref": "core.http_request"
+      }
+    },
+    "workflow_note_id:DQLy3WAqRDe27otfjfA7atfbLfgwz9qZTBo83a5B2ad7": {
+      "type": "workflow_note_id",
+      "content_hash": "87a3D3TJDUUHsVGoccH5NHWmtDErhXmGLowS3g9VpdZJ",
+      "hash": "2pYViGu5dPruqMyF6G4AhiEmLN8XQ4toWAro4Ws4VGEm",
+      "fields": {
+        "id": "2ce281f3-6c03-4675-9718-71c5e91a58d8"
+      }
+    },
+    "transition_id:26KDJYnHmNiG5uLprhrufZKZEE2zJsghYvVaJkm8YKZ8": {
+      "type": "transition_id",
+      "content_hash": "5pragnkbLyvKGa39vU4pasumhv68JMzYiFgavvuTJ6SC",
+      "hash": "CsA41oVyrHDfovA9gmEc6Cnc8VYnh32ZyMdHjn2B27f1",
+      "fields": {
+        "id": "4e26bb80-9689-4931-b4b0-79b98d63b5aa"
+      }
+    },
+    "workflow_task_id:4X8cgUg2JUHTwsgWL97MviTQPvcTF2A7UUWDPxg4sULe": {
+      "type": "workflow_task_id",
+      "content_hash": "8Wgshuc91GEr2Aoi5nYrEoyaEBAsVGpRoip1wYquS4D7",
+      "hash": "83bq6UvhnPEAaDNtjcarBrFcKAdnSGgAsvkL5W5wuMs6",
+      "fields": {
+        "id": "d3a88b1763a04529b0e08fc268bdf3b1"
+      }
+    },
+    "action:79ZLXXrQopW8HEueWzsMXDQaWxT8qXaJcSZPTBDE9FjJ": {
+      "type": "action",
+      "content_hash": "Aj7g63oBpFTyTLgcv25UHmfMB5WmghbjNdHZYGy7KxYN",
+      "hash": "JAbYYJfYDMeHf1dt791VFAinW1gZoCwsGcGznS61qhTC",
+      "fields": {
+        "ref": "transforms.set_variable"
+      }
+    },
+    "workflow_task_id:8CwEoDsZM2LrcszgGunyeUchEByvY7f4qyDDaY8xPg2d": {
+      "type": "workflow_task_id",
+      "content_hash": "4Hp55GRKtDL3XfSLSDNURtm9MJ1fmTMJEPcQCYSZgQ3w",
+      "hash": "CzAPMdjTaFvXqMLVLj4n1dmStNZoSaYomf3kkXe9qSkg",
+      "fields": {
+        "id": "523754f77a7c4c15b4cc5306821142ac"
+      }
+    },
+    "workflow_task_id:EScFYvTBnE46nNMPKrw5x2NwFCHusdgsXgfxbxrhpFng": {
+      "type": "workflow_task_id",
+      "content_hash": "Fk7d6S832HF5ZG28JjWegJLxCXHmtBPspByBudJg3Dji",
+      "hash": "DxwtH4sLExBoMCEuusJk9cxsfzMEPMuErwz38rJajcZM",
+      "fields": {
+        "id": "0320780ca8bc4bc99222bd0548241337"
+      }
+    },
+    "transition_id:FFXVBjvchcSydELxXqgLH2jP2jMmBuVyM7P6CszJgFmv": {
+      "type": "transition_id",
+      "content_hash": "7YhyyAvy359MrHxBk5dm21Mh7M7begYwamaJRNP652i9",
+      "hash": "HhA8TJx4UxpnQVgzuQztDVjGKnUw2ZbqFB2C3e8xSn2n",
+      "fields": {
+        "id": "005b3e10-9078-4c75-bcc7-3c47d887a00e"
+      }
+    },
+    "workflow:64qdz4rH2id9oVwG1rPkCrBjF2XgHx1yZQ5W6bbwsTzQ": {
+      "type": "workflow",
+      "content_hash": "Dbkzx7AaHoVvdF9Fy7EyHAAfTX2j18m2bzaTiTiYLZB8",
+      "hash": "3k8u9birQHYedSKmqdtDZbr92WJwfjjz8suRCvCzc8y4",
+      "fields": {
+        "humanSecondsSaved": 0,
+        "notes": [
+          {
+            "id": "@@@workflow_note_id_ref1@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref2@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref3@@@"
+          }
+        ],
+        "output": [],
+        "parameters": {
+          "endpoints": {
+            "type": "array",
+            "default": "{{ [  ] }}",
+            "required": true,
+            "multiline": true
+          },
+          "returnAll": {
+            "type": "boolean",
+            "default": "{{ true }}",
+            "required": false,
+            "multiline": false
+          }
+        },
+        "tasks": [
+          {
+            "id": "@@@workflow_task_id_ref1@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "all_permissions",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref4@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref1@@@",
+                "publish": [
+                  {
+                    "key": "permission_list",
+                    "value": "{{ TASKS.convert_csv_to_object.result.result }}"
+                  }
+                ],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref2@@@",
+            "action": {
+              "id": "@@@action_ref2@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "params": {
+                "text": "{{ CTX.permissionsListRaw.data }}",
+                "separator": ","
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "convert_csv_to_object",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref1@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref2@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ CTX.returnAll }}"
+              },
+              {
+                "do": [
+                  "@@@workflow_task_id_ref3@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref3@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_FIRST",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref3@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "delegated_only",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref4@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref4@@@",
+                "publish": [
+                  {
+                    "key": "permission_list",
+                    "value": "{{ perm for perm in TASKS.convert_csv_to_object.result.result if perm.DelegatePermission == \"True\" }}"
+                  }
+                ],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref4@@@",
+            "action": {
+              "id": "@@@action_ref3@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "params": {
+                "text": "{% set matched_permissions = [] %}\r\n{% for endpoint in CTX.endpoints %}\r\n    {% for permission in CTX.permission_list %}\r\n        {% set api_parts = permission.API.split(' ') %}\r\n        {% if api_parts | length > 1 and api_parts[1] == endpoint %}\r\n            {% if permission not in matched_permissions %}\r\n                {% do matched_permissions.append(permission) %}\r\n            {% endif %}\r\n        {% endif %}\r\n    {% endfor %}\r\n{% endfor %}\r\n{{-\r\n    [\r\n        {\r\n            \"PermissionName\": perm.PermissionName,\r\n            \"ApplicationPermission\": perm.ApplicationPermission,\r\n            \"DelegatePermission\": perm.DelegatePermission,\r\n            \"IsBeta\": perm.IsBeta,\r\n            \"API\": perm.API,\r\n            \"DocUri\": perm.DocUri\r\n        }\r\n        for perm in matched_permissions\r\n    ]\r\n-}}"
+              }
+            },
+            "isMocked": false,
+            "join": 1,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "filter_permissionlist_based_on_input",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref7@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref5@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "filteredInfo",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref5@@@",
+            "action": {
+              "id": "@@@action_ref4@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "url": "https://raw.githubusercontent.com/merill/graphpermissions.github.io/main/permissions.csv",
+              "body": null,
+              "json": null,
+              "files": [],
+              "method": "GET",
+              "params": null,
+              "cookies": null,
+              "headers": null,
+              "timeout": 5,
+              "auth_password": null,
+              "auth_username": null,
+              "allow_redirects": true,
+              "require_2xx_status": null
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "get_permissions_csv",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref2@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref6@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "permissionsListRaw",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {}
+          },
+          {
+            "id": "@@@workflow_task_id_ref6@@@",
+            "action": {
+              "id": "@@@action_ref3@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "params": {
+                "text": "{% set permissions_by_api = {} %}\r\n{% for perm in CTX.filteredInfo %}\r\n    {% set api = perm.API %}\r\n    {% if api not in permissions_by_api %}\r\n        {% set _ = permissions_by_api.update({api: {\"permissions\": [perm.PermissionName], \"DocUri\": perm.DocUri, \"IsBeta\": perm.IsBeta}}) %}\r\n    {% else %}\r\n        {% if perm.PermissionName not in permissions_by_api[api][\"permissions\"] %}\r\n            {% set _ = permissions_by_api[api][\"permissions\"].append(perm.PermissionName) %}\r\n        {% endif %}\r\n    {% endif %}\r\n{% endfor %}\r\n{{-\r\n    [\r\n        {\r\n        \"API\": api,\r\n        \"Permissions\": permissions_by_api[api][\"permissions\"],\r\n        \"DocUri\": permissions_by_api[api][\"DocUri\"],\r\n        \"IsBeta\": permissions_by_api[api][\"IsBeta\"]\r\n        }\r\n        for api in permissions_by_api\r\n    ]\r\n-}}"
+              }
+            },
+            "isMocked": false,
+            "join": 1,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "permissions_per_endpoint",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref7@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "endpoint_perms",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref7@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "return_required_app_permissions",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref6@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref8@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {}
+          }
+        ],
+        "timeout": 28800,
+        "type": "STANDARD",
+        "varsSchema": {}
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "name": "What permissions does this endpoint need",
+        "notes[0].content": "This functional block handles the initial data acquisition and parsing phase of the workflow.\n\n**Purpose**: Fetch the Microsoft Graph permissions CSV from the external repository and convert it into a structured JSON format for further processing.\n\n**Tasks Included**:\n- `get_permissions_csv`: Performs HTTP GET request to retrieve the permissions CSV file from the GitHub repository (https://raw.githubusercontent.com/merill/graphpermissions.github.io/main/permissions.csv)\n- `convert_csv_to_object`: Parses the raw CSV data into JSON objects, using the first line as keys and subsequent lines as values\n\n**Key Functionality**:\n- Establishes the data foundation for the entire workflow\n- Handles external data dependency with proper HTTP timeout (5 seconds)\n- Transforms unstructured CSV data into structured objects for programmatic access\n- Creates the base dataset that contains all Microsoft Graph API permissions\n\n**Data Flow**:\n- Input: External CSV URL\n- Output: Structured JSON array with permission objects containing fields like PermissionName, ApplicationPermission, DelegatePermission, API, etc.\n- Connects to: Permission filtering logic based on the `returnAll` context variable\n\n**Critical Dependencies**:\n- External network access to GitHub repository\n- CSV format consistency from the source\n- Proper parsing of permission attributes for downstream filtering",
+        "notes[0].metadata": {
+          "x": 969,
+          "y": 273,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 391,
+          "height": 358,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "06596fe0b96c72f48000064aa048dd7a",
+            "d3a88b1763a04529b0e08fc268bdf3b1"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[0].title": "Data Retrieval & CSV Processing",
+        "notes[1].content": "This functional block implements the core business logic for filtering and classifying Microsoft Graph permissions based on delegation type and endpoint matching.\n\n**Purpose**: Apply conditional logic to filter permissions based on whether all permissions are requested or only delegated permissions, then match them against specific API endpoints.\n\n**Tasks Included**:\n- `delegated_only`: Filters permissions to include only those with DelegatePermission = \"True\"\n- `all_permissions`: Includes all permissions regardless of delegation type when returnAll context is true\n- `filter_permissionlist_based_on_input`: Matches permissions against provided endpoints using complex Jinja2 logic\n\n**Key Functionality**:\n- **Conditional Branching**: Uses `CTX.returnAll` to determine whether to return all permissions or only delegated ones\n- **Permission Filtering**: Filters the complete permission set based on delegation type\n- **Endpoint Matching**: Sophisticated matching logic that:\n  - Iterates through provided endpoints from `CTX.endpoints`\n  - Parses API field to extract HTTP method and endpoint path\n  - Matches endpoint patterns against permission API definitions\n  - Removes duplicates to ensure unique permission sets\n\n**Business Logic**:\n- Supports two modes: comprehensive (all permissions) vs. restricted (delegated only)\n- Handles complex API endpoint matching where permissions are associated with specific HTTP methods and paths\n- Maintains data integrity by preventing duplicate permissions in results\n\n**Data Transformations**:\n- Input: Structured permission objects + endpoint list + returnAll flag\n- Processing: Conditional filtering + pattern matching + deduplication\n- Output: Filtered permission list matching specified endpoints and delegation requirements\n\n**Critical Decision Points**:\n- Branch selection based on `CTX.returnAll` context variable\n- API string parsing to extract method and endpoint components\n- Permission uniqueness validation during endpoint matching",
+        "notes[1].metadata": {
+          "x": 609,
+          "y": 681,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 1124,
+          "height": 334,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "523754f77a7c4c15b4cc5306821142ac",
+            "b71c8e3f745943f5a24b7a9ead2e40b9",
+            "efd4ea1ba0e243f395a7b1878c97fdbc"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[1].title": "Permission Classification & Filtering Logic",
+        "notes[2].content": "This functional block handles the final stage of data processing, transforming filtered permissions into the structured output format required by consumers.\n\n**Purpose**: Aggregate filtered permissions by API endpoint and format them into a comprehensive, organized structure that groups permissions by their associated APIs.\n\n**Tasks Included**:\n- `return_required_app_permissions`: Intermediate step that prepares for final output formatting\n- `permissions_per_endpoint`: Complex aggregation logic that groups permissions by API and creates the final structured output\n\n**Key Functionality**:\n- **Permission Aggregation**: Groups permissions by their API endpoint to eliminate redundancy\n- **Data Restructuring**: Transforms flat permission list into hierarchical structure organized by API\n- **Metadata Preservation**: Maintains important attributes like DocUri and IsBeta flags for each API group\n- **Deduplication**: Ensures unique permission names within each API group\n\n**Output Structure Creation**:\nThe final task creates a comprehensive data structure with:\n- **API**: The specific Microsoft Graph API endpoint\n- **Permissions**: Array of unique permission names required for that endpoint\n- **DocUri**: Documentation URL for the API endpoint\n- **IsBeta**: Boolean flag indicating if the API is in beta status\n\n**Data Transformation Logic**:\n- Input: Filtered permission objects from previous filtering stage\n- Processing: \n  - Creates dictionary grouped by API endpoint\n  - Aggregates permission names per API\n  - Preserves metadata (DocUri, IsBeta) for each API group\n  - Ensures permission uniqueness within each group\n- Output: Array of API objects with associated permissions and metadata\n\n**Business Value**:\n- Provides clear mapping between API endpoints and required permissions\n- Organizes complex permission data into consumable format\n- Maintains traceability with documentation links\n- Supports API lifecycle management with beta status indicators\n\n**Final Workflow Output**:\nThis block produces the ultimate deliverable: a structured list showing exactly which permissions are needed for each Microsoft Graph API endpoint, formatted for easy consumption by developers and administrators.",
+        "notes[2].metadata": {
+          "x": 969,
+          "y": 1089,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367,
+          "height": 286,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "06596fe0b96c75a58000cecb3af6a12c",
+            "0320780ca8bc4bc99222bd0548241337"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[2].title": "Results Aggregation & Output Formatting",
+        "parameters.endpoints.description": "",
+        "parameters.endpoints.label": "List of Endpoints to get application permissions for",
+        "parameters.returnAll.description": "If you'd like to only return Delegate permissions, set to false.",
+        "parameters.returnAll.label": "Return Delegate and Application permissions",
+        "tasks[0].description": "Action that does nothing",
+        "tasks[0].metadata": {
+          "x": 624,
+          "y": 696
+        },
+        "tasks[0].next[0].label": "",
+        "tasks[1].description": "Parse CSV Data into JSON. The first line will be keys, and subsequent lines will be values",
+        "tasks[1].metadata": {
+          "x": 984,
+          "y": 528
+        },
+        "tasks[1].next[0].label": "Return All Perms",
+        "tasks[1].next[1].label": "Delegated Only",
+        "tasks[2].description": "Action that does nothing",
+        "tasks[2].metadata": {
+          "x": 1381,
+          "y": 702
+        },
+        "tasks[2].next[0].label": "",
+        "tasks[3].description": "Set a variable as an action",
+        "tasks[3].metadata": {
+          "x": 984,
+          "y": 912
+        },
+        "tasks[3].next[0].label": "",
+        "tasks[4].description": "Perform an HTTP request",
+        "tasks[4].metadata": {
+          "x": 1008,
+          "y": 288
+        },
+        "tasks[4].next[0].label": "",
+        "tasks[5].description": "Set a variable as an action",
+        "tasks[5].metadata": {
+          "x": 984,
+          "y": 1272
+        },
+        "tasks[5].next[0].label": "",
+        "tasks[6].description": "Action that does nothing",
+        "tasks[6].metadata": {
+          "x": 984,
+          "y": 1104
+        },
+        "tasks[6].next[0].label": ""
+      },
+      "references": {
+        "transition_id_ref3": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "AAaLRRKWwCPcZgVTDoc9U1wi4dKEcDtpd323HfAb1vRB",
+          "content_hash": "8ikPEbMrYephGyJ9YScqwt8t7BG6Ag9CVy8VJ6cFgisA",
+          "locations": [
+            "tasks[1].next[1].id"
+          ]
+        },
+        "workflow_task_id_ref3": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "8CwEoDsZM2LrcszgGunyeUchEByvY7f4qyDDaY8xPg2d",
+          "content_hash": "4Hp55GRKtDL3XfSLSDNURtm9MJ1fmTMJEPcQCYSZgQ3w",
+          "locations": [
+            "tasks[2].id",
+            "tasks[1].next[1].do[0]"
+          ]
+        },
+        "transition_id_ref2": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "F8SmE1x7zVC3fKjsQQ1VeBHT93rdJvVXy6EYSfL83Ju7",
+          "content_hash": "HNxxByvWbFphQ3PYhzKYiAPfkVK5shJ7umqRvvowxby4",
+          "locations": [
+            "tasks[1].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref4": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "6jc5sD4aYiTEizZ2anPeMSHMWMVt2yWHdwMuDyYRw1mB",
+          "content_hash": "3WMGCsss594fzRWtV8ydNakYjDernUyg3kMWmbCpjtcD",
+          "locations": [
+            "tasks[3].id",
+            "tasks[0].next[0].do[0]",
+            "tasks[2].next[0].do[0]"
+          ]
+        },
+        "transition_id_ref1": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "5Ap38uiKc47FwykiqEpJba7CPiwEzEkAf8tAh1MPyrei",
+          "content_hash": "4SWR3JgvEZ2W8GbP4bywfMadbvfF6mQUiTsHBtrSBtsV",
+          "locations": [
+            "tasks[0].next[0].id"
+          ]
+        },
+        "action_ref1": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "A1h7FsgQwgdWATE1d8r1nD2GKDmbinMq2WRN6dosAvr4",
+          "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+          "locations": [
+            "tasks[0].action.id",
+            "tasks[2].action.id",
+            "tasks[6].action.id"
+          ]
+        },
+        "workflow_task_id_ref2": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "4X8cgUg2JUHTwsgWL97MviTQPvcTF2A7UUWDPxg4sULe",
+          "content_hash": "8Wgshuc91GEr2Aoi5nYrEoyaEBAsVGpRoip1wYquS4D7",
+          "locations": [
+            "tasks[1].id",
+            "tasks[4].next[0].do[0]"
+          ]
+        },
+        "workflow_task_id_ref1": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "4bRDZcLoW64LJemg5gFCjpn28fBfgyK89MchMnTdJJ4i",
+          "content_hash": "3RZLdXjLgbBCt9yLa2AH6KTfySY8s9cBbwTaM38X8ofD",
+          "locations": [
+            "tasks[0].id",
+            "tasks[1].next[0].do[0]"
+          ]
+        },
+        "action_ref2": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "2E4PN5ub7c48FtfK95eRZ4s17QqV4uCn75A43X7hhj8j",
+          "content_hash": "ErFWpeaNYKuPinHXogTf2cSzoCXbFKsHAoPuupz6D7mx",
+          "locations": [
+            "tasks[1].action.id"
+          ]
+        },
+        "transition_id_ref4": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "FFXVBjvchcSydELxXqgLH2jP2jMmBuVyM7P6CszJgFmv",
+          "content_hash": "7YhyyAvy359MrHxBk5dm21Mh7M7begYwamaJRNP652i9",
+          "locations": [
+            "tasks[2].next[0].id"
+          ]
+        },
+        "transition_id_ref8": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "3L2P1vP2CpZrpVeGeDR1DPURvSz3J7NSjhEg1iGyxvPV",
+          "content_hash": "CZ3zZ6FMxhyXmenkPKXkSKhTXvkvpXE3ih8Y5TTxihDL",
+          "locations": [
+            "tasks[6].next[0].id"
+          ]
+        },
+        "workflow_note_id_ref1": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "4x7kPs8WCHbaHG7KTuBJ2oEKtK5VN77MeCJnRGMggA6J",
+          "content_hash": "35YFModStQrfgREggXHsg4znVvm6w4PnC23Q8ZvFXQJd",
+          "locations": [
+            "notes[0].id"
+          ]
+        },
+        "workflow_note_id_ref3": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "BLSfE7kw2FVod8ckAYYJfP9MGHqheznWVABx6snby31w",
+          "content_hash": "4uZXkxaATak1ui8vWHbZJNvWpdcKLKzr9pSwy7PW3gF3",
+          "locations": [
+            "notes[2].id"
+          ]
+        },
+        "transition_id_ref5": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "26KDJYnHmNiG5uLprhrufZKZEE2zJsghYvVaJkm8YKZ8",
+          "content_hash": "5pragnkbLyvKGa39vU4pasumhv68JMzYiFgavvuTJ6SC",
+          "locations": [
+            "tasks[3].next[0].id"
+          ]
+        },
+        "action_ref4": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "2nCiVyrgxt8YAwDZKkQrBAq5jfz1MQs5MMUkA8qAEMUS",
+          "content_hash": "FMu3hsNV7SdbaFHCpQXe4YsxtfRZHq3LfQ8Ej6uv322w",
+          "locations": [
+            "tasks[4].action.id"
+          ]
+        },
+        "workflow_note_id_ref2": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "DQLy3WAqRDe27otfjfA7atfbLfgwz9qZTBo83a5B2ad7",
+          "content_hash": "87a3D3TJDUUHsVGoccH5NHWmtDErhXmGLowS3g9VpdZJ",
+          "locations": [
+            "notes[1].id"
+          ]
+        },
+        "workflow_task_id_ref5": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "3JoZ6eS19euke3TS3abu1DyPYGhUSdNipW1NfbXKe76B",
+          "content_hash": "CTa9iT53qFZ1kdmFragZhBHasYyTqbkUfELJwgGVZ1KB",
+          "locations": [
+            "tasks[4].id"
+          ]
+        },
+        "action_ref3": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "79ZLXXrQopW8HEueWzsMXDQaWxT8qXaJcSZPTBDE9FjJ",
+          "content_hash": "Aj7g63oBpFTyTLgcv25UHmfMB5WmghbjNdHZYGy7KxYN",
+          "locations": [
+            "tasks[3].action.id",
+            "tasks[5].action.id"
+          ]
+        },
+        "transition_id_ref7": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "3LTY7WJFamS7wvs3H3K2dVLS3ZFpBwNgyMwhJkx2HhKs",
+          "content_hash": "q2eLMzZYz1KTmhApQcenHH9NRmgYpT8Dgtx1qFFPxyJ",
+          "locations": [
+            "tasks[5].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref7": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "6BybMvkQAxrevSTDqJgk8zp59WNqK63dGGVeg37w8efa",
+          "content_hash": "Ga8XSyCNarKeNoqjDbdZsGibNUTk24RaM8bJNBgfeaJD",
+          "locations": [
+            "tasks[6].id",
+            "tasks[3].next[0].do[0]"
+          ]
+        },
+        "transition_id_ref6": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "8i1CqYBGKoAuLFczxvhqNWxdGSTBpjBo2BmxrfvKRJhY",
+          "content_hash": "B8Wfy3KZBwGWzQwjyL3HHA5KhBVTpqmt2R9jSa5sL9NA",
+          "locations": [
+            "tasks[4].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref6": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "EScFYvTBnE46nNMPKrw5x2NwFCHusdgsXgfxbxrhpFng",
+          "content_hash": "Fk7d6S832HF5ZG28JjWegJLxCXHmtBPspByBudJg3Dji",
+          "locations": [
+            "tasks[5].id",
+            "tasks[6].next[0].do[0]"
+          ]
+        }
+      },
+      "dependencies": [
+        "action:A1h7FsgQwgdWATE1d8r1nD2GKDmbinMq2WRN6dosAvr4",
+        "transition_id:3LTY7WJFamS7wvs3H3K2dVLS3ZFpBwNgyMwhJkx2HhKs",
+        "transition_id:AAaLRRKWwCPcZgVTDoc9U1wi4dKEcDtpd323HfAb1vRB",
+        "workflow_task_id:6jc5sD4aYiTEizZ2anPeMSHMWMVt2yWHdwMuDyYRw1mB",
+        "action:2E4PN5ub7c48FtfK95eRZ4s17QqV4uCn75A43X7hhj8j",
+        "transition_id:F8SmE1x7zVC3fKjsQQ1VeBHT93rdJvVXy6EYSfL83Ju7",
+        "workflow_note_id:4x7kPs8WCHbaHG7KTuBJ2oEKtK5VN77MeCJnRGMggA6J",
+        "workflow_note_id:BLSfE7kw2FVod8ckAYYJfP9MGHqheznWVABx6snby31w",
+        "transition_id:8i1CqYBGKoAuLFczxvhqNWxdGSTBpjBo2BmxrfvKRJhY",
+        "transition_id:5Ap38uiKc47FwykiqEpJba7CPiwEzEkAf8tAh1MPyrei",
+        "workflow_task_id:6BybMvkQAxrevSTDqJgk8zp59WNqK63dGGVeg37w8efa",
+        "workflow_task_id:4bRDZcLoW64LJemg5gFCjpn28fBfgyK89MchMnTdJJ4i",
+        "workflow_task_id:3JoZ6eS19euke3TS3abu1DyPYGhUSdNipW1NfbXKe76B",
+        "transition_id:3L2P1vP2CpZrpVeGeDR1DPURvSz3J7NSjhEg1iGyxvPV",
+        "action:2nCiVyrgxt8YAwDZKkQrBAq5jfz1MQs5MMUkA8qAEMUS",
+        "workflow_note_id:DQLy3WAqRDe27otfjfA7atfbLfgwz9qZTBo83a5B2ad7",
+        "transition_id:26KDJYnHmNiG5uLprhrufZKZEE2zJsghYvVaJkm8YKZ8",
+        "workflow_task_id:4X8cgUg2JUHTwsgWL97MviTQPvcTF2A7UUWDPxg4sULe",
+        "action:79ZLXXrQopW8HEueWzsMXDQaWxT8qXaJcSZPTBDE9FjJ",
+        "workflow_task_id:8CwEoDsZM2LrcszgGunyeUchEByvY7f4qyDDaY8xPg2d",
+        "workflow_task_id:EScFYvTBnE46nNMPKrw5x2NwFCHusdgsXgfxbxrhpFng",
+        "transition_id:FFXVBjvchcSydELxXqgLH2jP2jMmBuVyM7P6CszJgFmv"
+      ]
+    }
+  },
+  "__typename": "ExportBundle"
+}

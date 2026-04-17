@@ -1,0 +1,316 @@
+{
+  "version": 2,
+  "exportedAt": "2025-10-11T16:17:52.482387+00:00",
+  "signing": {
+    "cert": "-----BEGIN CERTIFICATE-----\nMIICazCCAfGgAwIBAgIUFJtHAR8D+ZfChHcAXHemH7s8zRowCgYIKoZIzj0EAwIwfDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkZMMQ4wDAYDVQQHEwVUYW1wYTEOMAwGA1UEChMFUmV3c3QxEzARBgNVBAsTClJld3N0IERldnMxKzApBgNVBAMTImxvY2FsIFJld3N0IEltcG9ydC9FeHBvcnQgQ0EyIHYxLjEwHhcNMjIwNjAzMTkwMDU1WhcNMjUwNTIzMTkwMTI1WjBDMQswCQYDVQQGEwJVUzELMAkGA1UECBMCRkwxDjAMBgNVBAcTBVRhbXBhMRcwFQYDVQQDEw5sb2NhbC5yZXdzdC5pbzB2MBAGByqGSM49AgEGBSuBBAAiA2IABMcTJzyLIvX1+3545EJbFeNVjahxVq6TFQ7n/IYZs4yEMQzDWZjAyHhJPZk3Dxq/wFzesXMYJu41rhxfz7AZh15LtFGfy9V2B4X5KH7sGJWqOan0mabuF83llruTLA/NQaNtMGswDgYDVR0PAQH/BAQDAgeAMB0GA1UdDgQWBBTDePOSC6hckrg6usrK2giZv9GxpjAfBgNVHSMEGDAWgBTojdemsJqfnB19iyMxmIi3OGYw6TAZBgNVHREEEjAQgg5sb2NhbC5yZXdzdC5pbzAKBggqhkjOPQQDAgNoADBlAjEA8NsLnuGhfTPC7dB0ojWf5WmH64qFZuPFD6Q0RwGYO0D1Tn2x5+/37kW3HFcGHV0wAjBM7LSidsc7E9+fmcesnN5hM34eGMP+YWCoEeFIPPANXQKemAgUVf35iXyU64sVEC4=\n-----END CERTIFICATE-----",
+    "hash": "sha512",
+    "signature": "MGQCME8Z7E+IHAkTgovZvDzUX/1ufXuvW3zvb9UXRtDQuBDCverXun1/hEayA0CMcO4WbgIwOXk3ijVvtQSwZb6QvFu6ToFezamSAJiMkd7nTiK78LttmZ/DbdnspWZuM8cLCVZD"
+  },
+  "objects": {
+    "action:Vkc7xVnv3r5o9miyWHZGbp7Xc4chNLZtwtTFoMszfKj": {
+      "type": "action",
+      "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+      "hash": "Arr2RCEM96WqU2EkvigszSfsW9GZHa4HJC5a1fL9qZ5g",
+      "fields": {
+        "ref": "core.noop"
+      }
+    },
+    "transition_id:3XaKYcwxxjsmsA4X85VtCuDvqv18DhFtXyP5gm2Aq2dR": {
+      "type": "transition_id",
+      "content_hash": "Gp2XxWHEbPCubTqWNHnaGFpkrb5ZuuEcsR71ChCMffmm",
+      "hash": "6u3wkmqmT7R6uVLRyDH3tchV3FaXrA5LSw18PE9kFE3w",
+      "fields": {
+        "id": "2a803886-3c34-4cdf-8b64-c303b08c8289"
+      }
+    },
+    "workflow_task_id:woHKt5qmwMT3kuJXpuhAxsbCG8CyMJAcqXadrsJVuCd": {
+      "type": "workflow_task_id",
+      "content_hash": "FfxjvQ5bZdSWVz9Zf7T3MtFM3Pvo7WkrvSzyQJoR5JCd",
+      "hash": "8pf55afzdf2XcTcyofXEBoLNnFRNosp1M9q382k8ArLR",
+      "fields": {
+        "id": "e737c6b50fb248b5bec948f2a1821a50"
+      }
+    },
+    "action:9SQ4ufRhLpxb9QhspT2Gum4zXiJpjvBwuRnfThFqmTUp": {
+      "type": "action",
+      "content_hash": "FMu3hsNV7SdbaFHCpQXe4YsxtfRZHq3LfQ8Ej6uv322w",
+      "hash": "CDXNu8XJkn4bBRzcx18z5UYnjXiUM2WB6hTMAwGhMQ4K",
+      "fields": {
+        "ref": "core.http_request"
+      }
+    },
+    "trigger_type:9srNbivAZNYy4R2tE4PSCuHoYhNiYi4ktcHRi4XwQ8F2": {
+      "type": "trigger_type",
+      "content_hash": "EWjY7HuZTUNw2tELTVLk1HUAwooXA9BFcB423i7vkqVf",
+      "hash": "Aje4kEw4fN4xKBdmUJAAyBSiyRfWSYGaUmNw1k4itarH",
+      "fields": {
+        "ref": "cw_manage.Ticket Record Saved"
+      }
+    },
+    "workflow_task_id:5jvs8mwfcf6d49KYUN1CQ3g3Mfyxhs7PzTab55vWYoMy": {
+      "type": "workflow_task_id",
+      "content_hash": "4iZPuNcY7MLc5Cna7cHiZV8QoAUGWh7SsvJ6Af3yWAXU",
+      "hash": "D5Cb39npnh3zoAZiFXgVTfzFwTQqEgGzTm5CQF8nak39",
+      "fields": {
+        "id": "430b8ceedf0747069e7579f33d5631d5"
+      }
+    },
+    "transition_id:4PiBEsPQvW1Lv9x9tVeH7kYkdpHFxsW8EHHqKscTSw5y": {
+      "type": "transition_id",
+      "content_hash": "EqRoV55uMWorr9XRm3HcLMQk7qvVpCmcDUQb4SLrTui4",
+      "hash": "HkXcvnYkK3YLicWpoCrC3aKcmuaup4EWQD2PM3eFViut",
+      "fields": {
+        "id": "0aca1a72-b8c2-4c0c-8587-eba1a1efffe3"
+      }
+    },
+    "workflow:GvKXf8X7NpbgJokUy3PQapa1py81She6MbP95tKAFqBu": {
+      "type": "workflow",
+      "content_hash": "EjWkCosHEnLLfHFPjU5h47mPCzi3qZrHBHbvBu5wBBhw",
+      "hash": "8osfc1fgBVm9EdM3hYfdzXK9GC8znHEYWb7ibpa4tJnJ",
+      "fields": {
+        "humanSecondsSaved": 0,
+        "notes": [],
+        "output": [],
+        "parameters": {},
+        "tasks": [
+          {
+            "id": "@@@workflow_task_id_ref1@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "BEGIN",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref2@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref1@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref2@@@",
+            "action": {
+              "id": "@@@action_ref2@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "url": "http://worldtimeapi.org/api/timezone/America/Chicago",
+              "body": null,
+              "json": null,
+              "files": [],
+              "method": "GET",
+              "params": null,
+              "cookies": null,
+              "headers": null,
+              "timeout": 5,
+              "auth_password": null,
+              "auth_username": null,
+              "allow_redirects": true,
+              "require_2xx_status": null
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "core_http_request",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref2@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [
+                  "auth_password"
+                ],
+                "result": []
+              }
+            }
+          }
+        ],
+        "timeout": 28800,
+        "type": "STANDARD",
+        "varsSchema": {}
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "name": "Trigger Criteria Finder",
+        "tasks[0].description": "Action that does nothing",
+        "tasks[0].metadata": {
+          "x": 533,
+          "y": 338.7395820617676
+        },
+        "tasks[0].next[0].label": "",
+        "tasks[1].description": "Perform an HTTP request",
+        "tasks[1].metadata": {
+          "x": 552,
+          "y": 552
+        },
+        "tasks[1].next[0].label": ""
+      },
+      "references": {
+        "transition_id_ref2": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "3XaKYcwxxjsmsA4X85VtCuDvqv18DhFtXyP5gm2Aq2dR",
+          "content_hash": "Gp2XxWHEbPCubTqWNHnaGFpkrb5ZuuEcsR71ChCMffmm",
+          "locations": [
+            "tasks[1].next[0].id"
+          ]
+        },
+        "action_ref2": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "9SQ4ufRhLpxb9QhspT2Gum4zXiJpjvBwuRnfThFqmTUp",
+          "content_hash": "FMu3hsNV7SdbaFHCpQXe4YsxtfRZHq3LfQ8Ej6uv322w",
+          "locations": [
+            "tasks[1].action.id"
+          ]
+        },
+        "transition_id_ref1": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "4PiBEsPQvW1Lv9x9tVeH7kYkdpHFxsW8EHHqKscTSw5y",
+          "content_hash": "EqRoV55uMWorr9XRm3HcLMQk7qvVpCmcDUQb4SLrTui4",
+          "locations": [
+            "tasks[0].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref1": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "5jvs8mwfcf6d49KYUN1CQ3g3Mfyxhs7PzTab55vWYoMy",
+          "content_hash": "4iZPuNcY7MLc5Cna7cHiZV8QoAUGWh7SsvJ6Af3yWAXU",
+          "locations": [
+            "tasks[0].id"
+          ]
+        },
+        "workflow_task_id_ref2": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "woHKt5qmwMT3kuJXpuhAxsbCG8CyMJAcqXadrsJVuCd",
+          "content_hash": "FfxjvQ5bZdSWVz9Zf7T3MtFM3Pvo7WkrvSzyQJoR5JCd",
+          "locations": [
+            "tasks[1].id",
+            "tasks[0].next[0].do[0]"
+          ]
+        },
+        "action_ref1": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "Vkc7xVnv3r5o9miyWHZGbp7Xc4chNLZtwtTFoMszfKj",
+          "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+          "locations": [
+            "tasks[0].action.id"
+          ]
+        }
+      },
+      "dependencies": [
+        "action:Vkc7xVnv3r5o9miyWHZGbp7Xc4chNLZtwtTFoMszfKj",
+        "transition_id:3XaKYcwxxjsmsA4X85VtCuDvqv18DhFtXyP5gm2Aq2dR",
+        "workflow_task_id:woHKt5qmwMT3kuJXpuhAxsbCG8CyMJAcqXadrsJVuCd",
+        "action:9SQ4ufRhLpxb9QhspT2Gum4zXiJpjvBwuRnfThFqmTUp",
+        "workflow_task_id:5jvs8mwfcf6d49KYUN1CQ3g3Mfyxhs7PzTab55vWYoMy",
+        "transition_id:4PiBEsPQvW1Lv9x9tVeH7kYkdpHFxsW8EHHqKscTSw5y"
+      ]
+    },
+    "trigger:8DoYw8ySRotFtDKjpDpvgwLvp6h6K7E4gTJKJVMsTQYq": {
+      "type": "trigger",
+      "content_hash": "HNhHbhuHzrbcxfHZWxNka9SJ499Ftw7VRrcFkT4Hvevg",
+      "hash": "C964UJG58VZUdwSUVKCacVzMtFA284TPJ5wUAPLuhhLu",
+      "fields": {
+        "autoActivateManagedOrgs": false,
+        "criteria": {
+          "condition": {
+            "Entity.board.name": {
+              "type": "eq",
+              "value": "Help Desk"
+            },
+            "Entity.department.name": {
+              "type": "eq",
+              "value": "Services"
+            }
+          }
+        },
+        "enabled": false,
+        "formId": null,
+        "isActivatedForOwner": true,
+        "packOverrides": [],
+        "parameters": {
+          "level": "Owner",
+          "object_id": 1
+        },
+        "triggerTypeId": "@@@trigger_type_ref1@@@",
+        "vars": [],
+        "workflowId": "@@@workflow_ref1@@@"
+      },
+      "nonfunctional_fields": {
+        "description": null,
+        "name": "ConnectWise Ticket Trigger"
+      },
+      "references": {
+        "workflow_ref1": {
+          "kind": "string",
+          "type": "workflow",
+          "src_key_hash": "GvKXf8X7NpbgJokUy3PQapa1py81She6MbP95tKAFqBu",
+          "content_hash": "EjWkCosHEnLLfHFPjU5h47mPCzi3qZrHBHbvBu5wBBhw",
+          "locations": [
+            "workflowId"
+          ]
+        },
+        "trigger_type_ref1": {
+          "kind": "string",
+          "type": "trigger_type",
+          "src_key_hash": "9srNbivAZNYy4R2tE4PSCuHoYhNiYi4ktcHRi4XwQ8F2",
+          "content_hash": "EWjY7HuZTUNw2tELTVLk1HUAwooXA9BFcB423i7vkqVf",
+          "locations": [
+            "triggerTypeId"
+          ]
+        }
+      },
+      "dependencies": [
+        "workflow:GvKXf8X7NpbgJokUy3PQapa1py81She6MbP95tKAFqBu",
+        "trigger_type:9srNbivAZNYy4R2tE4PSCuHoYhNiYi4ktcHRi4XwQ8F2"
+      ]
+    }
+  },
+  "__typename": "ExportBundle"
+}

@@ -1,0 +1,83 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check for merge conflict markers
+        run: |
+          CONFLICT_RE='<{7} '
+          if grep -rqP "$CONFLICT_RE" --exclude-dir=node_modules --exclude-dir=.git --include='*.yml' --include='*.yaml' --include='*.js' --include='*.jsx' --include='*.json' --include='*.ts' .; then
+            echo "ERROR: Found unresolved merge conflict markers:"
+            grep -rnP "$CONFLICT_RE" --exclude-dir=node_modules --exclude-dir=.git --include='*.yml' --include='*.yaml' --include='*.js' --include='*.jsx' --include='*.json' --include='*.ts' .
+            exit 1
+          fi
+
+      - name: Lint
+        run: npm run lint || echo "::warning::Lint errors found — see above for details"
+
+      - name: Security audit
+        run: npm audit --audit-level=high
+
+      - name: Validate design system JSON
+        run: |
+          for f in src/config/design/*.json; do
+            node -e "JSON.parse(require('fs').readFileSync('$f','utf8'))" || (echo "INVALID JSON: $f" && exit 1)
+          done
+          echo "All design JSON files valid"
+
+      - name: Run tests
+        run: npm test
+
+      - name: Build frontend
+        run: npm run build
+
+      - name: Verify build output exists
+        run: test -f dist/index.html
+
+      - name: Validate install scripts
+        run: |
+          bash -n scripts/install.sh
+          pwsh -Command "Get-Content scripts/install.ps1 | Out-Null" 2>/dev/null || true
+          grep -q "rewstapp" scripts/install.sh || (echo "ERROR: install.sh missing repo reference" && exit 1)
+          grep -q "rewstapp" scripts/install.ps1 || (echo "ERROR: install.ps1 missing repo reference" && exit 1)
+
+      - name: Notify Slack on failure (main only)
+        if: failure() && github.ref == 'refs/heads/main'
+        uses: slackapi/slack-github-action@af78098f536edbc4de71162a307590698245be95 # v3
+        with:
+          webhook: ${{ secrets.SLACK_WEBHOOK_URL }}
+          webhook-type: incoming-webhook
+          payload: |
+            {
+              "text": "DeckWing CI failed on main",
+              "blocks": [
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":red_circle: *DeckWing CI failed on main*\n<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View run>"
+                  }
+                }
+              ]
+            }

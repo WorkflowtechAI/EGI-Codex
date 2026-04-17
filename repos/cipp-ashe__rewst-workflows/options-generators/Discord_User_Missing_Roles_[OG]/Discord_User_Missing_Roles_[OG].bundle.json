@@ -1,0 +1,923 @@
+{
+  "version": 2,
+  "exportedAt": "2025-10-11T16:13:50.655267+00:00",
+  "signing": {
+    "cert": "-----BEGIN CERTIFICATE-----\nMIICazCCAfGgAwIBAgIUFJtHAR8D+ZfChHcAXHemH7s8zRowCgYIKoZIzj0EAwIwfDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkZMMQ4wDAYDVQQHEwVUYW1wYTEOMAwGA1UEChMFUmV3c3QxEzARBgNVBAsTClJld3N0IERldnMxKzApBgNVBAMTImxvY2FsIFJld3N0IEltcG9ydC9FeHBvcnQgQ0EyIHYxLjEwHhcNMjIwNjAzMTkwMDU1WhcNMjUwNTIzMTkwMTI1WjBDMQswCQYDVQQGEwJVUzELMAkGA1UECBMCRkwxDjAMBgNVBAcTBVRhbXBhMRcwFQYDVQQDEw5sb2NhbC5yZXdzdC5pbzB2MBAGByqGSM49AgEGBSuBBAAiA2IABMcTJzyLIvX1+3545EJbFeNVjahxVq6TFQ7n/IYZs4yEMQzDWZjAyHhJPZk3Dxq/wFzesXMYJu41rhxfz7AZh15LtFGfy9V2B4X5KH7sGJWqOan0mabuF83llruTLA/NQaNtMGswDgYDVR0PAQH/BAQDAgeAMB0GA1UdDgQWBBTDePOSC6hckrg6usrK2giZv9GxpjAfBgNVHSMEGDAWgBTojdemsJqfnB19iyMxmIi3OGYw6TAZBgNVHREEEjAQgg5sb2NhbC5yZXdzdC5pbzAKBggqhkjOPQQDAgNoADBlAjEA8NsLnuGhfTPC7dB0ojWf5WmH64qFZuPFD6Q0RwGYO0D1Tn2x5+/37kW3HFcGHV0wAjBM7LSidsc7E9+fmcesnN5hM34eGMP+YWCoEeFIPPANXQKemAgUVf35iXyU64sVEC4=\n-----END CERTIFICATE-----",
+    "hash": "sha512",
+    "signature": "MGYCMQD82L3K48juCuUQXjMf7MT/jES79k8iS2NCD70ePCGwR0bZ7lkUiQ8Rv9pf+S7/JIoCMQCdc04/L6HPhbIys0jauV8M37lGyWf1JK/+BPpq3XCyYUqJVhsUr7FkMUIoQxBTyAI="
+  },
+  "objects": {
+    "workflow_note_id:Bv9pTjGuFmWRCqpqd3tmHpw6C5CXxMxzPt32CcxuLpqf": {
+      "type": "workflow_note_id",
+      "content_hash": "89oUAujcRs7cCfeNA6uyx9aUz3BBnJm8fqXGx3vUQ1k7",
+      "hash": "AKDJv3NH8cpdyqYqr5yKZipcAp1QS7taZqkGD9NbVhkB",
+      "fields": {
+        "id": "9b5dcd2d-0b52-48de-94ee-1f4c46d6ba4a"
+      }
+    },
+    "workflow_task_id:7CfgubCPY1Mv4bw56eWobTuaEdb36jNBDgtDVfczamTD": {
+      "type": "workflow_task_id",
+      "content_hash": "CzAaCubKZX1zMfZk83LRn3JfMsiuL5HEfhdCKBYpy6ZF",
+      "hash": "5yw4o1ghAHWHbqzTredc37UW4s7APG2RCaLAMfZ81NRf",
+      "fields": {
+        "id": "94929f6973f346ecb0cc8811cbe64406"
+      }
+    },
+    "workflow_task_id:FSi8Wf6LzkjunB2Kn38djG8Bu3HPgLD4rUD6iFmtmYme": {
+      "type": "workflow_task_id",
+      "content_hash": "D6ma3aEFYLaMhRq1spCMB67BwNhwNJfLN3zat3PWq7vJ",
+      "hash": "B2pHEzxMSeRiHSwFemBhNNZ4zyTtXDQkCzoNLo1ndJ5C",
+      "fields": {
+        "id": "071b91e2088247d89c80df512a4a9ebd"
+      }
+    },
+    "workflow_task_id:86Gz2eKrZSrKqPAuwWJ71yPwWyRjH6yfGS1ZBi5nr4ar": {
+      "type": "workflow_task_id",
+      "content_hash": "EKQTtNtgmV1pwhbRfs9iB8QaupwivLQQ27YkxY7oAgc5",
+      "hash": "4b4koQWd9JAvZeiD2c1qdUQMar1osRHrEEKfHg5pzXnX",
+      "fields": {
+        "id": "482a57624972454093bd8f24b790b26a"
+      }
+    },
+    "transition_id:BUeoKXJojVjLPbFqz8xTNKQC1uo5PAsgARtZaWeLhzvo": {
+      "type": "transition_id",
+      "content_hash": "9FeN9iJoFtZtdi3vJWPcXJtpJ72HunxrjZdT3nor1Y85",
+      "hash": "FnDHGnuf86SvfX5dmNKHEu1vyDSbCN6JM9raqDzebQ25",
+      "fields": {
+        "id": "f99108bb-995e-4cb6-9bfc-4a0d507f7dc5"
+      }
+    },
+    "workflow_task_id:EXh3eedmPtTKeYWpw61UmFiCEr8LsJJ7DEqPkm89zPpF": {
+      "type": "workflow_task_id",
+      "content_hash": "BsJZR6hDr7ehsppwzNY2voom1WbErycx7pAhmaYNpLfa",
+      "hash": "8TzbXAp55mK2Umwkuy5c7GdjEzNi6zCXW89ZhBPyU6AK",
+      "fields": {
+        "id": "b09829219d6e4a3c8896b1960575fe3a"
+      }
+    },
+    "transition_id:BsAPWUzUC5zFLj4DWdJhGG8Ro8raKrcX3ro64zqXjC3R": {
+      "type": "transition_id",
+      "content_hash": "AYWtU9vevGvNvtLX2yUk6gW9KmvWXcNmkSp34FvzN8kf",
+      "hash": "GUxqNrHif8YMPRoEichY1voA9e1q5fjGZA1xuqT4F8Tg",
+      "fields": {
+        "id": "7ec27678-37a4-4171-88e7-53c24e41c7ab"
+      }
+    },
+    "workflow_task_id:8pVNvfeZ2EAp6xzqXt8UqFjo5uZ8xqk97pGHLx87phoA": {
+      "type": "workflow_task_id",
+      "content_hash": "2ZCPZoYFzF3MCFqJ7MdAikw7APMEdaFNZAVBWYh9fuWu",
+      "hash": "7KgtnjUZDxLTYWLNFuQtEn19eF8LTcL8KrKWdc8VWPVb",
+      "fields": {
+        "id": "48a3bb2dfd0b403ea9703a1f15b26ce7"
+      }
+    },
+    "action:3FUeDNweuHcsGLsnRhruXMxDi2LmeBk5K7wnfDALMjWN": {
+      "type": "action",
+      "content_hash": "Aj7g63oBpFTyTLgcv25UHmfMB5WmghbjNdHZYGy7KxYN",
+      "hash": "JAbYYJfYDMeHf1dt791VFAinW1gZoCwsGcGznS61qhTC",
+      "fields": {
+        "ref": "transforms.set_variable"
+      }
+    },
+    "action:F9CMWKn7jxy4KRmHn8MT5hZYFBw88PbCFchk7p11ZewZ": {
+      "type": "action",
+      "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+      "hash": "Arr2RCEM96WqU2EkvigszSfsW9GZHa4HJC5a1fL9qZ5g",
+      "fields": {
+        "ref": "core.noop"
+      }
+    },
+    "transition_id:3rR1TNQtiKvk1xdoEuFFeEqZSqhcojyKfPDKa3crDhoP": {
+      "type": "transition_id",
+      "content_hash": "UeoF9eDKKNCU4iSMP4UuqNKRX3Qpokf92PSQUMNnotX",
+      "hash": "Gkb1PCfRmD1EM991KDzbTnV5fTQaJXt8vLmXiiP7hkds",
+      "fields": {
+        "id": "82b83713-60f1-4d0c-b8ad-cfe075f20e5d"
+      }
+    },
+    "workflow_note_id:FpZA4ANyLinptNtkW9SuAvL26dshqtrTrz5XKVreGt9X": {
+      "type": "workflow_note_id",
+      "content_hash": "3VahGJimTyN24jKnuHvb46NnAM9UNUuJAmBeaHimXzRa",
+      "hash": "2Pft3674jc4jqkM1exarFZTKA5JwcqFZ7Wqo4gYdypJc",
+      "fields": {
+        "id": "0297d7f9-967b-444b-bed1-b5fd78fb326f"
+      }
+    },
+    "workflow_task_id:CirNHYwHWVm3jCu2VAZk9hespeiqu3gdq8LPRhNKwqyG": {
+      "type": "workflow_task_id",
+      "content_hash": "Mw7rRzL3my2hnjxDqY4azh2DE6bwGT3bEM5bt1SN36s",
+      "hash": "Hu2VtohzXcXMPF1CJaWyrWFrC88JxdfBiZ6XuHg8yzoM",
+      "fields": {
+        "id": "7f54fe2390704c2c934545b9bd777770"
+      }
+    },
+    "action:5RU4F97Xnf1bfRoEa6RDWoB93BDD7HQT7YDYABbeRFk": {
+      "type": "action",
+      "content_hash": "7dLxKFR4RPj9fqSCZ9p2KcxznbNGnAV8hBZcWwGKBQEb",
+      "hash": "2tEpjvJfkPMZ4Rb8epo2FpbBVQVnvtFbXEZaXCMX4XRU",
+      "fields": {
+        "ref": "discord.search_guild_members"
+      }
+    },
+    "transition_id:GHW2SUFdkfhmttZ71XDEZn54rrnQwgJEiuScT24WtFpo": {
+      "type": "transition_id",
+      "content_hash": "68hsHweAgq4H7pSvWa2KM3PNpJDMmr2nkA7yhqyokMAz",
+      "hash": "Ae4DbsAs5wEQ88bEfVQFL4Lc6oDhpJok8F99TteqLtEt",
+      "fields": {
+        "id": "aaf688d9-66f3-4b13-86c5-2fe919bb9bda"
+      }
+    },
+    "action:HqYzDqT1WBMKsHtCq91GgzuWp6LkwA4YLvS4vLKwPGJr": {
+      "type": "action",
+      "content_hash": "6XJ5RSmNEUmSeDnAxzbSHzxwZPGHM2xQeZpoPzXoXz1j",
+      "hash": "HkaP7pWYvYsp2xwLaPkAKCA3nEaF2LRr4ZwE6YobzFEr",
+      "fields": {
+        "ref": "discord.get_guild_info"
+      }
+    },
+    "transition_id:7ywAiJDuriWtSJMJBEowzA1vQk5DBLYmJDiM5QE3fSGp": {
+      "type": "transition_id",
+      "content_hash": "DpBs9pq65RqyNWqzUmhLSptXWXPutWoBsirP4rch9YE7",
+      "hash": "H98VWJT3j1nBYJASUKqqxbo69sJWUshoByonUbLSh8gW",
+      "fields": {
+        "id": "3f2e5f2e-fdac-4a54-8625-a44599bc6457"
+      }
+    },
+    "workflow_note_id:Az4fXpqGkEhEViRaT1yb9dMyv2c6r5bkf2LTQS5zYyc6": {
+      "type": "workflow_note_id",
+      "content_hash": "5UwJWzAMYwLasPzXh8Kk1ULDxBPGfWJgHLv2cUFwjps5",
+      "hash": "4wCjV5DtTrpvzWEVu1Kbzb6t1qvE2XhUbEZC3VUsg8K5",
+      "fields": {
+        "id": "901ddd9f-926a-45bc-bb92-9b3c16897f15"
+      }
+    },
+    "transition_id:HcFK97aTrbMBqNMMJjFGYvbkjjFQqapEzXhzCZGtd4Mt": {
+      "type": "transition_id",
+      "content_hash": "2SNXmZik18XX2dqGbwHE3gRhhauR9LecgUQGJj5XcLyA",
+      "hash": "CxbtK1nzxckJLa5TBuWJDcPNdLkY2VdQLaaSmr6H3oSa",
+      "fields": {
+        "id": "0d1c8112-92c2-4a4e-9360-4375265b75eb"
+      }
+    },
+    "workflow_note_id:uFCBj2FoqvSSicEGZWz8VD2umQ8m4XNnSjcomWE8x57": {
+      "type": "workflow_note_id",
+      "content_hash": "7qytNmzfStzgcNGdDNp8DhAHvijutpKYAjxsLLAfWozB",
+      "hash": "8kFVVyKpYkS9SwdRk54mtZ31vkGWwLJCike6HKeLCdyj",
+      "fields": {
+        "id": "ac82e675-6269-41c8-b3e6-88fc54833840"
+      }
+    },
+    "workflow_task_id:DtPSttQz9umsdaFwg48pZBhifmcfEX1VH8PvX97nchG7": {
+      "type": "workflow_task_id",
+      "content_hash": "HpPZAgUB9fXrS2xWBgwtkLz8rkMXQa44anAV6jrwpqi5",
+      "hash": "3U6cBeiTcDMXjSwQeePWPa7AXxhSaqBLMRtq7uXy7XCF",
+      "fields": {
+        "id": "6117e0850c17489fa4db8a11dce4d781"
+      }
+    },
+    "transition_id:4r9pf24V1VEaaL5h8VYKSdkk6orwu6L9XWHAs9DRn4s7": {
+      "type": "transition_id",
+      "content_hash": "4TDxPLveJ3zYJj1RQSysxLZ4LJUvDiUCSwZnYS4Vz9Fn",
+      "hash": "2AzgeByTqNaWX1PKq8b6kzP1UzUwA9zeVyYsquJJdvfy",
+      "fields": {
+        "id": "65d515b8-5936-431c-af92-0c0c91e77824"
+      }
+    },
+    "transition_id:5MQsFv3sopF9ikPuHQi4mpfdqgufwKog9f65dKicCNPZ": {
+      "type": "transition_id",
+      "content_hash": "6n1kEdkpWYb6yhNHYbiY7sxkQCYgrzSxNbHp8wXqNyrc",
+      "hash": "45s3r5fzcvXJWqHNhiiPoiYpEnpGkp7rFTHEK86y3ug5",
+      "fields": {
+        "id": "8ed12a2e-6253-4e6f-831d-245ec3df61de"
+      }
+    },
+    "workflow:GQtG98tXh2RmhAVTajEJJq7zwVBLwCrWiGWAVFxV4bz1": {
+      "type": "workflow",
+      "content_hash": "3KfqZ6vHwW9qyMWTHLDUW7z1z8tgjwoZCiA3R3VJv6Gu",
+      "hash": "BpLjmwmFXqDviYedz9UTxx5QvQ7tGP2ndEiWifSnAJ5W",
+      "fields": {
+        "humanSecondsSaved": 0,
+        "notes": [
+          {
+            "id": "@@@workflow_note_id_ref1@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref2@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref3@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref4@@@"
+          }
+        ],
+        "output": [
+          {
+            "options": "{{ CTX.missing_roles }}"
+          }
+        ],
+        "parameters": {
+          "discord_details": {
+            "type": "string",
+            "default": "",
+            "required": false,
+            "multiline": false
+          },
+          "requested_roles": {
+            "type": "array",
+            "default": "{{ [  ] }}",
+            "required": false,
+            "multiline": false
+          }
+        },
+        "tasks": [
+          {
+            "id": "@@@workflow_task_id_ref1@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "path_params": {
+                "guild_id": "${DISCORD_SERVER_ID}"
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "get_guild_info_by_id",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref5@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref1@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "get_roles",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref2@@@",
+            "action": {
+              "id": "@@@action_ref2@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "path_params": {
+                "guild_id": "${DISCORD_SERVER_ID}"
+              },
+              "query_params": {
+                "limit": null,
+                "query": "{{ CTX.discord_username }}"
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "get_guild_member",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref6@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref2@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "get_user",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref3@@@",
+            "action": {
+              "id": "@@@action_ref3@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "receive_form_options",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref1@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref3@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              },
+              {
+                "do": [
+                  "@@@workflow_task_id_ref2@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref4@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref4@@@",
+            "action": {
+              "id": "@@@action_ref4@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "params": {
+                "text": "{{-\r\n    [\r\n        {\r\n        \"id\": role.id,\r\n        \"name\": role.name,\r\n        \"default\": true\r\n        }\r\n        for role in CTX.filtered_roles\r\n        if role.id not in CTX.users_role_ids\r\n     ]\r\n-}}"
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "send_missing_role_options",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref5@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "missing_roles",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref5@@@",
+            "action": {
+              "id": "@@@action_ref4@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "params": {
+                "text": "{{ role for role in CTX.get_roles.roles if role.id in CTX.requested_roles }}"
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "set_filtered_roles",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref4@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref6@@@",
+                "publish": [
+                  {
+                    "key": "filtrered_role_ids",
+                    "value": "{{ CTX.filtered_roles|map(attribute='id')|list|flatten }}"
+                  }
+                ],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "filtered_roles",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref6@@@",
+            "action": {
+              "id": "@@@action_ref4@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "params": {
+                "text": "{{ CTX.get_user|map(attribute='roles')|list|flatten }}"
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "set_user_role_ids",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref4@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref7@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "users_role_ids",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref7@@@",
+            "action": {
+              "id": "@@@action_ref3@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "validate_input_data",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref3@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref8@@@",
+                "publish": [
+                  {
+                    "key": "discord_username",
+                    "value": "{{ CTX.discord_details.split(\",\") | first }}"
+                  },
+                  {
+                    "key": "discord_id",
+                    "value": "{{ CTX.discord_details.split(\",\") | last }}"
+                  }
+                ],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          }
+        ],
+        "timeout": 28800,
+        "type": "OPTION_GENERATOR",
+        "varsSchema": {}
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "name": "Discord User Missing Roles [OG]",
+        "notes[0].content": "This functional block handles the initial processing and validation of workflow inputs, preparing the data for subsequent Discord API operations.\n\n**Purpose**: Validate and parse incoming form data to extract Discord user information needed for role checking.\n\n**Tasks Included**:\n- **validate_input_data**: Validates the incoming form data and ensures required fields are present\n- **receive_form_options**: Receives and processes the initial form options/parameters\n\n**Key Processing**:\n- Parses the `discord_details` input to extract username and Discord ID\n- Publishes structured data (`discord_username`, `discord_id`) for use by downstream tasks\n- Acts as the entry point that triggers parallel data collection processes\n\n**Outputs to Next Block**:\n- `discord_username`: Parsed Discord username for member search\n- `discord_id`: Discord user ID for identification\n- Triggers both guild info retrieval and user search operations\n\n**Flow Connection**: This block serves as the workflow's foundation, ensuring clean data flows to the Discord Data Collection phase.",
+        "notes[0].metadata": {
+          "x": 296.872884865972,
+          "y": -205,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 386.127115134028,
+          "height": 369.10079102035365,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "b09829219d6e4a3c8896b1960575fe3a",
+            "48a3bb2dfd0b403ea9703a1f15b26ce7"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[0].title": "Input Processing & Validation",
+        "notes[1].content": "This functional block handles the parallel collection of essential Discord data required for role analysis, gathering both server-level and user-specific information.\n\n**Purpose**: Retrieve comprehensive Discord guild and member information to enable accurate role comparison and analysis.\n\n**Tasks Included**:\n- **get_guild_info_by_id**: Fetches complete guild (server) information including available roles\n- **get_guild_member**: Searches for and retrieves specific user information within the guild\n\n**Key Operations**:\n- Parallel execution of guild and user data retrieval for efficiency\n- Guild info provides the complete role structure and permissions\n- Member search identifies the specific user and their current role assignments\n- Both tasks target guild ID \"${DISCORD_SERVER_ID}\"\n\n**Data Retrieved**:\n- Guild roles, permissions, and server configuration\n- User's current role assignments and member status\n- Member profile information for verification\n\n**Outputs to Next Block**:\n- `get_roles.roles`: Complete list of available guild roles\n- `get_user`: User member information including current roles\n- Raw data ready for role filtering and analysis\n\n**Flow Connection**: This block runs in parallel after input validation and feeds processed Discord data into the Role Analysis & Processing phase.",
+        "notes[1].metadata": {
+          "x": 25.28539676879575,
+          "y": 255.24000397487697,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 1027.3928099484874,
+          "height": 122.27706148349347,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "6117e0850c17489fa4db8a11dce4d781",
+            "071b91e2088247d89c80df512a4a9ebd"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[1].title": "Discord Data Collection",
+        "notes[2].content": "This functional block performs the core business logic of analyzing Discord roles, filtering available roles against user requirements, and identifying missing role assignments.\n\n**Purpose**: Process and analyze Discord role data to determine which roles the user is missing from their requested set.\n\n**Tasks Included**:\n- **set_filtered_roles**: Filters guild roles against requested roles to identify relevant ones\n- **set_user_role_ids**: Extracts and processes the user's current role assignments\n\n**Key Processing Logic**:\n- Filters available guild roles based on `CTX.requested_roles` criteria\n- Extracts user's current role IDs from member data using `map(attribute='roles')`\n- Creates a filtered list of roles that match the requested criteria\n- Prepares role ID lists for comparison operations\n\n**Data Transformations**:\n- Converts role objects to ID lists for efficient comparison\n- Filters role collections based on business requirements\n- Structures data for the final missing role calculation\n\n**Outputs to Next Block**:\n- `filtered_role_ids`: List of relevant role IDs from guild roles\n- `users_role_ids`: List of role IDs currently assigned to the user\n- Processed data ready for missing role identification\n\n**Flow Connection**: This block receives raw Discord data from the collection phase and processes it into structured formats for the Output Generation phase to determine missing roles.",
+        "notes[2].metadata": {
+          "x": 36.088074996557225,
+          "y": 424.9813646354784,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 1015.9464011096888,
+          "height": 135.72325760073483,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "7f54fe2390704c2c934545b9bd777770",
+            "94929f6973f346ecb0cc8811cbe64406"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[2].title": "Role Analysis & Processing",
+        "notes[3].content": "This functional block generates the final workflow output by identifying missing roles and formatting them into a structured response suitable for user interfaces or downstream systems.\n\n**Purpose**: Create the final output showing which Discord roles the user is missing from their requested set, formatted as selectable options.\n\n**Tasks Included**:\n- **send_missing_role_options**: Generates a structured list of missing roles with metadata for UI presentation\n\n**Core Logic**:\n- Compares `CTX.filtered_roles` against `CTX.users_role_ids` to identify gaps\n- Creates role objects with ID, name, and default selection status\n- Filters to only include roles the user doesn't currently have\n- Formats output as JSON-compatible option objects\n\n**Output Structure**:\nEach missing role is formatted as:\n```json\n{\n  \"id\": \"role_id\",\n  \"name\": \"Role Name\", \n  \"default\": true\n}\n```\n\n**Key Features**:\n- Only includes roles the user is missing (not currently assigned)\n- Provides both role ID and human-readable name\n- Sets `default: true` for UI pre-selection\n- Ready for form rendering or API responses\n\n**Workflow Completion**: This block represents the final step, delivering actionable results that can be used to:\n- Display missing roles to users\n- Pre-populate role assignment forms\n- Trigger automated role assignment processes\n- Generate reports on role gaps\n\n**Flow Connection**: This is the terminal block that consumes processed data from Role Analysis & Processing and produces the workflow's final deliverable.",
+        "notes[3].metadata": {
+          "x": 305.48058301866126,
+          "y": 708.2361852160024,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367,
+          "height": 118,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "482a57624972454093bd8f24b790b26a"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[3].title": "Output Generation & Results",
+        "parameters.discord_details.description": "",
+        "parameters.discord_details.label": "",
+        "parameters.requested_roles.description": "",
+        "parameters.requested_roles.label": "",
+        "tasks[0].description": "Get a guild's information",
+        "tasks[0].metadata": {
+          "x": 40.28539676879575,
+          "y": 274.51706545837044
+        },
+        "tasks[0].next[0].label": "",
+        "tasks[1].description": "Search for guild (serverr) members by a query",
+        "tasks[1].metadata": {
+          "x": 700.6782067172833,
+          "y": 270.24000397487697
+        },
+        "tasks[1].next[0].label": "",
+        "tasks[2].description": "Action that does nothing",
+        "tasks[2].metadata": {
+          "x": 311.872884865972,
+          "y": 61.10079102035363
+        },
+        "tasks[2].next[0].label": "Get Guild Info",
+        "tasks[2].next[1].label": "Get User Info",
+        "tasks[3].description": "Set a variable as an action",
+        "tasks[3].metadata": {
+          "x": 320.48058301866126,
+          "y": 723.2361852160024
+        },
+        "tasks[3].next[0].label": "",
+        "tasks[4].description": "Set a variable as an action",
+        "tasks[4].metadata": {
+          "x": 51.088074996557225,
+          "y": 457.7046222362132
+        },
+        "tasks[4].next[0].label": "",
+        "tasks[5].description": "Set a variable as an action",
+        "tasks[5].metadata": {
+          "x": 700.0344761062462,
+          "y": 439.9813646354784
+        },
+        "tasks[5].next[0].label": "",
+        "tasks[6].description": "Action that does nothing",
+        "tasks[6].metadata": {
+          "x": 331,
+          "y": -190
+        },
+        "tasks[6].next[0].label": ""
+      },
+      "references": {
+        "transition_id_ref6": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "4r9pf24V1VEaaL5h8VYKSdkk6orwu6L9XWHAs9DRn4s7",
+          "content_hash": "4TDxPLveJ3zYJj1RQSysxLZ4LJUvDiUCSwZnYS4Vz9Fn",
+          "locations": [
+            "tasks[4].next[0].id"
+          ]
+        },
+        "action_ref2": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "5RU4F97Xnf1bfRoEa6RDWoB93BDD7HQT7YDYABbeRFk",
+          "content_hash": "7dLxKFR4RPj9fqSCZ9p2KcxznbNGnAV8hBZcWwGKBQEb",
+          "locations": [
+            "tasks[1].action.id"
+          ]
+        },
+        "action_ref3": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "F9CMWKn7jxy4KRmHn8MT5hZYFBw88PbCFchk7p11ZewZ",
+          "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+          "locations": [
+            "tasks[2].action.id",
+            "tasks[6].action.id"
+          ]
+        },
+        "transition_id_ref8": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "5MQsFv3sopF9ikPuHQi4mpfdqgufwKog9f65dKicCNPZ",
+          "content_hash": "6n1kEdkpWYb6yhNHYbiY7sxkQCYgrzSxNbHp8wXqNyrc",
+          "locations": [
+            "tasks[6].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref6": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "7CfgubCPY1Mv4bw56eWobTuaEdb36jNBDgtDVfczamTD",
+          "content_hash": "CzAaCubKZX1zMfZk83LRn3JfMsiuL5HEfhdCKBYpy6ZF",
+          "locations": [
+            "tasks[5].id",
+            "tasks[1].next[0].do[0]"
+          ]
+        },
+        "workflow_note_id_ref2": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "Bv9pTjGuFmWRCqpqd3tmHpw6C5CXxMxzPt32CcxuLpqf",
+          "content_hash": "89oUAujcRs7cCfeNA6uyx9aUz3BBnJm8fqXGx3vUQ1k7",
+          "locations": [
+            "notes[1].id"
+          ]
+        },
+        "workflow_note_id_ref4": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "FpZA4ANyLinptNtkW9SuAvL26dshqtrTrz5XKVreGt9X",
+          "content_hash": "3VahGJimTyN24jKnuHvb46NnAM9UNUuJAmBeaHimXzRa",
+          "locations": [
+            "notes[3].id"
+          ]
+        },
+        "workflow_task_id_ref1": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "DtPSttQz9umsdaFwg48pZBhifmcfEX1VH8PvX97nchG7",
+          "content_hash": "HpPZAgUB9fXrS2xWBgwtkLz8rkMXQa44anAV6jrwpqi5",
+          "locations": [
+            "tasks[0].id",
+            "tasks[2].next[0].do[0]"
+          ]
+        },
+        "workflow_task_id_ref4": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "86Gz2eKrZSrKqPAuwWJ71yPwWyRjH6yfGS1ZBi5nr4ar",
+          "content_hash": "EKQTtNtgmV1pwhbRfs9iB8QaupwivLQQ27YkxY7oAgc5",
+          "locations": [
+            "tasks[3].id",
+            "tasks[4].next[0].do[0]",
+            "tasks[5].next[0].do[0]"
+          ]
+        },
+        "transition_id_ref4": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "7ywAiJDuriWtSJMJBEowzA1vQk5DBLYmJDiM5QE3fSGp",
+          "content_hash": "DpBs9pq65RqyNWqzUmhLSptXWXPutWoBsirP4rch9YE7",
+          "locations": [
+            "tasks[2].next[1].id"
+          ]
+        },
+        "workflow_note_id_ref1": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "Az4fXpqGkEhEViRaT1yb9dMyv2c6r5bkf2LTQS5zYyc6",
+          "content_hash": "5UwJWzAMYwLasPzXh8Kk1ULDxBPGfWJgHLv2cUFwjps5",
+          "locations": [
+            "notes[0].id"
+          ]
+        },
+        "workflow_note_id_ref3": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "uFCBj2FoqvSSicEGZWz8VD2umQ8m4XNnSjcomWE8x57",
+          "content_hash": "7qytNmzfStzgcNGdDNp8DhAHvijutpKYAjxsLLAfWozB",
+          "locations": [
+            "notes[2].id"
+          ]
+        },
+        "transition_id_ref7": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "HcFK97aTrbMBqNMMJjFGYvbkjjFQqapEzXhzCZGtd4Mt",
+          "content_hash": "2SNXmZik18XX2dqGbwHE3gRhhauR9LecgUQGJj5XcLyA",
+          "locations": [
+            "tasks[5].next[0].id"
+          ]
+        },
+        "transition_id_ref5": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "BsAPWUzUC5zFLj4DWdJhGG8Ro8raKrcX3ro64zqXjC3R",
+          "content_hash": "AYWtU9vevGvNvtLX2yUk6gW9KmvWXcNmkSp34FvzN8kf",
+          "locations": [
+            "tasks[3].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref3": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "8pVNvfeZ2EAp6xzqXt8UqFjo5uZ8xqk97pGHLx87phoA",
+          "content_hash": "2ZCPZoYFzF3MCFqJ7MdAikw7APMEdaFNZAVBWYh9fuWu",
+          "locations": [
+            "tasks[2].id",
+            "tasks[6].next[0].do[0]"
+          ]
+        },
+        "workflow_task_id_ref7": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "EXh3eedmPtTKeYWpw61UmFiCEr8LsJJ7DEqPkm89zPpF",
+          "content_hash": "BsJZR6hDr7ehsppwzNY2voom1WbErycx7pAhmaYNpLfa",
+          "locations": [
+            "tasks[6].id"
+          ]
+        },
+        "transition_id_ref2": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "GHW2SUFdkfhmttZ71XDEZn54rrnQwgJEiuScT24WtFpo",
+          "content_hash": "68hsHweAgq4H7pSvWa2KM3PNpJDMmr2nkA7yhqyokMAz",
+          "locations": [
+            "tasks[1].next[0].id"
+          ]
+        },
+        "action_ref4": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "3FUeDNweuHcsGLsnRhruXMxDi2LmeBk5K7wnfDALMjWN",
+          "content_hash": "Aj7g63oBpFTyTLgcv25UHmfMB5WmghbjNdHZYGy7KxYN",
+          "locations": [
+            "tasks[3].action.id",
+            "tasks[4].action.id",
+            "tasks[5].action.id"
+          ]
+        },
+        "transition_id_ref3": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "3rR1TNQtiKvk1xdoEuFFeEqZSqhcojyKfPDKa3crDhoP",
+          "content_hash": "UeoF9eDKKNCU4iSMP4UuqNKRX3Qpokf92PSQUMNnotX",
+          "locations": [
+            "tasks[2].next[0].id"
+          ]
+        },
+        "action_ref1": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "HqYzDqT1WBMKsHtCq91GgzuWp6LkwA4YLvS4vLKwPGJr",
+          "content_hash": "6XJ5RSmNEUmSeDnAxzbSHzxwZPGHM2xQeZpoPzXoXz1j",
+          "locations": [
+            "tasks[0].action.id"
+          ]
+        },
+        "workflow_task_id_ref5": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "CirNHYwHWVm3jCu2VAZk9hespeiqu3gdq8LPRhNKwqyG",
+          "content_hash": "Mw7rRzL3my2hnjxDqY4azh2DE6bwGT3bEM5bt1SN36s",
+          "locations": [
+            "tasks[4].id",
+            "tasks[0].next[0].do[0]"
+          ]
+        },
+        "workflow_task_id_ref2": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "FSi8Wf6LzkjunB2Kn38djG8Bu3HPgLD4rUD6iFmtmYme",
+          "content_hash": "D6ma3aEFYLaMhRq1spCMB67BwNhwNJfLN3zat3PWq7vJ",
+          "locations": [
+            "tasks[1].id",
+            "tasks[2].next[1].do[0]"
+          ]
+        },
+        "transition_id_ref1": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "BUeoKXJojVjLPbFqz8xTNKQC1uo5PAsgARtZaWeLhzvo",
+          "content_hash": "9FeN9iJoFtZtdi3vJWPcXJtpJ72HunxrjZdT3nor1Y85",
+          "locations": [
+            "tasks[0].next[0].id"
+          ]
+        }
+      },
+      "dependencies": [
+        "workflow_note_id:Bv9pTjGuFmWRCqpqd3tmHpw6C5CXxMxzPt32CcxuLpqf",
+        "workflow_task_id:7CfgubCPY1Mv4bw56eWobTuaEdb36jNBDgtDVfczamTD",
+        "workflow_task_id:FSi8Wf6LzkjunB2Kn38djG8Bu3HPgLD4rUD6iFmtmYme",
+        "workflow_task_id:86Gz2eKrZSrKqPAuwWJ71yPwWyRjH6yfGS1ZBi5nr4ar",
+        "transition_id:BUeoKXJojVjLPbFqz8xTNKQC1uo5PAsgARtZaWeLhzvo",
+        "workflow_task_id:EXh3eedmPtTKeYWpw61UmFiCEr8LsJJ7DEqPkm89zPpF",
+        "transition_id:BsAPWUzUC5zFLj4DWdJhGG8Ro8raKrcX3ro64zqXjC3R",
+        "workflow_task_id:8pVNvfeZ2EAp6xzqXt8UqFjo5uZ8xqk97pGHLx87phoA",
+        "action:3FUeDNweuHcsGLsnRhruXMxDi2LmeBk5K7wnfDALMjWN",
+        "action:F9CMWKn7jxy4KRmHn8MT5hZYFBw88PbCFchk7p11ZewZ",
+        "transition_id:3rR1TNQtiKvk1xdoEuFFeEqZSqhcojyKfPDKa3crDhoP",
+        "workflow_note_id:FpZA4ANyLinptNtkW9SuAvL26dshqtrTrz5XKVreGt9X",
+        "workflow_task_id:CirNHYwHWVm3jCu2VAZk9hespeiqu3gdq8LPRhNKwqyG",
+        "action:5RU4F97Xnf1bfRoEa6RDWoB93BDD7HQT7YDYABbeRFk",
+        "transition_id:GHW2SUFdkfhmttZ71XDEZn54rrnQwgJEiuScT24WtFpo",
+        "action:HqYzDqT1WBMKsHtCq91GgzuWp6LkwA4YLvS4vLKwPGJr",
+        "transition_id:7ywAiJDuriWtSJMJBEowzA1vQk5DBLYmJDiM5QE3fSGp",
+        "workflow_note_id:Az4fXpqGkEhEViRaT1yb9dMyv2c6r5bkf2LTQS5zYyc6",
+        "transition_id:HcFK97aTrbMBqNMMJjFGYvbkjjFQqapEzXhzCZGtd4Mt",
+        "workflow_note_id:uFCBj2FoqvSSicEGZWz8VD2umQ8m4XNnSjcomWE8x57",
+        "workflow_task_id:DtPSttQz9umsdaFwg48pZBhifmcfEX1VH8PvX97nchG7",
+        "transition_id:4r9pf24V1VEaaL5h8VYKSdkk6orwu6L9XWHAs9DRn4s7",
+        "transition_id:5MQsFv3sopF9ikPuHQi4mpfdqgufwKog9f65dKicCNPZ"
+      ]
+    }
+  },
+  "__typename": "ExportBundle"
+}

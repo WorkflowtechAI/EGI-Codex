@@ -1,0 +1,621 @@
+{
+	"publisher": "JBramley",
+	"name": "rewst-buddy",
+	"displayName": "rewst-buddy",
+	"description": "Unofficial community VS Code extension for editing Rewst templates locally. Not affiliated with Rewst LLC.",
+	"version": "0.39.3",
+	"icon": "media/rewst-buddy.png",
+	"engines": {
+		"vscode": "^1.107.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:totallynotjon/rewst-buddy.git"
+	},
+	"bugs": {
+		"url": "https://github.com/totallynotjon/rewst-buddy/issues"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/totallynotjon/rewst-buddy/blob/main/README.md",
+	"keywords": [
+		"rewst",
+		"Rewst",
+		"buddy"
+	],
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"main": "./dist/extension.js",
+	"contributes": {
+		"configuration": {
+			"title": "Settings Editor Rewst-Buddy",
+			"type": "object",
+			"properties": {
+				"rewst-buddy.regions": {
+					"type": "array",
+					"default": [
+						{
+							"name": "North America",
+							"cookieName": "appSession",
+							"graphqlUrl": "https://api.rewst.io/graphql",
+							"loginUrl": "https://app.rewst.io"
+						}
+					],
+					"description": "Regional configuration for different Rewst instances",
+					"items": {
+						"type": "object",
+						"properties": {
+							"name": {
+								"type": "string",
+								"description": "Display name for the region"
+							},
+							"cookieName": {
+								"type": "string",
+								"description": "Session cookie name for authentication"
+							},
+							"graphqlUrl": {
+								"type": "string",
+								"description": "GraphQL API endpoint URL"
+							},
+							"loginUrl": {
+								"type": "string",
+								"description": "Login page URL for the region"
+							}
+						},
+						"required": [
+							"name",
+							"cookieName",
+							"graphqlUrl",
+							"loginUrl"
+						]
+					}
+				},
+				"rewst-buddy.syncOnSaveByDefault": {
+					"type": "boolean",
+					"default": false,
+					"description": "When enabled, all linked files sync on save by default (use Disable Sync-On-Save to exclude specific files). When disabled, files only sync when explicitly enabled."
+				},
+				"rewst-buddy.autoFetchOnOpen": {
+					"type": "boolean",
+					"default": true,
+					"description": "When enabled, automatically fetch remote template updates when opening linked files. This only applies changes if the local file hasn't been modified since the last sync."
+				},
+				"rewst-buddy.server.enabled": {
+					"type": "boolean",
+					"default": true,
+					"description": "Enable the local HTTP server to receive session tokens from browser extensions"
+				},
+				"rewst-buddy.server.port": {
+					"type": "number",
+					"default": 27121,
+					"minimum": 1024,
+					"maximum": 65535,
+					"description": "Port number for the local HTTP server (default: 27121)"
+				},
+				"rewst-buddy.server.host": {
+					"type": "string",
+					"default": "127.0.0.1",
+					"description": "Host address to bind the server (default: 127.0.0.1 for localhost-only access)"
+				}
+			}
+		},
+		"commands": [
+			{
+				"command": "rewst-buddy.OpenToTheSide",
+				"title": "Open to the Side",
+				"icon": "$(split-horizontal)"
+			},
+			{
+				"command": "rewst-buddy.RevealInExplorer",
+				"title": "Reveal in Explorer Side Bar"
+			},
+			{
+				"command": "rewst-buddy.RevealInOS",
+				"title": "Reveal in File Manager"
+			},
+			{
+				"command": "rewst-buddy.OpenInIntegratedTerminal",
+				"title": "Open in Integrated Terminal"
+			},
+			{
+				"command": "rewst-buddy.CopyPath",
+				"title": "Copy Path"
+			},
+			{
+				"command": "rewst-buddy.CopyRelativePath",
+				"title": "Copy Relative Path"
+			},
+			{
+				"command": "rewst-buddy.prefix.NewSession",
+				"title": "Rewst Buddy: New Rewst Session",
+				"icon": "$(plus)"
+			},
+			{
+				"command": "rewst-buddy.prefix.CreateTemplate",
+				"title": "Rewst Buddy: Create Template",
+				"icon": "$(file-add)"
+			},
+			{
+				"command": "rewst-buddy.prefix.SyncTemplate",
+				"title": "Rewst Buddy: Sync Template",
+				"icon": "$(sync)"
+			},
+			{
+				"command": "rewst-buddy.SyncTemplate",
+				"title": "Sync Template",
+				"icon": "$(sync)"
+			},
+			{
+				"command": "rewst-buddy.prefix.CopyTemplateID",
+				"title": "Rewst Buddy: Copy Template ID",
+				"icon": "$(copy)"
+			},
+			{
+				"command": "rewst-buddy.CopyTemplateID",
+				"title": "Copy Template ID",
+				"icon": "$(copy)"
+			},
+			{
+				"command": "rewst-buddy.prefix.OpenInRewst",
+				"title": "Rewst Buddy: Open in Rewst",
+				"icon": "$(link-external)"
+			},
+			{
+				"command": "rewst-buddy.OpenInRewst",
+				"title": "Open in Rewst",
+				"icon": "$(link-external)"
+			},
+			{
+				"command": "rewst-buddy.prefix.LinkTemplateFromURL",
+				"title": "Rewst Buddy: Link File to Template from URL",
+				"icon": "$(link-external)"
+			},
+			{
+				"command": "rewst-buddy.prefix.LinkTemplateInteractive",
+				"title": "Rewst Buddy: Link File to Template",
+				"icon": "$(link-external)"
+			},
+			{
+				"command": "rewst-buddy.LinkTemplateInteractive",
+				"title": "Link File to Template",
+				"icon": "$(link-external)"
+			},
+			{
+				"command": "rewst-buddy.LinkFolder",
+				"title": "Link Folder to Organization"
+			},
+			{
+				"command": "rewst-buddy.FetchFolder",
+				"title": "Fetch Folder"
+			},
+			{
+				"command": "rewst-buddy.UnlinkFolder",
+				"title": "Unlink Folder from Organization"
+			},
+			{
+				"command": "rewst-buddy.prefix.ClearSessions",
+				"title": "Rewst Buddy: Clear Sessions"
+			},
+			{
+				"command": "rewst-buddy.prefix.OpenTemplateFromURL",
+				"title": "Rewst Buddy: Open Template from URL"
+			},
+			{
+				"command": "rewst-buddy.prefix.OpenTemplateInteractive",
+				"title": "Rewst Buddy: Open Template"
+			},
+			{
+				"command": "rewst-buddy.prefix.UnlinkAllTemplates",
+				"title": "Rewst Buddy: Unlink All Templates"
+			},
+			{
+				"command": "rewst-buddy.prefix.UnlinkTemplate",
+				"title": "Rewst Buddy: Unlink from Template"
+			},
+			{
+				"command": "rewst-buddy.UnlinkTemplate",
+				"title": "Unlink from Template"
+			},
+			{
+				"command": "rewst-buddy.prefix.StartServer",
+				"title": "Rewst Buddy: Start Server"
+			},
+			{
+				"command": "rewst-buddy.prefix.DeleteTemplate",
+				"title": "Rewst Buddy: Delete Template",
+				"icon": "$(trash)"
+			},
+			{
+				"command": "rewst-buddy.DeleteTemplate",
+				"title": "Delete Template",
+				"icon": "$(trash)"
+			},
+			{
+				"command": "rewst-buddy.CreateTemplate",
+				"title": "Create Template",
+				"icon": "$(file-add)"
+			},
+			{
+				"command": "rewst-buddy.prefix.EnableSyncOnSave",
+				"title": "Rewst Buddy: Enable Sync-On-Save",
+				"icon": "$(sync)"
+			},
+			{
+				"command": "rewst-buddy.prefix.DisableSyncOnSave",
+				"title": "Rewst Buddy: Disable Sync-On-Save",
+				"icon": "$(sync-ignored)"
+			},
+			{
+				"command": "rewst-buddy.prefix.BundleTemplates",
+				"title": "Rewst Buddy: Bundle Templates",
+				"icon": "$(package)"
+			},
+			{
+				"command": "rewst-buddy.BundleTemplates",
+				"title": "Bundle Templates",
+				"icon": "$(package)"
+			}
+		],
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "rewst-buddy-sidebar",
+					"title": "Rewst Buddy",
+					"icon": "media/rewst-icon.svg"
+				}
+			]
+		},
+		"views": {
+			"rewst-buddy-sidebar": [
+				{
+					"type": "webview",
+					"id": "rewst-buddy.sessionInput",
+					"name": "Session",
+					"icon": ""
+				},
+				{
+					"id": "rewst-buddy.sessionTree",
+					"name": "Sessions",
+					"icon": ""
+				}
+			],
+			"explorer": [
+				{
+					"id": "rewst-buddy.bundleTree",
+					"name": "Template Bundles"
+				}
+			]
+		},
+		"viewsWelcome": [
+			{
+				"view": "rewst-buddy.bundleTree",
+				"contents": "No template bundles found.\n[Bundle Templates](command:rewst-buddy.prefix.BundleTemplates)"
+			}
+		],
+		"submenus": [],
+		"menus": {
+			"explorer/context": [
+				{
+					"command": "rewst-buddy.LinkFolder",
+					"when": "rewst-buddy.anyActiveSessions && explorerResourceIsFolder && resourcePath not in rewst-buddy.linkedFolders"
+				},
+				{
+					"command": "rewst-buddy.UnlinkFolder",
+					"when": "explorerResourceIsFolder && resourcePath in rewst-buddy.linkedFolders"
+				},
+				{
+					"command": "rewst-buddy.FetchFolder",
+					"when": "rewst-buddy.anyActiveSessions && explorerResourceIsFolder && resourcePath in rewst-buddy.linkedFolders"
+				},
+				{
+					"command": "rewst-buddy.CopyTemplateID",
+					"when": "!explorerResourceIsFolder && resourcePath in rewst-buddy.linkedTemplates"
+				},
+				{
+					"command": "rewst-buddy.OpenInRewst",
+					"when": "!explorerResourceIsFolder && resourcePath in rewst-buddy.linkedTemplates"
+				}
+			],
+			"commandPalette": [
+				{
+					"command": "rewst-buddy.OpenToTheSide",
+					"when": "false"
+				},
+				{
+					"command": "rewst-buddy.RevealInExplorer",
+					"when": "false"
+				},
+				{
+					"command": "rewst-buddy.RevealInOS",
+					"when": "false"
+				},
+				{
+					"command": "rewst-buddy.OpenInIntegratedTerminal",
+					"when": "false"
+				},
+				{
+					"command": "rewst-buddy.CopyPath",
+					"when": "false"
+				},
+				{
+					"command": "rewst-buddy.CopyRelativePath",
+					"when": "false"
+				},
+				{
+					"command": "rewst-buddy.LinkFolder",
+					"when": "false"
+				},
+				{
+					"command": "rewst-buddy.prefix.LinkTemplateFromURL",
+					"when": "rewst-buddy.anyActiveSessions"
+				},
+				{
+					"command": "rewst-buddy.prefix.ClearSessions",
+					"when": "rewst-buddy.anyActiveSessions"
+				},
+				{
+					"command": "rewst-buddy.prefix.OpenTemplateFromURL",
+					"when": "rewst-buddy.anyActiveSessions"
+				},
+				{
+					"command": "rewst-buddy.prefix.OpenTemplateInteractive",
+					"when": "rewst-buddy.anyActiveSessions"
+				},
+				{
+					"command": "rewst-buddy.FetchFolder",
+					"when": "false"
+				},
+				{
+					"command": "rewst-buddy.UnlinkFolder",
+					"when": "false"
+				},
+				{
+					"command": "rewst-buddy.prefix.CopyTemplateID",
+					"when": "resourcePath in rewst-buddy.linkedTemplates"
+				},
+				{
+					"command": "rewst-buddy.CopyTemplateID",
+					"when": "false"
+				},
+				{
+					"command": "rewst-buddy.prefix.OpenInRewst",
+					"when": "resourcePath in rewst-buddy.linkedTemplates"
+				},
+				{
+					"command": "rewst-buddy.OpenInRewst",
+					"when": "false"
+				},
+				{
+					"command": "rewst-buddy.SyncTemplate",
+					"when": "false"
+				},
+				{
+					"command": "rewst-buddy.CreateTemplate",
+					"when": "false"
+				},
+				{
+					"command": "rewst-buddy.UnlinkTemplate",
+					"when": "false"
+				},
+				{
+					"command": "rewst-buddy.DeleteTemplate",
+					"when": "false"
+				},
+				{
+					"command": "rewst-buddy.prefix.SyncTemplate",
+					"when": "rewst-buddy.anyActiveSessions && resourcePath in rewst-buddy.linkedTemplates"
+				},
+				{
+					"command": "rewst-buddy.prefix.UnlinkTemplate",
+					"when": "resourcePath in rewst-buddy.linkedTemplates"
+				},
+				{
+					"command": "rewst-buddy.prefix.DeleteTemplate",
+					"when": "rewst-buddy.anyActiveSessions && resourcePath in rewst-buddy.linkedTemplates"
+				},
+				{
+					"command": "rewst-buddy.prefix.EnableSyncOnSave",
+					"when": "false"
+				},
+				{
+					"command": "rewst-buddy.prefix.DisableSyncOnSave",
+					"when": "false"
+				},
+				{
+					"command": "rewst-buddy.prefix.CreateTemplate",
+					"when": "rewst-buddy.anyActiveSessions"
+				},
+				{
+					"command": "rewst-buddy.prefix.LinkTemplateInteractive",
+					"when": "rewst-buddy.anyActiveSessions"
+				},
+				{
+					"command": "rewst-buddy.prefix.BundleTemplates",
+					"when": "rewst-buddy.anyActiveSessions"
+				},
+				{
+					"command": "rewst-buddy.BundleTemplates",
+					"when": "false"
+				}
+			],
+			"view/title": [
+				{
+					"command": "rewst-buddy.BundleTemplates",
+					"when": "view == rewst-buddy.bundleTree",
+					"group": "navigation"
+				}
+			],
+			"view/item/context": [
+				{
+					"command": "rewst-buddy.OpenToTheSide",
+					"when": "viewItem == bundleTemplate",
+					"group": "navigation@1"
+				},
+				{
+					"command": "rewst-buddy.RevealInOS",
+					"when": "viewItem == bundleTemplate",
+					"group": "navigation@3"
+				},
+				{
+					"command": "rewst-buddy.OpenInIntegratedTerminal",
+					"when": "viewItem == bundleTemplate",
+					"group": "navigation@4"
+				},
+				{
+					"command": "rewst-buddy.CopyPath",
+					"when": "viewItem == bundleTemplate",
+					"group": "5_copypath@1"
+				},
+				{
+					"command": "rewst-buddy.CopyRelativePath",
+					"when": "viewItem == bundleTemplate",
+					"group": "5_copypath@2"
+				},
+				{
+					"command": "rewst-buddy.RevealInExplorer",
+					"when": "viewItem == bundleTemplate",
+					"group": "5_copypath@3"
+				},
+				{
+					"command": "rewst-buddy.CopyTemplateID",
+					"when": "viewItem == bundleTemplate",
+					"group": "z_rewst@1"
+				},
+				{
+					"command": "rewst-buddy.OpenInRewst",
+					"when": "viewItem == bundleTemplate",
+					"group": "z_rewst@2"
+				},
+				{
+					"command": "rewst-buddy.SyncTemplate",
+					"when": "viewItem == bundleTemplate && rewst-buddy.anyActiveSessions",
+					"group": "z_rewst@3"
+				},
+				{
+					"command": "rewst-buddy.UnlinkTemplate",
+					"when": "viewItem == bundleTemplate",
+					"group": "z_rewst@4"
+				},
+				{
+					"command": "rewst-buddy.DeleteTemplate",
+					"when": "viewItem == bundleTemplate && rewst-buddy.anyActiveSessions",
+					"group": "z_rewst@5"
+				}
+			],
+			"editor/context": [
+				{
+					"command": "rewst-buddy.CopyTemplateID",
+					"group": "z_rewst",
+					"when": "resourcePath in rewst-buddy.linkedTemplates"
+				},
+				{
+					"command": "rewst-buddy.OpenInRewst",
+					"group": "z_rewst",
+					"when": "resourcePath in rewst-buddy.linkedTemplates"
+				},
+				{
+					"command": "rewst-buddy.SyncTemplate",
+					"group": "z_rewst",
+					"when": "rewst-buddy.anyActiveSessions && resourcePath in rewst-buddy.linkedTemplates"
+				},
+				{
+					"command": "rewst-buddy.LinkTemplateInteractive",
+					"group": "z_rewst",
+					"when": "rewst-buddy.anyActiveSessions && resourcePath not in rewst-buddy.linkedTemplates"
+				},
+				{
+					"command": "rewst-buddy.CreateTemplate",
+					"group": "z_rewst",
+					"when": "rewst-buddy.anyActiveSessions && resourcePath not in rewst-buddy.linkedTemplates"
+				},
+				{
+					"command": "rewst-buddy.UnlinkTemplate",
+					"group": "z_rewst",
+					"when": "resourcePath in rewst-buddy.linkedTemplates"
+				},
+				{
+					"command": "rewst-buddy.DeleteTemplate",
+					"group": "z_rewst",
+					"when": "rewst-buddy.anyActiveSessions && resourcePath in rewst-buddy.linkedTemplates"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"prepare": "husky",
+		"format:pretty": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json,md}\"",
+		"format:eslint": "eslint --fix src",
+		"format": "npm-run-all -p format:*",
+		"lint": "eslint src",
+		"type-check": "tsc --noEmit",
+		"codegen": "graphql-codegen --config src/codegen.ts",
+		"codegen:check": "npm run codegen && git diff --exit-code src/sessions/graphql/sdk.ts || (echo 'SDK is out of sync! Run: npm run codegen' && exit 1)",
+		"lint:staged": "lint-staged",
+		"pre-commit": "bash .husky/pre-commit",
+		"check-types": "tsc --noEmit --watch",
+		"test": "npm run compile:test && vscode-test",
+		"test:unit": "npm run compile:test && vscode-test -- --grep 'Unit:'",
+		"test:integration": "npm run compile:test && vscode-test -- --grep 'Integration:'",
+		"compile:test": "webpack --mode development",
+		"build": "npm run package",
+		"dev": "npm run watch",
+		"watch": "npm-run-all -p watch:*",
+		"watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
+		"watch:webpack": "webpack --mode development --watch",
+		"compile": "webpack --mode development",
+		"vscode:prepublish": "npm run package",
+		"package": "webpack --mode production --devtool hidden-source-map"
+	},
+	"devDependencies": {
+		"@0no-co/graphqlsp": "^1.15.2",
+		"@eslint/js": "^9.39.2",
+		"@graphql-codegen/cli": "^6.1.0",
+		"@graphql-codegen/client-preset": "^5.2.1",
+		"@graphql-codegen/schema-ast": "^5.0.0",
+		"@graphql-codegen/typescript": "^5.0.6",
+		"@graphql-codegen/typescript-graphql-request": "^6.3.0",
+		"@graphql-codegen/typescript-operations": "^5.0.6",
+		"@parcel/watcher": "^2.5.1",
+		"@stylistic/eslint-plugin": "^5.6.1",
+		"@types/glob": "^8.1.0",
+		"@types/mocha": "^10.0.10",
+		"@types/node": "^25.0.3",
+		"@types/vscode": "^1.107.0",
+		"@typescript-eslint/eslint-plugin": "^8.50.0",
+		"@typescript-eslint/parser": "^8.50.0",
+		"@vscode/test-cli": "^0.0.12",
+		"@vscode/test-electron": "^2.5.2",
+		"eslint": "^9.39.2",
+		"eslint-config-prettier": "^10.1.8",
+		"eslint-import-resolver-typescript": "^4.4.4",
+		"eslint-plugin-import": "^2.32.0",
+		"glob": "^13.0.0",
+		"globals": "^16.5.0",
+		"graphql": "^16.12.0",
+		"graphql-request": "^7.4.0",
+		"husky": "^9.1.7",
+		"lint-staged": "^15.5.2",
+		"npm-run-all": "^4.1.5",
+		"prettier": "^3.7.4",
+		"ts-loader": "^9.5.4",
+		"typescript": "^5.9.3",
+		"typescript-eslint": "^8.50.0",
+		"url-pattern": "^1.0.3",
+		"uuid": "^13.0.0",
+		"webpack": "^5.104.0",
+		"webpack-cli": "^6.0.1"
+	},
+	"lint-staged": {
+		"src/sessions/graphql/sdk.ts": [],
+		"*.{ts,js,mjs,cjs}": [
+			"eslint --fix",
+			"prettier --write"
+		],
+		"*.{json,md}": [
+			"prettier --write"
+		]
+	}
+}

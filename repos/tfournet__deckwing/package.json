@@ -1,0 +1,138 @@
+{
+  "name": "deckwing",
+  "version": "0.9.5",
+  "description": "AI-powered presentation builder for Rewst",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "deckwing": "./bin/deckwing.js"
+  },
+  "files": [
+    "bin/",
+    "electron/",
+    "dist/",
+    "server/",
+    "shared/",
+    "src/",
+    "index.html",
+    "vite.config.js",
+    "tailwind.config.js",
+    "postcss.config.js",
+    "package.json"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "dev:full": "concurrently \"npm run server\" \"npm run dev\"",
+    "server": "node server/index.js",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "start": "node bin/deckwing.js",
+    "prepublishOnly": "npm test && npm run build",
+    "electron": "electron .",
+    "electron:dev": "npm run build && electron .",
+    "electron:build": "electron-builder",
+    "electron:build:win": "electron-builder --win",
+    "electron:build:mac": "electron-builder --mac",
+    "electron:build:linux": "electron-builder --linux"
+  },
+  "keywords": [
+    "presentation",
+    "slides",
+    "ai",
+    "claude",
+    "rewst",
+    "msp"
+  ],
+  "author": "Rewst",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.2.87",
+    "@anthropic-ai/sdk": "^0.80.0",
+    "chart.js": "^4.5.1",
+    "clsx": "^2.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "electron-updater": "^6.8.3",
+    "express": "^4.22.1",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^4.2.1",
+    "lucide-react": "^0.577.0",
+    "pptxgenjs": "^4.0.1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^1.14.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.58.2",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^5.1.2",
+    "autoprefixer": "^10.4.14",
+    "concurrently": "^9.2.1",
+    "electron": "^41.1.0",
+    "electron-builder": "^26.8.1",
+    "eslint": "^10.1.0",
+    "jsdom": "^29.0.1",
+    "postcss": "^8.4.27",
+    "tailwindcss": "~3.4.17",
+    "vite": "^7.3.1",
+    "vitest": "^4.1.2"
+  },
+  "main": "electron/main.js",
+  "build": {
+    "appId": "io.rewst.deckwing",
+    "productName": "DeckWing",
+    "directories": {
+      "output": "electron-dist"
+    },
+    "files": [
+      "electron/**/*",
+      "dist/**/*",
+      "server/**/*",
+      "shared/**/*",
+      "src/config/design/**/*",
+      "package.json"
+    ],
+    "extraResources": [],
+    "publish": {
+      "provider": "github",
+      "owner": "rewstapp",
+      "repo": "deckwing"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": null,
+      "artifactName": "DeckWing-Setup.${ext}"
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "category": "public.app-category.productivity",
+      "artifactName": "DeckWing.${ext}"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Office",
+      "artifactName": "DeckWing.${ext}"
+    },
+    "nsis": {
+      "oneClick": true,
+      "allowToChangeInstallationDirectory": false
+    }
+  }
+}

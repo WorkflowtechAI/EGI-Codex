@@ -1,0 +1,13 @@
+# Temporary files
+/bin
+/dist
+/mock
+
+# Claude files
+/.claude
+
+# Coverage files
+/coverage
+/coverage.out
+*.out
+*.exe

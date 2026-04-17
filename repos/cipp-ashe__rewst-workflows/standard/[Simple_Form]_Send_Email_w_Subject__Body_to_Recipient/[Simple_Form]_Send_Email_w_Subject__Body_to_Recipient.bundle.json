@@ -1,0 +1,599 @@
+{
+  "version": 2,
+  "exportedAt": "2025-10-11T16:08:50.072465+00:00",
+  "signing": {
+    "cert": "-----BEGIN CERTIFICATE-----\nMIICazCCAfGgAwIBAgIUFJtHAR8D+ZfChHcAXHemH7s8zRowCgYIKoZIzj0EAwIwfDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkZMMQ4wDAYDVQQHEwVUYW1wYTEOMAwGA1UEChMFUmV3c3QxEzARBgNVBAsTClJld3N0IERldnMxKzApBgNVBAMTImxvY2FsIFJld3N0IEltcG9ydC9FeHBvcnQgQ0EyIHYxLjEwHhcNMjIwNjAzMTkwMDU1WhcNMjUwNTIzMTkwMTI1WjBDMQswCQYDVQQGEwJVUzELMAkGA1UECBMCRkwxDjAMBgNVBAcTBVRhbXBhMRcwFQYDVQQDEw5sb2NhbC5yZXdzdC5pbzB2MBAGByqGSM49AgEGBSuBBAAiA2IABMcTJzyLIvX1+3545EJbFeNVjahxVq6TFQ7n/IYZs4yEMQzDWZjAyHhJPZk3Dxq/wFzesXMYJu41rhxfz7AZh15LtFGfy9V2B4X5KH7sGJWqOan0mabuF83llruTLA/NQaNtMGswDgYDVR0PAQH/BAQDAgeAMB0GA1UdDgQWBBTDePOSC6hckrg6usrK2giZv9GxpjAfBgNVHSMEGDAWgBTojdemsJqfnB19iyMxmIi3OGYw6TAZBgNVHREEEjAQgg5sb2NhbC5yZXdzdC5pbzAKBggqhkjOPQQDAgNoADBlAjEA8NsLnuGhfTPC7dB0ojWf5WmH64qFZuPFD6Q0RwGYO0D1Tn2x5+/37kW3HFcGHV0wAjBM7LSidsc7E9+fmcesnN5hM34eGMP+YWCoEeFIPPANXQKemAgUVf35iXyU64sVEC4=\n-----END CERTIFICATE-----",
+    "hash": "sha512",
+    "signature": "MGUCMDqOyU2ROxysztskRWVSafxE//eTHzercOd46NA3sc/rAUVG7o2mtdU5mvd4/WqaVQIxALC5PzPMMlIumglV2YksNMFtMAg9LjS5LBoFCpLP5M/tnG9gOQ5sAF3g0UuteV4Yhw=="
+  },
+  "objects": {
+    "workflow_task_id:3Fq6ZJiR3gVTnt6p7UvHDNkfY7a1n3iLNJZEdp6Mn4TZ": {
+      "type": "workflow_task_id",
+      "content_hash": "4wDoEX3E8FSmxJ4pNofawzmdszJFTCBRvEwMXxJCvEFb",
+      "hash": "Gq5P2ZXqZUAZgNebCGJYRrXQhk14Hftw5fYFvgLfBtEg",
+      "fields": {
+        "id": "9fffb6d4ca1a4d6db93f865db9a94d6b"
+      }
+    },
+    "form_field_id:8qA1mgwSGF25W5XC9b1FfXJ3TPuT9xtxcGheeqyKRXox": {
+      "type": "form_field_id",
+      "content_hash": "J8V9Jp6N4zw5PeB92vfjS6hv2ysCGSPJoM6QavQ5ptWz",
+      "hash": "GnYJqYjujJWh2mtLrqaGbZDSi6qvs7enpQ2wzRD3Nvk7",
+      "fields": {
+        "id": "${UUID}"
+      }
+    },
+    "action:EjFMYH2dQzuCf6ZpeF13ZBndqNXpQXCmouU2vvL7msYD": {
+      "type": "action",
+      "content_hash": "DcoQjYdQYKa7t5hHgDqssUN6t7ryHHkZZPfezpoQ9z5s",
+      "hash": "9inx3M7WvA8CavFkGXV94kWsh6XGWa2CKK8CRwbF1fRo",
+      "fields": {
+        "ref": "core.sendmail"
+      }
+    },
+    "transition_id:EP2WtwCpPYBUTt3mqojQTXxY641sXoPHtzYzfTs14ddf": {
+      "type": "transition_id",
+      "content_hash": "FwW1pJCuocQU4yC4KhSi1HaUB26AZrSJ5fUfqwatXqvg",
+      "hash": "4RLnEbgqRMkfjXk8Qer9KRcgRgnGDFpo3X5mwSfWjwRF",
+      "fields": {
+        "id": "${UUID}"
+      }
+    },
+    "workflow_note_id:84NAjfrxX74T83f7QdqJsJy17bpkHXt5Qokw4eKRkED4": {
+      "type": "workflow_note_id",
+      "content_hash": "2iHDZAshvs4Q5TV5CTDWMA2rPsj7JnvwcNtPusgu4FC7",
+      "hash": "7b9wkSiGTQvKQMBxQFMWdGM4r68zNVRvXFVr2tAqoaYq",
+      "fields": {
+        "id": "${UUID}"
+      }
+    },
+    "transition_id:4sRpR7MEtp2LJPBxjKr1PPhwh9S82kJqcsFfVCkMHDPD": {
+      "type": "transition_id",
+      "content_hash": "Cc9XJqSP1XQCz1zfstm5t2qa1Y1va2nh67sZC2DJKn6B",
+      "hash": "DsyX4XW6udXoNXHxwJyh3fvqG7uKHYrPZK9anza9szUA",
+      "fields": {
+        "id": "${UUID}"
+      }
+    },
+    "form_field_id:2knovGoJmoZKQB2xG3xZR7e6jhba5uc5a76wC6MAshMW": {
+      "type": "form_field_id",
+      "content_hash": "6o9ryScxxszQpVP33sewVKWnYs3Kgxox5UT53ZkHfn6b",
+      "hash": "7jNQQ25ukQjHmW7LirfQQmtUfWBaaiMkqXwq7opnEdad",
+      "fields": {
+        "id": "${UUID}"
+      }
+    },
+    "form_field_id:2Wr8XkdqfNLnpgGmdboAsRffsvysccFRN2T2VhvLpeNU": {
+      "type": "form_field_id",
+      "content_hash": "2QT55XdHB4WiMeuBz9KrAEqTm3YgZrUdNoDAtvTiipBG",
+      "hash": "6tZbkLkkoCGMuFvydR1mKNtNq5D8FVfLcopzfa9sQ5aG",
+      "fields": {
+        "id": "${UUID}"
+      }
+    },
+    "action:EzTyzCVkpYqeKy7U5gvD66NS6RroC9oj4jZPJ6AzBEpF": {
+      "type": "action",
+      "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+      "hash": "Arr2RCEM96WqU2EkvigszSfsW9GZHa4HJC5a1fL9qZ5g",
+      "fields": {
+        "ref": "core.noop"
+      }
+    },
+    "workflow_note_id:Ff2XdQVjWvs7XkWgt72JX3KfPXbKgJrN2LEne4VMUoTS": {
+      "type": "workflow_note_id",
+      "content_hash": "Ag9uQ4kG47GcrAWS4TabJkfwH2wziCvRBkHsJzokJWQH",
+      "hash": "FV31fAnhKGumguY1D8WXPko9DLo23wFYbDXL6yYEi4MC",
+      "fields": {
+        "id": "${UUID}"
+      }
+    },
+    "form_field_id:86AuyXk3wxFwXoRzBvz2G2CpnAzFezrKRSrRzWUFp6wK": {
+      "type": "form_field_id",
+      "content_hash": "x8XuSr5Ka51Xe7jK6NvbwFD9e3fBjtZYAc5ySm1pbep",
+      "hash": "4vJB6cvAwBdvQtnvnLK8xsHNAo3UoVpcNzKKS9kSWhKX",
+      "fields": {
+        "id": "${UUID}"
+      }
+    },
+    "pack:p2GGXHoH1wJt8DqMS1tjjPAombtTtPMG737V7SeUuj2": {
+      "type": "pack",
+      "content_hash": "Hc5Rw9BHpJF4SaovodrVbdXaYuodYQp9pk8KV4HhQLAM",
+      "hash": "8TQao7SBXq2kcoxMCyPp4VEPVruAmBQyjzi9x24r5mAz",
+      "fields": {
+        "ref": "40f8b55ae8a942fc8dc1179616275f10_bamboohr_rewst_internal"
+      }
+    },
+    "workflow_task_id:7u2xDttiBGZqApKLgYVsuNrggAJY8jGeEdi5x6Miw4g2": {
+      "type": "workflow_task_id",
+      "content_hash": "AxJTaFBnEDFvT9yNd3sWZmke3mf6zQ6BTPosHgTCHqd4",
+      "hash": "CUShtzDaUKD7hMnPPJwwPb1h4XTeLy8seWnj4LrznGHq",
+      "fields": {
+        "id": "cbac2b92a08b4738897893ffa38ff369"
+      }
+    },
+    "trigger_type:GVB6xTRwRSKRwXYGH9iARNnJgesBvFYTsiE5eeBGBHj8": {
+      "type": "trigger_type",
+      "content_hash": "Fv6DC3j7LWMDgfKVdikhAM5buyDZJdu9zZyyATsFscAw",
+      "hash": "53b99LEfP118tag3kWdzUGgyhH94QRPpzAGCaXkNsXZn",
+      "fields": {
+        "ref": "core.Form Submission"
+      }
+    },
+    "workflow:D6pme8UWEwoysAB7VcSFrgTTDa2Ewj9A4pU42iohQqaG": {
+      "type": "workflow",
+      "content_hash": "3Vg8aWmrihdhBidwKBm18BTbFhQrStq3mwnWR3MrAGuA",
+      "hash": "CCD2CxBbiqZYuhtqDXPfRZnN466fZ22J3jiGQFephzfH",
+      "fields": {
+        "humanSecondsSaved": 0,
+        "notes": [
+          {
+            "id": "@@@workflow_note_id_ref1@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref2@@@"
+          }
+        ],
+        "output": [],
+        "parameters": {
+          "body": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          },
+          "subject": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          },
+          "recipient": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          }
+        },
+        "tasks": [
+          {
+            "id": "@@@workflow_task_id_ref1@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "START",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref2@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref1@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref2@@@",
+            "action": {
+              "id": "@@@action_ref2@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "to": "{{ CTX.recipient }}",
+              "title": "{{ CTX.subject }}",
+              "sender": "noreply",
+              "message": "{{ CTX.body }}",
+              "subject": "{{ CTX.subject }}",
+              "custom_html": null,
+              "render_markdown": true
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "core_sendmail",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref2@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          }
+        ],
+        "timeout": 28800,
+        "type": "STANDARD",
+        "varsSchema": {}
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "name": "[Simple Form] Send Email w/ Subject & Body to Recipient",
+        "notes[0].content": "## Purpose\nThis block handles the initial setup and preparation phase of the email workflow execution.\n\n## Tasks Included\n- **START**: A no-operation action that serves as the workflow entry point and initialization trigger\n\n## Functionality\nThe START task acts as the workflow's entry point, ensuring proper initialization of the execution context before proceeding to the main email delivery functionality. This task:\n- Establishes the workflow execution context\n- Validates that the workflow is properly triggered\n- Prepares the execution environment for subsequent tasks\n- Serves as a clean separation between workflow initiation and business logic\n\n## Flow Connection\nThis initialization block connects directly to the Email Delivery block, passing control once the workflow environment is properly established.\n\n## Key Inputs/Outputs\n- **Inputs**: Workflow trigger context and any initial parameters\n- **Outputs**: Initialized execution context ready for email processing",
+        "notes[0].metadata": {
+          "x": 177,
+          "y": 105,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367,
+          "height": 118,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "9fffb6d4ca1a4d6db93f865db9a94d6b"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[0].title": "Workflow Initialization & Setup",
+        "notes[1].content": "## Purpose\nThis block handles the core email delivery functionality, sending formatted emails to specified recipients using dynamic context data.\n\n## Tasks Included\n- **core_sendmail**: Sends an email with customizable recipient, subject, and body content\n\n## Functionality\nThe email delivery block processes and sends emails with the following capabilities:\n- **Dynamic Recipients**: Uses context variable `{{ CTX.recipient }}` for flexible recipient targeting\n- **Custom Subject Lines**: Leverages `{{ CTX.subject }}` for personalized email subjects\n- **Rich Content**: Supports markdown rendering in the email body via `{{ CTX.body }}`\n- **Professional Sender**: Uses 'noreply' sender address for automated communications\n- **Content Formatting**: Automatically renders markdown as HTML for enhanced email presentation\n\n## Technical Configuration\n- **Sender**: ${NOREPLY_EMAIL} (automated system emails)\n- **Markdown Support**: Enabled for rich text formatting\n- **Template Variables**: Fully dynamic using workflow context\n- **Email Structure**: Title and message fields populated from context\n\n## Flow Connection\nThis block receives control from the Workflow Initialization block and represents the final action in the workflow, completing the email delivery process.\n\n## Key Inputs/Outputs\n- **Inputs**: \n  - `CTX.recipient`: Target email address\n  - `CTX.subject`: Email subject line\n  - `CTX.body`: Email content (supports markdown)\n- **Outputs**: Email delivery confirmation and status",
+        "notes[1].metadata": {
+          "x": 177,
+          "y": 297,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367,
+          "height": 118,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "cbac2b92a08b4738897893ffa38ff369"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[1].title": "Email Delivery & Communication",
+        "parameters.body.description": "",
+        "parameters.body.label": "",
+        "parameters.recipient.description": "",
+        "parameters.recipient.label": "",
+        "parameters.subject.description": "",
+        "parameters.subject.label": "",
+        "tasks[0].description": "Action that does nothing",
+        "tasks[0].metadata": {
+          "x": 192,
+          "y": 120
+        },
+        "tasks[0].next[0].label": "",
+        "tasks[1].description": "This sends an email",
+        "tasks[1].metadata": {
+          "x": 192,
+          "y": 312
+        },
+        "tasks[1].next[0].label": ""
+      },
+      "references": {
+        "workflow_task_id_ref2": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "7u2xDttiBGZqApKLgYVsuNrggAJY8jGeEdi5x6Miw4g2",
+          "content_hash": "AxJTaFBnEDFvT9yNd3sWZmke3mf6zQ6BTPosHgTCHqd4",
+          "locations": [
+            "tasks[1].id",
+            "tasks[0].next[0].do[0]"
+          ]
+        },
+        "workflow_task_id_ref1": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "3Fq6ZJiR3gVTnt6p7UvHDNkfY7a1n3iLNJZEdp6Mn4TZ",
+          "content_hash": "4wDoEX3E8FSmxJ4pNofawzmdszJFTCBRvEwMXxJCvEFb",
+          "locations": [
+            "tasks[0].id"
+          ]
+        },
+        "workflow_note_id_ref2": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "84NAjfrxX74T83f7QdqJsJy17bpkHXt5Qokw4eKRkED4",
+          "content_hash": "2iHDZAshvs4Q5TV5CTDWMA2rPsj7JnvwcNtPusgu4FC7",
+          "locations": [
+            "notes[1].id"
+          ]
+        },
+        "action_ref2": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "EjFMYH2dQzuCf6ZpeF13ZBndqNXpQXCmouU2vvL7msYD",
+          "content_hash": "DcoQjYdQYKa7t5hHgDqssUN6t7ryHHkZZPfezpoQ9z5s",
+          "locations": [
+            "tasks[1].action.id"
+          ]
+        },
+        "action_ref1": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "EzTyzCVkpYqeKy7U5gvD66NS6RroC9oj4jZPJ6AzBEpF",
+          "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+          "locations": [
+            "tasks[0].action.id"
+          ]
+        },
+        "transition_id_ref1": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "EP2WtwCpPYBUTt3mqojQTXxY641sXoPHtzYzfTs14ddf",
+          "content_hash": "FwW1pJCuocQU4yC4KhSi1HaUB26AZrSJ5fUfqwatXqvg",
+          "locations": [
+            "tasks[0].next[0].id"
+          ]
+        },
+        "transition_id_ref2": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "4sRpR7MEtp2LJPBxjKr1PPhwh9S82kJqcsFfVCkMHDPD",
+          "content_hash": "Cc9XJqSP1XQCz1zfstm5t2qa1Y1va2nh67sZC2DJKn6B",
+          "locations": [
+            "tasks[1].next[0].id"
+          ]
+        },
+        "workflow_note_id_ref1": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "Ff2XdQVjWvs7XkWgt72JX3KfPXbKgJrN2LEne4VMUoTS",
+          "content_hash": "Ag9uQ4kG47GcrAWS4TabJkfwH2wziCvRBkHsJzokJWQH",
+          "locations": [
+            "notes[0].id"
+          ]
+        }
+      },
+      "dependencies": [
+        "workflow_task_id:3Fq6ZJiR3gVTnt6p7UvHDNkfY7a1n3iLNJZEdp6Mn4TZ",
+        "action:EjFMYH2dQzuCf6ZpeF13ZBndqNXpQXCmouU2vvL7msYD",
+        "workflow_note_id:84NAjfrxX74T83f7QdqJsJy17bpkHXt5Qokw4eKRkED4",
+        "transition_id:EP2WtwCpPYBUTt3mqojQTXxY641sXoPHtzYzfTs14ddf",
+        "transition_id:4sRpR7MEtp2LJPBxjKr1PPhwh9S82kJqcsFfVCkMHDPD",
+        "action:EzTyzCVkpYqeKy7U5gvD66NS6RroC9oj4jZPJ6AzBEpF",
+        "workflow_note_id:Ff2XdQVjWvs7XkWgt72JX3KfPXbKgJrN2LEne4VMUoTS",
+        "workflow_task_id:7u2xDttiBGZqApKLgYVsuNrggAJY8jGeEdi5x6Miw4g2"
+      ]
+    },
+    "form:GV3nwAH4FMs8AQ6pkVwFnFnHYKaBj9181MaMBhkBn5en": {
+      "type": "form",
+      "content_hash": "Fq5Qyf98HLYoKsZeJxCn95hRpQjzGwKxaSAyYNH1qah9",
+      "hash": "6g1N9BvZb4GtJUtgmwyRKtMBw68tXWvnX1yPn1eCeqam",
+      "fields": {
+        "fields": [
+          {
+            "id": "@@@form_field_id_ref1@@@",
+            "type": "TEXT",
+            "schema": {
+              "name": "text_markdown",
+              "text": "# Send an email",
+              "type": "TEXT",
+              "hidden": false,
+              "static": true,
+              "default": null,
+              "filterId": "${UUID}",
+              "freeSolo": false,
+              "autoPopulate": false,
+              "overrideCache": false,
+              "overrideOption": true
+            },
+            "index": 0,
+            "conditions": []
+          },
+          {
+            "id": "@@@form_field_id_ref2@@@",
+            "type": "TEXT_INPUT",
+            "schema": {
+              "name": "recipient",
+              "type": "string",
+              "hidden": false,
+              "default": "",
+              "filterId": "${UUID}",
+              "freeSolo": false,
+              "required": false,
+              "autoPopulate": false,
+              "overrideCache": false,
+              "overrideOption": true
+            },
+            "index": 1,
+            "conditions": []
+          },
+          {
+            "id": "@@@form_field_id_ref3@@@",
+            "type": "TEXT_INPUT",
+            "schema": {
+              "name": "subject",
+              "type": "string",
+              "hidden": false,
+              "default": "",
+              "filterId": "${UUID}",
+              "freeSolo": false,
+              "required": false,
+              "autoPopulate": false,
+              "overrideCache": false,
+              "overrideOption": true
+            },
+            "index": 2,
+            "conditions": []
+          },
+          {
+            "id": "@@@form_field_id_ref4@@@",
+            "type": "TEXT_INPUT",
+            "schema": {
+              "name": "body",
+              "type": "string",
+              "hidden": false,
+              "default": "",
+              "filterId": "${UUID}",
+              "freeSolo": false,
+              "required": false,
+              "autoPopulate": false,
+              "overrideCache": false,
+              "overrideOption": true
+            },
+            "index": 3,
+            "conditions": []
+          }
+        ]
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "fields[1].schema.description": "",
+        "fields[1].schema.label": "Recipient",
+        "fields[2].schema.description": "",
+        "fields[2].schema.label": "Subject",
+        "fields[3].schema.description": "",
+        "fields[3].schema.label": "Body",
+        "name": "Simple Form"
+      },
+      "references": {
+        "form_field_id_ref1": {
+          "kind": "string",
+          "type": "form_field_id",
+          "src_key_hash": "86AuyXk3wxFwXoRzBvz2G2CpnAzFezrKRSrRzWUFp6wK",
+          "content_hash": "x8XuSr5Ka51Xe7jK6NvbwFD9e3fBjtZYAc5ySm1pbep",
+          "locations": [
+            "fields[0].id"
+          ]
+        },
+        "form_field_id_ref4": {
+          "kind": "string",
+          "type": "form_field_id",
+          "src_key_hash": "2Wr8XkdqfNLnpgGmdboAsRffsvysccFRN2T2VhvLpeNU",
+          "content_hash": "2QT55XdHB4WiMeuBz9KrAEqTm3YgZrUdNoDAtvTiipBG",
+          "locations": [
+            "fields[3].id"
+          ]
+        },
+        "form_field_id_ref2": {
+          "kind": "string",
+          "type": "form_field_id",
+          "src_key_hash": "8qA1mgwSGF25W5XC9b1FfXJ3TPuT9xtxcGheeqyKRXox",
+          "content_hash": "J8V9Jp6N4zw5PeB92vfjS6hv2ysCGSPJoM6QavQ5ptWz",
+          "locations": [
+            "fields[1].id"
+          ]
+        },
+        "form_field_id_ref3": {
+          "kind": "string",
+          "type": "form_field_id",
+          "src_key_hash": "2knovGoJmoZKQB2xG3xZR7e6jhba5uc5a76wC6MAshMW",
+          "content_hash": "6o9ryScxxszQpVP33sewVKWnYs3Kgxox5UT53ZkHfn6b",
+          "locations": [
+            "fields[2].id"
+          ]
+        }
+      },
+      "dependencies": [
+        "form_field_id:2Wr8XkdqfNLnpgGmdboAsRffsvysccFRN2T2VhvLpeNU",
+        "form_field_id:8qA1mgwSGF25W5XC9b1FfXJ3TPuT9xtxcGheeqyKRXox",
+        "form_field_id:2knovGoJmoZKQB2xG3xZR7e6jhba5uc5a76wC6MAshMW",
+        "form_field_id:86AuyXk3wxFwXoRzBvz2G2CpnAzFezrKRSrRzWUFp6wK"
+      ]
+    },
+    "trigger:7pBAivBTQFY21PTWJkFdVrNb1Qt4oVk3YeEhhcYZyAsv": {
+      "type": "trigger",
+      "content_hash": "3VeW3fm75EQ9JgHkWv29Ntg5aBAx1JkD9b1vLv7TVdse",
+      "hash": "GRtpM3ratBby47ThseE71n3R72QZY9YzNdmHA9aiAFzf",
+      "fields": {
+        "autoActivateManagedOrgs": false,
+        "criteria": {
+          "condition": {}
+        },
+        "enabled": true,
+        "formId": "@@@form_ref1@@@",
+        "isActivatedForOwner": true,
+        "packOverrides": [
+          {
+            "packId": "@@@pack_ref1@@@",
+            "configFallbackMode": "USE_DEFAULT",
+            "configSelectionMode": "USE_DEFAULT",
+            "searchInput": null
+          }
+        ],
+        "parameters": {
+          "form_id": "@@@form_ref1@@@"
+        },
+        "triggerTypeId": "@@@trigger_type_ref1@@@",
+        "vars": [],
+        "workflowId": "@@@workflow_ref1@@@"
+      },
+      "nonfunctional_fields": {
+        "description": null,
+        "name": "Simple Form"
+      },
+      "references": {
+        "trigger_type_ref1": {
+          "kind": "string",
+          "type": "trigger_type",
+          "src_key_hash": "GVB6xTRwRSKRwXYGH9iARNnJgesBvFYTsiE5eeBGBHj8",
+          "content_hash": "Fv6DC3j7LWMDgfKVdikhAM5buyDZJdu9zZyyATsFscAw",
+          "locations": [
+            "triggerTypeId"
+          ]
+        },
+        "form_ref1": {
+          "kind": "string",
+          "type": "form",
+          "src_key_hash": "GV3nwAH4FMs8AQ6pkVwFnFnHYKaBj9181MaMBhkBn5en",
+          "content_hash": "Fq5Qyf98HLYoKsZeJxCn95hRpQjzGwKxaSAyYNH1qah9",
+          "locations": [
+            "parameters.form_id",
+            "formId"
+          ]
+        },
+        "workflow_ref1": {
+          "kind": "string",
+          "type": "workflow",
+          "src_key_hash": "D6pme8UWEwoysAB7VcSFrgTTDa2Ewj9A4pU42iohQqaG",
+          "content_hash": "3Vg8aWmrihdhBidwKBm18BTbFhQrStq3mwnWR3MrAGuA",
+          "locations": [
+            "workflowId"
+          ]
+        },
+        "pack_ref1": {
+          "kind": "string",
+          "type": "pack",
+          "src_key_hash": "p2GGXHoH1wJt8DqMS1tjjPAombtTtPMG737V7SeUuj2",
+          "content_hash": "Hc5Rw9BHpJF4SaovodrVbdXaYuodYQp9pk8KV4HhQLAM",
+          "locations": [
+            "packOverrides[0].packId"
+          ]
+        }
+      },
+      "dependencies": [
+        "pack:p2GGXHoH1wJt8DqMS1tjjPAombtTtPMG737V7SeUuj2",
+        "workflow:D6pme8UWEwoysAB7VcSFrgTTDa2Ewj9A4pU42iohQqaG",
+        "trigger_type:GVB6xTRwRSKRwXYGH9iARNnJgesBvFYTsiE5eeBGBHj8",
+        "form:GV3nwAH4FMs8AQ6pkVwFnFnHYKaBj9181MaMBhkBn5en"
+      ]
+    }
+  },
+  "__typename": "ExportBundle"
+}

@@ -1,0 +1,30 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor cruft
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temp artifacts
+*.bak
+*.tmp
+*.log
+
+# Secrets (defense in depth; no keys should ever live in this tree)
+.env
+.env.local
+*.pem
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Internal operational notes (kept locally, not published)
+david-tasks.md
+hunt-queue.md

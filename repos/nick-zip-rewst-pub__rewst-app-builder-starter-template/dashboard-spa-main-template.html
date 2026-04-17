@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rewst App</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Poppins Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Material Design Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Lodash -->
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js"></script>
+
+  <!-- Rewst CSS Theme Overlay -->
+  <style>
+    {{ CSS_THEME }}
+  </style>
+</head>
+<body class="bg-rewst-light">
+
+  <!-- Sidebar -->
+  <div id="sidebar" class="sidebar fixed left-0 top-0 h-screen bg-white border-r border-gray-200 flex flex-col z-50">
+
+    <!-- Sidebar Header -->
+    <div class="p-4 border-b border-gray-200 flex items-center justify-between">
+      <div class="flex items-center gap-2 overflow-hidden">
+        <span class="material-icons text-rewst-teal">apps</span>
+        <span class="nav-text font-semibold text-rewst-black whitespace-nowrap">My App</span>
+      </div>
+      <button id="toggle-sidebar" class="p-1 hover:bg-gray-100 rounded">
+        <span class="material-icons text-gray-600">chevron_left</span>
+      </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="flex-1 p-4 overflow-y-auto">
+
+      <!-- Pages Section -->
+      <div class="mb-2">
+        <div class="flex items-center gap-2 px-3 py-2 text-sm font-medium text-rewst-gray">
+          <span class="material-icons text-lg">menu</span>
+          <span class="nav-text">Pages</span>
+        </div>
+
+        <div class="sub-nav ml-4 mt-1 space-y-1">
+          <a href="#" class="sidebar-item active flex items-center gap-3 px-3 py-2 rounded text-sm text-rewst-dark-gray" data-page="components">
+            <span class="material-icons text-lg">widgets</span>
+            <span class="nav-text">Components</span>
+          </a>
+          <a href="#" class="sidebar-item flex items-center gap-3 px-3 py-2 rounded text-sm text-rewst-dark-gray" data-page="starter">
+            <span class="material-icons text-lg">rocket_launch</span>
+            <span class="nav-text">Starter</span>
+          </a>
+        </div>
+      </div>
+
+    </nav>
+
+  </div>
+
+  <!-- Filter Slide-Out Drawer -->
+  <div id="filter-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden transition-opacity duration-300"></div>
+
+  <div id="filter-drawer" class="fixed top-0 right-0 h-full w-80 bg-white shadow-2xl z-50 transform translate-x-full transition-transform duration-300">
+    <!-- Drawer Header -->
+    <div class="flex items-center justify-between px-8 py-4 border-b border-gray-200 bg-gray-50">
+      <h3 class="text-base font-semibold text-rewst-black">Filters</h3>
+      <button id="close-filter-drawer" class="text-gray-500 hover:text-gray-700 transition-colors">
+        <span class="material-icons">close</span>
+      </button>
+    </div>
+
+    <!-- Drawer Content — add your filter controls here -->
+    <div class="p-6 overflow-y-auto" style="height: calc(100% - 65px);">
+
+      <!-- Example: Organization Filter -->
+      <div class="mb-6">
+        <label class="block text-sm font-medium text-rewst-dark-gray mb-2">Organization</label>
+        <div id="filter-org-container">
+          <!-- Populate with RewstDOM.createAutocomplete() or createStyledDropdown() -->
+        </div>
+      </div>
+
+      <!-- Example: Date Range Filter -->
+      <div class="mb-6">
+        <label class="block text-sm font-medium text-rewst-dark-gray mb-2">Date Range</label>
+        <div id="filter-date-container">
+          <!-- Populate with RewstDOM.createStyledDropdown() -->
+        </div>
+      </div>
+
+      <!-- Example: Custom Filter -->
+      <div class="mb-6">
+        <label class="block text-sm font-medium text-rewst-dark-gray mb-2">Custom Filter</label>
+        <div id="filter-custom-container">
+          <!-- Populate with RewstDOM.createMultiSelect() -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div id="main-content" class="main-content min-h-screen">
+
+    <!-- Sticky Header -->
+    <div id="sticky-header" class="sticky-header py-4 px-8">
+      <div class="flex items-center justify-between">
+        <div>
+          <h1 class="text-2xl font-semibold text-rewst-black transition-all">Components</h1>
+          <p class="header-subtitle text-sm text-rewst-gray">Kitchen sink of available UI components</p>
+        </div>
+        <div class="flex items-center gap-3">
+
+          <!-- Toggle Switch Example -->
+          <label id="toggle-example" class="flex items-center gap-2 cursor-pointer">
+            <span class="text-sm text-rewst-gray">Toggle</span>
+            <div class="relative inline-block w-12 h-6">
+              <input type="checkbox" id="header-toggle" class="sr-only">
+              <div class="toggle-bg w-12 h-6 bg-gray-300 rounded-full transition-all duration-200"></div>
+              <div class="toggle-dot absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition-transform duration-200 shadow-sm"></div>
+            </div>
+          </label>
+
+          <!-- Refresh Button -->
+          <div id="refresh-button-container">
+            <button id="refresh-btn" class="btn-primary flex items-center gap-2">
+              <span class="material-icons">refresh</span>
+              <span class="btn-text">Refresh</span>
+            </button>
+          </div>
+
+          <!-- Filters Button (opens drawer) -->
+          <div id="filter-button-container">
+            <button id="open-filter-drawer" class="btn-secondary flex items-center gap-2">
+              <span class="material-icons">filter_list</span>
+              <span class="btn-text">Filters</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="px-8 pb-8 pt-6">
+
+      <!-- Components Page (Kitchen Sink) -->
+      <div id="page-components" class="page-content">
+        <!-- Rendered by components.js -->
+      </div>
+
+      <!-- Starter Page -->
+      <div id="page-starter" class="page-content" style="display: none;">
+        <!-- Rendered by starter.js -->
+      </div>
+
+    </div>
+
+  </div>
+
+  <script type="module">
+    // ============================================
+    // REWST APP TEMPLATE - Main Script
+    // ============================================
+
+    // Import RewstApp GraphQL library
+    {{ GRAPHQL_LIB }}
+
+    // Import RewstDOM builder
+    {{ DOM_BUILDER }}
+
+    // App initialization
+    (async function() {
+
+      // ============================================
+      // DEBUG MODE
+      // ============================================
+      window.DEBUG_MODE = true;
+      if (window.parent) {
+        window.parent.DEBUG_MODE = true;
+      }
+
+      function debugLog(...args) {
+        if (window.DEBUG_MODE) console.log(...args);
+      }
+      function debugWarn(...args) {
+        if (window.DEBUG_MODE) console.warn(...args);
+      }
+      function debugError(...args) {
+        if (window.DEBUG_MODE) console.error(...args);
+      }
+
+      // ============================================
+      // INITIALIZE REWST
+      // ============================================
+      const rewst = new RewstApp({ debug: window.DEBUG_MODE });
+
+      try {
+        await rewst.init();
+        debugLog("RewstApp initialized");
+      } catch (error) {
+        debugError("Failed to initialize RewstApp:", error);
+        if (error.isSessionExpired) {
+          RewstDOM.showSessionExpired(error.loginUrl);
+          return;
+        }
+        RewstDOM.showError("Failed to initialize app");
+        return;
+      }
+
+      // Make globally accessible (for console debugging and page scripts)
+      window.rewst = rewst;
+      window.rewstApp = rewst;
+      window.RewstDOM = RewstDOM;
+
+      if (window.parent) {
+        window.parent.rewst = rewst;
+        window.parent.rewstApp = rewst;
+        window.parent.RewstDOM = RewstDOM;
+        debugLog("Exposed rewst and RewstDOM to parent console");
+      }
+
+      // ============================================
+      // PAGE CONFIGURATION
+      // ============================================
+      const pages = {
+        components: {
+          title: 'Components',
+          subtitle: 'Kitchen sink of available UI components',
+          render: renderComponentsPage
+        },
+        starter: {
+          title: 'Starter',
+          subtitle: 'Your blank canvas',
+          render: renderStarterPage
+        }
+      };
+
+      let currentPage = 'components';
+
+      // ============================================
+      // SIDEBAR TOGGLE
+      // ============================================
+      const sidebar = document.getElementById('sidebar');
+      const mainContent = document.getElementById('main-content');
+      const toggleBtn = document.getElementById('toggle-sidebar');
+      const toggleIcon = toggleBtn.querySelector('.material-icons');
+
+      toggleBtn.addEventListener('click', () => {
+        sidebar.classList.toggle('collapsed');
+        mainContent.classList.toggle('sidebar-collapsed');
+        toggleIcon.textContent = sidebar.classList.contains('collapsed') ? 'chevron_right' : 'chevron_left';
+      });
+
+      // ============================================
+      // PAGE NAVIGATION
+      // ============================================
+      const navLinks = document.querySelectorAll('.sidebar-item');
+      const pageContainers = document.querySelectorAll('.page-content');
+
+      navLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          const pageName = link.dataset.page;
+          switchPage(pageName);
+        });
+      });
+
+      function switchPage(pageName) {
+        if (!pages[pageName]) return;
+
+        currentPage = pageName;
+
+        // Update active state in sidebar
+        navLinks.forEach(l => l.classList.remove('active'));
+        document.querySelector(`[data-page="${pageName}"]`).classList.add('active');
+
+        // Hide all pages, show selected
+        pageContainers.forEach(page => page.style.display = 'none');
+        document.getElementById(`page-${pageName}`).style.display = 'block';
+
+        // Update header
+        const pageConfig = pages[pageName];
+        document.querySelector('#sticky-header h1').textContent = pageConfig.title;
+        document.querySelector('#sticky-header .header-subtitle').textContent = pageConfig.subtitle;
+
+        // Render page content
+        pageConfig.render();
+      }
+
+      // ============================================
+      // STICKY HEADER SCROLL BEHAVIOR
+      // ============================================
+      const stickyHeader = document.getElementById('sticky-header');
+      let lastScrollTop = 0;
+      let isHeaderHidden = false;
+      let isScrolledState = false;
+      let scrollAccumulator = 0;
+      let scrollTimeout = null;
+
+      const SCROLL_THRESHOLD = 50;
+      const SCROLL_HYSTERESIS = 30;
+      const HIDE_THRESHOLD = 150;
+      const SCROLL_ACCUMULATOR_THRESHOLD = 100;
+      const SCROLL_RESET_DELAY = 200;
+
+      window.addEventListener('scroll', () => {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollDelta = scrollTop - lastScrollTop;
+
+        if ((scrollAccumulator > 0 && scrollDelta < 0) || (scrollAccumulator < 0 && scrollDelta > 0)) {
+          scrollAccumulator = 0;
+        }
+        scrollAccumulator += scrollDelta;
+
+        clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(() => { scrollAccumulator = 0; }, SCROLL_RESET_DELAY);
+
+        if (!isScrolledState && scrollTop > SCROLL_THRESHOLD) {
+          isScrolledState = true;
+          stickyHeader.classList.add('scrolled');
+        } else if (isScrolledState && scrollTop < (SCROLL_THRESHOLD - SCROLL_HYSTERESIS)) {
+          isScrolledState = false;
+          stickyHeader.classList.remove('scrolled');
+        }
+
+        if (scrollTop > HIDE_THRESHOLD) {
+          if (scrollAccumulator > SCROLL_ACCUMULATOR_THRESHOLD && !isHeaderHidden) {
+            isHeaderHidden = true;
+            stickyHeader.classList.remove('show-instant');
+            stickyHeader.classList.add('hide-smooth');
+            scrollAccumulator = 0;
+          } else if (scrollAccumulator < -SCROLL_ACCUMULATOR_THRESHOLD && isHeaderHidden) {
+            isHeaderHidden = false;
+            stickyHeader.classList.remove('hide-smooth');
+            stickyHeader.classList.add('show-instant');
+            scrollAccumulator = 0;
+          }
+        } else if (scrollTop < (HIDE_THRESHOLD - SCROLL_HYSTERESIS)) {
+          if (isHeaderHidden) {
+            isHeaderHidden = false;
+            stickyHeader.classList.remove('hide-smooth');
+            stickyHeader.classList.add('show-instant');
+            scrollAccumulator = 0;
+          }
+        }
+
+        lastScrollTop = scrollTop;
+      }, { passive: true });
+
+      // ============================================
+      // HEADER TOGGLE SWITCH
+      // ============================================
+      const headerToggle = document.getElementById('header-toggle');
+      const toggleDot = document.querySelector('.toggle-dot');
+
+      headerToggle.addEventListener('change', () => {
+        toggleDot.style.transform = headerToggle.checked ? 'translateX(24px)' : 'translateX(0)';
+        // Hook into this for your toggle logic:
+        debugLog('Toggle:', headerToggle.checked);
+      });
+
+      // ============================================
+      // REFRESH BUTTON
+      // ============================================
+      document.getElementById('refresh-btn').addEventListener('click', () => {
+        debugLog('Refresh clicked');
+        RewstDOM.showInfo('Refresh triggered — wire up your data reload here');
+        // Add your refresh/reload logic here
+      });
+
+      // ============================================
+      // FILTER DRAWER
+      // ============================================
+      const filterOverlay = document.getElementById('filter-overlay');
+      const filterDrawer = document.getElementById('filter-drawer');
+
+      document.getElementById('open-filter-drawer').addEventListener('click', () => {
+        filterOverlay.classList.remove('hidden');
+        filterOverlay.classList.add('open');
+        filterDrawer.classList.add('open');
+      });
+
+      const closeDrawer = () => {
+        filterOverlay.classList.remove('open');
+        filterDrawer.classList.remove('open');
+        setTimeout(() => { filterOverlay.classList.add('hidden'); }, 300);
+      };
+
+      document.getElementById('close-filter-drawer').addEventListener('click', closeDrawer);
+      filterOverlay.addEventListener('click', closeDrawer);
+
+      // ============================================
+      // PAGE RENDER FUNCTIONS
+      // ============================================
+
+      {{ PAGE_COMPONENTS }}
+
+      {{ PAGE_STARTER }}
+
+      // ============================================
+      // BOOT
+      // ============================================
+      debugLog("App ready - rendering initial page");
+      pages[currentPage].render();
+
+    })();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+fragment template on Template {
+	id
+	name
+	description
+	contentType
+	context
+	language
+	cloneOverrides
+	clonedFromId
+	isShared
+	isSynchronized
+	orgId
+	unpackedFromId
+	createdAt
+	updatedAt
+	updatedById
+	organization {
+		...org
+	}
+	tags {
+		id
+		name
+		color
+	}
+	clonedFrom {
+		id
+		name
+	}
+	updatedBy {
+		id
+		username
+	}
+	unpackedFrom {
+		id
+		name
+	}
+}
+fragment fullTemplate on Template {
+	body
+	...template
+}
+
+query listTemplates($orgId: ID!) {
+	templates(where: { orgId: $orgId }) {
+		...template
+	}
+}
+
+mutation createTemplateMinimal($name: String!, $orgId: ID!, $body: String!) {
+	template: createTemplate(template: { name: $name, orgId: $orgId, body: $body }) {
+		...template
+	}
+}
+
+mutation updateTemplate($template: TemplateUpdateInput!) {
+	template: updateTemplate(template: $template) {
+		...template
+	}
+}
+
+mutation updateTemplateBody($body: String, $id: ID!) {
+	template: updateTemplate(template: { body: $body, id: $id }) {
+		...template
+	}
+}
+
+mutation updateTemplateName($name: String, $id: ID!) {
+	template: updateTemplate(template: { name: $name, id: $id }) {
+		...template
+	}
+}
+
+query getTemplate($id: ID!) {
+	template(where: { id: $id }) {
+		...fullTemplate
+	}
+}
+
+mutation deleteTemplate($id: ID!) {
+	deleteTemplate(id: $id)
+}

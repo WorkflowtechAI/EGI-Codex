@@ -1,0 +1,804 @@
+{
+  "version": 2,
+  "exportedAt": "2025-10-11T16:15:10.669318+00:00",
+  "signing": {
+    "cert": "-----BEGIN CERTIFICATE-----\nMIICazCCAfGgAwIBAgIUFJtHAR8D+ZfChHcAXHemH7s8zRowCgYIKoZIzj0EAwIwfDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkZMMQ4wDAYDVQQHEwVUYW1wYTEOMAwGA1UEChMFUmV3c3QxEzARBgNVBAsTClJld3N0IERldnMxKzApBgNVBAMTImxvY2FsIFJld3N0IEltcG9ydC9FeHBvcnQgQ0EyIHYxLjEwHhcNMjIwNjAzMTkwMDU1WhcNMjUwNTIzMTkwMTI1WjBDMQswCQYDVQQGEwJVUzELMAkGA1UECBMCRkwxDjAMBgNVBAcTBVRhbXBhMRcwFQYDVQQDEw5sb2NhbC5yZXdzdC5pbzB2MBAGByqGSM49AgEGBSuBBAAiA2IABMcTJzyLIvX1+3545EJbFeNVjahxVq6TFQ7n/IYZs4yEMQzDWZjAyHhJPZk3Dxq/wFzesXMYJu41rhxfz7AZh15LtFGfy9V2B4X5KH7sGJWqOan0mabuF83llruTLA/NQaNtMGswDgYDVR0PAQH/BAQDAgeAMB0GA1UdDgQWBBTDePOSC6hckrg6usrK2giZv9GxpjAfBgNVHSMEGDAWgBTojdemsJqfnB19iyMxmIi3OGYw6TAZBgNVHREEEjAQgg5sb2NhbC5yZXdzdC5pbzAKBggqhkjOPQQDAgNoADBlAjEA8NsLnuGhfTPC7dB0ojWf5WmH64qFZuPFD6Q0RwGYO0D1Tn2x5+/37kW3HFcGHV0wAjBM7LSidsc7E9+fmcesnN5hM34eGMP+YWCoEeFIPPANXQKemAgUVf35iXyU64sVEC4=\n-----END CERTIFICATE-----",
+    "hash": "sha512",
+    "signature": "MGUCMCTFaa1ejqlyCjPsuxR1OXvtgHlKzmM6WiIIUAjMcqJH70YoZ6dOjCJZiTn13UyHMQIxAMxFfrkCziYpyRJ0MAum4NLJ8zeKGMC599Iq7K+lvXjQP0WaC0fzFuKiZ33yXkxxqA=="
+  },
+  "objects": {
+    "transition_id:H9d33DzZyLgxvHrpCLpXTPXhDMzCJDGPXn3Q8fDKYRbM": {
+      "type": "transition_id",
+      "content_hash": "6KeURj7ayAw54wC67QUMTjahFxWLJfQ5MuUvUwSD81XU",
+      "hash": "3ZPETsmjgCAM6FssuQp4hfG9Qt3cCkLB7gvQbm7ake71",
+      "fields": {
+        "id": "8a9870e7-9849-42ca-9edd-10d17d0a2d84"
+      }
+    },
+    "action:6Lc9GEQsJx5LHrD44Pxhivi17JpXKbXRcRTqnu4aScpz": {
+      "type": "action",
+      "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+      "hash": "Arr2RCEM96WqU2EkvigszSfsW9GZHa4HJC5a1fL9qZ5g",
+      "fields": {
+        "ref": "core.noop"
+      }
+    },
+    "transition_id:6bvcSzvn1umdUnLcCFtpKijvNnUXQq2Y8NBJrsNtxjMv": {
+      "type": "transition_id",
+      "content_hash": "FnHXMLusJf81nSh3jbmAYtwQx7ThV8Weer6Mxcdwtp9A",
+      "hash": "HAP3fdZ9X3p1mdaHR1wrEJP6DSFXeJb9wcYZnLEN1PWD",
+      "fields": {
+        "id": "5d4e0821-ab6c-45a9-8c59-e7b592d27652"
+      }
+    },
+    "action:C1vmjDvr3D4pbjGNsSfmJjXa2hVFHvPP46tPpTzx76bn": {
+      "type": "action",
+      "content_hash": "aaYLrMrRTX6t8bS9VSqgBK89o7qqK7BJU3bG9k5h4QL",
+      "hash": "9vi5zvw7qZVAWNuhUJoDXpkK9de7qdqSCi8xfwFBoGsc",
+      "fields": {
+        "ref": "rewst.get_foreign_object_reference"
+      }
+    },
+    "workflow_task_id:DSG9dxkgjasW3waZqn9nhNVbDpbxKerRvYgsoiQtpcYv": {
+      "type": "workflow_task_id",
+      "content_hash": "BAvBJjePq8DZLcZM9VaQbhfUkDc7eQq6Gq9wcLppG9qR",
+      "hash": "GabhSCnj8V76MUTNmFQ2pcSgEthjLahzvLBu9EHSikA",
+      "fields": {
+        "id": "5a660c8cdd5f4473bf20f2b8a40fcd0e"
+      }
+    },
+    "workflow_note_id:EnM9BesiA42t6y3V6uZodXP1sqNRCYsBjtYypJmZNDAm": {
+      "type": "workflow_note_id",
+      "content_hash": "H8qFzSLuTxo6Mf4sMsExSyVPkP7eSvgj2mJgc4Q5dfPT",
+      "hash": "5qdsgLAnAdjLcAfTNFUPUmq27GjGES9Y2dZmQbgDfn3h",
+      "fields": {
+        "id": "ffa43f16-7622-43cb-8686-1d1db1c71be7"
+      }
+    },
+    "workflow_task_id:Aui4X9vc43DS53t3opgrdpKFBwxEbr3XL3wUCM8HqFZZ": {
+      "type": "workflow_task_id",
+      "content_hash": "8975HXefWXiFC6bWuv75Exc437nwDGVGqNwGgiEavJCH",
+      "hash": "B6zcWG27eRhuctXmnnt5niP5E3ztTw6sdtM5ZHxpdd2a",
+      "fields": {
+        "id": "4402a3620b234e2598b508d8964507bb"
+      }
+    },
+    "workflow_note_id:J9mYPLKGeKDV73zqWQKCcdkyrbe1oU7WCeWaiEEKzYVH": {
+      "type": "workflow_note_id",
+      "content_hash": "ApfA1Tw9qBNE65XzDQKnJQSyzKLBYf3DJNSg5AFuGKn4",
+      "hash": "2xJzPFBnQDJUBv9exbjHPf9yvCfENUDRdAdKVMhRiTE6",
+      "fields": {
+        "id": "0b1a7d33-6e25-470c-b7bd-eff80ece0513"
+      }
+    },
+    "transition_id:9JofFPHE4pQNZiUZBsZuUepdDRFjDD4u4KFs9AEmLJ3n": {
+      "type": "transition_id",
+      "content_hash": "D439cf6sfLHvWDf7TuBAKDQx11j7jqBmoqAka5Chtew9",
+      "hash": "ADvKRyoYg8Yu4tfwYW9ZLyhMhhSDo4w4Jx87PD8x9LhE",
+      "fields": {
+        "id": "d0e6abce-0392-4a4d-a7d3-1a5e823bc77c"
+      }
+    },
+    "transition_id:Bsbeki33gQtQ9gVdbeGuu972WgG9sRXzAXw6SojQxAkS": {
+      "type": "transition_id",
+      "content_hash": "HtW1fGmzWY8Srk4owtfizXASoquCj7WRwNt8Jbt7Xwvm",
+      "hash": "FvzUCZJMqQV4sr6jRA3rXSPbWknhUAnFvTA5rwxG6g1J",
+      "fields": {
+        "id": "d05c92a7-5f7c-425c-98f6-fc5a6efaf33e"
+      }
+    },
+    "transition_id:D8js5fGmuLDtuGEazxyojKvkJao2NiAVhyjRgCUDUCC9": {
+      "type": "transition_id",
+      "content_hash": "AEmYv5gb1qh5YZKVrAH8BDDbDPmEvBdCauQF3WMnZGrf",
+      "hash": "onunPDq5gotZ1NPXNFARWGz7Ui6gwV761kiHugPFZUc",
+      "fields": {
+        "id": "404da547-f92c-4c23-9a53-67ab191deb8a"
+      }
+    },
+    "workflow_task_id:EBXgmDRiipiXSSzoLJqMZSdkH2sFBrWNf4NHTxqqQfCU": {
+      "type": "workflow_task_id",
+      "content_hash": "3rm5it1AArrWvBw4EsyCeevDoegvFo81cDT2wfB4c5n6",
+      "hash": "8rXX7j38FubYaYS3E2etAEtGFHQbCbpLCfHhxmk7Nbjb",
+      "fields": {
+        "id": "6cb9b193ec544725b212d3e44a1f2f62"
+      }
+    },
+    "workflow_note_id:Hz9Qzagt4Bf5zTjTSRm8jRu52docDTM6qpx1sWFyu6Ne": {
+      "type": "workflow_note_id",
+      "content_hash": "EomMZLsdY6kneG4rAs3uUUQsiypRt5vTvyMbF1TayKT5",
+      "hash": "4sLFkRFgzf2gc4a4M5D2sWviQiEXiSXSECbzq8B88ic8",
+      "fields": {
+        "id": "babf0b58-721b-4ef6-bef0-d06d88071a27"
+      }
+    },
+    "workflow_task_id:9AFTvYfJRqADSAojDuPumC6B1DQg63owmS3vqKo9NxRQ": {
+      "type": "workflow_task_id",
+      "content_hash": "GeDrmjEo6KQJPNCivNHd1sCfYPGTAxuL33rKp5whGWGJ",
+      "hash": "CxWqqUq8fWqYUZQXYYhtVV4QtzcVzC6qFqEoz4w7iwZc",
+      "fields": {
+        "id": "5987449a4ddc4c808ab2fa478df3e137"
+      }
+    },
+    "workflow_task_id:DA6ipHWjJp1knK3VDYc9dk4YmaSGLbcZtaUUJMXuuteC": {
+      "type": "workflow_task_id",
+      "content_hash": "HHbPxCmDP6Q5em7ATreekc6Vs4nTKoQe5fwLyP1JuaZ",
+      "hash": "3xEsrAmCma3ezkGLy6SM6UQ1kVdBf4Fp28VDSwsE7Kcv",
+      "fields": {
+        "id": "804f82eb052f432cafdf78b237510fe9"
+      }
+    },
+    "action:HoXAcRtgEtaFgvJ7n7KCZiSonegLkUpNeEg65UedD8Jj": {
+      "type": "action",
+      "content_hash": "6SXR67PuD2Sj6sBDgp2vqNZUSpr3UEoNsjz5Wz9WRp8J",
+      "hash": "8bPpj5B6J3RGrDfkWJao4UoNAw7Azw2wfEXTWLMY7THY",
+      "fields": {
+        "ref": "slack.chat.postMessage"
+      }
+    },
+    "transition_id:7BnsQVPXeWPNie5FvotU4tYxvwqkQ7WxxcxZneRKzA1Y": {
+      "type": "transition_id",
+      "content_hash": "3j8aoirHr9zds9xhhvS6HSKUHGgyRxWRRvbynKrAFhz1",
+      "hash": "81tPNjy1JKQmU4pMjCRRpxvheWvG2rAobVmvfJ7cNmMc",
+      "fields": {
+        "id": "7c25dfa8-00ce-4a79-a701-f4b0c33f96f3"
+      }
+    },
+    "transition_id:DHLwZ5Jz41SC86vdts4ug7W2RDwCjyLxtb87d7414AMd": {
+      "type": "transition_id",
+      "content_hash": "DDumeRao52XwV28Mc3QrQa2PZhoZHgSibcWQfYZwsALE",
+      "hash": "CPLnSHjKqVGRFjGC4bdr5LU8h9BDTA5nrmsHunKRCZjc",
+      "fields": {
+        "id": "235811c0-a2d7-4c0b-b043-27cc585b45cc"
+      }
+    },
+    "action:C3MGXN9DkhExa3e5mE3fK3N8pHxyyCzH7vQ7ZDtpRMpy": {
+      "type": "action",
+      "content_hash": "2fWPuXmUgBYP7FMoY75ZnRAA3vaYRYSNS4BQS2AGtrbZ",
+      "hash": "CDs51378wwL3ipSx6Kw4kPk9bsmHR8jBpgdv7veo7isv",
+      "fields": {
+        "ref": "transforms.merge_lists"
+      }
+    },
+    "workflow:6VcUueJsQiq65xfKStq3Pr1sDdy2doqFq9ZuXspyqLML": {
+      "type": "workflow",
+      "content_hash": "Br6PVSBAqRHYjZygCMvbFAwQA1gByXR2Jm8Pbse7o9Sw",
+      "hash": "9UZ2xyBi4A2eyojKy1FFe91h61Rx6kHxDR9LbAZtbJNA",
+      "fields": {
+        "humanSecondsSaved": 0,
+        "notes": [
+          {
+            "id": "@@@workflow_note_id_ref1@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref2@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref3@@@"
+          }
+        ],
+        "output": [
+          {
+            "output": "{{ CTX.output|first }}"
+          }
+        ],
+        "parameters": {
+          "text": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          },
+          "blocks": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          },
+          "org_id": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          },
+          "channel": {
+            "type": "string",
+            "default": "",
+            "required": false,
+            "multiline": false
+          },
+          "broadcast": {
+            "type": "string",
+            "default": "{{ false }}",
+            "required": false,
+            "multiline": false
+          },
+          "identifier": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          }
+        },
+        "tasks": [
+          {
+            "id": "@@@workflow_task_id_ref1@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "BEGIN",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref4@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref1@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref2@@@",
+            "action": {
+              "id": "@@@action_ref2@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "params": {
+                "list_1": "[{{ CTX.slack_log }}]",
+                "list_2": "[{{ CTX.reference_log }}]",
+                "list1_key": "identifier",
+                "list2_key": "identifier",
+                "join_method": "outer"
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "END_FAIL",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref2@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "output",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref3@@@",
+            "action": {
+              "id": "@@@action_ref2@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "params": {
+                "list_1": "[{{ CTX.slack_log }}]",
+                "list_2": "[{{ CTX.reference_log }}]",
+                "list1_key": "identifier",
+                "list2_key": "identifier",
+                "join_method": "outer"
+              }
+            },
+            "isMocked": false,
+            "join": 1,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "END_SUCCESS",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref3@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "output",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref4@@@",
+            "action": {
+              "id": "@@@action_ref3@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "org_id": "{{ CTX.org_id }}",
+              "identifier": "{{ CTX.identifier }}",
+              "run_as_user": null,
+              "reference_id": null
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "rewst_get_external_reference",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref5@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref4@@@",
+                "publish": [
+                  {
+                    "key": "thread_id",
+                    "value": "{{ CTX.get_exam_threads.reference_id }}"
+                  },
+                  {
+                    "key": "reference_log",
+                    "value": "{%- set reference_log = {} -%}\r\n{%- do reference_log.update(\r\n    {\r\n    \"identifier\": CTX.identifier|d,\r\n    \"reference_id\": CTX.thread_id|d,\r\n    \"association_id\": CTX.get_exam_threads.id|d,\r\n    \"execution_id\": CTX.get_exam_threads.workflow_execution_id|d\r\n    })\r\n-%}\r\n{{ reference_log }}"
+                  }
+                ],
+                "to": null,
+                "when": "{{ CTX.get_exam_threads.reference_id|d([])|length > 0 }}"
+              },
+              {
+                "do": [
+                  "@@@workflow_task_id_ref5@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref5@@@",
+                "publish": [
+                  {
+                    "key": "thread_id",
+                    "value": ""
+                  },
+                  {
+                    "key": "reference_log",
+                    "value": "{%- set reference_log = {} -%}\r\n{%- do reference_log.update(\r\n    {\r\n    \"identifier\": CTX.identifier|d,\r\n    \"reference_id\": \"No thread ID found - send to channel\",\r\n    \"org_id\": get_exam_threads.org_id|d('Not Found'),\r\n    \"association_id\": get_exam_threads.id|d('Not Found'),\r\n    \"execution_id\": get_exam_threads.workflow_execution_id|d('Not Found')\r\n    })\r\n-%}\r\n{{ reference_log }}"
+                  }
+                ],
+                "to": null,
+                "when": ""
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "get_exam_threads",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_FIRST",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref5@@@",
+            "action": {
+              "id": "@@@action_ref4@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "text": "{{ CTX.text|d }}",
+              "parse": null,
+              "blocks": "{{ CTX.blocks|d }}",
+              "mrkdwn": true,
+              "channel": "{{ CTX.channel }}",
+              "icon_url": null,
+              "username": null,
+              "thread_ts": "{{ CTX.thread_id|d }}",
+              "icon_emoji": ":cluck-u:",
+              "link_names": null,
+              "attachments": null,
+              "unfurl_links": null,
+              "unfurl_media": null,
+              "reply_broadcast": "{{ CTX.broadcast }}"
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "slack_chat_post_message",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref3@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref6@@@",
+                "publish": [
+                  {
+                    "key": "message_id",
+                    "value": "{{ CTX.slack_scheduled.ts }}"
+                  },
+                  {
+                    "key": "slack_log",
+                    "value": "{%- set slack_log = {} -%}\r\n{%- do slack_log.update(\r\n    {\r\n    \"identifier\": CTX.identifier,\r\n    \"message_id\": CTX.message_id\r\n    })\r\n-%}\r\n{{ slack_log }}"
+                  }
+                ],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              },
+              {
+                "do": [
+                  "@@@workflow_task_id_ref2@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref7@@@",
+                "publish": [
+                  {
+                    "key": "slack_log",
+                    "value": "{%- set slack_log = {} -%}\r\n{%- do slack_log.update({\"identifier\": CTX.identifier, \"message_id\": \"Not Created\"}) -%}\r\n{{ slack_log }}"
+                  }
+                ],
+                "to": null,
+                "when": "{{ FAILED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "slack_scheduled",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          }
+        ],
+        "timeout": 28800,
+        "type": "STANDARD",
+        "varsSchema": {}
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "name": "[Slack] Post in Associated Thread (Sub-workflow) - Ashe",
+        "notes[0].content": "## Purpose\nThis functional block handles the initial phase of the workflow by looking up existing Slack thread references and validating whether a message should be posted to an existing thread or to the main channel.\n\n## Key Tasks\n- **BEGIN**: Workflow initialization with no-op action\n- **rewst_get_external_reference**: Retrieves external thread reference using organization ID and identifier\n\n## Process Flow\n1. Workflow starts with BEGIN task (initialization)\n2. Attempts to retrieve external reference for the given identifier and organization\n3. Evaluates whether a thread reference exists:\n   - **Reference Exists Path**: If thread ID found, sets `thread_id` and creates reference log with association details\n   - **No Reference Path**: If no thread found, sets empty `thread_id` and logs \"No thread ID found - send to channel\"\n\n## Key Outputs\n- `thread_id`: Either the found thread ID or empty string\n- `reference_log`: Detailed logging object containing identifier, reference_id, association_id, execution_id, and org_id\n\n## Connection to Next Block\nThis block determines the posting behavior for the message posting block - whether to post as a thread reply or as a new channel message.",
+        "notes[0].metadata": {
+          "x": 238.72222900390625,
+          "y": 179.82638931274414,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 374.5,
+          "height": 336,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "5987449a4ddc4c808ab2fa478df3e137",
+            "4402a3620b234e2598b508d8964507bb"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[0].title": "Thread Reference Lookup & Validation",
+        "notes[1].content": "## Purpose\nThis functional block handles the core Slack message posting operation, sending the message either to a thread (if thread_id exists) or to the main channel, and manages the immediate response handling.\n\n## Key Task\n- **slack_chat_post_message**: Executes the Slack API call to post the message with comprehensive configuration options\n\n## Process Flow\n1. Receives inputs from the thread reference lookup block\n2. Posts message to Slack using the chat.postMessage API with:\n   - Text content and/or blocks for rich formatting\n   - Channel targeting\n   - Thread targeting (if thread_id provided)\n   - Custom emoji icon (:cluck-u:)\n   - Broadcast settings for thread replies\n3. Handles two outcome paths:\n   - **Success Path**: Captures message timestamp and creates success log\n   - **Failure Path**: Creates failure log with \"Not Created\" status\n\n## Key Inputs\n- `text`: Message text content\n- `blocks`: Rich formatting blocks\n- `channel`: Target Slack channel\n- `thread_id`: Optional thread timestamp for replies\n- `broadcast`: Whether thread replies should be visible to all\n\n## Key Outputs\n- `message_id`: Slack message timestamp (on success)\n- `slack_log`: Logging object with identifier and message creation status\n\n## Connection to Next Block\nThis block feeds its results (success/failure status and logging data) to the result processing block for final workflow completion and audit logging.",
+        "notes[1].metadata": {
+          "x": 246.22222900390625,
+          "y": 614.8263893127441,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367,
+          "height": 118,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "804f82eb052f432cafdf78b237510fe9"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[1].title": "Slack Message Posting",
+        "notes[2].content": "## Purpose\nThis functional block handles the final workflow phase by consolidating all execution data, merging logging information from different workflow stages, and providing comprehensive audit trails for both successful and failed message posting attempts.\n\n## Key Tasks\n- **END_SUCCESS**: Processes successful message posting outcomes and merges audit logs\n- **END_FAIL**: Handles failed message posting scenarios and consolidates error information\n\n## Process Flow\n1. Receives execution results from the message posting block\n2. Both success and failure paths perform identical data consolidation:\n   - Merges `slack_log` (message posting results) with `reference_log` (thread lookup results)\n   - Uses outer join method to preserve all information from both sources\n   - Matches records based on the `identifier` field\n3. Creates comprehensive audit record containing:\n   - Original workflow inputs and identifiers\n   - Thread reference lookup results\n   - Message posting outcomes\n   - Execution metadata and timestamps\n\n## Data Consolidation Strategy\n- **Merge Method**: Outer join to retain all entries from both log sources\n- **Matching Key**: `identifier` field ensures proper correlation\n- **Result**: Single consolidated record with complete workflow execution history\n\n## Key Outputs\n- Merged audit log containing complete workflow execution trace\n- Unified data structure for downstream reporting and analysis\n- Preservation of both successful operations and failure scenarios\n\n## Workflow Completion\nThis block represents the terminal phase of the workflow, ensuring all execution data is properly consolidated and available for audit, reporting, and troubleshooting purposes.",
+        "notes[2].metadata": {
+          "x": 250.22222900390625,
+          "y": 864.8263893127441,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 770,
+          "height": 130,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "6cb9b193ec544725b212d3e44a1f2f62",
+            "5a660c8cdd5f4473bf20f2b8a40fcd0e"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[2].title": "Result Processing & Audit Logging",
+        "parameters.blocks.description": "",
+        "parameters.blocks.label": "",
+        "parameters.broadcast.description": "",
+        "parameters.broadcast.label": "",
+        "parameters.channel.description": "",
+        "parameters.channel.label": "",
+        "parameters.identifier.description": "",
+        "parameters.identifier.label": "",
+        "parameters.org_id.description": "",
+        "parameters.org_id.label": "",
+        "parameters.text.description": "",
+        "parameters.text.label": "",
+        "tasks[0].description": "Action that does nothing",
+        "tasks[0].metadata": {
+          "x": 261.22222900390625,
+          "y": 194.82638931274414
+        },
+        "tasks[0].next[0].label": "",
+        "tasks[1].description": "Merge two lists by matching items based on a specified key attribute.",
+        "tasks[1].metadata": {
+          "x": 668.2222290039062,
+          "y": 879.8263893127441
+        },
+        "tasks[1].next[0].label": "",
+        "tasks[2].description": "Merge two lists by matching items based on a specified key attribute.",
+        "tasks[2].metadata": {
+          "x": 265.22222900390625,
+          "y": 891.8263893127441
+        },
+        "tasks[2].next[0].label": "",
+        "tasks[3].description": "",
+        "tasks[3].metadata": {
+          "x": 253.72222900390625,
+          "y": 412.82638931274414
+        },
+        "tasks[3].next[0].label": "Reference Exists",
+        "tasks[3].next[1].label": "No Reference",
+        "tasks[4].description": "Sends a message to a channel.",
+        "tasks[4].metadata": {
+          "x": 261.22222900390625,
+          "y": 629.8263893127441
+        },
+        "tasks[4].next[0].label": "",
+        "tasks[4].next[1].label": ""
+      },
+      "references": {
+        "workflow_task_id_ref3": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "EBXgmDRiipiXSSzoLJqMZSdkH2sFBrWNf4NHTxqqQfCU",
+          "content_hash": "3rm5it1AArrWvBw4EsyCeevDoegvFo81cDT2wfB4c5n6",
+          "locations": [
+            "tasks[2].id",
+            "tasks[4].next[0].do[0]"
+          ]
+        },
+        "workflow_note_id_ref1": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "Hz9Qzagt4Bf5zTjTSRm8jRu52docDTM6qpx1sWFyu6Ne",
+          "content_hash": "EomMZLsdY6kneG4rAs3uUUQsiypRt5vTvyMbF1TayKT5",
+          "locations": [
+            "notes[0].id"
+          ]
+        },
+        "action_ref1": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "6Lc9GEQsJx5LHrD44Pxhivi17JpXKbXRcRTqnu4aScpz",
+          "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+          "locations": [
+            "tasks[0].action.id"
+          ]
+        },
+        "workflow_task_id_ref1": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "9AFTvYfJRqADSAojDuPumC6B1DQg63owmS3vqKo9NxRQ",
+          "content_hash": "GeDrmjEo6KQJPNCivNHd1sCfYPGTAxuL33rKp5whGWGJ",
+          "locations": [
+            "tasks[0].id"
+          ]
+        },
+        "action_ref3": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "C1vmjDvr3D4pbjGNsSfmJjXa2hVFHvPP46tPpTzx76bn",
+          "content_hash": "aaYLrMrRTX6t8bS9VSqgBK89o7qqK7BJU3bG9k5h4QL",
+          "locations": [
+            "tasks[3].action.id"
+          ]
+        },
+        "transition_id_ref3": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "7BnsQVPXeWPNie5FvotU4tYxvwqkQ7WxxcxZneRKzA1Y",
+          "content_hash": "3j8aoirHr9zds9xhhvS6HSKUHGgyRxWRRvbynKrAFhz1",
+          "locations": [
+            "tasks[2].next[0].id"
+          ]
+        },
+        "action_ref2": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "C3MGXN9DkhExa3e5mE3fK3N8pHxyyCzH7vQ7ZDtpRMpy",
+          "content_hash": "2fWPuXmUgBYP7FMoY75ZnRAA3vaYRYSNS4BQS2AGtrbZ",
+          "locations": [
+            "tasks[1].action.id",
+            "tasks[2].action.id"
+          ]
+        },
+        "workflow_note_id_ref2": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "EnM9BesiA42t6y3V6uZodXP1sqNRCYsBjtYypJmZNDAm",
+          "content_hash": "H8qFzSLuTxo6Mf4sMsExSyVPkP7eSvgj2mJgc4Q5dfPT",
+          "locations": [
+            "notes[1].id"
+          ]
+        },
+        "transition_id_ref1": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "H9d33DzZyLgxvHrpCLpXTPXhDMzCJDGPXn3Q8fDKYRbM",
+          "content_hash": "6KeURj7ayAw54wC67QUMTjahFxWLJfQ5MuUvUwSD81XU",
+          "locations": [
+            "tasks[0].next[0].id"
+          ]
+        },
+        "transition_id_ref2": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "DHLwZ5Jz41SC86vdts4ug7W2RDwCjyLxtb87d7414AMd",
+          "content_hash": "DDumeRao52XwV28Mc3QrQa2PZhoZHgSibcWQfYZwsALE",
+          "locations": [
+            "tasks[1].next[0].id"
+          ]
+        },
+        "transition_id_ref5": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "9JofFPHE4pQNZiUZBsZuUepdDRFjDD4u4KFs9AEmLJ3n",
+          "content_hash": "D439cf6sfLHvWDf7TuBAKDQx11j7jqBmoqAka5Chtew9",
+          "locations": [
+            "tasks[3].next[1].id"
+          ]
+        },
+        "transition_id_ref7": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "Bsbeki33gQtQ9gVdbeGuu972WgG9sRXzAXw6SojQxAkS",
+          "content_hash": "HtW1fGmzWY8Srk4owtfizXASoquCj7WRwNt8Jbt7Xwvm",
+          "locations": [
+            "tasks[4].next[1].id"
+          ]
+        },
+        "workflow_task_id_ref2": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "DSG9dxkgjasW3waZqn9nhNVbDpbxKerRvYgsoiQtpcYv",
+          "content_hash": "BAvBJjePq8DZLcZM9VaQbhfUkDc7eQq6Gq9wcLppG9qR",
+          "locations": [
+            "tasks[1].id",
+            "tasks[4].next[1].do[0]"
+          ]
+        },
+        "workflow_task_id_ref5": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "DA6ipHWjJp1knK3VDYc9dk4YmaSGLbcZtaUUJMXuuteC",
+          "content_hash": "HHbPxCmDP6Q5em7ATreekc6Vs4nTKoQe5fwLyP1JuaZ",
+          "locations": [
+            "tasks[4].id",
+            "tasks[3].next[0].do[0]",
+            "tasks[3].next[1].do[0]"
+          ]
+        },
+        "workflow_note_id_ref3": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "J9mYPLKGeKDV73zqWQKCcdkyrbe1oU7WCeWaiEEKzYVH",
+          "content_hash": "ApfA1Tw9qBNE65XzDQKnJQSyzKLBYf3DJNSg5AFuGKn4",
+          "locations": [
+            "notes[2].id"
+          ]
+        },
+        "workflow_task_id_ref4": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "Aui4X9vc43DS53t3opgrdpKFBwxEbr3XL3wUCM8HqFZZ",
+          "content_hash": "8975HXefWXiFC6bWuv75Exc437nwDGVGqNwGgiEavJCH",
+          "locations": [
+            "tasks[3].id",
+            "tasks[0].next[0].do[0]"
+          ]
+        },
+        "action_ref4": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "HoXAcRtgEtaFgvJ7n7KCZiSonegLkUpNeEg65UedD8Jj",
+          "content_hash": "6SXR67PuD2Sj6sBDgp2vqNZUSpr3UEoNsjz5Wz9WRp8J",
+          "locations": [
+            "tasks[4].action.id"
+          ]
+        },
+        "transition_id_ref6": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "6bvcSzvn1umdUnLcCFtpKijvNnUXQq2Y8NBJrsNtxjMv",
+          "content_hash": "FnHXMLusJf81nSh3jbmAYtwQx7ThV8Weer6Mxcdwtp9A",
+          "locations": [
+            "tasks[4].next[0].id"
+          ]
+        },
+        "transition_id_ref4": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "D8js5fGmuLDtuGEazxyojKvkJao2NiAVhyjRgCUDUCC9",
+          "content_hash": "AEmYv5gb1qh5YZKVrAH8BDDbDPmEvBdCauQF3WMnZGrf",
+          "locations": [
+            "tasks[3].next[0].id"
+          ]
+        }
+      },
+      "dependencies": [
+        "transition_id:H9d33DzZyLgxvHrpCLpXTPXhDMzCJDGPXn3Q8fDKYRbM",
+        "action:6Lc9GEQsJx5LHrD44Pxhivi17JpXKbXRcRTqnu4aScpz",
+        "transition_id:6bvcSzvn1umdUnLcCFtpKijvNnUXQq2Y8NBJrsNtxjMv",
+        "action:C1vmjDvr3D4pbjGNsSfmJjXa2hVFHvPP46tPpTzx76bn",
+        "workflow_task_id:DSG9dxkgjasW3waZqn9nhNVbDpbxKerRvYgsoiQtpcYv",
+        "workflow_note_id:EnM9BesiA42t6y3V6uZodXP1sqNRCYsBjtYypJmZNDAm",
+        "workflow_task_id:Aui4X9vc43DS53t3opgrdpKFBwxEbr3XL3wUCM8HqFZZ",
+        "workflow_note_id:J9mYPLKGeKDV73zqWQKCcdkyrbe1oU7WCeWaiEEKzYVH",
+        "transition_id:9JofFPHE4pQNZiUZBsZuUepdDRFjDD4u4KFs9AEmLJ3n",
+        "transition_id:Bsbeki33gQtQ9gVdbeGuu972WgG9sRXzAXw6SojQxAkS",
+        "transition_id:D8js5fGmuLDtuGEazxyojKvkJao2NiAVhyjRgCUDUCC9",
+        "workflow_task_id:EBXgmDRiipiXSSzoLJqMZSdkH2sFBrWNf4NHTxqqQfCU",
+        "workflow_note_id:Hz9Qzagt4Bf5zTjTSRm8jRu52docDTM6qpx1sWFyu6Ne",
+        "workflow_task_id:9AFTvYfJRqADSAojDuPumC6B1DQg63owmS3vqKo9NxRQ",
+        "workflow_task_id:DA6ipHWjJp1knK3VDYc9dk4YmaSGLbcZtaUUJMXuuteC",
+        "action:HoXAcRtgEtaFgvJ7n7KCZiSonegLkUpNeEg65UedD8Jj",
+        "transition_id:7BnsQVPXeWPNie5FvotU4tYxvwqkQ7WxxcxZneRKzA1Y",
+        "transition_id:DHLwZ5Jz41SC86vdts4ug7W2RDwCjyLxtb87d7414AMd",
+        "action:C3MGXN9DkhExa3e5mE3fK3N8pHxyyCzH7vQ7ZDtpRMpy"
+      ]
+    }
+  },
+  "__typename": "ExportBundle"
+}

@@ -1,0 +1,1100 @@
+{
+  "version": 2,
+  "exportedAt": "2025-10-11T16:12:32.239178+00:00",
+  "signing": {
+    "cert": "-----BEGIN CERTIFICATE-----\nMIICazCCAfGgAwIBAgIUFJtHAR8D+ZfChHcAXHemH7s8zRowCgYIKoZIzj0EAwIwfDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkZMMQ4wDAYDVQQHEwVUYW1wYTEOMAwGA1UEChMFUmV3c3QxEzARBgNVBAsTClJld3N0IERldnMxKzApBgNVBAMTImxvY2FsIFJld3N0IEltcG9ydC9FeHBvcnQgQ0EyIHYxLjEwHhcNMjIwNjAzMTkwMDU1WhcNMjUwNTIzMTkwMTI1WjBDMQswCQYDVQQGEwJVUzELMAkGA1UECBMCRkwxDjAMBgNVBAcTBVRhbXBhMRcwFQYDVQQDEw5sb2NhbC5yZXdzdC5pbzB2MBAGByqGSM49AgEGBSuBBAAiA2IABMcTJzyLIvX1+3545EJbFeNVjahxVq6TFQ7n/IYZs4yEMQzDWZjAyHhJPZk3Dxq/wFzesXMYJu41rhxfz7AZh15LtFGfy9V2B4X5KH7sGJWqOan0mabuF83llruTLA/NQaNtMGswDgYDVR0PAQH/BAQDAgeAMB0GA1UdDgQWBBTDePOSC6hckrg6usrK2giZv9GxpjAfBgNVHSMEGDAWgBTojdemsJqfnB19iyMxmIi3OGYw6TAZBgNVHREEEjAQgg5sb2NhbC5yZXdzdC5pbzAKBggqhkjOPQQDAgNoADBlAjEA8NsLnuGhfTPC7dB0ojWf5WmH64qFZuPFD6Q0RwGYO0D1Tn2x5+/37kW3HFcGHV0wAjBM7LSidsc7E9+fmcesnN5hM34eGMP+YWCoEeFIPPANXQKemAgUVf35iXyU64sVEC4=\n-----END CERTIFICATE-----",
+    "hash": "sha512",
+    "signature": "MGQCMEiqH+eFU3sRcnwCnzkKuJJDenGOF0X1tMt/Fu16dR+w/AabbosCwrhqiFE1u4ZIcQIwPWRitaXqifUeEo2w+/U5gmTLUC85NGI3nCOHknwtHLys0EtfbXuO8Yt45yexjf/V"
+  },
+  "objects": {
+    "transition_id:EaH1M5CajpCmJnv6HAKKzcvC2mrRyuJPFzii4ZBu42oH": {
+      "type": "transition_id",
+      "content_hash": "GXAXjtX9PyHH8XEzTEfvCLtgN6cxJoCAiz4aD9TgXWPL",
+      "hash": "DPRVduSRHZ1AMRrVpWP5hX4hYXSBN6ZYHG7Pq4coUqM2",
+      "fields": {
+        "id": "7e0b32b9-a2c8-456a-8e02-e61759d08dcc"
+      }
+    },
+    "action:97g5m8x26EGU3B3nzJ3jjvaCwWxF9FT1sgeQUYzi2wec": {
+      "type": "action",
+      "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+      "hash": "Arr2RCEM96WqU2EkvigszSfsW9GZHa4HJC5a1fL9qZ5g",
+      "fields": {
+        "ref": "core.noop"
+      }
+    },
+    "workflow_task_id:3DshZDnPFJMwPXURn3V4d2yrrXKmeZo5bNYxbsYuA5gz": {
+      "type": "workflow_task_id",
+      "content_hash": "FQerDzyV8PvaSi1CuL868yr8fzwrLecTBS2pZasfw4og",
+      "hash": "7tNVfvy3oPp5X2AYAxc36MnYMYY7EQjntLDGnnAe8Hr9",
+      "fields": {
+        "id": "f3eb60f3e2d54b6f896103396df80f51"
+      }
+    },
+    "workflow_note_id:5pmzCQDb4cLbRdkzStthRoqpzfvsY3SRTVPBA3Zzke5x": {
+      "type": "workflow_note_id",
+      "content_hash": "H7N8Hi49Tsy3CbCjntWng5JsMKM9TPEwiMAf6FDJyWjC",
+      "hash": "GoGtrgbUPk5eSxW4G8TsFqachzbDNGJEiNJVsGkdmimS",
+      "fields": {
+        "id": "8c041cd4-d3f3-4a7a-9f29-f851e62f01e3"
+      }
+    },
+    "transition_id:DmQvFX8C6ZgKGyGny15wVYRH6K6oJRoXmZk2Q8DC4fAN": {
+      "type": "transition_id",
+      "content_hash": "6k4BQjn614nv4GST6JnKpm8JgQ4CNAtWmrQHj7oyhN4r",
+      "hash": "4U7kLn3zeyiwKcQYieZYTQJXDxqgNFLZ2f6eEgN5D6KY",
+      "fields": {
+        "id": "68857bd6-6bfd-41da-9d85-7dec461ff9cd"
+      }
+    },
+    "template:2KZkxv66z713VV4PGNQqZ2GX4WqUNat3R214Zxk5HU2w": {
+      "type": "template",
+      "content_hash": "FgTeCUgNW97VJzzAzDnFmSVw7aN71gpdEpzggjVpT6EY",
+      "hash": "DbdwiMmsbsKR8r6L6f1SHUXD314pBU126ch3wYPZ2Vge",
+      "fields": {
+        "body": "{\r\n    \"weeks\": [\r\n        {\r\n            \"week_name\": \"Week 1\",\r\n            \"weekly_goals\": [\r\n                \"Getting Logged into Platform\",\r\n                \"Beginning Training Journey with the 100-series\"\r\n            ],\r\n            \"monday\": [\r\n                \"<a href='https://calendly.com/cluck-u/rewst-101'>Rewst 101: Foundations of Automation</a> (If you missed this, you can retake it the following week.)\"\r\n            ],\r\n            \"tuesday\": [\r\n                \"<a href='https://calendly.com/cluck-u/rewst-102'>Rewst 102: Workflow Building Basics</a>\"\r\n            ],\r\n            \"wednesday\": [\r\n                \"<a href='https://calendly.com/cluck-u/rewst-103'>Rewst 103: Jinja Essentials</a> (May be taken any time before 104)\"\r\n            ],\r\n            \"thursday\": [\r\n                \"<a href='https://calendly.com/cluck-u/roc-ama'>Cluck-U Office Hours</a>\"\r\n            ],\r\n            \"friday\": [\r\n                \"<a href='https://hubs.la/Q01Y6kt40'>Open Mic Call</a> (3PM EST)\"\r\n            ]\r\n        },\r\n        {\r\n            \"week_name\": \"Week 2\",\r\n            \"weekly_goals\": [\r\n                \"Continuing with 100-series Learning\"\r\n            ],\r\n            \"monday\": [\r\n                \"<a href='https://calendly.com/cluck-u/rewst-104'>Rewst 104: Options Generators</a>\",\r\n                \"<a href='https://calendly.com/cluck-u/rewst-101'>Rewst 101: Foundations of Automation</a> (If you missed it)\"\r\n            ],\r\n            \"tuesday\": [\r\n                \"<a href='https://calendly.com/cluck-u/rewst-105'>Rewst 105: Improving Group Management</a>\"\r\n            ],\r\n            \"wednesday\": [\r\n                \"<a href='https://calendly.com/cluck-u/rewst-106'>Rewst 106: Sub-Workflows and With-Items</a>\"\r\n            ],\r\n            \"thursday\": [\r\n                \"<a href='https://calendly.com/cluck-u/roc-ama'>Cluck-U Office Hours</a>\"\r\n            ],\r\n            \"friday\": [\r\n                \"<a href='https://hubs.la/Q01Y6kt40'>Open Mic Call</a> (3PM EST)\"\r\n            ]\r\n        },\r\n        {\r\n            \"week_name\": \"Week 3\",\r\n            \"weekly_goals\": [\r\n                \"Make up any missed courses using the above links. (Pre-recorded courses are available <a href='https://docs.rewst.help/cluck-university/rewst-foundations-10x'>here</a>.)\",\r\n                \"Study / Prepare for 100-Level Exam, Make sure Onboarding is Progressing\",\r\n                \"<a href='https://app.rewst.io/form/${UUID}'>Schedule</a> your Final Exam\"\r\n            ],\r\n            \"monday\": [],\r\n            \"tuesday\": [],\r\n            \"wednesday\": [],\r\n            \"thursday\": [\r\n                \"<a href='https://calendly.com/cluck-u/roc-ama'>Cluck-U Office Hours</a>\"\r\n            ],\r\n            \"friday\": [\r\n                \"<a href='https://hubs.la/Q01Y6kt40'>Open Mic Call</a> (3PM EST)\"\r\n            ]\r\n        },\r\n        {\r\n            \"week_name\": \"Week 4\",\r\n            \"weekly_goals\": [\r\n                \"Take Final Exam if not done\",\r\n                \"<a href='https://calendly.com/d/4hx-ycy-9v3/cluck-u-final-reviews'>Review Final Exam Scores</a>\"\r\n            ],\r\n            \"monday\": [],\r\n            \"tuesday\": [],\r\n            \"wednesday\": [],\r\n            \"thursday\": [\r\n                \"<a href='https://calendly.com/cluck-u/roc-ama'>Cluck-U Office Hours</a>\"\r\n            ],\r\n            \"friday\": [\r\n                \"<a href='https://hubs.la/Q01Y6kt40'>Open Mic Call</a> (3PM EST)\"\r\n            ]\r\n        }\r\n    ]\r\n}",
+        "contentType": "script",
+        "language": "yaml"
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "name": "Training Program Freshman Schedule - First 30 Days"
+      }
+    },
+    "workflow_task_id:DG1bLZuupN6EvoTwKBtk8Ec3dR3zRCN1gEQMJsciLwgr": {
+      "type": "workflow_task_id",
+      "content_hash": "Bptmz6rmaqUCBJRZLJZ8Pdn1AKwkTPjMFWcnuytpvqX2",
+      "hash": "2vvAjkLXMV8VgL97EozS49qHMhdPqhA1aB1EJPi5AVVk",
+      "fields": {
+        "id": "9bf51b46543343bc9661df9c3faacbfd"
+      }
+    },
+    "transition_id:JDw92eZ9KiSFkqDc5xmSet7DfWMQyYj4529U2m9MSRvo": {
+      "type": "transition_id",
+      "content_hash": "8ZmDtbajkNSLF7XuJsUpuh9fKt8Hi5f45JB2g6d6ySJs",
+      "hash": "CwzGsg7eADZxJaoJDQcVEc9X3WDXmoWpXurZi2doqzsF",
+      "fields": {
+        "id": "22736ae5-93a4-410c-97e9-da93142b659c"
+      }
+    },
+    "action:9q7Ln6ZtudYnTLMcyjRJAGz8tkmmZRXNDcVdMnww5b9m": {
+      "type": "action",
+      "content_hash": "9JrLtVk9zUnRwAvwaBwYkm5dptmneow8ihM6xa1yprKf",
+      "hash": "DKTQGYko1SAE7GAHk2yrt48tRYnNdXjj5yLvw26Kt1hL",
+      "fields": {
+        "ref": "hubspot.search_contacts"
+      }
+    },
+    "transition_id:7i8fKU1KVWVPLAPXL67bV85C8aHWdQDoVknFbStqH6Vy": {
+      "type": "transition_id",
+      "content_hash": "7asjLq5gdtagnrmUKGVYcMDWr5JQ63J2MocVoaADyhG7",
+      "hash": "GtX7vcXJAUkoJWpxnNuHJbbBZ7gLMhhijpho8Qx2ccwa",
+      "fields": {
+        "id": "d14e3a0c-93a0-44c9-beb8-b6708d20e064"
+      }
+    },
+    "action:CCo4s9HWNDaduzXarB6T8hEYrC8rXyWMtKybBUWnzuca": {
+      "type": "action",
+      "content_hash": "4aGeKaFvP8Bm7p3d5HL3QMcY3RW3cmbAqgATZWJGA89C",
+      "hash": "GKNBZSroEZfxK2eaPc5rkatkFJQR1Addc2TWEkzTQeTk",
+      "fields": {
+        "ref": "hubspot.update_contact"
+      }
+    },
+    "workflow_task_id:2c2VdDrFr51JutmZ7r2iDXE2KDNs5cTRUjDDRMc4ZFV2": {
+      "type": "workflow_task_id",
+      "content_hash": "DbJ4tkWsQZCTXWBx6hPaZfiJoG79nRsrqErn2zuvXyT3",
+      "hash": "2MVxdeceh6NrvNbVcoRAUibLdodbVv9wAHnvf5DJ4zaN",
+      "fields": {
+        "id": "df90f93e92a24e3d9030c9268a4030d6"
+      }
+    },
+    "workflow_note_id:9FZDpBiLpr1N9V4LvvSzuVMznSjk51vHQC1oSZn7Ckxj": {
+      "type": "workflow_note_id",
+      "content_hash": "FGVoFrvfv5VvPydiFiQiPEzBVpB6EpWoDHsaic4Ma16B",
+      "hash": "EpGKx1w2DdwtuQuczgyYqGFo7ZicRAVEHdFPK9K1hBd3",
+      "fields": {
+        "id": "014f20a1-4500-4751-a76e-ca19cc58bd75"
+      }
+    },
+    "transition_id:751bFdYn6Y8rUHe1vQbz3AtC1iWvqaADjpDBx5ppL8DL": {
+      "type": "transition_id",
+      "content_hash": "9xmBknRk9ZqCof5Gvac1NrceSnLe5m3noHKhzMZL6LWz",
+      "hash": "MZ35A23sswJz8HEAnEigm4gwTkTrtnMXJGrkL6Ubp6S",
+      "fields": {
+        "id": "4ad24f0f-3d83-4a33-8e38-47a3da317890"
+      }
+    },
+    "transition_id:6mfV1YW4y3w7KPrQy2KjjVpGjsNT9QNrvRUzeaSAzimU": {
+      "type": "transition_id",
+      "content_hash": "BsezpqzCvirwkgw6FoSiWJfsej1g1bNBP3xnDwS2FDPR",
+      "hash": "9mvoz8aXgcSnA4LBbTth4UoYqMVrucAGPCtEcC4i3oBm",
+      "fields": {
+        "id": "b7839393-5bc0-4b8e-9603-973515edce92"
+      }
+    },
+    "transition_id:85nrssUZpGWrfMb61WYHBrtgMjfrsyrrNe39aZFzbxaM": {
+      "type": "transition_id",
+      "content_hash": "iotcFsmXPspyyyLDEpT7XqrysktrCrjKS92bmbAb4By",
+      "hash": "5W75Lf73oeh3DxkUFtxR2u7mVshkpSmPWs4GZbjEtWKS",
+      "fields": {
+        "id": "515bbc44-7f68-4200-949c-5496167a2c52"
+      }
+    },
+    "template:4Pc9uH3ebNSk2GpdCQ8gNPYL6brvkPPnVQavMxBEBkxf": {
+      "type": "template",
+      "content_hash": "ArBnzanUAduauWeFZf2hWt1qpyM4ALXZrGDrrKmU81Jm",
+      "hash": "AxDEXaxFMW1jXxbWD4SwaPEsk4TTBaFVkQoYxmCJoBNZ",
+      "fields": {
+        "body": "{%- set data = CTX.calendar|d or (templates('${UUID}') | from_json_string) -%}\r\n\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n</head>\r\n<body>\r\n        <style>\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n        }\r\n        .myTable {\r\n            border-collapse: collapse;\r\n            width: 100%;\r\n        }\r\n        .myTable th, .myTable td {\r\n            border: 1px solid #ddd;\r\n            padding: 8px;\r\n            text-align: left;\r\n        }\r\n        .myTable th {\r\n            background-color: #009490;\r\n            color: white;\r\n        }\r\n        .myTable .goal-col {\r\n            font-weight: bold;\r\n        }\r\n        .myTable tr:nth-child(even) {\r\n            background-color: #B2DFD8;\r\n        }\r\n    </style>\r\n    <p>\r\n    Greetings, and welcome to the Rewst community! As a new Training Programniversity Freshman, we're egg-cited to accompany you on your journey to success. Our team has put together the following plan to help navigate your initial training and development. And remember, should you have any questions or need support, don't hesitate to give us a squawk. We're here to ensure your transition into our community is as smooth as possible. Let's get this journey started!\r\n    </p>\r\n    <p>\r\n    For the 100 series, we have courses numbered 101 through 106. These ideally should be taken in order, especially 102-106, as these start you out building a simple workflow, and then make it better through iteration.\r\n    </p>\r\n    <p>\r\n    This content is self-paced. We offer courses sequentially, but if your schedule doesn't allow you to attend consecutive days, you can always re-schedule for the next offered session. If you follow the schedule below, you should be able to complete 100-level training and certification within one month. We recommend you attend the live sessions and ask questions if you can, but in case the times don't work out for you, we have recorded sessions ready to watch.\r\n    </p>\r\n    <p>\r\n    Use the hyperlinks in the calendar view to sign up for each event, and let us know if you need any help along the way!\r\n    <br><br><br>\r\n    <table class=\"myTable\">\r\n        <tr>\r\n            <th>Week</th>\r\n            <th class=\"goal-col\">Goals of the Week</th>\r\n            <th>Monday</th>\r\n            <th>Tuesday</th>\r\n            <th>Wednesday</th>\r\n            <th>Thursday</th>\r\n            <th>Friday</th>\r\n        </tr>\r\n        {% for week in data.weeks %}\r\n            <tr>\r\n                <td>{{week.week_name}}</td>\r\n                <td class=\"goal-col\">\r\n                    <ul>\r\n                    {% for goal in week.weekly_goals %}\r\n                        <li>{{goal}}</li>\r\n                    {% endfor %}\r\n                    </ul>\r\n                </td>\r\n                <td>{% for item in week.monday %}{{item}}{% if not loop.last %}<br>{% endif %}{% endfor %}</td>\r\n                <td>{% for item in week.tuesday %}{{item}}{% if not loop.last %}<br>{% endif %}{% endfor %}</td>\r\n                <td>{% for item in week.wednesday %}{{item}}{% if not loop.last %}<br>{% endif %}{% endfor %}</td>\r\n                <td>{% for item in week.thursday %}{{item}}{% if not loop.last %}<br>{% endif %}{% endfor %}</td>\r\n                <td>{% for item in week.friday %}{{item}}{% if not loop.last %}<br>{% endif %}{% endfor %}</td>\r\n            </tr>\r\n        {% endfor %}\r\n    </table>\r\n</body>\r\n</html>",
+        "contentType": "message",
+        "language": "html"
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "name": "Training Program Freshman Training Calendar HTML"
+      }
+    },
+    "workflow_note_id:354khm9XuMSGbTXCNMJReQ8XB7C2APwsepLTke1pS2Ei": {
+      "type": "workflow_note_id",
+      "content_hash": "BRMT5efEhHRugcyb2437WCNbaJ4Q4L5VxTVvrKNuWZux",
+      "hash": "GFWpmrSLajtknrru4amAKrAHDJeyBfgRzKiFzYGfNUqZ",
+      "fields": {
+        "id": "30f77367-5595-4e2c-b0e3-93843b68ee7a"
+      }
+    },
+    "workflow_note_id:22kHucmzcPmDeP4EP4Ce5rtDBa7ZfX9m9KcMRMaySCYB": {
+      "type": "workflow_note_id",
+      "content_hash": "Hgm4NtZEhHAjYebs5vcVDwcdtXUowLnwTwBBxS56EThe",
+      "hash": "6WLqYMZZDTCfVMUQFqQgeGsBmTEGTk881CUhwpRZC1ix",
+      "fields": {
+        "id": "f23f9a6c-dd7d-45c8-9a3b-2ce45af93d38"
+      }
+    },
+    "template:Et9LAx8Nx4fYQF5pCMXNRgWbipuMLwRufNubyTxSmCLt": {
+      "type": "template",
+      "content_hash": "74KoymCa6dB11z8kAgMSuDVn59yMHoAb4Jd3HwTNRhDP",
+      "hash": "EXsLdNKrqGVM9jA4FAENc2kJnoPmpiHPnCSxiKxFTgaF",
+      "fields": {
+        "body": "{%- set data = CTX.calendar|d or (templates('${UUID}') | from_json_string) -%}\r\n    <p>\r\n    Greetings, and welcome to the Rewst community! As a new Training Programniversity Freshman, we're egg-cited to accompany you on your journey to success. Our team has put together the following plan to help navigate your initial training and development. And remember, should you have any questions or need support, don't hesitate to give us a squawk. We're here to ensure your transition into our community is as smooth as possible. Let's get this journey started!\r\n    </p>\r\n    <p>\r\n    For the 100 series, we have courses numbered 101 through 106. These ideally should be taken in order, especially 102-106, as these start you out building a simple workflow, and then make it better through iteration.\r\n    </p>\r\n    <p>\r\n    This content is self-paced. We offer courses sequentially, but if your schedule doesn't allow you to attend consecutive days, you can always re-schedule for the next offered session. If you follow the schedule below, you should be able to complete 100-level training and certification within one month. We recommend you attend the live sessions and ask questions if you can, but in case the times don't work out for you, we have recorded sessions ready to watch.\r\n    </p>\r\n    <p>\r\n    Use the hyperlinks in the calendar view to sign up for each event, and let us know if you need any help along the way!\r\n    </br>\r\n    <table class=\"myTable\">\r\n        <tr>\r\n            <th>Week</th>\r\n            <th class=\"goal-col\">Goals of the Week</th>\r\n            <th>Monday</th>\r\n            <th>Tuesday</th>\r\n            <th>Wednesday</th>\r\n            <th>Thursday</th>\r\n            <th>Friday</th>\r\n        </tr>\r\n        {% for week in data.weeks %}\r\n            <tr>\r\n                <td>{{week.week_name}}</td>\r\n                <td class=\"goal-col\">\r\n                    <ul>\r\n                    {% for goal in week.weekly_goals %}\r\n                        <li>{{goal}}</li>\r\n                    {% endfor %}\r\n                    </ul>\r\n                </td>\r\n                <td>{% for item in week.monday %}{{item}}{% if not loop.last %}<br>{% endif %}{% endfor %}</td>\r\n                <td>{% for item in week.tuesday %}{{item}}{% if not loop.last %}<br>{% endif %}{% endfor %}</td>\r\n                <td>{% for item in week.wednesday %}{{item}}{% if not loop.last %}<br>{% endif %}{% endfor %}</td>\r\n                <td>{% for item in week.thursday %}{{item}}{% if not loop.last %}<br>{% endif %}{% endfor %}</td>\r\n                <td>{% for item in week.friday %}{{item}}{% if not loop.last %}<br>{% endif %}{% endfor %}</td>\r\n            </tr>\r\n        {% endfor %}\r\n    </table>",
+        "contentType": "message",
+        "language": "html"
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "name": "Training Program Freshman Training Calendar HTML - Self Serve"
+      }
+    },
+    "workflow_note_id:8pvPYNwPCUcJDyLgq56Q3qU9RDebcgH8y3KNsJe1xnAZ": {
+      "type": "workflow_note_id",
+      "content_hash": "FkgjZ95GpS8sN7cBsoXJXdpNWjV1YxJcjugh2SVtaX9Y",
+      "hash": "8j72WDwf5NXPZQnhPPzQdwmaBcPYJW4xrsFkw7KzUnsU",
+      "fields": {
+        "id": "6f0bb076-b935-4942-8b13-a9ecb394fa32"
+      }
+    },
+    "workflow_task_id:8Qtuf2boJtSCedFTFNk9HAakeYzyXfwJSp84Luhq2p6t": {
+      "type": "workflow_task_id",
+      "content_hash": "GpxPfwUNiSshgf6QRyGqScfu5pictPC448LojwrTH1MZ",
+      "hash": "6FMusJfgXF7SY8dyauMgxm3BjCHCg3mNyy3B9ZBCoRrb",
+      "fields": {
+        "id": "30b5501ec0fe4c46873e2ffcac65c81c"
+      }
+    },
+    "workflow_task_id:H2JjSTFHyL62xbRPHG1GA2h1FomoPjS9Ffu5k3C5iVjN": {
+      "type": "workflow_task_id",
+      "content_hash": "2Erg153v35WBT29TtJEvPtLzdJRu9PuLW9q4vwNx6ktY",
+      "hash": "5ZwU2ER6tWbQDcgMyW1daVMu8U432oVTqg5xabHRAJFt",
+      "fields": {
+        "id": "52bbe1801a9040f68e07f48df1302290"
+      }
+    },
+    "workflow_task_id:66jYrdK7se65xTJKGBEUMjW4GsArjq5CxRzBiYvFP4Tq": {
+      "type": "workflow_task_id",
+      "content_hash": "4VGyQXPJiAu3DN7STBxfteCkCiGT98qPMdCYxS4hrYaB",
+      "hash": "CSktRs21somU5eDaXfURVhwDf87FdxUM2Nf2EaRYZZKM",
+      "fields": {
+        "id": "23d945457b5244479b055090d6408199"
+      }
+    },
+    "workflow_task_id:V7tbErqUeisHadATVcy7pmikfhyu8JdH46jrbiYswD8": {
+      "type": "workflow_task_id",
+      "content_hash": "2JF93TJ4QDoFvbZc8jjJpjtE7iGgdp3wVGBTwDG19JBh",
+      "hash": "GkDuQnNpD9awKGyDCDbyTvmm3U9DLYGH9KjUtA6UVt8v",
+      "fields": {
+        "id": "181158fd033540c39f136d381644d954"
+      }
+    },
+    "transition_id:8PvggkXL2bmvwrDJmGt6PQvzkM7koQTNDYZ9vNm2VzPM": {
+      "type": "transition_id",
+      "content_hash": "2xsZyEzgU7w6xFWYkfhmKUybxGKmj5YbCXpzLgetbu6v",
+      "hash": "DqzHET2SRNyYeqZSepWuLnpNMZvNob3VQJcn8cgTiamt",
+      "fields": {
+        "id": "9eea38fe-7260-48a6-93e1-76939ca1913a"
+      }
+    },
+    "action:5sQ68Bx2BekmUQ41ySzFrVLx2wiQJDh2HNVQexp8u88C": {
+      "type": "action",
+      "content_hash": "Aj7g63oBpFTyTLgcv25UHmfMB5WmghbjNdHZYGy7KxYN",
+      "hash": "JAbYYJfYDMeHf1dt791VFAinW1gZoCwsGcGznS61qhTC",
+      "fields": {
+        "ref": "transforms.set_variable"
+      }
+    },
+    "action:8sjY1wC46caUwvA6Buk7q8BQWGcJLQa9MoktLn5s6NNy": {
+      "type": "action",
+      "content_hash": "34j4oexPk3Uipz1HuTzPPVjKA1iNywwQVm4eUgwjsA8m",
+      "hash": "7yLL6gAcZW4iL3u1ZJEJ7swMNCdLKoQ1u5APxJVx6LNY",
+      "fields": {
+        "ref": "hubspot.generic_request"
+      }
+    },
+    "workflow:8yqmudF9iE77tfdjXXuqPv61W3r9tNd5CaD5pfMPWZds": {
+      "type": "workflow",
+      "content_hash": "5n4fGwWfqBCpwg2oemZYTK8d5vf7PYxeKMzB6Ud5YtPD",
+      "hash": "3cton24ygyRb2kNLpNmo6J2yPgYYYqsW9C11EBVdVQ4Z",
+      "fields": {
+        "humanSecondsSaved": 0,
+        "notes": [
+          {
+            "id": "@@@workflow_note_id_ref1@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref2@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref3@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref4@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref5@@@"
+          }
+        ],
+        "output": [],
+        "parameters": {
+          "email": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          },
+          "date_submitted": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          }
+        },
+        "tasks": [
+          {
+            "id": "@@@workflow_task_id_ref1@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "end_contact_updated",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref1@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref2@@@",
+            "action": {
+              "id": "@@@action_ref2@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "query": "{{ CTX.email }}",
+              "properties": "id,associatedcompanyid,company,success_manager",
+              "filter_value": null,
+              "filter_operation": null,
+              "filter_parameter": null
+            },
+            "isMocked": false,
+            "join": 1,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "hub_spot_search_contacts",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref7@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref2@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ CTX.hs_search_contacts|length > 0 }}"
+              },
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref3@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "hs_search_contacts",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_FIRST",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref3@@@",
+            "action": {
+              "id": "@@@action_ref3@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "fax": null,
+              "zip": null,
+              "city": null,
+              "email": null,
+              "phone": null,
+              "state": null,
+              "degree": null,
+              "gender": null,
+              "school": null,
+              "address": null,
+              "company": null,
+              "country": null,
+              "message": null,
+              "website": null,
+              "industry": null,
+              "jobtitle": null,
+              "lastname": null,
+              "firstname": null,
+              "seniority": null,
+              "contact_id": "{{ item().contact_id }}",
+              "salutation": null,
+              "start_date": null,
+              "twitterbio": null,
+              "work_email": null,
+              "hs_language": null,
+              "linkedinbio": null,
+              "mobilephone": null,
+              "company_size": null,
+              "job_function": null,
+              "numemployees": null,
+              "annualrevenue": null,
+              "date_of_birth": null,
+              "twitterhandle": null,
+              "field_of_study": null,
+              "hs_buying_role": null,
+              "hs_lead_status": null,
+              "lifecyclestage": null,
+              "marital_status": null,
+              "graduation_date": null,
+              "military_status": null,
+              "custom_properties": {
+                "cluck_u_enrollment_date": "{{ CTX.hs_timestamp|format_datetime(\"%Y-%m-%d\") }}"
+              },
+              "linkedinconnections": null,
+              "relationship_status": null
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "hub_spot_update_contact",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref1@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref4@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": {
+              "items": "{{ CTX.hs_contacts }}",
+              "concurrency": "1"
+            },
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref4@@@",
+            "action": {
+              "id": "@@@action_ref4@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "data": null,
+              "json": null,
+              "method": "POST",
+              "params": null,
+              "cookies": null,
+              "headers": null,
+              "paginate": false,
+              "raw_json": "{\r\n  \"properties\": {\r\n    \"hs_timestamp\": \"{{ CTX.hs_timestamp }}\",\r\n    \"hs_note_body\": \"{{ CTX.format_body|json_escape }}\",\r\n    \"hubspot_owner_id\": {{ item().csm_id }}\r\n  },\r\n  \"associations\": [\r\n    {\r\n      \"to\": {\r\n        \"id\": {{ item().contact_id }}\r\n      },\r\n      \"types\": [\r\n        {\r\n          \"associationCategory\": \"HUBSPOT_DEFINED\",\r\n          \"associationTypeId\": 202\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"to\": {\r\n        \"id\": {{ item().company_id }}\r\n      },\r\n      \"types\": [\r\n        {\r\n          \"associationCategory\": \"HUBSPOT_DEFINED\",\r\n          \"associationTypeId\": 190\r\n        }\r\n      ]\r\n    }\r\n  ]\r\n}",
+              "url_path": "/crm/v3/objects/notes",
+              "follow_redirects": true,
+              "require_2xx_status": true
+            },
+            "isMocked": false,
+            "join": 1,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "post_ticket_summary_as_task",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref6@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref5@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "create_task",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": {
+              "items": "{{ CTX.hs_contacts }}",
+              "concurrency": "1"
+            },
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref5@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "set_vars",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref2@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref6@@@",
+                "publish": [
+                  {
+                    "key": "calendar_raw",
+                    "value": "{{ template('@@@template_ref1@@@') }}"
+                  },
+                  {
+                    "key": "calendar",
+                    "value": "{{ CTX.calendar_raw | from_json_string }}"
+                  },
+                  {
+                    "key": "html",
+                    "value": "{{ template('@@@template_ref2@@@') }}"
+                  },
+                  {
+                    "key": "hs_timestamp",
+                    "value": "{{ CTX.date_submitted|format_datetime(\"%Y-%m-%dT%H:%M:%S.000Z\") }}"
+                  },
+                  {
+                    "key": "html_self_serve",
+                    "value": "{{ template('@@@template_ref3@@@') }}"
+                  },
+                  {
+                    "key": "format_body",
+                    "value": "Registered for Training Programniversity on {{ CTX.date_submitted|format_datetime('%Y-%m-%d at %-I:%M %p %Z') }}</br></br>The following email has been sent to the contact:</br></br>{{ CTX.html_self_serve }}"
+                  }
+                ],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref6@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "task_added",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref3@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref7@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref7@@@",
+            "action": {
+              "id": "@@@action_ref5@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "params": {
+                "text": "{{\r\n    {\r\n    \"contact_id\": contact.id,\r\n    \"company_id\": contact.properties.associatedcompanyid,\r\n    \"company_name\": contact.properties.company,\r\n    \"csm_id\": contact.properties.success_manager\r\n    }\r\n    for contact in CTX.hs_search_contacts\r\n}}"
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "transforms_set_variable",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref4@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref8@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "hs_contacts",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          }
+        ],
+        "timeout": 28800,
+        "type": "STANDARD",
+        "varsSchema": {}
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "name": "Ad-hoc HubSpot Note",
+        "notes[0].content": "This functional block handles the initial setup and variable configuration for the Training Programniversity enrollment workflow.\n\n**Purpose**: Prepares all necessary variables, timestamps, and formatted content needed for the subsequent HubSpot operations.\n\n**Key Tasks**:\n- **set_vars**: Initializes critical workflow variables including calendar data, HTML content, timestamps, and formatted body text for the enrollment notification\n\n**Key Variables Created**:\n- `calendar_raw` & `calendar`: Calendar data for the enrollment\n- `html` & `html_self_serve`: HTML content for email communications\n- `hs_timestamp`: Properly formatted timestamp for HubSpot records\n- `format_body`: Formatted message body indicating Training Programniversity registration\n\n**Workflow Context**: This block runs at the beginning of the workflow and establishes all the foundational data that will be used throughout the process. The variables created here are essential for proper contact updates and note creation in HubSpot.\n\n**Next Phase**: After setup completion, the workflow proceeds to search for the contact in HubSpot using the configured email address.",
+        "notes[0].metadata": {
+          "x": 763.4999999999999,
+          "y": 40.2999999999999,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367.0000000000001,
+          "height": 118,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "df90f93e92a24e3d9030c9268a4030d6"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[0].title": "Initial Setup & Variable Configuration",
+        "notes[1].content": "This functional block handles the critical contact lookup process in HubSpot to determine if the enrolling user exists in the system.\n\n**Purpose**: Searches for the contact using their email address and retrieves essential contact information needed for enrollment processing.\n\n**Key Tasks**:\n- **hub_spot_search_contacts**: Performs a contact search in HubSpot using the provided email address and retrieves specific properties\n\n**Search Configuration**:\n- **Query**: Uses the `CTX.email` variable to search for the contact\n- **Properties Retrieved**: `id`, `associatedcompanyid`, `company`, `success_manager`\n- **Search Method**: Uses HubSpot's contact search API endpoint\n\n**Conditional Logic**:\n- **Contact Found**: If search returns results (length > 0), workflow proceeds to data transformation\n- **No Contact Found**: If no contact exists, workflow terminates gracefully\n\n**Data Retrieved**:\n- Contact ID for future operations\n- Associated company information\n- Success manager assignment\n- Company name for context\n\n**Workflow Context**: This is a critical decision point in the workflow. The success of this search determines whether the enrollment can be processed. The retrieved contact data becomes the foundation for all subsequent HubSpot operations.\n\n**Next Phase**: If a contact is found, the workflow moves to data processing and transformation. If no contact exists, the workflow ends without further action.",
+        "notes[1].metadata": {
+          "x": 764,
+          "y": 257,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367,
+          "height": 118,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "f3eb60f3e2d54b6f896103396df80f51"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[1].title": "Contact Search & Validation",
+        "notes[2].content": "This functional block transforms the raw contact search results into a structured format optimized for HubSpot operations.\n\n**Purpose**: Processes the contact search results and creates a structured data object that can be efficiently used for batch operations on contacts and their associated records.\n\n**Key Tasks**:\n- **transforms_set_variable**: Transforms contact search results into a structured array of contact objects\n\n**Data Transformation Logic**:\nThe task creates a structured array where each contact object contains:\n- `contact_id`: The unique HubSpot contact identifier\n- `company_id`: Associated company ID from the contact's properties\n- `company_name`: Company name for reference\n- `csm_id`: Customer Success Manager ID for proper assignment\n\n**Input Source**: `CTX.hs_search_contacts` (results from the contact search)\n\n**Output Structure**: Creates an iterable array of contact objects that enables the workflow to process multiple contacts if needed (though typically one contact per enrollment)\n\n**Processing Pattern**: Uses Jinja2 templating to iterate through search results and extract relevant properties into a clean, consistent data structure\n\n**Workflow Context**: This transformation step is crucial for preparing data in the exact format needed by subsequent HubSpot operations. It ensures that all necessary IDs and references are properly structured and accessible for note creation and contact updates.\n\n**Next Phase**: The transformed data is used to create HubSpot notes with proper associations to contacts and companies.",
+        "notes[2].metadata": {
+          "x": 762,
+          "y": 443,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367,
+          "height": 118,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "23d945457b5244479b055090d6408199"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[2].title": "Data Processing & Transformation",
+        "notes[3].content": "This functional block handles the core HubSpot operations, creating enrollment notes and updating contact records with Training Programniversity enrollment information.\n\n**Purpose**: Creates a comprehensive record of the Training Programniversity enrollment in HubSpot by adding detailed notes and updating contact properties.\n\n**Key Tasks**:\n\n1. **post_ticket_summary_as_task**: Creates a new note in HubSpot with enrollment details\n   - Uses HubSpot's generic API request action to create notes\n   - Includes formatted enrollment information and email content\n   - Associates the note with both the contact and their company\n   - Assigns the note to the appropriate Customer Success Manager\n\n2. **task_added**: Status tracking placeholder for note creation completion\n\n3. **hub_spot_update_contact**: Updates the contact record with enrollment date\n   - Sets the custom property `cluck_u_enrollment_date` with the current date\n   - Uses the formatted timestamp from the initial setup phase\n\n**Note Creation Details**:\n- **Content**: Includes registration date, time, and the self-serve email content\n- **Associations**: Links to both contact (association type 202) and company (association type 190)\n- **Owner Assignment**: Assigns to the contact's designated Customer Success Manager\n- **Timestamp**: Uses properly formatted HubSpot timestamp\n\n**Contact Update Details**:\n- **Property Updated**: `cluck_u_enrollment_date`\n- **Value**: Current date in YYYY-MM-DD format\n- **Purpose**: Tracks when the contact enrolled in Training Programniversity\n\n**Workflow Context**: This block represents the primary business value of the workflow - creating a permanent record of the enrollment in HubSpot and ensuring the contact's profile reflects their participation in Training Programniversity.\n\n**Next Phase**: After successful HubSpot operations, the workflow moves to completion tracking.",
+        "notes[3].metadata": {
+          "x": 751.3,
+          "y": 640,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 370.39999999999986,
+          "height": 478.5999999999997,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "30b5501ec0fe4c46873e2ffcac65c81c",
+            "52bbe1801a9040f68e07f48df1302290",
+            "181158fd033540c39f136d381644d954"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[3].title": "HubSpot Note Creation & Contact Updates",
+        "notes[4].content": "This functional block handles the final workflow completion and status tracking for the Training Programniversity enrollment process.\n\n**Purpose**: Provides a clean completion point for the workflow and ensures proper status tracking after all HubSpot operations have been successfully completed.\n\n**Key Tasks**:\n- **end_contact_updated**: Final status marker indicating successful completion of contact updates and note creation\n\n**Workflow Function**:\n- Acts as a terminal point for successful workflow execution\n- Provides a clear indication that all enrollment processing has been completed\n- Uses a no-operation (noop) action to serve as a status checkpoint\n\n**Execution Context**: This task only executes when:\n- Contact search was successful\n- Data transformation completed properly  \n- HubSpot note creation succeeded\n- Contact record update was successful\n\n**Workflow Completion**: When this task executes, it indicates that:\n- The contact has been successfully enrolled in Training Programniversity\n- A detailed note has been created in HubSpot with enrollment information\n- The contact's record has been updated with the enrollment date\n- All associations (contact, company, CSM) have been properly established\n\n**Status Tracking**: This completion marker helps with workflow monitoring and debugging, providing a clear success indicator for the entire enrollment process.\n\n**Final State**: Upon completion of this task, the Training Programniversity enrollment workflow has successfully processed the enrollment and updated all relevant HubSpot records.",
+        "notes[4].metadata": {
+          "x": 758,
+          "y": 1177.7000000000003,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367,
+          "height": 118,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "9bf51b46543343bc9661df9c3faacbfd"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[4].title": "Workflow Completion & Status Tracking",
+        "parameters.date_submitted.description": "",
+        "parameters.date_submitted.label": "",
+        "parameters.email.description": "",
+        "parameters.email.label": "",
+        "tasks[0].description": "Action that does nothing",
+        "tasks[0].metadata": {
+          "x": 773,
+          "y": 1192.7000000000003
+        },
+        "tasks[0].next[0].label": "",
+        "tasks[1].description": "search contacts in hubspot",
+        "tasks[1].metadata": {
+          "x": 779,
+          "y": 272
+        },
+        "tasks[1].next[0].label": "Contact Found",
+        "tasks[1].next[1].label": "No Contact Found",
+        "tasks[2].description": "update a contact in hubspot",
+        "tasks[2].metadata": {
+          "x": 766.3,
+          "y": 1015.5999999999997
+        },
+        "tasks[2].next[0].label": "",
+        "tasks[3].description": "Post a meeting in HubSpot with the latest updates and details of the escalated ticket.",
+        "tasks[3].metadata": {
+          "x": 769,
+          "y": 655
+        },
+        "tasks[3].next[0].label": "",
+        "tasks[4].description": "Action that does nothing",
+        "tasks[4].metadata": {
+          "x": 778.4999999999999,
+          "y": 55.2999999999999
+        },
+        "tasks[4].next[0].label": "",
+        "tasks[5].description": "Action that does nothing",
+        "tasks[5].metadata": {
+          "x": 769.6999999999999,
+          "y": 835.2000000000002
+        },
+        "tasks[5].next[0].label": "",
+        "tasks[6].description": "Set a variable as an action",
+        "tasks[6].metadata": {
+          "x": 777,
+          "y": 458
+        },
+        "tasks[6].next[0].label": ""
+      },
+      "references": {
+        "transition_id_ref2": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "EaH1M5CajpCmJnv6HAKKzcvC2mrRyuJPFzii4ZBu42oH",
+          "content_hash": "GXAXjtX9PyHH8XEzTEfvCLtgN6cxJoCAiz4aD9TgXWPL",
+          "locations": [
+            "tasks[1].next[0].id"
+          ]
+        },
+        "transition_id_ref4": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "6mfV1YW4y3w7KPrQy2KjjVpGjsNT9QNrvRUzeaSAzimU",
+          "content_hash": "BsezpqzCvirwkgw6FoSiWJfsej1g1bNBP3xnDwS2FDPR",
+          "locations": [
+            "tasks[2].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref1": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "DG1bLZuupN6EvoTwKBtk8Ec3dR3zRCN1gEQMJsciLwgr",
+          "content_hash": "Bptmz6rmaqUCBJRZLJZ8Pdn1AKwkTPjMFWcnuytpvqX2",
+          "locations": [
+            "tasks[0].id",
+            "tasks[2].next[0].do[0]"
+          ]
+        },
+        "action_ref5": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "5sQ68Bx2BekmUQ41ySzFrVLx2wiQJDh2HNVQexp8u88C",
+          "content_hash": "Aj7g63oBpFTyTLgcv25UHmfMB5WmghbjNdHZYGy7KxYN",
+          "locations": [
+            "tasks[6].action.id"
+          ]
+        },
+        "action_ref2": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "9q7Ln6ZtudYnTLMcyjRJAGz8tkmmZRXNDcVdMnww5b9m",
+          "content_hash": "9JrLtVk9zUnRwAvwaBwYkm5dptmneow8ihM6xa1yprKf",
+          "locations": [
+            "tasks[1].action.id"
+          ]
+        },
+        "transition_id_ref6": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "85nrssUZpGWrfMb61WYHBrtgMjfrsyrrNe39aZFzbxaM",
+          "content_hash": "iotcFsmXPspyyyLDEpT7XqrysktrCrjKS92bmbAb4By",
+          "locations": [
+            "tasks[4].next[0].id"
+          ]
+        },
+        "workflow_note_id_ref1": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "354khm9XuMSGbTXCNMJReQ8XB7C2APwsepLTke1pS2Ei",
+          "content_hash": "BRMT5efEhHRugcyb2437WCNbaJ4Q4L5VxTVvrKNuWZux",
+          "locations": [
+            "notes[0].id"
+          ]
+        },
+        "transition_id_ref7": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "8PvggkXL2bmvwrDJmGt6PQvzkM7koQTNDYZ9vNm2VzPM",
+          "content_hash": "2xsZyEzgU7w6xFWYkfhmKUybxGKmj5YbCXpzLgetbu6v",
+          "locations": [
+            "tasks[5].next[0].id"
+          ]
+        },
+        "transition_id_ref3": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "DmQvFX8C6ZgKGyGny15wVYRH6K6oJRoXmZk2Q8DC4fAN",
+          "content_hash": "6k4BQjn614nv4GST6JnKpm8JgQ4CNAtWmrQHj7oyhN4r",
+          "locations": [
+            "tasks[1].next[1].id"
+          ]
+        },
+        "workflow_task_id_ref4": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "8Qtuf2boJtSCedFTFNk9HAakeYzyXfwJSp84Luhq2p6t",
+          "content_hash": "GpxPfwUNiSshgf6QRyGqScfu5pictPC448LojwrTH1MZ",
+          "locations": [
+            "tasks[3].id",
+            "tasks[6].next[0].do[0]"
+          ]
+        },
+        "action_ref3": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "CCo4s9HWNDaduzXarB6T8hEYrC8rXyWMtKybBUWnzuca",
+          "content_hash": "4aGeKaFvP8Bm7p3d5HL3QMcY3RW3cmbAqgATZWJGA89C",
+          "locations": [
+            "tasks[2].action.id"
+          ]
+        },
+        "template_ref1": {
+          "kind": "string",
+          "type": "template",
+          "src_key_hash": "2KZkxv66z713VV4PGNQqZ2GX4WqUNat3R214Zxk5HU2w",
+          "content_hash": "FgTeCUgNW97VJzzAzDnFmSVw7aN71gpdEpzggjVpT6EY",
+          "locations": [
+            "tasks[4].next[0].publish[0].value"
+          ]
+        },
+        "workflow_task_id_ref5": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "2c2VdDrFr51JutmZ7r2iDXE2KDNs5cTRUjDDRMc4ZFV2",
+          "content_hash": "DbJ4tkWsQZCTXWBx6hPaZfiJoG79nRsrqErn2zuvXyT3",
+          "locations": [
+            "tasks[4].id"
+          ]
+        },
+        "workflow_task_id_ref6": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "H2JjSTFHyL62xbRPHG1GA2h1FomoPjS9Ffu5k3C5iVjN",
+          "content_hash": "2Erg153v35WBT29TtJEvPtLzdJRu9PuLW9q4vwNx6ktY",
+          "locations": [
+            "tasks[5].id",
+            "tasks[3].next[0].do[0]"
+          ]
+        },
+        "action_ref4": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "8sjY1wC46caUwvA6Buk7q8BQWGcJLQa9MoktLn5s6NNy",
+          "content_hash": "34j4oexPk3Uipz1HuTzPPVjKA1iNywwQVm4eUgwjsA8m",
+          "locations": [
+            "tasks[3].action.id"
+          ]
+        },
+        "workflow_note_id_ref5": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "8pvPYNwPCUcJDyLgq56Q3qU9RDebcgH8y3KNsJe1xnAZ",
+          "content_hash": "FkgjZ95GpS8sN7cBsoXJXdpNWjV1YxJcjugh2SVtaX9Y",
+          "locations": [
+            "notes[4].id"
+          ]
+        },
+        "transition_id_ref8": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "JDw92eZ9KiSFkqDc5xmSet7DfWMQyYj4529U2m9MSRvo",
+          "content_hash": "8ZmDtbajkNSLF7XuJsUpuh9fKt8Hi5f45JB2g6d6ySJs",
+          "locations": [
+            "tasks[6].next[0].id"
+          ]
+        },
+        "template_ref2": {
+          "kind": "string",
+          "type": "template",
+          "src_key_hash": "4Pc9uH3ebNSk2GpdCQ8gNPYL6brvkPPnVQavMxBEBkxf",
+          "content_hash": "ArBnzanUAduauWeFZf2hWt1qpyM4ALXZrGDrrKmU81Jm",
+          "locations": [
+            "tasks[4].next[0].publish[2].value"
+          ]
+        },
+        "workflow_task_id_ref3": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "V7tbErqUeisHadATVcy7pmikfhyu8JdH46jrbiYswD8",
+          "content_hash": "2JF93TJ4QDoFvbZc8jjJpjtE7iGgdp3wVGBTwDG19JBh",
+          "locations": [
+            "tasks[2].id",
+            "tasks[5].next[0].do[0]"
+          ]
+        },
+        "transition_id_ref5": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "751bFdYn6Y8rUHe1vQbz3AtC1iWvqaADjpDBx5ppL8DL",
+          "content_hash": "9xmBknRk9ZqCof5Gvac1NrceSnLe5m3noHKhzMZL6LWz",
+          "locations": [
+            "tasks[3].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref2": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "3DshZDnPFJMwPXURn3V4d2yrrXKmeZo5bNYxbsYuA5gz",
+          "content_hash": "FQerDzyV8PvaSi1CuL868yr8fzwrLecTBS2pZasfw4og",
+          "locations": [
+            "tasks[1].id",
+            "tasks[4].next[0].do[0]"
+          ]
+        },
+        "workflow_task_id_ref7": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "66jYrdK7se65xTJKGBEUMjW4GsArjq5CxRzBiYvFP4Tq",
+          "content_hash": "4VGyQXPJiAu3DN7STBxfteCkCiGT98qPMdCYxS4hrYaB",
+          "locations": [
+            "tasks[6].id",
+            "tasks[1].next[0].do[0]"
+          ]
+        },
+        "transition_id_ref1": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "7i8fKU1KVWVPLAPXL67bV85C8aHWdQDoVknFbStqH6Vy",
+          "content_hash": "7asjLq5gdtagnrmUKGVYcMDWr5JQ63J2MocVoaADyhG7",
+          "locations": [
+            "tasks[0].next[0].id"
+          ]
+        },
+        "template_ref3": {
+          "kind": "string",
+          "type": "template",
+          "src_key_hash": "Et9LAx8Nx4fYQF5pCMXNRgWbipuMLwRufNubyTxSmCLt",
+          "content_hash": "74KoymCa6dB11z8kAgMSuDVn59yMHoAb4Jd3HwTNRhDP",
+          "locations": [
+            "tasks[4].next[0].publish[4].value"
+          ]
+        },
+        "workflow_note_id_ref3": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "22kHucmzcPmDeP4EP4Ce5rtDBa7ZfX9m9KcMRMaySCYB",
+          "content_hash": "Hgm4NtZEhHAjYebs5vcVDwcdtXUowLnwTwBBxS56EThe",
+          "locations": [
+            "notes[2].id"
+          ]
+        },
+        "workflow_note_id_ref4": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "5pmzCQDb4cLbRdkzStthRoqpzfvsY3SRTVPBA3Zzke5x",
+          "content_hash": "H7N8Hi49Tsy3CbCjntWng5JsMKM9TPEwiMAf6FDJyWjC",
+          "locations": [
+            "notes[3].id"
+          ]
+        },
+        "action_ref1": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "97g5m8x26EGU3B3nzJ3jjvaCwWxF9FT1sgeQUYzi2wec",
+          "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+          "locations": [
+            "tasks[0].action.id",
+            "tasks[4].action.id",
+            "tasks[5].action.id"
+          ]
+        },
+        "workflow_note_id_ref2": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "9FZDpBiLpr1N9V4LvvSzuVMznSjk51vHQC1oSZn7Ckxj",
+          "content_hash": "FGVoFrvfv5VvPydiFiQiPEzBVpB6EpWoDHsaic4Ma16B",
+          "locations": [
+            "notes[1].id"
+          ]
+        }
+      },
+      "dependencies": [
+        "transition_id:EaH1M5CajpCmJnv6HAKKzcvC2mrRyuJPFzii4ZBu42oH",
+        "action:97g5m8x26EGU3B3nzJ3jjvaCwWxF9FT1sgeQUYzi2wec",
+        "workflow_task_id:3DshZDnPFJMwPXURn3V4d2yrrXKmeZo5bNYxbsYuA5gz",
+        "workflow_note_id:5pmzCQDb4cLbRdkzStthRoqpzfvsY3SRTVPBA3Zzke5x",
+        "transition_id:DmQvFX8C6ZgKGyGny15wVYRH6K6oJRoXmZk2Q8DC4fAN",
+        "template:2KZkxv66z713VV4PGNQqZ2GX4WqUNat3R214Zxk5HU2w",
+        "workflow_task_id:DG1bLZuupN6EvoTwKBtk8Ec3dR3zRCN1gEQMJsciLwgr",
+        "transition_id:JDw92eZ9KiSFkqDc5xmSet7DfWMQyYj4529U2m9MSRvo",
+        "action:9q7Ln6ZtudYnTLMcyjRJAGz8tkmmZRXNDcVdMnww5b9m",
+        "transition_id:7i8fKU1KVWVPLAPXL67bV85C8aHWdQDoVknFbStqH6Vy",
+        "action:CCo4s9HWNDaduzXarB6T8hEYrC8rXyWMtKybBUWnzuca",
+        "workflow_task_id:2c2VdDrFr51JutmZ7r2iDXE2KDNs5cTRUjDDRMc4ZFV2",
+        "workflow_note_id:9FZDpBiLpr1N9V4LvvSzuVMznSjk51vHQC1oSZn7Ckxj",
+        "transition_id:751bFdYn6Y8rUHe1vQbz3AtC1iWvqaADjpDBx5ppL8DL",
+        "transition_id:6mfV1YW4y3w7KPrQy2KjjVpGjsNT9QNrvRUzeaSAzimU",
+        "transition_id:85nrssUZpGWrfMb61WYHBrtgMjfrsyrrNe39aZFzbxaM",
+        "template:4Pc9uH3ebNSk2GpdCQ8gNPYL6brvkPPnVQavMxBEBkxf",
+        "workflow_note_id:354khm9XuMSGbTXCNMJReQ8XB7C2APwsepLTke1pS2Ei",
+        "workflow_note_id:22kHucmzcPmDeP4EP4Ce5rtDBa7ZfX9m9KcMRMaySCYB",
+        "template:Et9LAx8Nx4fYQF5pCMXNRgWbipuMLwRufNubyTxSmCLt",
+        "workflow_note_id:8pvPYNwPCUcJDyLgq56Q3qU9RDebcgH8y3KNsJe1xnAZ",
+        "workflow_task_id:8Qtuf2boJtSCedFTFNk9HAakeYzyXfwJSp84Luhq2p6t",
+        "workflow_task_id:H2JjSTFHyL62xbRPHG1GA2h1FomoPjS9Ffu5k3C5iVjN",
+        "workflow_task_id:66jYrdK7se65xTJKGBEUMjW4GsArjq5CxRzBiYvFP4Tq",
+        "workflow_task_id:V7tbErqUeisHadATVcy7pmikfhyu8JdH46jrbiYswD8",
+        "transition_id:8PvggkXL2bmvwrDJmGt6PQvzkM7koQTNDYZ9vNm2VzPM",
+        "action:5sQ68Bx2BekmUQ41ySzFrVLx2wiQJDh2HNVQexp8u88C",
+        "action:8sjY1wC46caUwvA6Buk7q8BQWGcJLQa9MoktLn5s6NNy"
+      ]
+    }
+  },
+  "__typename": "ExportBundle"
+}

@@ -1,0 +1,151 @@
+package plugins
+
+import (
+	"errors"
+	"fmt"
+	"io"
+	"os/exec"
+
+	"github.com/RewstApp/agent-smith-go/internal/agent"
+	"github.com/RewstApp/agent-smith-go/shared"
+	"github.com/google/uuid"
+	"github.com/hashicorp/go-plugin"
+)
+
+const (
+	defaultProtocolVersion = 1
+	defaultMagicCookieKey  = "AGENT_SMITH"
+)
+
+var pluginMap = map[string]plugin.Plugin{
+	"notifier": &shared.NotifierPlugin{},
+}
+
+type NotifierWrapper interface {
+	Kill()
+	Plugins() []string
+	Notify(message string) error
+}
+
+type optionalNotifierWrapper struct {
+	client *plugin.Client
+	plugin shared.Notifier
+	name   string
+}
+
+func (p *optionalNotifierWrapper) Kill() {
+	if p.client == nil {
+		return
+	}
+
+	p.client.Kill()
+}
+
+func (p *optionalNotifierWrapper) Plugins() []string {
+	return []string{p.name}
+}
+
+func (p *optionalNotifierWrapper) Notify(message string) error {
+	if p.plugin == nil {
+		return nil
+	}
+
+	return p.plugin.Notify(message)
+}
+
+type notifierSetWrapper struct {
+	notifiers []*optionalNotifierWrapper
+}
+
+func (s *notifierSetWrapper) Kill() {
+	for _, notifier := range s.notifiers {
+		notifier.Kill()
+	}
+}
+
+func (s *notifierSetWrapper) Plugins() []string {
+	names := make([]string, len(s.notifiers))
+
+	for i, notifier := range s.notifiers {
+		names[i] = notifier.name
+	}
+
+	return names
+}
+
+func (s *notifierSetWrapper) Notify(message string) error {
+	var combinedErrors error
+
+	for _, notifier := range s.notifiers {
+		err := notifier.Notify(message)
+		if err != nil {
+			combinedErrors = errors.Join(combinedErrors, err)
+		}
+	}
+
+	return combinedErrors
+}
+
+func LoadNotifer(plugins []agent.Plugin, logWriter io.Writer) (NotifierWrapper, error) {
+	set := &notifierSetWrapper{}
+	var combinedErrors error
+
+	for _, pluginInfo := range plugins {
+		magicCookieValueUuid := uuid.New()
+
+		handshakeConfig := plugin.HandshakeConfig{
+			ProtocolVersion:  defaultProtocolVersion,
+			MagicCookieKey:   defaultMagicCookieKey,
+			MagicCookieValue: magicCookieValueUuid.String(),
+		}
+
+		// #nosec G204
+		client := plugin.NewClient(&plugin.ClientConfig{
+			HandshakeConfig: handshakeConfig,
+			Plugins:         pluginMap,
+			Cmd: exec.Command(
+				pluginInfo.ExecutablePath,
+				"--magic-cookie-key",
+				handshakeConfig.MagicCookieKey,
+				"--magic-cookie-value",
+				handshakeConfig.MagicCookieValue,
+			),
+			Stderr: logWriter,
+		})
+
+		rpcClient, err := client.Client()
+		if err != nil {
+			combinedErrors = errors.Join(combinedErrors, err)
+			continue
+		}
+
+		raw, err := rpcClient.Dispense("notifier")
+		if err != nil {
+			combinedErrors = errors.Join(combinedErrors, err)
+			continue
+		}
+
+		notifier, ok := raw.(shared.Notifier)
+		if !ok {
+			combinedErrors = errors.Join(
+				combinedErrors,
+				fmt.Errorf("plugin %q: Dispense returned unexpected type", pluginInfo.Name),
+			)
+			continue
+		}
+
+		set.notifiers = append(set.notifiers, &optionalNotifierWrapper{
+			client: client,
+			plugin: notifier,
+			name:   pluginInfo.Name,
+		})
+	}
+
+	return set, combinedErrors
+}
+
+// toNotifier safely asserts raw to shared.Notifier, returning (nil, false) on failure.
+func toNotifier(raw interface{}) (shared.Notifier, bool) {
+	n, ok := raw.(shared.Notifier)
+	return n, ok
+}

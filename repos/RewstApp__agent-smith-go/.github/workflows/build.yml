@@ -1,0 +1,72 @@
+name: Build
+
+on:
+  workflow_call:
+    inputs:
+      os_list:
+        description: "JSON list of OS"
+        required: false
+        type: string
+        default: "['ubuntu-latest','windows-latest','macos-latest']"
+      cache:
+        description: "Enable build cache"
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  build:
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        os: ${{ fromJson(inputs.os_list) }}
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref }}
+          fetch-depth: 0
+
+      - name: Cache build output
+        if: ${{ inputs.cache }}
+        id: cache-build
+        uses: actions/cache@v5
+        with:
+          path: ./dist
+          key: build-${{ matrix.os }}-go1.24.0-${{ hashFiles('**/*.go', 'go.sum', 'go.mod') }}
+
+      - name: Setup go
+        if: ${{ !inputs.cache || steps.cache-build.outputs.cache-hit != 'true' }}
+        uses: actions/setup-go@v6
+        with:
+          go-version: "1.24.0"
+          cache: true
+
+      - name: Setup python
+        if: ${{ !inputs.cache || steps.cache-build.outputs.cache-hit != 'true' }}
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Setup python packages
+        if: ${{ !inputs.cache || steps.cache-build.outputs.cache-hit != 'true' }}
+        run: |
+          pip install pipx
+          pipx ensurepath
+          pipx install commitizen
+          pipx upgrade commitizen
+
+      - name: Build binary
+        if: ${{ !inputs.cache || steps.cache-build.outputs.cache-hit != 'true' }}
+        shell: pwsh
+        id: build
+        run: ./scripts/build.ps1 | % { "binary_path=$_" } >> $env:GITHUB_OUTPUT
+
+      - name: Upload binary
+        uses: actions/upload-artifact@v6
+        with:
+          name: ${{ matrix.os }}
+          path: ${{ steps.build.outputs.binary_path || './dist/*' }}

@@ -1,0 +1,254 @@
+{
+  "version": 2,
+  "exportedAt": "2025-10-11T16:11:01.467208+00:00",
+  "signing": {
+    "cert": "-----BEGIN CERTIFICATE-----\nMIICazCCAfGgAwIBAgIUFJtHAR8D+ZfChHcAXHemH7s8zRowCgYIKoZIzj0EAwIwfDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkZMMQ4wDAYDVQQHEwVUYW1wYTEOMAwGA1UEChMFUmV3c3QxEzARBgNVBAsTClJld3N0IERldnMxKzApBgNVBAMTImxvY2FsIFJld3N0IEltcG9ydC9FeHBvcnQgQ0EyIHYxLjEwHhcNMjIwNjAzMTkwMDU1WhcNMjUwNTIzMTkwMTI1WjBDMQswCQYDVQQGEwJVUzELMAkGA1UECBMCRkwxDjAMBgNVBAcTBVRhbXBhMRcwFQYDVQQDEw5sb2NhbC5yZXdzdC5pbzB2MBAGByqGSM49AgEGBSuBBAAiA2IABMcTJzyLIvX1+3545EJbFeNVjahxVq6TFQ7n/IYZs4yEMQzDWZjAyHhJPZk3Dxq/wFzesXMYJu41rhxfz7AZh15LtFGfy9V2B4X5KH7sGJWqOan0mabuF83llruTLA/NQaNtMGswDgYDVR0PAQH/BAQDAgeAMB0GA1UdDgQWBBTDePOSC6hckrg6usrK2giZv9GxpjAfBgNVHSMEGDAWgBTojdemsJqfnB19iyMxmIi3OGYw6TAZBgNVHREEEjAQgg5sb2NhbC5yZXdzdC5pbzAKBggqhkjOPQQDAgNoADBlAjEA8NsLnuGhfTPC7dB0ojWf5WmH64qFZuPFD6Q0RwGYO0D1Tn2x5+/37kW3HFcGHV0wAjBM7LSidsc7E9+fmcesnN5hM34eGMP+YWCoEeFIPPANXQKemAgUVf35iXyU64sVEC4=\n-----END CERTIFICATE-----",
+    "hash": "sha512",
+    "signature": "MGUCMFBM9u+e1JVj95bN5kEmqk5gZ/0TG0DoQ6lQ2viSp07frncSgpNsEhR9XFJ8hAKG4AIxAPzxC7v+nL9cdv6os0VHDNO5ypb3RcKvIAxOab3xikKUX7/VOfDR4rP3ZJf4MvKdEQ=="
+  },
+  "objects": {
+    "workflow_note_id:DVQ14p5zECcuMtowGTc88isBa2gPegC3EKS3yurUd9JA": {
+      "type": "workflow_note_id",
+      "content_hash": "8crCs5dAtrWAUdh42A3EQNCcRpfpFDn86vFFnuyP6i8j",
+      "hash": "31nFcMDpvATB1GzU2MifkGtry3u7NacApgDRVi1FfgHm",
+      "fields": {
+        "id": "2089aa09-348d-445f-97bc-c8263d49605d"
+      }
+    },
+    "transition_id:H8hLUguUoUxenswQsneTEbvrEoBbXpXR4pejx9S7VfL3": {
+      "type": "transition_id",
+      "content_hash": "4Wv6SRma57f3mNWYw6ALXZUy5y7aEhckzKrbas61vCft",
+      "hash": "Ev4EiZyYE1uEzZsv9M3B8guHLPtvvRJU3j4zGa1TyRF3",
+      "fields": {
+        "id": "4cac0682-46d2-4965-a917-0000469f1d4d"
+      }
+    },
+    "action:ESqardJwP1WKtQP2u6eyeFNLeUEbbNihr2C6TmVavsnC": {
+      "type": "action",
+      "content_hash": "EY6GD143YQfHX8XDjvYf9FXvdQbGa3bozzh4u7ShZ5eC",
+      "hash": "5NSq1FhqxcfdkfxHHM2yKSeXdXa7ju3BtYyVAniEPxvr",
+      "fields": {
+        "ref": "discord.generic_request"
+      }
+    },
+    "workflow_note_id:AxkFT6ZRAe4nJsBAJGsnGtRfYpkzhBqNoFPVkQww32mM": {
+      "type": "workflow_note_id",
+      "content_hash": "39663zUY2NqXJhnwiAQKaU7Q5JSK58twqEKfQiyJRzuC",
+      "hash": "2nYJWocGCNLSNbsB48jxGiovUFav9bUqxy5nfBjebJtm",
+      "fields": {
+        "id": "507cdb2e-a940-4967-8593-d854868fbb7f"
+      }
+    },
+    "workflow_task_id:EubLEk847nxwRmzA9RqhETq49RaU8BY6P5YyxqgpHeGo": {
+      "type": "workflow_task_id",
+      "content_hash": "jdCcPzuBBR65ww6ie2Woy1o1M4RYe9h11evCkHHcVyq",
+      "hash": "AqNetDRHUHrkRePY5kXaJLqMMzvPvsoiBfz3Kk5up15p",
+      "fields": {
+        "id": "e7be622701614facb7944309851cf2d0"
+      }
+    },
+    "workflow_note_id:J6TSVNe7owZzX4DmjSNWwSCaFzosEcnQbB32sdu5bPWW": {
+      "type": "workflow_note_id",
+      "content_hash": "DAzYhXMFSmt9oQg2aKPGStQdRWRMMT2o3GH4JTwTgoyz",
+      "hash": "2J7WVCDmgpX9CBQ83qhqNetfvHDdrS2BovsriXMp3N18",
+      "fields": {
+        "id": "1d5b2b88-5281-4daf-a285-d3871103758b"
+      }
+    },
+    "workflow:Hn8cey96xF7WyFhEqU9N8SVHyT7hb1s6S6CJ1h73sCW9": {
+      "type": "workflow",
+      "content_hash": "DgZmLB5My6d3fjcVvmHnicWZNR2gT3ZnwMck7U36fgpD",
+      "hash": "4RqBLUypkWKNnCgyZ1nx7M9vuXXhUfz5AiLGTojWB7d1",
+      "fields": {
+        "humanSecondsSaved": 0,
+        "notes": [
+          {
+            "id": "@@@workflow_note_id_ref1@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref2@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref3@@@"
+          }
+        ],
+        "output": [],
+        "parameters": {},
+        "tasks": [
+          {
+            "id": "@@@workflow_task_id_ref1@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 30,
+            "input": {
+              "data": null,
+              "json": null,
+              "method": "GET",
+              "params": null,
+              "cookies": null,
+              "headers": null,
+              "raw_json": null,
+              "url_path": "/guilds/${DISCORD_SERVER_ID}/voice"
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "discord_event",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref1@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          }
+        ],
+        "timeout": 28800,
+        "type": "STANDARD",
+        "varsSchema": {}
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "name": "Discord VC",
+        "notes[0].content": "This workflow block handles the retrieval of Discord voice channel information from a specific guild.\n\n**Purpose**: Fetches current voice channel data from Discord's API for guild ID ${DISCORD_SERVER_ID}.\n\n**Key Components**:\n- **discord_event task**: Makes an authenticated GET request to Discord's `/guilds/{guild_id}/voice` endpoint\n- Retrieves real-time voice channel status and user presence information\n- Uses Discord integration for proper authentication and API access\n\n**Inputs**: \n- Guild ID (hardcoded): ${DISCORD_SERVER_ID}\n- Discord API authentication (handled by integration)\n\n**Outputs**:\n- Voice channel data including active channels and connected users\n- API response data available for downstream processing\n\n**Use Cases**:\n- Monitoring voice channel activity\n- Gathering data for voice channel analytics\n- Checking current voice channel state for automation decisions\n\nThis serves as the foundation for any Discord voice channel monitoring or management workflows.",
+        "notes[0].metadata": {
+          "x": 664.000121366693,
+          "y": 303.00001613695224,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 372,
+          "height": 244,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "e7be622701614facb7944309851cf2d0"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[0].title": "Discord Voice Channel Data Retrieval",
+        "notes[1].content": "This note provides architectural context and integration details for the Discord VC workflow.\n\n**Workflow Architecture**:\n- **Type**: Single-task data retrieval workflow\n- **Integration**: Discord API via authenticated requests\n- **Execution Pattern**: Simple linear execution with success transition\n- **Error Handling**: Built-in HTTP status validation (require_2xx_status: true)\n\n**Discord Integration Details**:\n- **API Endpoint**: `/guilds/${DISCORD_SERVER_ID}/voice`\n- **HTTP Method**: GET (read-only operation)\n- **Authentication**: Managed by Discord pack integration\n- **Guild Context**: Targets specific Discord server (ID: ${DISCORD_SERVER_ID})\n\n**Technical Configuration**:\n- **Timeout**: 600 seconds (10 minutes)\n- **Retry Policy**: Default (no custom retry configuration)\n- **Human Time Saved**: 30 seconds per execution\n- **Follow Redirects**: Enabled for robust API communication\n\n**Integration Benefits**:\n- Automated voice channel monitoring\n- Real-time data collection without manual Discord client interaction\n- Scalable foundation for voice channel management automation\n- Consistent API access patterns for Discord operations\n\n**Potential Extensions**:\nThis workflow can be extended with additional tasks for:\n- Data processing and analysis\n- Conditional logic based on voice channel state\n- Notifications or alerts based on channel activity\n- Integration with other communication platforms",
+        "notes[1].metadata": {
+          "x": 580.9994356448776,
+          "y": 247.99933031648283,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 400,
+          "height": 277,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "e7be622701614facb7944309851cf2d0"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[1].title": "Workflow Architecture & Integration Context",
+        "notes[2].content": "This note documents the data flow patterns and expected output specifications for the Discord voice channel retrieval process.\n\n**Data Flow Pattern**:\n1. **Initiation**: Workflow triggered (manual or automated)\n2. **API Request**: Discord API call executed with guild-specific parameters\n3. **Response Processing**: Raw API response captured and made available\n4. **Completion**: Success transition to next workflow step (if extended)\n\n**Expected API Response Structure**:\nThe Discord `/guilds/{guild_id}/voice` endpoint typically returns:\n- **Voice States**: Array of current voice channel connections\n- **User Information**: Details about users in voice channels\n- **Channel Metadata**: Voice channel configuration and status\n- **Permissions Context**: User permissions within voice channels\n\n**Data Availability**:\n- **Task Result**: Complete API response stored in `discord_event` task result\n- **JSON Structure**: Structured data accessible via Jinja templating\n- **Error Information**: HTTP status codes and error messages (if applicable)\n- **Execution Metadata**: Timing, success status, and execution context\n\n**Data Usage Patterns**:\n- **Conditional Logic**: Use voice channel data for workflow branching\n- **Data Transformation**: Process user lists, channel states, or activity metrics\n- **External Integration**: Pass voice data to other systems or notifications\n- **Analytics**: Aggregate voice channel usage patterns over time\n\n**Output Accessibility**:\n- Access via: `{{ discord_event.result }}`\n- JSON parsing: `{{ discord_event.result.data }}`\n- Error handling: `{{ discord_event.status }}`\n- Execution info: `{{ discord_event.execution_time }}`\n\n**Integration Points**:\nThis data output serves as input for potential downstream tasks including:\n- User notification systems\n- Channel management automation\n- Activity logging and reporting\n- Conditional workflow routing based on voice activity",
+        "notes[2].metadata": {
+          "x": 517.9990533397945,
+          "y": 213.9990559882947,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 548,
+          "height": 250,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "e7be622701614facb7944309851cf2d0"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[2].title": "Data Flow & Output Specifications",
+        "tasks[0].description": "Generic API call to the channel's permissions endpoint to add the newly created / updated role as having permissions to see / talk in this channel.",
+        "tasks[0].metadata": {
+          "x": 659,
+          "y": 316
+        },
+        "tasks[0].next[0].label": ""
+      },
+      "references": {
+        "workflow_task_id_ref1": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "EubLEk847nxwRmzA9RqhETq49RaU8BY6P5YyxqgpHeGo",
+          "content_hash": "jdCcPzuBBR65ww6ie2Woy1o1M4RYe9h11evCkHHcVyq",
+          "locations": [
+            "tasks[0].id"
+          ]
+        },
+        "workflow_note_id_ref1": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "J6TSVNe7owZzX4DmjSNWwSCaFzosEcnQbB32sdu5bPWW",
+          "content_hash": "DAzYhXMFSmt9oQg2aKPGStQdRWRMMT2o3GH4JTwTgoyz",
+          "locations": [
+            "notes[0].id"
+          ]
+        },
+        "workflow_note_id_ref2": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "AxkFT6ZRAe4nJsBAJGsnGtRfYpkzhBqNoFPVkQww32mM",
+          "content_hash": "39663zUY2NqXJhnwiAQKaU7Q5JSK58twqEKfQiyJRzuC",
+          "locations": [
+            "notes[1].id"
+          ]
+        },
+        "transition_id_ref1": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "H8hLUguUoUxenswQsneTEbvrEoBbXpXR4pejx9S7VfL3",
+          "content_hash": "4Wv6SRma57f3mNWYw6ALXZUy5y7aEhckzKrbas61vCft",
+          "locations": [
+            "tasks[0].next[0].id"
+          ]
+        },
+        "action_ref1": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "ESqardJwP1WKtQP2u6eyeFNLeUEbbNihr2C6TmVavsnC",
+          "content_hash": "EY6GD143YQfHX8XDjvYf9FXvdQbGa3bozzh4u7ShZ5eC",
+          "locations": [
+            "tasks[0].action.id"
+          ]
+        },
+        "workflow_note_id_ref3": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "DVQ14p5zECcuMtowGTc88isBa2gPegC3EKS3yurUd9JA",
+          "content_hash": "8crCs5dAtrWAUdh42A3EQNCcRpfpFDn86vFFnuyP6i8j",
+          "locations": [
+            "notes[2].id"
+          ]
+        }
+      },
+      "dependencies": [
+        "workflow_note_id:DVQ14p5zECcuMtowGTc88isBa2gPegC3EKS3yurUd9JA",
+        "transition_id:H8hLUguUoUxenswQsneTEbvrEoBbXpXR4pejx9S7VfL3",
+        "action:ESqardJwP1WKtQP2u6eyeFNLeUEbbNihr2C6TmVavsnC",
+        "workflow_note_id:AxkFT6ZRAe4nJsBAJGsnGtRfYpkzhBqNoFPVkQww32mM",
+        "workflow_task_id:EubLEk847nxwRmzA9RqhETq49RaU8BY6P5YyxqgpHeGo",
+        "workflow_note_id:J6TSVNe7owZzX4DmjSNWwSCaFzosEcnQbB32sdu5bPWW"
+      ]
+    }
+  },
+  "__typename": "ExportBundle"
+}

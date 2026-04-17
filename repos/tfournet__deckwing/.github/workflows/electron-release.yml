@@ -1,0 +1,59 @@
+name: Electron Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            args: --win
+          - os: macos-latest
+            args: --mac
+          - os: ubuntu-latest
+            args: --linux
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build frontend
+        run: npm run build
+
+      - name: Build Electron package
+        run: npm run electron:build -- ${{ matrix.args }} --publish never
+
+      - name: Generate checksums
+        run: |
+          cd electron-dist
+          sha256sum DeckWing-Setup.exe DeckWing*.dmg DeckWing.AppImage 2>/dev/null | tee ELECTRON-SHA256SUMS.txt || true
+        shell: bash
+
+      - name: Upload Electron artifacts to GitHub Release
+        uses: softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe # v2
+        with:
+          generate_release_notes: false
+          files: |
+            electron-dist/DeckWing-Setup.exe
+            electron-dist/DeckWing.dmg
+            electron-dist/DeckWing-*.dmg
+            electron-dist/DeckWing.AppImage
+            electron-dist/ELECTRON-SHA256SUMS.txt

@@ -1,0 +1,3144 @@
+{
+  "version": 2,
+  "exportedAt": "2025-10-11T16:11:42.724665+00:00",
+  "signing": {
+    "cert": "-----BEGIN CERTIFICATE-----\nMIICazCCAfGgAwIBAgIUFJtHAR8D+ZfChHcAXHemH7s8zRowCgYIKoZIzj0EAwIwfDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkZMMQ4wDAYDVQQHEwVUYW1wYTEOMAwGA1UEChMFUmV3c3QxEzARBgNVBAsTClJld3N0IERldnMxKzApBgNVBAMTImxvY2FsIFJld3N0IEltcG9ydC9FeHBvcnQgQ0EyIHYxLjEwHhcNMjIwNjAzMTkwMDU1WhcNMjUwNTIzMTkwMTI1WjBDMQswCQYDVQQGEwJVUzELMAkGA1UECBMCRkwxDjAMBgNVBAcTBVRhbXBhMRcwFQYDVQQDEw5sb2NhbC5yZXdzdC5pbzB2MBAGByqGSM49AgEGBSuBBAAiA2IABMcTJzyLIvX1+3545EJbFeNVjahxVq6TFQ7n/IYZs4yEMQzDWZjAyHhJPZk3Dxq/wFzesXMYJu41rhxfz7AZh15LtFGfy9V2B4X5KH7sGJWqOan0mabuF83llruTLA/NQaNtMGswDgYDVR0PAQH/BAQDAgeAMB0GA1UdDgQWBBTDePOSC6hckrg6usrK2giZv9GxpjAfBgNVHSMEGDAWgBTojdemsJqfnB19iyMxmIi3OGYw6TAZBgNVHREEEjAQgg5sb2NhbC5yZXdzdC5pbzAKBggqhkjOPQQDAgNoADBlAjEA8NsLnuGhfTPC7dB0ojWf5WmH64qFZuPFD6Q0RwGYO0D1Tn2x5+/37kW3HFcGHV0wAjBM7LSidsc7E9+fmcesnN5hM34eGMP+YWCoEeFIPPANXQKemAgUVf35iXyU64sVEC4=\n-----END CERTIFICATE-----",
+    "hash": "sha512",
+    "signature": "MGUCMQCV+Y+5r7OzfmGrPvGs2zMV/C6cYzf0mZLVLqen2oQFtX9S1KlMnmVjqZIktPAjra0CMEKVt+as6fSKT6ZY8f1pG23XbcYzWzPKk+uhYDGpxlC7g69nes4LUy488iOtCxw7AQ=="
+  },
+  "objects": {
+    "transition_id:BRbgEMebhvirJASJVC4xo4o4Qk3uiWmFSFWfaP8k6fkG": {
+      "type": "transition_id",
+      "content_hash": "3roqfin6AWPrtQTYQ7soJurWtDjDBM5JEQKXabfkrVxG",
+      "hash": "F1Hv3SZmhKmSQFAVUXCxstq7KqnNfSaPjCKjoXKVxVDv",
+      "fields": {
+        "id": "b76fca06-b7d2-4c4a-b00b-a86e457e1a75"
+      }
+    },
+    "workflow_task_id:8DXu8d5K8YvjimDbrEvmdot9HbB7Vizw4dpTUyGws6dk": {
+      "type": "workflow_task_id",
+      "content_hash": "DwhUyMEj2nYfqmxC7Ss3o9dLqen6QLzWeLcfPgRLtiPP",
+      "hash": "FXA1guvaiQyydMPVM3XNHYjQN6kw8yJWdSp9pyTe6Qns",
+      "fields": {
+        "id": "818823af1728461ca91e00f8a7e1b35b"
+      }
+    },
+    "transition_id:2mwypumkT4aNdp9Qb7wWt6DcUTdYgMeFYgLNSTDyDQ2Y": {
+      "type": "transition_id",
+      "content_hash": "2wRKxjzzQ7qCJBNxrxeq3q2NZou67gQ55TinV3bjb2MQ",
+      "hash": "4eV696iHWug85vpNgMe5HSoFFcv5oem6TNYw5eHuBgDF",
+      "fields": {
+        "id": "737cbb31-f865-47e2-b9ef-bc0d77a9d5f9"
+      }
+    },
+    "workflow_task_id:5kpeU4oA25PeedPSetu5C4YqstPLwLuMbh1T2Ro3eiDF": {
+      "type": "workflow_task_id",
+      "content_hash": "699AUoxJsPam7DvaeZ2a1hU2XY6skyVffGvunJxaTYhp",
+      "hash": "8XJQFtiDKqZsFdZBGAHju6vjCYXRQQknN3oU4G72dYYG",
+      "fields": {
+        "id": "c7690c9c522240c2ad8d3a65b1416bd0"
+      }
+    },
+    "form_field_id:4yWcXkY794gVYVK7uaNekBDoRXked9aaFbFkwG9m7SuL": {
+      "type": "form_field_id",
+      "content_hash": "5mxqsSFptNnFBwiSJ6wgjEQyfv2rBCiksyJy2BhgtDLQ",
+      "hash": "cxw4Wa6C4yZAyRj8fkd7AaKuxghXRRsKq3e8DDcmAT2",
+      "fields": {
+        "id": "6b17e494-8150-4a67-af0e-e8f8457f0021"
+      }
+    },
+    "form_field_id:9nfyxY4Vi1btgQPbBsd4fcwJ2rbgE6dAbVpEiQQ1ujRD": {
+      "type": "form_field_id",
+      "content_hash": "6BQCmjfU32ZoqkfEkkdf62NQQ4gXVzsNdayXoYrT6bdM",
+      "hash": "BZoJiovDQAySrS5GXwfifZwGsQPz27gfsBvhoUr8Jjso",
+      "fields": {
+        "id": "3e59d046-b775-45db-a19b-6519897b51bc"
+      }
+    },
+    "workflow_task_id:2a8oKncm1tCBBL4m8Vp4b3U9vXbNhU3vhj6z33L8fo7X": {
+      "type": "workflow_task_id",
+      "content_hash": "5d6sWWFFmFdfM3PrmikgrKbmFwqdGZ1KkeQCxPtCatiA",
+      "hash": "G5Ttg8H5uCimHAKB6Wbd2Qtptf7qq5Gcdv2FyARRztMV",
+      "fields": {
+        "id": "74462433f0af4cf696092201a8e4ab44"
+      }
+    },
+    "action:GiDHZXyQpekje1JjJWsgqVRm43h8fdEmqjpYZHScUGkT": {
+      "type": "action",
+      "content_hash": "EY6GD143YQfHX8XDjvYf9FXvdQbGa3bozzh4u7ShZ5eC",
+      "hash": "5NSq1FhqxcfdkfxHHM2yKSeXdXa7ju3BtYyVAniEPxvr",
+      "fields": {
+        "ref": "discord.generic_request"
+      }
+    },
+    "trigger_type:EphSjHVtvVRaW4p9MGvhHDDfyFAzXGKhwrEkKopiXzjD": {
+      "type": "trigger_type",
+      "content_hash": "Fv6DC3j7LWMDgfKVdikhAM5buyDZJdu9zZyyATsFscAw",
+      "hash": "53b99LEfP118tag3kWdzUGgyhH94QRPpzAGCaXkNsXZn",
+      "fields": {
+        "ref": "core.Form Submission"
+      }
+    },
+    "transition_id:EJrtwfKPkULxAMei4YjVw8kJXTfTuVQyRUd4R999EXEC": {
+      "type": "transition_id",
+      "content_hash": "GTBoCqpCsMrzeBnkNptfpDQkqQLnJoavzB76ounVfrMe",
+      "hash": "CtdDGsK6jhpNKHfYTohYiizqRsg4f7pKEmm5dx4zUeZ8",
+      "fields": {
+        "id": "018fc5cc-57a0-7d9d-bece-4bf6316bce1e"
+      }
+    },
+    "workflow_note_id:HNGTAag393vuZ2pepxbfrT95PSV3dFSs8Q9z6aJMzJ7n": {
+      "type": "workflow_note_id",
+      "content_hash": "ERamHxReXfBSBDx9nYV2QYq6Z9kz1BFUbctsicnHoFWd",
+      "hash": "49kZ2vLXz4WycwMqdgjNaPD7o6wQGUSyFTifHdUAdCUL",
+      "fields": {
+        "id": "1ebaaa1c-dee6-4477-8392-fd74d8514102"
+      }
+    },
+    "workflow_task_id:4tWW85ohLmbpE7DFBURsnYaZJcnz2VKiicF89DnnLsnj": {
+      "type": "workflow_task_id",
+      "content_hash": "85avTFKafL9es9X5uVdmoSmuoNsVH1PpQc8BvZFFJJar",
+      "hash": "CSnWehwfFBSW5PAPLTXhcSAKnyQAfesnsFvSD3i3nr8T",
+      "fields": {
+        "id": "a085e55f5ebb44acb714480752030aed"
+      }
+    },
+    "workflow_task_id:Dx1qADJu6G8W5cjXVx72HnYq3WdyJ9Q4MzT4ryyDE68s": {
+      "type": "workflow_task_id",
+      "content_hash": "BoThr1aC43ERHmKQC6dWv2DdQpvr1QEfocFoXHdYDQgk",
+      "hash": "8ManbSi5K3gS61eLzoDxHV8ty2mXqv2gBQ1hSihGRGtq",
+      "fields": {
+        "id": "687da05d338f4f39b586f243ef692cb9"
+      }
+    },
+    "workflow_note_id:46mAwYchNtoThGZ6D9wp5VxS4Pgh8SseybY882B2WGjs": {
+      "type": "workflow_note_id",
+      "content_hash": "8poSwhJy8yRcph7sD3D3Xc5xzd4rHfzopyd886W41Keo",
+      "hash": "3L6bkCoJKiW1rgwbhfsWFTU5qHYXoK6GqfHjfK3xDFhx",
+      "fields": {
+        "id": "8d3dc0c7-8b9a-44f1-b1cb-dc6116ab85cf"
+      }
+    },
+    "transition_id:DPdhdsA2LSz1UfhRuL8mqbeMrCpteG3R2VePhoQ8R5fm": {
+      "type": "transition_id",
+      "content_hash": "GmPFW7Qt1MzSZG8jAqJvGrsoEZMQfCydVdAboneHU5yE",
+      "hash": "Bi45k3SEq8PVVB1483EhcNCdEC89aEmF8wcPekR1FdDb",
+      "fields": {
+        "id": "d60d3476-c413-402d-813d-531219dacb65"
+      }
+    },
+    "transition_id:E1HmNAmrLPnAdjg7RMvCkJEzcJsi6WhzrY3vsjEoqH5j": {
+      "type": "transition_id",
+      "content_hash": "12zBraatSvdo686J6zwtSPo2EN2gEY4kGsfUEwWS1E5z",
+      "hash": "DM4iMJCNFKShMLAhjDGQupCg2iAhLhZEFt3ypLLp4e4X",
+      "fields": {
+        "id": "ecc4b47f-aff8-47e8-bbd8-33f4258d1b6f"
+      }
+    },
+    "action:8G15nwxs8pwdF8mcvAzY8im9SWfxUeBfMyqbrX993jDs": {
+      "type": "action",
+      "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+      "hash": "Arr2RCEM96WqU2EkvigszSfsW9GZHa4HJC5a1fL9qZ5g",
+      "fields": {
+        "ref": "core.noop"
+      }
+    },
+    "transition_id:F36JshC4uYdoHXo5jggLtzbiMMFcFvxfUU2bGN1J53mH": {
+      "type": "transition_id",
+      "content_hash": "Erg82z8YSuESCCZtFGsgVFe1XXjY4se9jtWLSjTaVXK3",
+      "hash": "7udrnsHmtJv1Kbr7nnnWfQQvbFzK8j9U5ppWu1DHQzpg",
+      "fields": {
+        "id": "e39da31f-e6ec-4995-93ba-d92de412c82d"
+      }
+    },
+    "workflow_task_id:9njtnNhYRUhsxmZJL5WCBd9xX7xeXSLiyH6dqk8fuUGV": {
+      "type": "workflow_task_id",
+      "content_hash": "2ntiqAa8kY3PW2817KFUc7NbMZ4aSs4doMc84AGTKhbp",
+      "hash": "xi9cBA678e7LmWdCpb1WwMRX3CkRHioxHX46A8hNJSS",
+      "fields": {
+        "id": "d190da3eae5149c5bfe38ca89e7e2bc8"
+      }
+    },
+    "form_field_id:C9UigV96yLeCopHDgaUuUETzMCv9fTtMT6bPW7aryvHy": {
+      "type": "form_field_id",
+      "content_hash": "H1UcbkaPUPEvmAaeXTRxsKYfCSeUx9aqmZZAwL4TDiqL",
+      "hash": "9AT9bPj8XAzyDvSBXJwsCABnv3du1if6xMLK9fkfm9UX",
+      "fields": {
+        "id": "ce90c090-e582-470e-928c-389d4ebf0930"
+      }
+    },
+    "transition_id:Aa1r1ohmvTxxfnPXuYLsSBQd7gKLjJg1baa8XsVQvUBy": {
+      "type": "transition_id",
+      "content_hash": "9kBTZxr9tsVZkF4sWiw6MjbHZABEeLT3kdk2XbwipfNw",
+      "hash": "FmLT58xmBx2y2yYSFgGxMjCCnhAyBibNvkiGXJaeB98a",
+      "fields": {
+        "id": "6cf68dd2-e5ee-41c9-9f69-d715c0f8eae9"
+      }
+    },
+    "action:222mDbnuV6wouvJFoEaqL9LMWdGmGdJVmMKEQV2Mihtq": {
+      "type": "action",
+      "content_hash": "Aj7g63oBpFTyTLgcv25UHmfMB5WmghbjNdHZYGy7KxYN",
+      "hash": "JAbYYJfYDMeHf1dt791VFAinW1gZoCwsGcGznS61qhTC",
+      "fields": {
+        "ref": "transforms.set_variable"
+      }
+    },
+    "workflow_note_id:3NWdDd3DSiDscJ7cWREgzY6oXh2wG7cjgrWN9oosaHmV": {
+      "type": "workflow_note_id",
+      "content_hash": "8p2LS4EzgkGrVEE5BcfWeNZbJ5vAoZrGSZD3C7qbE9L",
+      "hash": "5unDoD2atWcCrVHKMJcosZXPcoERuhZwu4Zu4R2KFD37",
+      "fields": {
+        "id": "5ae8eb78-fb9b-4385-a4e2-00959fd1af9c"
+      }
+    },
+    "workflow_task_id:7KUGWeV8Gc8GnURpbFSXLtfg6VYCTJKT8E1ouUbFBSsu": {
+      "type": "workflow_task_id",
+      "content_hash": "AwZNJFE7ECa7jSaW22UX99T82hj2RR1zX95wwFahzGPN",
+      "hash": "6tXqg5cxNGHn3u7jbPKzATvJLkRtjmVav3PDxsMRopNx",
+      "fields": {
+        "id": "5a59e0528ff049c696c32487922f4a22"
+      }
+    },
+    "workflow_task_id:Cxx4w6hCmUGtikAGuLH6yguWZnvy9a85EFEfNwJraEry": {
+      "type": "workflow_task_id",
+      "content_hash": "8mgGLQ3wkxfdCQmujJSRLS62u8tMPBGV2sKxG8AV2TL2",
+      "hash": "6LNcJFbAbamS8qEQD44crQMaqbAywbq29o5XinxFYrSm",
+      "fields": {
+        "id": "6ef4a5db14fc4ea491f81542a0a06b30"
+      }
+    },
+    "action:3BSyB4jCEH5zQEBmgVvA8gunTzD3S1kGXFgSk7rxQ1nC": {
+      "type": "action",
+      "content_hash": "27nv29ZhyzAjLMXWsk4tYzKWfyTqJPrxYnfvVohkYpXb",
+      "hash": "47Py4jfv9BVFGqYpE2aHGpnvYXpw1RJMM2pQ8sR8FWPm",
+      "fields": {
+        "ref": "discord.create_channel_message"
+      }
+    },
+    "action:42VGe6puSm4qBsBpKA59z3KPkcLDNC4KEEwyNsUsEaLG": {
+      "type": "action",
+      "content_hash": "3j876c5UiKqP4xcRyG2FSQACLRUbNcJ8dLPjSvb8M5Zu",
+      "hash": "LTzU2ccqHJ1oR2Q5x72nysnMCFVAjZuU5zpKdvp7JyX",
+      "fields": {
+        "ref": "transforms.transform_fields"
+      }
+    },
+    "transition_id:3YSssJQCSQkidUCm2wHBStogNbuFxRsdNiMUrEUgYh5C": {
+      "type": "transition_id",
+      "content_hash": "63mnnkkqJgeDfjPsfvSCCBmFRbpzbcdea9KipGjyGFvq",
+      "hash": "bzrnZq3e6goFCQRoHBwW5ZbRr1aC795RkcxJuAShWLa",
+      "fields": {
+        "id": "3794551e-55f4-4d00-8c38-51cc3082a2a3"
+      }
+    },
+    "workflow_task_id:46XHSQrJMP54gE19w8FVrR3UxRkL6jin6qZprZStmSVa": {
+      "type": "workflow_task_id",
+      "content_hash": "HnXYUuyQ7BNBQwvweYXmDxSMAigsWwkZWaBYwoVoyh1U",
+      "hash": "AKjK6AJBkRuMVyP9tNzGQRJSpWgH8K7Br1NBHXVEiQB2",
+      "fields": {
+        "id": "9232a34207094147ac37d6bd7b007a5a"
+      }
+    },
+    "transition_id:2Hu1k8rHw43AV4Ejmd6HyLvUv8w2PMZ4wocbqE5RHPFM": {
+      "type": "transition_id",
+      "content_hash": "6KvcLsvurxtnRcyoinxn3KCYz5dB3YrcSvurBkMgW6M6",
+      "hash": "AqP3JC1TUddHu7CskvfxcETPGP2PtZdMRvNhnknYZ2Fr",
+      "fields": {
+        "id": "d2845c79-51e7-4296-ad3b-ccc522ae927d"
+      }
+    },
+    "form_field_id:9Yazc9EvivvV4cNWzBPgsKodxxKgsZmvtJm7sP9BqjK9": {
+      "type": "form_field_id",
+      "content_hash": "DNb3JRTAXfqvgG59xmP7o2ssKeXrietZdWcdjmzHBUJB",
+      "hash": "9VUi8BKHsnBEPpK8d5ZQwE126tVr1sQZnMAFRig5EFec",
+      "fields": {
+        "id": "8abfb424-aded-4de6-b259-01d7302ee707"
+      }
+    },
+    "workflow_task_id:GeXrsYNTPgx3mExXSo3TDBXd4Ary7ExdLLEBxCReywqH": {
+      "type": "workflow_task_id",
+      "content_hash": "4W9wC18GBF2gh76eq8nbELAkhz1uYdJWVGfkTCUkD2vx",
+      "hash": "7qehtixSX1RKyELoYGSMtHUpkS2tEddFs3Hj2ZLgWVUg",
+      "fields": {
+        "id": "7de04715bf8e4880bf09ec2c7f61e9bb"
+      }
+    },
+    "workflow_note_id:AmUJajfoJrwfigaLtFYp6XT91DLdoc9cUA4G1RaFo71H": {
+      "type": "workflow_note_id",
+      "content_hash": "7k9Z5B4PDxopGK7apeHYX9cosPWnKsxH6n22Gwo893bs",
+      "hash": "CMhn94yz81nvUuA5dxx5EtastoPw5UFbar3vGxGEZwSZ",
+      "fields": {
+        "id": "a10f5585-13ed-4549-aba7-4c2efcf1bd6a"
+      }
+    },
+    "action:FhGYwjtAcfsz26jxfpvHbHbGGjDR961P6Aj7CEBho2vZ": {
+      "type": "action",
+      "content_hash": "34j4oexPk3Uipz1HuTzPPVjKA1iNywwQVm4eUgwjsA8m",
+      "hash": "7yLL6gAcZW4iL3u1ZJEJ7swMNCdLKoQ1u5APxJVx6LNY",
+      "fields": {
+        "ref": "hubspot.generic_request"
+      }
+    },
+    "workflow_note_id:BoapKPtbmihMdKjEqcYaKMCUbjmRGXdmq23V8XPjBinE": {
+      "type": "workflow_note_id",
+      "content_hash": "337LKMKEkzV2vaaepwVcHdpZPRGBQGVSmRRjj5y1qL2g",
+      "hash": "92gYSDZ5AnVVFnSXyUSbY81uCrbBiHk9dybNZEk1Npjm",
+      "fields": {
+        "id": "3fb57344-dfec-4998-b2bd-19ae20d58d49"
+      }
+    },
+    "workflow_task_id:6YhzbyaP2Z6w6GuKi8MuXd7dLYApssH8jhRrBHa7ZChV": {
+      "type": "workflow_task_id",
+      "content_hash": "2DafmKfvGYrVh23xi9dBvJJpHQid1We1PysWP4quJhZN",
+      "hash": "FRkiWwayUcBmfZcH2mxKjPvHaXFTN8AGnQYnWyyAr3Qh",
+      "fields": {
+        "id": "018fc5cc579f7c1290016e0ff142d2dc"
+      }
+    },
+    "action:E4wEbC885HB2XYasmwano532nsUChNodaqLjrNdxbohC": {
+      "type": "action",
+      "content_hash": "A6dknns1ZQDmbzoNGk6JVPkLmq7doMXzautqoH1FcyvE",
+      "hash": "8f6XxtUBYKQZEGxw4jVfScc3aEcpAUQt6QKtz6Vd7dnp",
+      "fields": {
+        "ref": "hubspot.search_companies"
+      }
+    },
+    "workflow_task_id:H5FMdEZCHc6JToKxYYE7QezzHokdj4QRwHMMXNCo9dL8": {
+      "type": "workflow_task_id",
+      "content_hash": "7GCr4FLcF93f1xwrfjmBKV72bRN1p9zZFFHdpfzrqmpa",
+      "hash": "82Um75ga78fcqc2ifUDGV8sqnr3AuNGQrC9cz8yiMSRX",
+      "fields": {
+        "id": "018fc5cc579f7c1290016e0d3a29d0d1"
+      }
+    },
+    "transition_id:8r4RHWBHkgATAXzJsifxrgW84qWiqJpgELDHSsaL4uxv": {
+      "type": "transition_id",
+      "content_hash": "4k177dUmPCwR1jHgQwfqn5fBJznycNtc5P3TRjfzTt8D",
+      "hash": "CwsdJQVNVSV3QWUNEFH8QNfz4hTfxR9aPygvbFJEL5Tz",
+      "fields": {
+        "id": "65cdb4e9-f8ef-4a6d-9de6-787b2c9c1355"
+      }
+    },
+    "form_field_id:DSsggJrB1VpYHLrQWwKKAZdqEqSmcLW8eUVW3Rrx9aRx": {
+      "type": "form_field_id",
+      "content_hash": "7vSvXt71eE25rEqmoP4mUuPGdeRqjrdQjGFYSSnikgxU",
+      "hash": "24ZETAXExg1UXkwN13PyGj6dWmEfd58dHFPxTkUjafKe",
+      "fields": {
+        "id": "09860d78-0e2b-4e8a-bdd1-6a5cdf99c892"
+      }
+    },
+    "transition_id:4nmD765tHziSRRR898x8waszZ15ZEZFhynniN3u1TPAd": {
+      "type": "transition_id",
+      "content_hash": "B76LzvjRqTFW1ajSYoFHehXDPA1PVhVKZUkGQyvS9N5D",
+      "hash": "4Mw4HCVJEcmf5XqkohaG5hCW9MzWsSCLL2UNhLR6atq5",
+      "fields": {
+        "id": "e856d569-2619-40d1-a70c-03b37dc3f021"
+      }
+    },
+    "workflow_task_id:RQX9Cc2SPDBVYpxroakaFEzZyKQY7yyq6sSRdTa7dE7": {
+      "type": "workflow_task_id",
+      "content_hash": "84cFDhBgXc7VrVo1t6vWNGGs1FZj4RS3Hf1fVtACTtYT",
+      "hash": "FSRq7wDnVQXmqcjxu9sv2aap6hMLMZBVxAUMfiHcFMBZ",
+      "fields": {
+        "id": "c793323b32db4bc58b474ab18061329d"
+      }
+    },
+    "transition_id:GgRpWQid4PLoEdn9UCDGbnLMxVt4tjZ1yJaMKWsi4YoS": {
+      "type": "transition_id",
+      "content_hash": "8mZiy76yJUbRcbHrAjTCE6xQU8AeNMNaYcpnnFpqixad",
+      "hash": "GyTMMDPayLAtnYyAsWCoUJbztTfAynQZFqrrfgN51iYk",
+      "fields": {
+        "id": "018fc5cc-57a0-7d9d-bece-4bf4bdd4110e"
+      }
+    },
+    "workflow_task_id:H1nuz1kznU1mv14JHHv1caTacQWtnx2sCUVXsbKgHkiC": {
+      "type": "workflow_task_id",
+      "content_hash": "Hbun3bTb11QfTzcNKC5gNot3c8uMv4dg1scQ7vnAMHC2",
+      "hash": "FjU1fNNzRtAZhBaJoay9XE8dEP329uU1YE6GiTKS6uQJ",
+      "fields": {
+        "id": "90823be9ff24497bb19b3a3d3def4576"
+      }
+    },
+    "transition_id:96H8NjCz5wajscBSJEfCQeSsUxndE7t8Jdf51wvHXLYX": {
+      "type": "transition_id",
+      "content_hash": "Bi1cLMVyFN5zH1pyMZ3kXCxgZB8S9BUJwBBNmSap9rSq",
+      "hash": "6mRd3M76LFFsJduowT6dZy1KaY4MiYmc2RGGgyNLzxt1",
+      "fields": {
+        "id": "ccc19ec4-806c-498b-be0e-fce2dcc2ef27"
+      }
+    },
+    "workflow_note_id:F2H5CNsfppG9cVmfFB5jXFYG8xSyh8HuZwyrf7sieRG9": {
+      "type": "workflow_note_id",
+      "content_hash": "73kioLnsYs2YyNk7Kdo8LPdPQpyqD1UxiivSSN6H3Mvo",
+      "hash": "FyyJBDvvZZ3gFYUn14mF33mwgkbhv2tW6JbvugRGLnJD",
+      "fields": {
+        "id": "5cbf8988-11e0-4088-9932-dabbcaffe04d"
+      }
+    },
+    "workflow_note_id:3V1EYWeHhY22oEMK3EYapWcyhYLmVW5TwawJ2ziq3Qct": {
+      "type": "workflow_note_id",
+      "content_hash": "D4XsFAafLfiUYMDrLhKCHvT5XCJG1Ef7vLnXK7NJ3nz9",
+      "hash": "9cdQbvm1Z3t4zL1DuGtiDU2FiJc9EUmVisYMrxx1bHKW",
+      "fields": {
+        "id": "5191d2c2-282b-41de-94c8-c52fb07afc39"
+      }
+    },
+    "workflow_note_id:H5Rcqi3nLDaVZtrrcJDyxe8XkB12QgfUJrXik7mdUuYn": {
+      "type": "workflow_note_id",
+      "content_hash": "EkuUbQcvq3CFuVHaL6x3sy2MiGBju7fd9L3V2pneNSub",
+      "hash": "GF1QyEAjA6MN7WwAsQTHpLKbzaV2x7JsA6fxVakhMtvu",
+      "fields": {
+        "id": "d6c5b93c-04cb-479b-b911-a994754b2603"
+      }
+    },
+    "transition_id:GbBKmhh9fzMvJqvfwWrJVFTtTz3dsQUTsvfKEqTKyhoQ": {
+      "type": "transition_id",
+      "content_hash": "ByVR94oxtR3fa1CW9Hy5KqjdpEpohtTn248TFzmFa3Bq",
+      "hash": "CYYrRxXWeWwNGN2tgvPPUX57HQJaTS87emyigyRqAeWD",
+      "fields": {
+        "id": "61bc96fb-1899-4d13-a4eb-f2f7c7957f70"
+      }
+    },
+    "workflow_note_id:DETb6pu5uCBD6kokrLHALE5ewfoNhuBsg5uu24CiVNd2": {
+      "type": "workflow_note_id",
+      "content_hash": "HzYb2FWkdsqbdGiKykG4ftNp7WZtvktSu3nLZCy5fv6s",
+      "hash": "2VHM34hphSUkDFcfqh5pHnUpynDmebqwhxZWyYskVEwo",
+      "fields": {
+        "id": "3aed3d7d-a3fe-451a-9cc5-1cb6ec9d3378"
+      }
+    },
+    "workflow_note_id:EKxVtS6sdre2MpVfsnN4zM96vob6zVLqi3xG8vZArcf5": {
+      "type": "workflow_note_id",
+      "content_hash": "J7kLzH5oJPoeuPeb4tgRVNq3DqFJQ64LsVvX93sNxfGC",
+      "hash": "DZXvUQANnT8H8fMErVcif1NHK2itcAFLYr1gkusVnA4",
+      "fields": {
+        "id": "a36fa3a5-2823-4598-aa17-2b7be56750e1"
+      }
+    },
+    "transition_id:8cTbQddNPH77Q72nwunJmk649hrZzLYb16QSd8BJaJcB": {
+      "type": "transition_id",
+      "content_hash": "821XAhxbkKKbZumRVjc8CtfXBsVnAR8zx6ZMp5PchsRs",
+      "hash": "JxdU3h7dL2LNguUbBEqqEFGbFXhAf4Z1Qm2gmHF8rFD",
+      "fields": {
+        "id": "4378d7a6-d40f-4121-8016-568eeebb0b8e"
+      }
+    },
+    "transition_id:88UYMK5si8CWxFdkafD8hCUGLwNXpWNmY4n9VY3eMDLk": {
+      "type": "transition_id",
+      "content_hash": "9JAmKCKoDoBuvDPWwV9kUUF2amzcCFwgowEpUpVrjb5R",
+      "hash": "DTXFrHvjhFHo8NvYcdLJjQKjYDhthFVj7sW6LKZcYkQz",
+      "fields": {
+        "id": "667e418e-a6b7-43e6-bc79-539197ae79c2"
+      }
+    },
+    "transition_id:H1p9FhncCnCpeFoSihTTXmSSzGyF991MbcDXcwzohTp2": {
+      "type": "transition_id",
+      "content_hash": "52xkCCeGhCsGPWxUdyjeXZb3KhLm3We7E6P3meYT17wD",
+      "hash": "A6JYe9LKvJnFn7NmCuQ1fMsEwJyRfNZzGAgNX1BjG441",
+      "fields": {
+        "id": "54610527-a389-423e-a3ee-c24bd0f109fe"
+      }
+    },
+    "transition_id:2ng8rxeoZaU3JQ466vTKUkrC4v7xATaY2zZ17Jdr5qDo": {
+      "type": "transition_id",
+      "content_hash": "DLqh1RT4xgkQhDXwG7NbrpN65Gfe7Xs4X8TzvSAKj9bq",
+      "hash": "5GgWi5jg5N4K4HR3hyd3c5zD54nzheqNMcxbVUsQEK24",
+      "fields": {
+        "id": "ba303610-9b30-4ebc-aab3-d7b5e275f5ef"
+      }
+    },
+    "action:A3UWBafcFYqR2x6MaDYMcbmQ6v2LJYZ9zKMxW1u9EMWk": {
+      "type": "action",
+      "content_hash": "9JrLtVk9zUnRwAvwaBwYkm5dptmneow8ihM6xa1yprKf",
+      "hash": "DKTQGYko1SAE7GAHk2yrt48tRYnNdXjj5yLvw26Kt1hL",
+      "fields": {
+        "ref": "hubspot.search_contacts"
+      }
+    },
+    "workflow_note_id:FzWBZQiGBHht1jypSybsaB7pT3ri4D1uiyqg5nkyBeKA": {
+      "type": "workflow_note_id",
+      "content_hash": "DWTJpoi29KPAoe49NcSrZNS7EgX5v31JSgwmSbBmsAHy",
+      "hash": "18ckUYQALY1j7J9W1zpMZrZkN5ThkXPqHsCWDvMMe2q",
+      "fields": {
+        "id": "ad94a525-2b62-40ce-a424-fe38943b824d"
+      }
+    },
+    "workflow_task_id:FxsC35qHFxYzg9M18rENEV78DDRdm8yfxH2Mdw6qUtTM": {
+      "type": "workflow_task_id",
+      "content_hash": "8Q2hqHp3SbsVFWYrKyXRJV5rCt5f6CJqmACd28DJuXCx",
+      "hash": "GEs57iYZGuMSh6MzMgfKgGm3cJdSkBDKcfjmF2TUfXKz",
+      "fields": {
+        "id": "07dc85b92a24498f8300ea81c8fce383"
+      }
+    },
+    "workflow_task_id:G6C7NXqXfpmqfGpz8GRW4mppiJvcsQcF2tW62Jjk8xZ5": {
+      "type": "workflow_task_id",
+      "content_hash": "NmngputHhVPzhoyjPkN4QZDWxY4zbzqkVbBUQm5MDr7",
+      "hash": "9PoB2E7qwGuG9dBqu7LLFfUiD8QwaUTok3EwDpHpqXMp",
+      "fields": {
+        "id": "1be471ede4374d2f82a805565fb62481"
+      }
+    },
+    "workflow_task_id:4A8cdWS7QXMGkCYuutYoHuuCMzSXdddgUxLnRx1wy4Cn": {
+      "type": "workflow_task_id",
+      "content_hash": "9CMh9cSGUeQvbhVNjRQmgQ18svzzigiNS8ZPLz5F2yWq",
+      "hash": "76V8iN5ZtXTPP6LtcE6F3edCu1hB8RZy8zv6tshfDUv6",
+      "fields": {
+        "id": "30c01e80c4054f1eb01adcf13863afa1"
+      }
+    },
+    "workflow_task_id:6mLgJPJqGMeaG1rUkFEFNFn98RWxxMev2fhKhuiHV3wV": {
+      "type": "workflow_task_id",
+      "content_hash": "5uTkhZ7HXPE813YBZzcXaBQTQFqPw9n7TtLw71J9oeA9",
+      "hash": "9Gfz19Y6788oFoFiu8tCoDaSshiZzQHHooALVyMWQH7A",
+      "fields": {
+        "id": "018fc60be2687cf5afeb4d0a6d2186a2"
+      }
+    },
+    "workflow_task_id:7FUiiwf76kJyJYscCgTTxcG5kzuP2NrjPPzCfmszjZef": {
+      "type": "workflow_task_id",
+      "content_hash": "55oqznjYWLFsdrE6t8MLJiR2PENC89UjbqiUuUywTU65",
+      "hash": "E1QMargF8bmGRPDRoZxCjxaos7ySGQydAg3exyDTHEHF",
+      "fields": {
+        "id": "5cafdd2d782d4507a25ccbac55f3fb00"
+      }
+    },
+    "workflow_task_id:4XusWC7RP2jRN19ZKctJeb4UfuQKvGkWvBnwLkqbxMim": {
+      "type": "workflow_task_id",
+      "content_hash": "2ZTQZ1x4UayoDEBK7FDCxV9rdWG8N9SmCvshQ3fZdGST",
+      "hash": "Dxiv1WwDXDfaeAETb3bMqMdyrFemNFutNyS8YSywRzZU",
+      "fields": {
+        "id": "018fc60be2687cf5afeb4d0777030e0d"
+      }
+    },
+    "workflow_note_id:AE6LUmWZtu2rZW13MogMbL6kAjrRqp2RiRTPdzDr3d2Y": {
+      "type": "workflow_note_id",
+      "content_hash": "G2q6KFLeegi7Pc4ij5NSUEmSZqJ8VSDEBupn6W2cXGdn",
+      "hash": "GN7P2r9VxKaDMhjX48EEhzzshoMYwV79z4WLMAmjxGrx",
+      "fields": {
+        "id": "36e936d8-302e-4d30-bc67-02f4c9fcfa8d"
+      }
+    },
+    "transition_id:EbiUhxC5J5JNV8zBX4rH22pTGpF8y8cs3fcXk4fQyVTK": {
+      "type": "transition_id",
+      "content_hash": "AztJxJA4amXBzcTFrDXWtnCTpV4bFKnqyEzjGRksKTzr",
+      "hash": "DEwoLDwemckNwpvnZ2JTpndFtjadmjRHYsAEQ3nB13k1",
+      "fields": {
+        "id": "93d03d18-ece1-45b3-8ecc-6de538261202"
+      }
+    },
+    "workflow_task_id:7DMdmpGHQZsqnCw4rUpP3WkngwkCobheNocMWTfDY2Xt": {
+      "type": "workflow_task_id",
+      "content_hash": "BuLrriSQ75EFqhpqbes4tjRJrBuvbCm2Ft4YxuGVNEg6",
+      "hash": "Et5wGxUb8v3yQvJidoWASspBgiX8CFTb6X7ojiHTn9ah",
+      "fields": {
+        "id": "018fc60be2687cf5afeb4d08a5f19a6d"
+      }
+    },
+    "transition_id:AQ9yGnCcR1GsmBj8scT6sCTYt3UmBaqAiR8E469Te5As": {
+      "type": "transition_id",
+      "content_hash": "AAcyFUynQncva6ETujTKctsTbEgvKF4ujM7avPFztLaX",
+      "hash": "Ce4MEo7APZNCqz1kAxHVgTxv48TdDd9YkVn35Fft98v",
+      "fields": {
+        "id": "1af0c79b-6d43-418d-affb-75afdcd70d81"
+      }
+    },
+    "transition_id:9iiaMJr5KCarTwFN48agRnkAKNhEm9SnWHPand4YsznZ": {
+      "type": "transition_id",
+      "content_hash": "4NPapJrTt8G2tr7wwB1fT8n7WMMou99H6V7BtGQm77ib",
+      "hash": "7NJ5Cx88kdf6ofuFohm3rsN6bWK9YEazZQPyCaLpXiY9",
+      "fields": {
+        "id": "018fc60b-e26a-71ae-8e6c-88e0717b4e94"
+      }
+    },
+    "transition_id:8rhrqPgQG5rudCx1WE88yYNHXVjQjPpjbnxqfeJYyzpg": {
+      "type": "transition_id",
+      "content_hash": "9WEFxd2ELn6DAo3drDoQHjcWyFJa2ifMvDy4dmZHWMKZ",
+      "hash": "3JPu3e6P7hj77t6HfB8XwDBhJHDWVDD3ruag3k42nRrb",
+      "fields": {
+        "id": "0cf322ef-df89-4622-978e-53b74ca99710"
+      }
+    },
+    "transition_id:AzgWC2zzJKNo6mYfQHoRhtKsUoqj5Hze2LWCYCMnLi5W": {
+      "type": "transition_id",
+      "content_hash": "GzM9CR53biruzCJUXHG2Bh5pbFHoAhbLsdXyE5Uf6FgE",
+      "hash": "2tzoZrFSEb2hHAzKKseXAFW5qNiGHYwvbLL8DZ6uEH2B",
+      "fields": {
+        "id": "018fc60b-e26a-71ae-8e6c-88e175693810"
+      }
+    },
+    "workflow:GertAfjEvk9ai7jY6LK93a6jgypu77Gxu7LYaeG5jEpg": {
+      "type": "workflow",
+      "content_hash": "46dcbJy5jQnDNxms8MMpyDoCVdWGakzScGSyXb8aXA3c",
+      "hash": "79y4MpAupuTCDGaWbnZRoZhuY9dafoD5MjMG3kZhK1qz",
+      "fields": {
+        "humanSecondsSaved": 0,
+        "notes": [
+          {
+            "id": "@@@workflow_note_id_ref1@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref2@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref3@@@"
+          }
+        ],
+        "output": [
+          {
+            "options": "{{ CTX.format_options }}"
+          }
+        ],
+        "parameters": {},
+        "tasks": [
+          {
+            "id": "@@@workflow_task_id_ref1@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "BEGIN",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref6@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref1@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref2@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "END",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref2@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref3@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "END",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref3@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              },
+              {
+                "do": [
+                  "@@@workflow_task_id_ref4@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref4@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_FIRST",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref4@@@",
+            "action": {
+              "id": "@@@action_ref2@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "params": {
+                "text": "{{\r\n    user\r\n    for user\r\n    in CTX.hs_users\r\n    if user.teams\r\n    and any(team.id in CTX.cs_team_ids for team in user.teams)\r\n}}"
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "filter_cs_users",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref5@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref5@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "filtered_cs_output",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref5@@@",
+            "action": {
+              "id": "@@@action_ref3@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "params": {
+                "array": "{{ CTX.filtered_cs_output }}",
+                "field_actions": [
+                  {
+                    "input": "firstName",
+                    "method": "append",
+                    "output": "label",
+                    "params": [
+                      {
+                        "field": null,
+                        "delimiter": " ",
+                        "append_type": "append_field",
+                        "append_field": "lastName",
+                        "append_value": null
+                      }
+                    ]
+                  },
+                  {
+                    "input": "id",
+                    "method": "original",
+                    "output": "id",
+                    "params": []
+                  }
+                ]
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "format_options",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref2@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref6@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "format_options",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref6@@@",
+            "action": {
+              "id": "@@@action_ref4@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "data": null,
+              "json": null,
+              "method": "GET",
+              "params": null,
+              "cookies": null,
+              "headers": {
+                "Content-Type": "application/json"
+              },
+              "paginate": null,
+              "raw_json": null,
+              "url_path": "/crm/v3/owners",
+              "follow_redirects": null,
+              "require_2xx_status": null
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "hubspot_get_users",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref3@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref7@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "hs_users",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          }
+        ],
+        "timeout": 28800,
+        "type": "OPTION_GENERATOR",
+        "varsSchema": {
+          "cs_team_ids": {
+            "type": "array",
+            "default": "{{ [\"${TEAM_ID_CS_PRIMARY}\",\"${TEAM_ID_CS_SECONDARY}\"] }}",
+            "required": false,
+            "multiline": false
+          }
+        }
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "name": "[OG] HubSpot CSM Users",
+        "notes[0].content": "This functional block handles the initial data collection from HubSpot's API to retrieve all user/owner records.\n\n**Purpose**: Fetch comprehensive user data from HubSpot that will be processed to identify Customer Success team members.\n\n**Tasks Included**:\n- **hubspot_get_users**: Makes an authenticated GET request to HubSpot's `/crm/v3/owners` endpoint to retrieve all user/owner records with their team associations and profile information.\n\n**Key Functionality**:\n- Uses HubSpot's generic API request action with proper authentication\n- Retrieves paginated results to ensure all users are captured\n- Sets up the foundation data (CTX.hs_users) that subsequent processing tasks will filter and transform\n\n**Inputs**: HubSpot API credentials (configured in the integration)\n**Outputs**: Complete list of HubSpot users/owners stored in CTX.hs_users\n\n**Flow Connection**: This block provides the raw user data that feeds into the Data Processing & Filtering block for CS team member identification.",
+        "notes[0].metadata": {
+          "x": 139.72222900390625,
+          "y": 281.82638931274414,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367,
+          "height": 118,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "1be471ede4374d2f82a805565fb62481"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[0].title": "Data Retrieval & API Integration",
+        "notes[1].content": "This functional block processes the raw HubSpot user data to identify Customer Success team members and formats them for output.\n\n**Purpose**: Filter the complete user list to extract only CS team members and transform their data into a user-friendly format suitable for selection interfaces.\n\n**Tasks Included**:\n- **filter_cs_users**: Uses Jinja2 templating to filter users based on team membership, identifying those who belong to Customer Success teams (matching CTX.cs_team_ids)\n- **format_options**: Transforms the filtered user objects to create display-friendly options with combined first/last names as labels and user IDs as values\n\n**Key Functionality**:\n- **Smart Filtering**: Uses conditional logic to check if users have team assignments and if any of their teams match the predefined CS team IDs\n- **Data Transformation**: Combines firstName and lastName fields into a single \"label\" field for better user experience\n- **ID Preservation**: Maintains the original user ID for system integration purposes\n\n**Processing Logic**:\n```\nFilter: user for user in CTX.hs_users \n        if user.teams and any(team.id in CTX.cs_team_ids for team in user.teams)\nTransform: firstName + \" \" + lastName \u2192 label, id \u2192 id\n```\n\n**Inputs**: \n- CTX.hs_users (from Data Retrieval block)\n- CTX.cs_team_ids (predefined CS team identifiers)\n\n**Outputs**: \n- CTX.filtered_cs_output (CS team members only)\n- Final formatted user options with label/id structure\n\n**Flow Connection**: This block takes the raw user data from the API Integration block and produces the final filtered and formatted CS user list that the workflow returns.",
+        "notes[1].metadata": {
+          "x": 235.72222900390625,
+          "y": 595.8263893127441,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 369,
+          "height": 256.17361068725586,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "7de04715bf8e4880bf09ec2c7f61e9bb",
+            "30c01e80c4054f1eb01adcf13863afa1"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[1].title": "Data Processing & CS Team Filtering",
+        "notes[2].content": "This functional block manages the overall workflow execution flow, providing entry and exit points with proper task sequencing.\n\n**Purpose**: Control the workflow's start, intermediate transitions, and completion states to ensure proper execution order and clean termination.\n\n**Tasks Included**:\n- **BEGIN**: Workflow entry point that initiates the execution sequence\n- **END (Intermediate)**: Transition control task that manages the flow between data retrieval and processing phases\n- **END (Final)**: Workflow termination point that cleanly concludes the execution\n\n**Key Functionality**:\n- **Execution Sequencing**: Ensures tasks execute in the correct order: BEGIN \u2192 Data Retrieval \u2192 Processing \u2192 Final END\n- **Flow Control**: The intermediate END task provides a decision point that routes execution to the data processing phase\n- **Clean Termination**: Final END task ensures the workflow completes properly and returns results\n\n**Execution Flow**:\n```\nBEGIN \u2192 hubspot_get_users \u2192 END (Intermediate) \u2192 filter_cs_users \u2192 format_options \u2192 END (Final)\n```\n\n**Control Logic**:\n- BEGIN triggers the HubSpot API call\n- Intermediate END evaluates success and routes to filtering phase\n- Final END completes the workflow after data transformation\n\n**Inputs**: Workflow trigger/initiation\n**Outputs**: Workflow completion status and final results\n\n**Flow Connection**: This block orchestrates the entire workflow, ensuring the Data Retrieval and Data Processing blocks execute in proper sequence and the workflow terminates correctly with the formatted CS user results.",
+        "notes[2].metadata": {
+          "x": 132,
+          "y": 95.82638931274414,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 470.22222900390625,
+          "height": 944,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "07dc85b92a24498f8300ea81c8fce383",
+            "a085e55f5ebb44acb714480752030aed",
+            "5cafdd2d782d4507a25ccbac55f3fb00"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[2].title": "Workflow Control & Execution Flow",
+        "tasks[0].description": "Action that does nothing",
+        "tasks[0].metadata": {
+          "x": 159.22222900390625,
+          "y": 110.82638931274414
+        },
+        "tasks[0].next[0].label": "",
+        "tasks[1].description": "Action that does nothing",
+        "tasks[1].metadata": {
+          "x": 250.22222900390625,
+          "y": 936.8263893127441
+        },
+        "tasks[1].next[0].label": "",
+        "tasks[2].description": "Action that does nothing",
+        "tasks[2].metadata": {
+          "x": 147,
+          "y": 464
+        },
+        "tasks[2].next[0].label": "",
+        "tasks[2].next[1].label": "",
+        "tasks[3].description": "Set a variable as an action",
+        "tasks[3].metadata": {
+          "x": 252.72222900390625,
+          "y": 610.8263893127441
+        },
+        "tasks[3].next[0].label": "",
+        "tasks[4].description": "Transform a list by manipulating the values of its attributes.",
+        "tasks[4].metadata": {
+          "x": 250.72222900390625,
+          "y": 749
+        },
+        "tasks[4].next[0].label": "",
+        "tasks[5].description": "Generic action for making authenticated requests against the HubSpot API",
+        "tasks[5].metadata": {
+          "x": 154.72222900390625,
+          "y": 296.82638931274414
+        },
+        "tasks[5].next[0].label": "",
+        "varsSchema.cs_team_ids.description": "",
+        "varsSchema.cs_team_ids.label": ""
+      },
+      "references": {
+        "workflow_note_id_ref2": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "EKxVtS6sdre2MpVfsnN4zM96vob6zVLqi3xG8vZArcf5",
+          "content_hash": "J7kLzH5oJPoeuPeb4tgRVNq3DqFJQ64LsVvX93sNxfGC",
+          "locations": [
+            "notes[1].id"
+          ]
+        },
+        "workflow_task_id_ref4": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "GeXrsYNTPgx3mExXSo3TDBXd4Ary7ExdLLEBxCReywqH",
+          "content_hash": "4W9wC18GBF2gh76eq8nbELAkhz1uYdJWVGfkTCUkD2vx",
+          "locations": [
+            "tasks[3].id",
+            "tasks[2].next[1].do[0]"
+          ]
+        },
+        "action_ref2": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "222mDbnuV6wouvJFoEaqL9LMWdGmGdJVmMKEQV2Mihtq",
+          "content_hash": "Aj7g63oBpFTyTLgcv25UHmfMB5WmghbjNdHZYGy7KxYN",
+          "locations": [
+            "tasks[3].action.id"
+          ]
+        },
+        "transition_id_ref6": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "BRbgEMebhvirJASJVC4xo4o4Qk3uiWmFSFWfaP8k6fkG",
+          "content_hash": "3roqfin6AWPrtQTYQ7soJurWtDjDBM5JEQKXabfkrVxG",
+          "locations": [
+            "tasks[4].next[0].id"
+          ]
+        },
+        "transition_id_ref2": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "Aa1r1ohmvTxxfnPXuYLsSBQd7gKLjJg1baa8XsVQvUBy",
+          "content_hash": "9kBTZxr9tsVZkF4sWiw6MjbHZABEeLT3kdk2XbwipfNw",
+          "locations": [
+            "tasks[1].next[0].id"
+          ]
+        },
+        "workflow_note_id_ref3": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "FzWBZQiGBHht1jypSybsaB7pT3ri4D1uiyqg5nkyBeKA",
+          "content_hash": "DWTJpoi29KPAoe49NcSrZNS7EgX5v31JSgwmSbBmsAHy",
+          "locations": [
+            "notes[2].id"
+          ]
+        },
+        "workflow_task_id_ref1": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "FxsC35qHFxYzg9M18rENEV78DDRdm8yfxH2Mdw6qUtTM",
+          "content_hash": "8Q2hqHp3SbsVFWYrKyXRJV5rCt5f6CJqmACd28DJuXCx",
+          "locations": [
+            "tasks[0].id"
+          ]
+        },
+        "workflow_task_id_ref5": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "4A8cdWS7QXMGkCYuutYoHuuCMzSXdddgUxLnRx1wy4Cn",
+          "content_hash": "9CMh9cSGUeQvbhVNjRQmgQ18svzzigiNS8ZPLz5F2yWq",
+          "locations": [
+            "tasks[4].id",
+            "tasks[3].next[0].do[0]"
+          ]
+        },
+        "transition_id_ref4": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "DPdhdsA2LSz1UfhRuL8mqbeMrCpteG3R2VePhoQ8R5fm",
+          "content_hash": "GmPFW7Qt1MzSZG8jAqJvGrsoEZMQfCydVdAboneHU5yE",
+          "locations": [
+            "tasks[2].next[1].id"
+          ]
+        },
+        "workflow_task_id_ref2": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "7FUiiwf76kJyJYscCgTTxcG5kzuP2NrjPPzCfmszjZef",
+          "content_hash": "55oqznjYWLFsdrE6t8MLJiR2PENC89UjbqiUuUywTU65",
+          "locations": [
+            "tasks[1].id",
+            "tasks[4].next[0].do[0]"
+          ]
+        },
+        "action_ref4": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "FhGYwjtAcfsz26jxfpvHbHbGGjDR961P6Aj7CEBho2vZ",
+          "content_hash": "34j4oexPk3Uipz1HuTzPPVjKA1iNywwQVm4eUgwjsA8m",
+          "locations": [
+            "tasks[5].action.id"
+          ]
+        },
+        "action_ref1": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "8G15nwxs8pwdF8mcvAzY8im9SWfxUeBfMyqbrX993jDs",
+          "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+          "locations": [
+            "tasks[0].action.id",
+            "tasks[1].action.id",
+            "tasks[2].action.id"
+          ]
+        },
+        "transition_id_ref3": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "2Hu1k8rHw43AV4Ejmd6HyLvUv8w2PMZ4wocbqE5RHPFM",
+          "content_hash": "6KvcLsvurxtnRcyoinxn3KCYz5dB3YrcSvurBkMgW6M6",
+          "locations": [
+            "tasks[2].next[0].id"
+          ]
+        },
+        "action_ref3": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "42VGe6puSm4qBsBpKA59z3KPkcLDNC4KEEwyNsUsEaLG",
+          "content_hash": "3j876c5UiKqP4xcRyG2FSQACLRUbNcJ8dLPjSvb8M5Zu",
+          "locations": [
+            "tasks[4].action.id"
+          ]
+        },
+        "workflow_task_id_ref6": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "G6C7NXqXfpmqfGpz8GRW4mppiJvcsQcF2tW62Jjk8xZ5",
+          "content_hash": "NmngputHhVPzhoyjPkN4QZDWxY4zbzqkVbBUQm5MDr7",
+          "locations": [
+            "tasks[5].id",
+            "tasks[0].next[0].do[0]"
+          ]
+        },
+        "workflow_task_id_ref3": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "4tWW85ohLmbpE7DFBURsnYaZJcnz2VKiicF89DnnLsnj",
+          "content_hash": "85avTFKafL9es9X5uVdmoSmuoNsVH1PpQc8BvZFFJJar",
+          "locations": [
+            "tasks[2].id",
+            "tasks[5].next[0].do[0]"
+          ]
+        },
+        "transition_id_ref7": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "H1p9FhncCnCpeFoSihTTXmSSzGyF991MbcDXcwzohTp2",
+          "content_hash": "52xkCCeGhCsGPWxUdyjeXZb3KhLm3We7E6P3meYT17wD",
+          "locations": [
+            "tasks[5].next[0].id"
+          ]
+        },
+        "transition_id_ref5": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "AQ9yGnCcR1GsmBj8scT6sCTYt3UmBaqAiR8E469Te5As",
+          "content_hash": "AAcyFUynQncva6ETujTKctsTbEgvKF4ujM7avPFztLaX",
+          "locations": [
+            "tasks[3].next[0].id"
+          ]
+        },
+        "transition_id_ref1": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "8cTbQddNPH77Q72nwunJmk649hrZzLYb16QSd8BJaJcB",
+          "content_hash": "821XAhxbkKKbZumRVjc8CtfXBsVnAR8zx6ZMp5PchsRs",
+          "locations": [
+            "tasks[0].next[0].id"
+          ]
+        },
+        "workflow_note_id_ref1": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "AE6LUmWZtu2rZW13MogMbL6kAjrRqp2RiRTPdzDr3d2Y",
+          "content_hash": "G2q6KFLeegi7Pc4ij5NSUEmSZqJ8VSDEBupn6W2cXGdn",
+          "locations": [
+            "notes[0].id"
+          ]
+        }
+      },
+      "dependencies": [
+        "transition_id:BRbgEMebhvirJASJVC4xo4o4Qk3uiWmFSFWfaP8k6fkG",
+        "workflow_task_id:4tWW85ohLmbpE7DFBURsnYaZJcnz2VKiicF89DnnLsnj",
+        "transition_id:DPdhdsA2LSz1UfhRuL8mqbeMrCpteG3R2VePhoQ8R5fm",
+        "action:8G15nwxs8pwdF8mcvAzY8im9SWfxUeBfMyqbrX993jDs",
+        "transition_id:Aa1r1ohmvTxxfnPXuYLsSBQd7gKLjJg1baa8XsVQvUBy",
+        "action:222mDbnuV6wouvJFoEaqL9LMWdGmGdJVmMKEQV2Mihtq",
+        "action:42VGe6puSm4qBsBpKA59z3KPkcLDNC4KEEwyNsUsEaLG",
+        "transition_id:2Hu1k8rHw43AV4Ejmd6HyLvUv8w2PMZ4wocbqE5RHPFM",
+        "workflow_task_id:GeXrsYNTPgx3mExXSo3TDBXd4Ary7ExdLLEBxCReywqH",
+        "action:FhGYwjtAcfsz26jxfpvHbHbGGjDR961P6Aj7CEBho2vZ",
+        "transition_id:8cTbQddNPH77Q72nwunJmk649hrZzLYb16QSd8BJaJcB",
+        "workflow_note_id:EKxVtS6sdre2MpVfsnN4zM96vob6zVLqi3xG8vZArcf5",
+        "transition_id:H1p9FhncCnCpeFoSihTTXmSSzGyF991MbcDXcwzohTp2",
+        "workflow_note_id:FzWBZQiGBHht1jypSybsaB7pT3ri4D1uiyqg5nkyBeKA",
+        "workflow_task_id:FxsC35qHFxYzg9M18rENEV78DDRdm8yfxH2Mdw6qUtTM",
+        "workflow_task_id:G6C7NXqXfpmqfGpz8GRW4mppiJvcsQcF2tW62Jjk8xZ5",
+        "workflow_task_id:4A8cdWS7QXMGkCYuutYoHuuCMzSXdddgUxLnRx1wy4Cn",
+        "workflow_task_id:7FUiiwf76kJyJYscCgTTxcG5kzuP2NrjPPzCfmszjZef",
+        "workflow_note_id:AE6LUmWZtu2rZW13MogMbL6kAjrRqp2RiRTPdzDr3d2Y",
+        "transition_id:AQ9yGnCcR1GsmBj8scT6sCTYt3UmBaqAiR8E469Te5As"
+      ]
+    },
+    "workflow:66g1T5pwD9d7h3a6i8nREsfWVpReKiuxSiBFNJtd99vA": {
+      "type": "workflow",
+      "content_hash": "3gUkD8e6in4EtUAJxuAyCU8eX7hsRfaDb1vfJNYwbQQm",
+      "hash": "HovwZEoQp1bfFjk3Ad1LzqBdDr3xbrnZzNqEYiGrpnHg",
+      "fields": {
+        "humanSecondsSaved": 0,
+        "notes": [
+          {
+            "id": "@@@workflow_note_id_ref1@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref2@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref3@@@"
+          }
+        ],
+        "output": [],
+        "parameters": {
+          "channel_id": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          },
+          "first_name": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          },
+          "start_date": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          },
+          "company_name": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          },
+          "discord_user_id": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          },
+          "include_calendly": {
+            "type": "boolean",
+            "default": "{{ false }}",
+            "required": false,
+            "multiline": false
+          },
+          "verification_date": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          }
+        },
+        "tasks": [
+          {
+            "id": "@@@workflow_task_id_ref1@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": null,
+            "join": null,
+            "mockInput": {},
+            "name": "core_noop",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref3@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref1@@@",
+                "publish": [
+                  {
+                    "key": "aharon_id",
+                    "value": "${DISCORD_USER_ID_CEO}"
+                  }
+                ],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": null,
+            "retry": null,
+            "runAsOrgId": null,
+            "timeout": null,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref2@@@",
+            "action": {
+              "id": "@@@action_ref2@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "data": null,
+              "json": null,
+              "method": "POST",
+              "params": null,
+              "cookies": null,
+              "headers": null,
+              "raw_json": null,
+              "url_path": "/channels/{{ CTX.thread_id }}/thread-members/{{ CTX.discord_user_id }}"
+            },
+            "isMocked": false,
+            "join": 1,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "discord_add_user",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref4@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref2@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref3@@@",
+            "action": {
+              "id": "@@@action_ref2@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "data": null,
+              "json": null,
+              "method": "POST",
+              "params": null,
+              "cookies": null,
+              "headers": null,
+              "raw_json": "{    \"name\": \"CEO Check-in: {{ CTX.company_name }}\",    \"type\": 12}",
+              "url_path": "/channels/{{ CTX.channel_id }}/threads"
+            },
+            "isMocked": false,
+            "join": 1,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "discord_create_thread",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref2@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref3@@@",
+                "publish": [
+                  {
+                    "key": "thread_id",
+                    "value": "{{ CTX.create_thread.id }}"
+                  }
+                ],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "create_thread",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref4@@@",
+            "action": {
+              "id": "@@@action_ref3@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "json_body": {
+                "tts": null,
+                "nonce": null,
+                "embeds": [],
+                "content": "# Hello <@{{ CTX.aharon_id }}> and <@{{ CTX.discord_user_id }}> :wave:\r\n\r\nRewst\u2019s friendly barnyard customer happiness bot here. As part of our ongoing effort to enhance your experience with us, I\u2019m here to spark a conversation between you two.\r\n\r\n- **{{ CTX.first_name }}, meet Aharon**: Aharon is our CEO and is deeply committed to the happiness and success of our customers. This is a great opportunity to discuss any thoughts or feedback you might have directly with him.\r\n- **Aharon, meet {{ CTX.first_name }}**: {{ CTX.company_name }} has been with us since {{ CTX.start_date }} and {{ CTX.first_name }} has been part of our community since {{ CTX.verification_date }}.\r\n\r\nNow that I've facilitated the introductions, my job is done here. :) Over to you! {{ CTX.first_name }}, any thoughts or feedback on your first two months with us that you\u2019d like to share, or anything specific you need help with? Aharon, anything you\u2019d like to ask?"
+              },
+              "path_params": {
+                "channel_id": "{{ CTX.thread_id }}"
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "discord_post_thread_message",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref4@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          }
+        ],
+        "timeout": 28800,
+        "type": "STANDARD",
+        "varsSchema": {}
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "name": "[CX] Discord Outreach Form",
+        "notes[0].content": "# Workflow Initialization & Configuration\n\n## Purpose\nThis block handles the initial setup and configuration required for the Discord outreach process. It establishes essential variables and prepares the workflow context for subsequent operations.\n\n## Tasks Included\n- **core_noop**: Initializes the workflow and sets up the CEO's Discord ID (Aharon's ID: ${DISCORD_USER_ID_CEO})\n\n## Key Function\n- Sets up the `aharon_id` context variable that will be used throughout the workflow\n- Provides a clean starting point for the Discord outreach process\n- Ensures the CEO's Discord ID is available for mentions in later tasks\n\n## Outputs to Next Block\n- `aharon_id`: The Discord user ID for the CEO that will be mentioned in the thread\n\n## Flow Connection\nThis initialization block feeds directly into the Discord Thread Creation process, providing the necessary CEO identification for the customer engagement workflow.",
+        "notes[0].metadata": {
+          "x": 660.2222290039062,
+          "y": 416.82638931274414,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367,
+          "height": 118,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "5a59e0528ff049c696c32487922f4a22"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[0].title": "Workflow Initialization & Configuration",
+        "notes[1].content": "# Discord Thread Creation & User Management\n\n## Purpose\nThis functional block handles the creation of a dedicated Discord thread for customer engagement and ensures all relevant participants are properly added to the conversation.\n\n## Tasks Included\n- **discord_create_thread**: Creates a new Discord thread with a personalized name format \"CEO Check-in: [Company Name]\"\n- **discord_add_user**: Adds the target customer's Discord user to the newly created thread\n\n## Key Functions\n- **Thread Creation**: Establishes a private communication channel using Discord's thread functionality (type 12)\n- **User Management**: Ensures the customer is automatically added as a participant in the thread\n- **Context Preparation**: Captures the thread ID for use in subsequent message posting\n\n## Required Inputs\n- `company_name`: Used to personalize the thread title\n- `channel_id`: The Discord channel where the thread will be created\n- `discord_user_id`: The customer's Discord ID to add to the thread\n\n## Outputs to Next Block\n- `thread_id`: The unique identifier of the created Discord thread, used for message posting\n\n## Flow Connection\nThis block receives initialization data from the setup phase and creates the communication infrastructure needed for the message delivery phase. It bridges the gap between workflow preparation and actual customer communication.",
+        "notes[1].metadata": {
+          "x": 714.3386715317604,
+          "y": 572.4707120720125,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 373.0000226081047,
+          "height": 309.00063667581435,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "818823af1728461ca91e00f8a7e1b35b",
+            "9232a34207094147ac37d6bd7b007a5a"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[1].title": "Discord Thread Creation & User Management",
+        "notes[2].content": "# Customer Introduction & Message Delivery\n\n## Purpose\nThis block handles the final step of the customer outreach process by delivering a personalized introduction message that facilitates direct communication between the customer and the CEO.\n\n## Tasks Included\n- **discord_post_thread_message**: Posts a comprehensive introduction message in the created Discord thread\n\n## Key Functions\n- **Personalized Messaging**: Creates a warm, personalized introduction using customer-specific data\n- **Stakeholder Introduction**: Formally introduces both the customer and CEO to each other\n- **Context Setting**: Provides relevant background information about the customer's relationship with the company\n- **Conversation Facilitation**: Encourages meaningful dialogue between customer and leadership\n\n## Message Components\n- **Greeting**: Mentions both the CEO (@aharon_id) and customer (@discord_user_id)\n- **Introduction Context**: Explains the purpose of the outreach and bot's role\n- **Customer Background**: Includes company name, start date, and verification date\n- **Conversation Starters**: Suggests topics for discussion and feedback\n\n## Required Inputs\n- `thread_id`: The Discord thread where the message will be posted\n- `aharon_id`: CEO's Discord ID for mentioning\n- `discord_user_id`: Customer's Discord ID for mentioning\n- `first_name`: Customer's first name for personalization\n- `company_name`: Customer's company name\n- `start_date`: When the customer started with the service\n- `verification_date`: When the customer joined the community\n\n## Workflow Completion\nThis is the final step in the customer outreach workflow. Once the message is delivered, the automated process is complete and human interaction takes over for ongoing customer engagement.",
+        "notes[2].metadata": {
+          "x": 640.3383926984684,
+          "y": 970.4720387577407,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367,
+          "height": 118.00000000000011,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "d190da3eae5149c5bfe38ca89e7e2bc8"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[2].title": "Customer Introduction & Message Delivery",
+        "parameters.channel_id.description": "",
+        "parameters.channel_id.label": "",
+        "parameters.company_name.description": "",
+        "parameters.company_name.label": "",
+        "parameters.discord_user_id.description": "",
+        "parameters.discord_user_id.label": "",
+        "parameters.first_name.description": "",
+        "parameters.first_name.label": "",
+        "parameters.include_calendly.description": "",
+        "parameters.include_calendly.label": "",
+        "parameters.start_date.description": "",
+        "parameters.start_date.label": "",
+        "parameters.verification_date.description": "",
+        "parameters.verification_date.label": "",
+        "tasks[0].description": "Action that does nothing",
+        "tasks[0].metadata": {
+          "x": 675.2222290039062,
+          "y": 431.82638931274414
+        },
+        "tasks[0].next[0].label": "",
+        "tasks[1].description": "Generic action for making authenticated requests against the Discord API",
+        "tasks[1].metadata": {
+          "x": 729.3386715317604,
+          "y": 778.4713487478268
+        },
+        "tasks[1].next[0].label": "",
+        "tasks[2].description": "Generic action for making authenticated requests against the Discord API",
+        "tasks[2].metadata": {
+          "x": 735.3386941398651,
+          "y": 587.4707120720125
+        },
+        "tasks[2].next[0].label": "",
+        "tasks[3].description": "Create a message in a channel",
+        "tasks[3].metadata": {
+          "x": 655.3383926984684,
+          "y": 985.4720387577407
+        },
+        "tasks[3].next[0].label": ""
+      },
+      "references": {
+        "transition_id_ref2": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "2mwypumkT4aNdp9Qb7wWt6DcUTdYgMeFYgLNSTDyDQ2Y",
+          "content_hash": "2wRKxjzzQ7qCJBNxrxeq3q2NZou67gQ55TinV3bjb2MQ",
+          "locations": [
+            "tasks[1].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref3": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "8DXu8d5K8YvjimDbrEvmdot9HbB7Vizw4dpTUyGws6dk",
+          "content_hash": "DwhUyMEj2nYfqmxC7Ss3o9dLqen6QLzWeLcfPgRLtiPP",
+          "locations": [
+            "tasks[2].id",
+            "tasks[0].next[0].do[0]"
+          ]
+        },
+        "transition_id_ref3": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "F36JshC4uYdoHXo5jggLtzbiMMFcFvxfUU2bGN1J53mH",
+          "content_hash": "Erg82z8YSuESCCZtFGsgVFe1XXjY4se9jtWLSjTaVXK3",
+          "locations": [
+            "tasks[2].next[0].id"
+          ]
+        },
+        "action_ref3": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "3BSyB4jCEH5zQEBmgVvA8gunTzD3S1kGXFgSk7rxQ1nC",
+          "content_hash": "27nv29ZhyzAjLMXWsk4tYzKWfyTqJPrxYnfvVohkYpXb",
+          "locations": [
+            "tasks[3].action.id"
+          ]
+        },
+        "workflow_task_id_ref2": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "46XHSQrJMP54gE19w8FVrR3UxRkL6jin6qZprZStmSVa",
+          "content_hash": "HnXYUuyQ7BNBQwvweYXmDxSMAigsWwkZWaBYwoVoyh1U",
+          "locations": [
+            "tasks[1].id",
+            "tasks[2].next[0].do[0]"
+          ]
+        },
+        "action_ref2": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "GiDHZXyQpekje1JjJWsgqVRm43h8fdEmqjpYZHScUGkT",
+          "content_hash": "EY6GD143YQfHX8XDjvYf9FXvdQbGa3bozzh4u7ShZ5eC",
+          "locations": [
+            "tasks[1].action.id",
+            "tasks[2].action.id"
+          ]
+        },
+        "workflow_task_id_ref4": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "9njtnNhYRUhsxmZJL5WCBd9xX7xeXSLiyH6dqk8fuUGV",
+          "content_hash": "2ntiqAa8kY3PW2817KFUc7NbMZ4aSs4doMc84AGTKhbp",
+          "locations": [
+            "tasks[3].id",
+            "tasks[1].next[0].do[0]"
+          ]
+        },
+        "transition_id_ref1": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "96H8NjCz5wajscBSJEfCQeSsUxndE7t8Jdf51wvHXLYX",
+          "content_hash": "Bi1cLMVyFN5zH1pyMZ3kXCxgZB8S9BUJwBBNmSap9rSq",
+          "locations": [
+            "tasks[0].next[0].id"
+          ]
+        },
+        "transition_id_ref4": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "E1HmNAmrLPnAdjg7RMvCkJEzcJsi6WhzrY3vsjEoqH5j",
+          "content_hash": "12zBraatSvdo686J6zwtSPo2EN2gEY4kGsfUEwWS1E5z",
+          "locations": [
+            "tasks[3].next[0].id"
+          ]
+        },
+        "workflow_note_id_ref2": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "F2H5CNsfppG9cVmfFB5jXFYG8xSyh8HuZwyrf7sieRG9",
+          "content_hash": "73kioLnsYs2YyNk7Kdo8LPdPQpyqD1UxiivSSN6H3Mvo",
+          "locations": [
+            "notes[1].id"
+          ]
+        },
+        "workflow_note_id_ref1": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "BoapKPtbmihMdKjEqcYaKMCUbjmRGXdmq23V8XPjBinE",
+          "content_hash": "337LKMKEkzV2vaaepwVcHdpZPRGBQGVSmRRjj5y1qL2g",
+          "locations": [
+            "notes[0].id"
+          ]
+        },
+        "workflow_task_id_ref1": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "7KUGWeV8Gc8GnURpbFSXLtfg6VYCTJKT8E1ouUbFBSsu",
+          "content_hash": "AwZNJFE7ECa7jSaW22UX99T82hj2RR1zX95wwFahzGPN",
+          "locations": [
+            "tasks[0].id"
+          ]
+        },
+        "action_ref1": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "8G15nwxs8pwdF8mcvAzY8im9SWfxUeBfMyqbrX993jDs",
+          "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+          "locations": [
+            "tasks[0].action.id"
+          ]
+        },
+        "workflow_note_id_ref3": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "HNGTAag393vuZ2pepxbfrT95PSV3dFSs8Q9z6aJMzJ7n",
+          "content_hash": "ERamHxReXfBSBDx9nYV2QYq6Z9kz1BFUbctsicnHoFWd",
+          "locations": [
+            "notes[2].id"
+          ]
+        }
+      },
+      "dependencies": [
+        "workflow_task_id:46XHSQrJMP54gE19w8FVrR3UxRkL6jin6qZprZStmSVa",
+        "workflow_task_id:8DXu8d5K8YvjimDbrEvmdot9HbB7Vizw4dpTUyGws6dk",
+        "workflow_note_id:BoapKPtbmihMdKjEqcYaKMCUbjmRGXdmq23V8XPjBinE",
+        "workflow_note_id:HNGTAag393vuZ2pepxbfrT95PSV3dFSs8Q9z6aJMzJ7n",
+        "transition_id:2mwypumkT4aNdp9Qb7wWt6DcUTdYgMeFYgLNSTDyDQ2Y",
+        "transition_id:96H8NjCz5wajscBSJEfCQeSsUxndE7t8Jdf51wvHXLYX",
+        "workflow_note_id:F2H5CNsfppG9cVmfFB5jXFYG8xSyh8HuZwyrf7sieRG9",
+        "transition_id:E1HmNAmrLPnAdjg7RMvCkJEzcJsi6WhzrY3vsjEoqH5j",
+        "action:8G15nwxs8pwdF8mcvAzY8im9SWfxUeBfMyqbrX993jDs",
+        "transition_id:F36JshC4uYdoHXo5jggLtzbiMMFcFvxfUU2bGN1J53mH",
+        "workflow_task_id:9njtnNhYRUhsxmZJL5WCBd9xX7xeXSLiyH6dqk8fuUGV",
+        "action:GiDHZXyQpekje1JjJWsgqVRm43h8fdEmqjpYZHScUGkT",
+        "workflow_task_id:7KUGWeV8Gc8GnURpbFSXLtfg6VYCTJKT8E1ouUbFBSsu",
+        "action:3BSyB4jCEH5zQEBmgVvA8gunTzD3S1kGXFgSk7rxQ1nC"
+      ]
+    },
+    "workflow:BPfsKMkn3Ka4vaN91hKRZkvXbaLVgvLEbZ7jCPX2Ku2m": {
+      "type": "workflow",
+      "content_hash": "4k14LJUPfo4jTywD3xLkSwjNqqhtq7SDe68Sjmz4Cr4C",
+      "hash": "DUA5AmzREwJvJ6VAQW6VcUjM7NLnpVdP1GaTP2hqWYmF",
+      "fields": {
+        "humanSecondsSaved": 0,
+        "notes": [
+          {
+            "id": "@@@workflow_note_id_ref1@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref2@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref3@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref4@@@"
+          }
+        ],
+        "output": [
+          {
+            "options": "{{ CTX.format_options }}"
+          }
+        ],
+        "parameters": {
+          "data": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          }
+        },
+        "tasks": [
+          {
+            "id": "@@@workflow_task_id_ref1@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "BEGIN",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref6@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref1@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref2@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "END",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref2@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref3@@@",
+            "action": {
+              "id": "@@@action_ref2@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "query": "{{ CTX.data.domain }}",
+              "filters": [],
+              "properties": null
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "hub_spot_search_companies",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref4@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref3@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "company_check",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref4@@@",
+            "action": {
+              "id": "@@@action_ref3@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "query": null,
+              "properties": "discord_id,discord_username,email",
+              "filter_value": "{{ CTX.company_check[0].id }}",
+              "filter_operation": "EQ",
+              "filter_parameter": "associatedcompanyid"
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "hub_spot_search_contacts",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref7@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref4@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "filtered_contact_output",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref5@@@",
+            "action": {
+              "id": "@@@action_ref3@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "query": "{{ CTX.data.domain }}",
+              "properties": "discord_id,discord_username,email",
+              "filter_value": null,
+              "filter_operation": "CONTAINS_TOKEN",
+              "filter_parameter": null
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "hub_spot_search_contacts",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref7@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref5@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "filtered_contact_output",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref6@@@",
+            "action": {
+              "id": "@@@action_ref4@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "params": {
+                "text": "{{- {\n  \"domain\": CTX.data.split(\",\") | first,\n  \"server_name\": CTX.data.split(\",\") | last\n} -}}"
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "split_data_values",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref5@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref6@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "data",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref7@@@",
+            "action": {
+              "id": "@@@action_ref4@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "params": {
+                "text": "{{-\r\n[\r\n  {\r\n    \"label\": contact.properties.discord_username ~ \" (\" ~ contact.properties.email ~ \")\",\r\n    \"id\": contact.properties.discord_username ~ \",\" ~ contact.properties.discord_id\r\n  }\r\n  for contact in CTX.filtered_contact_output\r\n  if contact.properties.discord_username and contact.properties.discord_id and contact.properties.discord_id != \"Not Found\"\r\n]\r\n-}}"
+              }
+            },
+            "isMocked": false,
+            "join": 1,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "transforms_set_variable",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref2@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref7@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ CTX.format_options|length > 0 }}"
+              },
+              {
+                "do": [
+                  "@@@workflow_task_id_ref3@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref8@@@",
+                "publish": [],
+                "to": null,
+                "when": ""
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "format_options",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_FIRST",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          }
+        ],
+        "timeout": 28800,
+        "type": "OPTION_GENERATOR",
+        "varsSchema": {
+          "cs_team_ids": {
+            "type": "array",
+            "default": "{{ [\"${TEAM_ID_CS_PRIMARY}\",\"${TEAM_ID_CS_SECONDARY}\"] }}",
+            "required": false,
+            "multiline": false
+          }
+        }
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "name": "[OG] HubSpot Discord Users by Company",
+        "notes[0].content": "This functional block handles the initial workflow setup and input data processing to prepare for HubSpot searches.\n\n**Purpose**: Parse and structure the incoming data to extract domain and server information needed for subsequent HubSpot queries.\n\n**Tasks Included**:\n- **BEGIN**: Workflow initialization and entry point\n- **split_data_values**: Parses the input data to extract domain and server_name components using Jinja2 templating\n\n**Key Operations**:\n- Splits comma-separated input data into structured components\n- Extracts domain (first part) and server_name (last part) from the input\n- Creates a structured data object for downstream processing\n\n**Data Flow**:\n- Input: Raw comma-separated data string\n- Output: Structured object with `domain` and `server_name` properties\n- Next Phase: Company discovery using the extracted domain information\n\n**Dependencies**: This block requires properly formatted input data and serves as the foundation for all subsequent HubSpot operations.",
+        "notes[0].metadata": {
+          "x": 232,
+          "y": -57.17361068725586,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 373.22222900390625,
+          "height": 276.17361068725586,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "018fc60be2687cf5afeb4d08a5f19a6d",
+            "c793323b32db4bc58b474ab18061329d"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[0].title": "Input Processing & Data Preparation",
+        "notes[1].content": "This functional block performs company lookup and validation in HubSpot using the extracted domain information.\n\n**Purpose**: Locate and validate the target company in HubSpot's CRM system to establish the company context for contact searches.\n\n**Tasks Included**:\n- **hub_spot_search_companies**: Searches HubSpot companies using the parsed domain as the query parameter\n\n**Key Operations**:\n- Executes HubSpot company search API call using the extracted domain\n- Retrieves comprehensive company properties and metadata\n- Validates company existence and accessibility in the CRM\n- Establishes company ID for subsequent contact filtering\n\n**Search Strategy**:\n- Uses domain-based search to find matching companies\n- Retrieves full company property set for context\n- Handles cases where companies may not exist or be accessible\n\n**Data Flow**:\n- Input: Structured domain information from data preparation phase\n- Output: Company details including company ID for contact association\n- Next Phase: Contact retrieval filtered by the discovered company\n\n**Error Handling**: The workflow includes conditional logic to handle scenarios where no company is found, providing fallback contact search options.",
+        "notes[1].metadata": {
+          "x": 774.6666564941406,
+          "y": 415.47916412353516,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367,
+          "height": 118,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "c7690c9c522240c2ad8d3a65b1416bd0"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[1].title": "Company Discovery & Validation",
+        "notes[2].content": "This functional block handles the dual-strategy contact retrieval process to find HubSpot contacts with Discord information.\n\n**Purpose**: Retrieve contacts from HubSpot using both company-based and domain-based search strategies to maximize Discord user discovery.\n\n**Tasks Included**:\n- **hub_spot_search_contacts (Company-based)**: Searches contacts associated with the discovered company ID\n- **hub_spot_search_contacts (Domain-based)**: Fallback search using domain matching for broader contact discovery\n\n**Dual Search Strategy**:\n1. **Primary Search**: Filters contacts by `associatedcompanyid` using the company discovered in the previous phase\n2. **Fallback Search**: Uses `CONTAINS_TOKEN` operation on the domain to catch contacts not properly associated with companies\n\n**Target Data Properties**:\n- `discord_id`: Unique Discord user identifier\n- `discord_username`: Discord display name\n- `email`: Contact email for identification and validation\n\n**Search Logic**:\n- Both searches retrieve the same Discord-specific properties\n- Conditional execution based on company discovery results\n- Comprehensive contact property retrieval for complete user profiles\n\n**Data Flow**:\n- Input: Company ID from company discovery OR domain from data preparation\n- Output: Raw contact lists with Discord properties\n- Next Phase: Data formatting and result compilation",
+        "notes[2].metadata": {
+          "x": 221.72215618389055,
+          "y": 322.82640993170895,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 1034.9444274902344,
+          "height": 424.652774810791,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "90823be9ff24497bb19b3a3d3def4576",
+            "6ef4a5db14fc4ea491f81542a0a06b30"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[2].title": "Contact Retrieval & Discord Data Processing",
+        "notes[3].content": "This functional block processes the raw contact data and formats it into a structured output for Discord user identification.\n\n**Purpose**: Transform raw HubSpot contact data into a clean, formatted list of Discord users with proper validation and filtering.\n\n**Tasks Included**:\n- **transforms_set_variable**: Processes and formats contact data using advanced Jinja2 templating\n- **END**: Workflow completion and final output delivery\n\n**Data Processing Logic**:\n- Filters contacts to include only those with valid Discord information\n- Excludes contacts with missing or invalid Discord IDs (\"Not Found\")\n- Creates structured output with user-friendly labels and identifiers\n\n**Output Format**:\nEach valid Discord user is formatted as:\n```json\n{\n  \"label\": \"discord_username (${USER_EMAIL})\",\n  \"id\": \"discord_username,discord_id\"\n}\n```\n\n**Quality Assurance**:\n- Validates presence of `discord_username`, `discord_id`, and `email`\n- Filters out incomplete or invalid Discord data\n- Ensures clean, consistent output formatting\n\n**Conditional Flow**:\n- **Results Path**: Executes when valid Discord users are found\n- **No Results Path**: Handles empty result sets gracefully\n\n**Data Flow**:\n- Input: Raw contact arrays from HubSpot searches\n- Output: Formatted array of Discord user objects ready for consumption\n- Final State: Clean, validated Discord user list for the requesting system",
+        "notes[3].metadata": {
+          "x": 223.22222900390625,
+          "y": 679,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 371.5,
+          "height": 461.82638931274414,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "018fc60be2687cf5afeb4d0a6d2186a2",
+            "018fc60be2687cf5afeb4d0777030e0d"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[3].title": "Results Formatting & Output Generation",
+        "parameters.data.description": "",
+        "parameters.data.label": "",
+        "tasks[0].description": "Action that does nothing",
+        "tasks[0].metadata": {
+          "x": 253.22222900390625,
+          "y": -42.17361068725586
+        },
+        "tasks[0].next[0].label": "",
+        "tasks[1].description": "Action that does nothing",
+        "tasks[1].metadata": {
+          "x": 238.22222900390625,
+          "y": 1037.8263893127441
+        },
+        "tasks[1].next[0].label": "",
+        "tasks[2].description": "search companies in hubspot",
+        "tasks[2].metadata": {
+          "x": 789.6666564941406,
+          "y": 430.47916412353516
+        },
+        "tasks[2].next[0].label": "",
+        "tasks[3].description": "search contacts in hubspot",
+        "tasks[3].metadata": {
+          "x": 916.6666564941406,
+          "y": 642.4791641235352
+        },
+        "tasks[3].next[0].label": "",
+        "tasks[4].description": "search contacts in hubspot",
+        "tasks[4].metadata": {
+          "x": 248.72222900390625,
+          "y": 335.82638931274414
+        },
+        "tasks[4].next[0].label": "",
+        "tasks[5].description": "Set a variable as an action",
+        "tasks[5].metadata": {
+          "x": 247,
+          "y": 116
+        },
+        "tasks[5].next[0].label": "",
+        "tasks[6].description": "Set a variable as an action",
+        "tasks[6].metadata": {
+          "x": 242.72222900390625,
+          "y": 694
+        },
+        "tasks[6].next[0].label": "Results",
+        "tasks[6].next[1].label": "No Results",
+        "varsSchema.cs_team_ids.description": "",
+        "varsSchema.cs_team_ids.label": ""
+      },
+      "references": {
+        "transition_id_ref6": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "8r4RHWBHkgATAXzJsifxrgW84qWiqJpgELDHSsaL4uxv",
+          "content_hash": "4k177dUmPCwR1jHgQwfqn5fBJznycNtc5P3TRjfzTt8D",
+          "locations": [
+            "tasks[5].next[0].id"
+          ]
+        },
+        "workflow_note_id_ref1": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "H5Rcqi3nLDaVZtrrcJDyxe8XkB12QgfUJrXik7mdUuYn",
+          "content_hash": "EkuUbQcvq3CFuVHaL6x3sy2MiGBju7fd9L3V2pneNSub",
+          "locations": [
+            "notes[0].id"
+          ]
+        },
+        "workflow_task_id_ref2": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "4XusWC7RP2jRN19ZKctJeb4UfuQKvGkWvBnwLkqbxMim",
+          "content_hash": "2ZTQZ1x4UayoDEBK7FDCxV9rdWG8N9SmCvshQ3fZdGST",
+          "locations": [
+            "tasks[1].id",
+            "tasks[6].next[0].do[0]"
+          ]
+        },
+        "workflow_task_id_ref7": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "6mLgJPJqGMeaG1rUkFEFNFn98RWxxMev2fhKhuiHV3wV",
+          "content_hash": "5uTkhZ7HXPE813YBZzcXaBQTQFqPw9n7TtLw71J9oeA9",
+          "locations": [
+            "tasks[6].id",
+            "tasks[3].next[0].do[0]",
+            "tasks[4].next[0].do[0]"
+          ]
+        },
+        "workflow_task_id_ref3": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "5kpeU4oA25PeedPSetu5C4YqstPLwLuMbh1T2Ro3eiDF",
+          "content_hash": "699AUoxJsPam7DvaeZ2a1hU2XY6skyVffGvunJxaTYhp",
+          "locations": [
+            "tasks[2].id",
+            "tasks[6].next[1].do[0]"
+          ]
+        },
+        "transition_id_ref7": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "GbBKmhh9fzMvJqvfwWrJVFTtTz3dsQUTsvfKEqTKyhoQ",
+          "content_hash": "ByVR94oxtR3fa1CW9Hy5KqjdpEpohtTn248TFzmFa3Bq",
+          "locations": [
+            "tasks[6].next[0].id"
+          ]
+        },
+        "workflow_note_id_ref2": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "DETb6pu5uCBD6kokrLHALE5ewfoNhuBsg5uu24CiVNd2",
+          "content_hash": "HzYb2FWkdsqbdGiKykG4ftNp7WZtvktSu3nLZCy5fv6s",
+          "locations": [
+            "notes[1].id"
+          ]
+        },
+        "transition_id_ref5": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "EbiUhxC5J5JNV8zBX4rH22pTGpF8y8cs3fcXk4fQyVTK",
+          "content_hash": "AztJxJA4amXBzcTFrDXWtnCTpV4bFKnqyEzjGRksKTzr",
+          "locations": [
+            "tasks[4].next[0].id"
+          ]
+        },
+        "transition_id_ref1": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "AzgWC2zzJKNo6mYfQHoRhtKsUoqj5Hze2LWCYCMnLi5W",
+          "content_hash": "GzM9CR53biruzCJUXHG2Bh5pbFHoAhbLsdXyE5Uf6FgE",
+          "locations": [
+            "tasks[0].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref1": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "7DMdmpGHQZsqnCw4rUpP3WkngwkCobheNocMWTfDY2Xt",
+          "content_hash": "BuLrriSQ75EFqhpqbes4tjRJrBuvbCm2Ft4YxuGVNEg6",
+          "locations": [
+            "tasks[0].id"
+          ]
+        },
+        "workflow_task_id_ref4": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "H1nuz1kznU1mv14JHHv1caTacQWtnx2sCUVXsbKgHkiC",
+          "content_hash": "Hbun3bTb11QfTzcNKC5gNot3c8uMv4dg1scQ7vnAMHC2",
+          "locations": [
+            "tasks[3].id",
+            "tasks[2].next[0].do[0]"
+          ]
+        },
+        "transition_id_ref3": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "2ng8rxeoZaU3JQ466vTKUkrC4v7xATaY2zZ17Jdr5qDo",
+          "content_hash": "DLqh1RT4xgkQhDXwG7NbrpN65Gfe7Xs4X8TzvSAKj9bq",
+          "locations": [
+            "tasks[2].next[0].id"
+          ]
+        },
+        "transition_id_ref2": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "9iiaMJr5KCarTwFN48agRnkAKNhEm9SnWHPand4YsznZ",
+          "content_hash": "4NPapJrTt8G2tr7wwB1fT8n7WMMou99H6V7BtGQm77ib",
+          "locations": [
+            "tasks[1].next[0].id"
+          ]
+        },
+        "workflow_note_id_ref3": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "3V1EYWeHhY22oEMK3EYapWcyhYLmVW5TwawJ2ziq3Qct",
+          "content_hash": "D4XsFAafLfiUYMDrLhKCHvT5XCJG1Ef7vLnXK7NJ3nz9",
+          "locations": [
+            "notes[2].id"
+          ]
+        },
+        "transition_id_ref8": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "8rhrqPgQG5rudCx1WE88yYNHXVjQjPpjbnxqfeJYyzpg",
+          "content_hash": "9WEFxd2ELn6DAo3drDoQHjcWyFJa2ifMvDy4dmZHWMKZ",
+          "locations": [
+            "tasks[6].next[1].id"
+          ]
+        },
+        "action_ref1": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "8G15nwxs8pwdF8mcvAzY8im9SWfxUeBfMyqbrX993jDs",
+          "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+          "locations": [
+            "tasks[0].action.id",
+            "tasks[1].action.id"
+          ]
+        },
+        "action_ref2": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "E4wEbC885HB2XYasmwano532nsUChNodaqLjrNdxbohC",
+          "content_hash": "A6dknns1ZQDmbzoNGk6JVPkLmq7doMXzautqoH1FcyvE",
+          "locations": [
+            "tasks[2].action.id"
+          ]
+        },
+        "action_ref3": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "A3UWBafcFYqR2x6MaDYMcbmQ6v2LJYZ9zKMxW1u9EMWk",
+          "content_hash": "9JrLtVk9zUnRwAvwaBwYkm5dptmneow8ihM6xa1yprKf",
+          "locations": [
+            "tasks[3].action.id",
+            "tasks[4].action.id"
+          ]
+        },
+        "workflow_note_id_ref4": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "3NWdDd3DSiDscJ7cWREgzY6oXh2wG7cjgrWN9oosaHmV",
+          "content_hash": "8p2LS4EzgkGrVEE5BcfWeNZbJ5vAoZrGSZD3C7qbE9L",
+          "locations": [
+            "notes[3].id"
+          ]
+        },
+        "action_ref4": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "222mDbnuV6wouvJFoEaqL9LMWdGmGdJVmMKEQV2Mihtq",
+          "content_hash": "Aj7g63oBpFTyTLgcv25UHmfMB5WmghbjNdHZYGy7KxYN",
+          "locations": [
+            "tasks[5].action.id",
+            "tasks[6].action.id"
+          ]
+        },
+        "workflow_task_id_ref5": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "Cxx4w6hCmUGtikAGuLH6yguWZnvy9a85EFEfNwJraEry",
+          "content_hash": "8mgGLQ3wkxfdCQmujJSRLS62u8tMPBGV2sKxG8AV2TL2",
+          "locations": [
+            "tasks[4].id",
+            "tasks[5].next[0].do[0]"
+          ]
+        },
+        "workflow_task_id_ref6": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "RQX9Cc2SPDBVYpxroakaFEzZyKQY7yyq6sSRdTa7dE7",
+          "content_hash": "84cFDhBgXc7VrVo1t6vWNGGs1FZj4RS3Hf1fVtACTtYT",
+          "locations": [
+            "tasks[5].id",
+            "tasks[0].next[0].do[0]"
+          ]
+        },
+        "transition_id_ref4": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "3YSssJQCSQkidUCm2wHBStogNbuFxRsdNiMUrEUgYh5C",
+          "content_hash": "63mnnkkqJgeDfjPsfvSCCBmFRbpzbcdea9KipGjyGFvq",
+          "locations": [
+            "tasks[3].next[0].id"
+          ]
+        }
+      },
+      "dependencies": [
+        "workflow_task_id:5kpeU4oA25PeedPSetu5C4YqstPLwLuMbh1T2Ro3eiDF",
+        "action:8G15nwxs8pwdF8mcvAzY8im9SWfxUeBfMyqbrX993jDs",
+        "action:222mDbnuV6wouvJFoEaqL9LMWdGmGdJVmMKEQV2Mihtq",
+        "workflow_note_id:3NWdDd3DSiDscJ7cWREgzY6oXh2wG7cjgrWN9oosaHmV",
+        "workflow_task_id:Cxx4w6hCmUGtikAGuLH6yguWZnvy9a85EFEfNwJraEry",
+        "transition_id:3YSssJQCSQkidUCm2wHBStogNbuFxRsdNiMUrEUgYh5C",
+        "action:E4wEbC885HB2XYasmwano532nsUChNodaqLjrNdxbohC",
+        "workflow_task_id:RQX9Cc2SPDBVYpxroakaFEzZyKQY7yyq6sSRdTa7dE7",
+        "transition_id:8r4RHWBHkgATAXzJsifxrgW84qWiqJpgELDHSsaL4uxv",
+        "workflow_task_id:H1nuz1kznU1mv14JHHv1caTacQWtnx2sCUVXsbKgHkiC",
+        "workflow_note_id:3V1EYWeHhY22oEMK3EYapWcyhYLmVW5TwawJ2ziq3Qct",
+        "workflow_note_id:H5Rcqi3nLDaVZtrrcJDyxe8XkB12QgfUJrXik7mdUuYn",
+        "transition_id:GbBKmhh9fzMvJqvfwWrJVFTtTz3dsQUTsvfKEqTKyhoQ",
+        "action:A3UWBafcFYqR2x6MaDYMcbmQ6v2LJYZ9zKMxW1u9EMWk",
+        "workflow_note_id:DETb6pu5uCBD6kokrLHALE5ewfoNhuBsg5uu24CiVNd2",
+        "transition_id:2ng8rxeoZaU3JQ466vTKUkrC4v7xATaY2zZ17Jdr5qDo",
+        "workflow_task_id:6mLgJPJqGMeaG1rUkFEFNFn98RWxxMev2fhKhuiHV3wV",
+        "workflow_task_id:4XusWC7RP2jRN19ZKctJeb4UfuQKvGkWvBnwLkqbxMim",
+        "transition_id:EbiUhxC5J5JNV8zBX4rH22pTGpF8y8cs3fcXk4fQyVTK",
+        "workflow_task_id:7DMdmpGHQZsqnCw4rUpP3WkngwkCobheNocMWTfDY2Xt",
+        "transition_id:9iiaMJr5KCarTwFN48agRnkAKNhEm9SnWHPand4YsznZ",
+        "transition_id:8rhrqPgQG5rudCx1WE88yYNHXVjQjPpjbnxqfeJYyzpg",
+        "transition_id:AzgWC2zzJKNo6mYfQHoRhtKsUoqj5Hze2LWCYCMnLi5W"
+      ]
+    },
+    "form:2bvd1DFfPmBCsgy78rYRXUEa2CWxQvUejFntojFdHuwS": {
+      "type": "form",
+      "content_hash": "5SfJP4y5qrSgLxt2HfhfFucc8m6R2FyTyTWL9dU9LGNy",
+      "hash": "AcdLG7GZ4cYnuxBRKM616aisAzUFE5htFp97YDrLByBh",
+      "fields": {
+        "fields": [
+          {
+            "id": "@@@form_field_id_ref1@@@",
+            "type": "SELECT",
+            "schema": {
+              "enum": [],
+              "name": "csm",
+              "type": "string",
+              "hidden": false,
+              "default": null,
+              "freeSolo": false,
+              "required": false,
+              "reference": {
+                "name": null,
+                "packId": null,
+                "packName": ""
+              },
+              "autoPopulate": false,
+              "overrideCache": false,
+              "overrideOption": true,
+              "enumSourceWorkflow": {
+                "id": "@@@workflow_ref1@@@",
+                "input": {},
+                "labelKey": "label",
+                "valueKey": "id",
+                "triggerId": null,
+                "inputFromFields": {},
+                "defaultSelectedKey": ""
+              }
+            },
+            "index": 0,
+            "conditions": []
+          },
+          {
+            "id": "@@@form_field_id_ref2@@@",
+            "type": "SELECT",
+            "schema": {
+              "enum": [],
+              "name": "company",
+              "type": "string",
+              "hidden": false,
+              "default": null,
+              "freeSolo": false,
+              "required": false,
+              "reference": {
+                "name": null,
+                "packId": null,
+                "packName": ""
+              },
+              "autoPopulate": false,
+              "overrideCache": false,
+              "overrideOption": true,
+              "enumSourceWorkflow": {
+                "id": "@@@workflow_ref2@@@",
+                "input": {
+                  "csm_id": ""
+                },
+                "labelKey": "label",
+                "valueKey": "id",
+                "triggerId": null,
+                "inputFromFields": {
+                  "csm_id": {
+                    "fieldId": "@@@form_field_id_ref1@@@",
+                    "isActive": true,
+                    "isRequired": true
+                  }
+                },
+                "defaultSelectedKey": ""
+              }
+            },
+            "index": 1,
+            "conditions": []
+          },
+          {
+            "id": "@@@form_field_id_ref3@@@",
+            "type": "SELECT",
+            "schema": {
+              "enum": [],
+              "name": "discord_user",
+              "type": "string",
+              "hidden": false,
+              "default": null,
+              "freeSolo": false,
+              "required": false,
+              "reference": {
+                "name": null,
+                "packId": null,
+                "packName": ""
+              },
+              "autoPopulate": false,
+              "overrideCache": false,
+              "overrideOption": true,
+              "enumSourceWorkflow": {
+                "id": "@@@workflow_ref3@@@",
+                "input": {
+                  "domain": ""
+                },
+                "labelKey": "label",
+                "valueKey": "id",
+                "triggerId": null,
+                "inputFromFields": {
+                  "domain": {
+                    "fieldId": "@@@form_field_id_ref2@@@",
+                    "isActive": true,
+                    "isRequired": true
+                  }
+                },
+                "defaultSelectedKey": ""
+              }
+            },
+            "index": 2,
+            "conditions": []
+          },
+          {
+            "id": "@@@form_field_id_ref4@@@",
+            "type": "TEXT",
+            "schema": {
+              "name": "text_markdown",
+              "text": "**CSM:** {{ CTX.csm.label }}\r\n\r\n**Company Name:** {{ CTX.company.label.split(\"(\")|first }}\r\n\r\n**Company Domain:** {{ CTX.company.value }}\r\n\r\n**Discord Username:** {{ CTX.discord_user.value }}\r\n\r\n**Contact Email:** {{ (CTX.discord_user.label.split(\"(\")|last).split(\")\")|first }}",
+              "type": "TEXT",
+              "hidden": true,
+              "static": true,
+              "default": null,
+              "freeSolo": false,
+              "autoPopulate": false,
+              "overrideCache": false,
+              "overrideOption": true
+            },
+            "index": 3,
+            "conditions": [
+              {
+                "action": "show",
+                "actionValue": "",
+                "conditionType": "jinja",
+                "index": 0,
+                "requiredValue": "{{ CTX.discord_user.value is defined }}",
+                "sourceFieldId": "@@@form_field_id_ref4@@@"
+              }
+            ]
+          },
+          {
+            "id": "@@@form_field_id_ref5@@@",
+            "type": "CHECKBOX",
+            "schema": {
+              "name": "confirmation",
+              "type": "boolean",
+              "hidden": true,
+              "default": false,
+              "freeSolo": false,
+              "required": false,
+              "noTemplate": true,
+              "autoPopulate": false,
+              "overrideCache": false,
+              "labelPlacement": "End",
+              "overrideOption": true
+            },
+            "index": 4,
+            "conditions": [
+              {
+                "action": "show",
+                "actionValue": "",
+                "conditionType": "jinja",
+                "index": 0,
+                "requiredValue": "{{ CTX.discord_user.value is defined }}",
+                "sourceFieldId": "@@@form_field_id_ref5@@@"
+              }
+            ]
+          }
+        ]
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "fields[0].schema.description": "",
+        "fields[0].schema.label": "Select CSM",
+        "fields[1].schema.description": "",
+        "fields[1].schema.label": "Select Company",
+        "fields[2].schema.description": "",
+        "fields[2].schema.label": "Select Discord User",
+        "fields[4].schema.description": "",
+        "fields[4].schema.label": "I confirm the information above is accurate and would like to proceed.",
+        "name": "Initiate DIscord CEO Outreach"
+      },
+      "references": {
+        "workflow_ref2": {
+          "kind": "string",
+          "type": "workflow",
+          "src_key_hash": "3hJSFdNuJNubDLHLf8AL6KrZs9NbDgLZZb3nbtHyyJDm",
+          "content_hash": "2GxH6DkmzoeMijBfr3BmKvxqHVoMhRSQ6xgwB3Zb8556",
+          "locations": [
+            "fields[1].schema.enumSourceWorkflow.id"
+          ]
+        },
+        "form_field_id_ref5": {
+          "kind": "string",
+          "type": "form_field_id",
+          "src_key_hash": "4yWcXkY794gVYVK7uaNekBDoRXked9aaFbFkwG9m7SuL",
+          "content_hash": "5mxqsSFptNnFBwiSJ6wgjEQyfv2rBCiksyJy2BhgtDLQ",
+          "locations": [
+            "fields[4].id",
+            "fields[4].conditions[0].sourceFieldId"
+          ]
+        },
+        "workflow_ref3": {
+          "kind": "string",
+          "type": "workflow",
+          "src_key_hash": "BPfsKMkn3Ka4vaN91hKRZkvXbaLVgvLEbZ7jCPX2Ku2m",
+          "content_hash": "4k14LJUPfo4jTywD3xLkSwjNqqhtq7SDe68Sjmz4Cr4C",
+          "locations": [
+            "fields[2].schema.enumSourceWorkflow.id"
+          ]
+        },
+        "form_field_id_ref3": {
+          "kind": "string",
+          "type": "form_field_id",
+          "src_key_hash": "9Yazc9EvivvV4cNWzBPgsKodxxKgsZmvtJm7sP9BqjK9",
+          "content_hash": "DNb3JRTAXfqvgG59xmP7o2ssKeXrietZdWcdjmzHBUJB",
+          "locations": [
+            "fields[2].id"
+          ]
+        },
+        "form_field_id_ref2": {
+          "kind": "string",
+          "type": "form_field_id",
+          "src_key_hash": "9nfyxY4Vi1btgQPbBsd4fcwJ2rbgE6dAbVpEiQQ1ujRD",
+          "content_hash": "6BQCmjfU32ZoqkfEkkdf62NQQ4gXVzsNdayXoYrT6bdM",
+          "locations": [
+            "fields[1].id",
+            "fields[2].schema.enumSourceWorkflow.inputFromFields.domain.fieldId"
+          ]
+        },
+        "form_field_id_ref1": {
+          "kind": "string",
+          "type": "form_field_id",
+          "src_key_hash": "C9UigV96yLeCopHDgaUuUETzMCv9fTtMT6bPW7aryvHy",
+          "content_hash": "H1UcbkaPUPEvmAaeXTRxsKYfCSeUx9aqmZZAwL4TDiqL",
+          "locations": [
+            "fields[0].id",
+            "fields[1].schema.enumSourceWorkflow.inputFromFields.csm_id.fieldId"
+          ]
+        },
+        "form_field_id_ref4": {
+          "kind": "string",
+          "type": "form_field_id",
+          "src_key_hash": "DSsggJrB1VpYHLrQWwKKAZdqEqSmcLW8eUVW3Rrx9aRx",
+          "content_hash": "7vSvXt71eE25rEqmoP4mUuPGdeRqjrdQjGFYSSnikgxU",
+          "locations": [
+            "fields[3].id",
+            "fields[3].conditions[0].sourceFieldId"
+          ]
+        },
+        "workflow_ref1": {
+          "kind": "string",
+          "type": "workflow",
+          "src_key_hash": "GertAfjEvk9ai7jY6LK93a6jgypu77Gxu7LYaeG5jEpg",
+          "content_hash": "46dcbJy5jQnDNxms8MMpyDoCVdWGakzScGSyXb8aXA3c",
+          "locations": [
+            "fields[0].schema.enumSourceWorkflow.id"
+          ]
+        }
+      },
+      "dependencies": [
+        "workflow:BPfsKMkn3Ka4vaN91hKRZkvXbaLVgvLEbZ7jCPX2Ku2m",
+        "form_field_id:9Yazc9EvivvV4cNWzBPgsKodxxKgsZmvtJm7sP9BqjK9",
+        "form_field_id:DSsggJrB1VpYHLrQWwKKAZdqEqSmcLW8eUVW3Rrx9aRx",
+        "form_field_id:4yWcXkY794gVYVK7uaNekBDoRXked9aaFbFkwG9m7SuL",
+        "form_field_id:9nfyxY4Vi1btgQPbBsd4fcwJ2rbgE6dAbVpEiQQ1ujRD",
+        "workflow:3hJSFdNuJNubDLHLf8AL6KrZs9NbDgLZZb3nbtHyyJDm",
+        "form_field_id:C9UigV96yLeCopHDgaUuUETzMCv9fTtMT6bPW7aryvHy",
+        "workflow:GertAfjEvk9ai7jY6LK93a6jgypu77Gxu7LYaeG5jEpg"
+      ]
+    },
+    "workflow:3hJSFdNuJNubDLHLf8AL6KrZs9NbDgLZZb3nbtHyyJDm": {
+      "type": "workflow",
+      "content_hash": "2GxH6DkmzoeMijBfr3BmKvxqHVoMhRSQ6xgwB3Zb8556",
+      "hash": "71KSiAhXPSrEybmCQ2pggt3kbtXTEF2ZGwbWksLS5Dkg",
+      "fields": {
+        "humanSecondsSaved": 0,
+        "notes": [
+          {
+            "id": "@@@workflow_note_id_ref1@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref2@@@"
+          }
+        ],
+        "output": [
+          {
+            "options": "{{ CTX.format_options }}"
+          }
+        ],
+        "parameters": {},
+        "tasks": [
+          {
+            "id": "@@@workflow_task_id_ref1@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "BEGIN",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref3@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref1@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref2@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "END",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref2@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref3@@@",
+            "action": {
+              "id": "@@@action_ref2@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "query": null,
+              "filters": [
+                {
+                  "value": "true",
+                  "operator": "EQ",
+                  "propertyName": "discord_active"
+                },
+                {
+                  "value": "Termination Pending",
+                  "operator": "NEQ",
+                  "propertyName": "type"
+                },
+                {
+                  "value": "Terminated Customer",
+                  "operator": "NEQ",
+                  "propertyName": "type"
+                }
+              ],
+              "properties": "first_contact_createdate,recent_deal_amount,recent_deal_close_date,timezone,total_revenue,hs_latest_meeting_activity,linkedin_company_page,website,domain,numberofemployees,annualrevenue,description,city,state,zip,country,hubspot_owner_id,hubspot_team_id,customer_success_manager,name,createdate,closedate,lifecyclestage,type,days_to_close,onboarding_kickoff_date,discord_active,discord_server,product_organization_id"
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "hub_spot_search_companies",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref4@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref3@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "filtered_company_output",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref4@@@",
+            "action": {
+              "id": "@@@action_ref3@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "params": {
+                "text": "{{ [\r\n  {\r\n    \"label\": company.properties.name ~ \", \" ~ (company.properties.domain | replace(\".\", \"-\")) ~ \" (\" ~ (company.properties.discord_server | default(\"REWST-COMMUNITY\", true))~\")\",\r\n    \"id\": company.properties.domain ~ \",\" ~ (company.properties.discord_server | default(\"REWST-COMMUNITY\", true))\r\n  }\r\n  for company in CTX.filtered_company_output\r\n] }}"
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "transforms_set_variable",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref2@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref4@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "format_options",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          }
+        ],
+        "timeout": 28800,
+        "type": "OPTION_GENERATOR",
+        "varsSchema": {}
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "name": "[OG] HubSpot Companies w/ Discord Active",
+        "notes[0].content": "This functional block handles the initial data collection from HubSpot, specifically targeting companies that are active on Discord.\n\n**Purpose**: Retrieve and filter HubSpot companies based on Discord activity and customer status criteria.\n\n**Key Tasks**:\n- **hub_spot_search_companies**: Searches HubSpot CRM for companies meeting specific criteria:\n  - Must have `discord_active` property set to \"true\"\n  - Excludes companies with type \"Termination Pending\" or \"Terminated Customer\"\n  - Retrieves comprehensive company properties including contact info, revenue data, Discord server details, and organizational metadata\n\n**Filtering Criteria**:\n- Discord Active: Only companies actively using Discord\n- Customer Status: Excludes terminated or pending termination customers\n- Comprehensive Data: Pulls 50+ company properties for complete company profiles\n\n**Output**: The filtered company data is published as `filtered_company_output` and serves as input for the data transformation phase.\n\n**Connection to Next Block**: The retrieved company data flows directly to the transformation block where it gets formatted for Discord display purposes.",
+        "notes[0].metadata": {
+          "x": 234.72222900390625,
+          "y": 124.82638931274414,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367.5,
+          "height": 303.17361068725586,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "018fc5cc579f7c1290016e0d3a29d0d1",
+            "687da05d338f4f39b586f243ef692cb9"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[0].title": "Data Retrieval & Filtering",
+        "notes[1].content": "This functional block transforms the raw HubSpot company data into a structured format suitable for Discord server selection and display.\n\n**Purpose**: Convert company data into user-friendly dropdown options with proper labeling and identification for Discord integration.\n\n**Key Tasks**:\n- **transforms_set_variable**: Creates formatted dropdown options from company data using Jinja2 templating:\n  - Generates human-readable labels combining company name, domain, and Discord server\n  - Creates unique identifiers using domain and Discord server information\n  - Handles default Discord server assignment (\"REWST-COMMUNITY\") for companies without specific servers\n  - Formats domains by replacing dots with dashes for compatibility\n\n**Transformation Logic**:\n- **Label Format**: \"Company Name, domain-format (DISCORD-SERVER)\"\n- **ID Format**: \"domain.com,DISCORD-SERVER\"\n- **Default Handling**: Uses \"REWST-COMMUNITY\" as fallback Discord server\n- **Domain Processing**: Converts dots to dashes in domain names for display\n\n**Output Structure**:\nEach company becomes an object with:\n- `label`: User-friendly display name\n- `id`: Unique identifier for backend processing\n\n**Final Output**: The transformed data is published as `format_options` and represents the final workflow result - a list of formatted company options ready for Discord server selection interfaces.\n\n**Connection from Previous Block**: Receives `filtered_company_output` from the data retrieval block and processes each company record through the transformation logic.",
+        "notes[1].metadata": {
+          "x": 227.22222900390625,
+          "y": 518,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 384.5,
+          "height": 331.82638931274414,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "74462433f0af4cf696092201a8e4ab44",
+            "018fc5cc579f7c1290016e0ff142d2dc"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[1].title": "Data Transformation & Output Formatting",
+        "tasks[0].description": "Action that does nothing",
+        "tasks[0].metadata": {
+          "x": 250.22222900390625,
+          "y": 139.82638931274414
+        },
+        "tasks[0].next[0].label": "",
+        "tasks[1].description": "Action that does nothing",
+        "tasks[1].metadata": {
+          "x": 242.22222900390625,
+          "y": 746.8263893127441
+        },
+        "tasks[1].next[0].label": "",
+        "tasks[2].description": "search companies in hubspot",
+        "tasks[2].metadata": {
+          "x": 249.72222900390625,
+          "y": 325
+        },
+        "tasks[2].next[0].label": "",
+        "tasks[3].description": "Set a variable as an action",
+        "tasks[3].metadata": {
+          "x": 259.72222900390625,
+          "y": 533
+        },
+        "tasks[3].next[0].label": ""
+      },
+      "references": {
+        "transition_id_ref4": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "4nmD765tHziSRRR898x8waszZ15ZEZFhynniN3u1TPAd",
+          "content_hash": "B76LzvjRqTFW1ajSYoFHehXDPA1PVhVKZUkGQyvS9N5D",
+          "locations": [
+            "tasks[3].next[0].id"
+          ]
+        },
+        "transition_id_ref3": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "88UYMK5si8CWxFdkafD8hCUGLwNXpWNmY4n9VY3eMDLk",
+          "content_hash": "9JAmKCKoDoBuvDPWwV9kUUF2amzcCFwgowEpUpVrjb5R",
+          "locations": [
+            "tasks[2].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref2": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "6YhzbyaP2Z6w6GuKi8MuXd7dLYApssH8jhRrBHa7ZChV",
+          "content_hash": "2DafmKfvGYrVh23xi9dBvJJpHQid1We1PysWP4quJhZN",
+          "locations": [
+            "tasks[1].id",
+            "tasks[3].next[0].do[0]"
+          ]
+        },
+        "workflow_note_id_ref1": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "AmUJajfoJrwfigaLtFYp6XT91DLdoc9cUA4G1RaFo71H",
+          "content_hash": "7k9Z5B4PDxopGK7apeHYX9cosPWnKsxH6n22Gwo893bs",
+          "locations": [
+            "notes[0].id"
+          ]
+        },
+        "action_ref3": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "222mDbnuV6wouvJFoEaqL9LMWdGmGdJVmMKEQV2Mihtq",
+          "content_hash": "Aj7g63oBpFTyTLgcv25UHmfMB5WmghbjNdHZYGy7KxYN",
+          "locations": [
+            "tasks[3].action.id"
+          ]
+        },
+        "transition_id_ref1": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "GgRpWQid4PLoEdn9UCDGbnLMxVt4tjZ1yJaMKWsi4YoS",
+          "content_hash": "8mZiy76yJUbRcbHrAjTCE6xQU8AeNMNaYcpnnFpqixad",
+          "locations": [
+            "tasks[0].next[0].id"
+          ]
+        },
+        "action_ref1": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "8G15nwxs8pwdF8mcvAzY8im9SWfxUeBfMyqbrX993jDs",
+          "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+          "locations": [
+            "tasks[0].action.id",
+            "tasks[1].action.id"
+          ]
+        },
+        "action_ref2": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "E4wEbC885HB2XYasmwano532nsUChNodaqLjrNdxbohC",
+          "content_hash": "A6dknns1ZQDmbzoNGk6JVPkLmq7doMXzautqoH1FcyvE",
+          "locations": [
+            "tasks[2].action.id"
+          ]
+        },
+        "transition_id_ref2": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "EJrtwfKPkULxAMei4YjVw8kJXTfTuVQyRUd4R999EXEC",
+          "content_hash": "GTBoCqpCsMrzeBnkNptfpDQkqQLnJoavzB76ounVfrMe",
+          "locations": [
+            "tasks[1].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref4": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "2a8oKncm1tCBBL4m8Vp4b3U9vXbNhU3vhj6z33L8fo7X",
+          "content_hash": "5d6sWWFFmFdfM3PrmikgrKbmFwqdGZ1KkeQCxPtCatiA",
+          "locations": [
+            "tasks[3].id",
+            "tasks[2].next[0].do[0]"
+          ]
+        },
+        "workflow_task_id_ref3": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "Dx1qADJu6G8W5cjXVx72HnYq3WdyJ9Q4MzT4ryyDE68s",
+          "content_hash": "BoThr1aC43ERHmKQC6dWv2DdQpvr1QEfocFoXHdYDQgk",
+          "locations": [
+            "tasks[2].id",
+            "tasks[0].next[0].do[0]"
+          ]
+        },
+        "workflow_note_id_ref2": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "46mAwYchNtoThGZ6D9wp5VxS4Pgh8SseybY882B2WGjs",
+          "content_hash": "8poSwhJy8yRcph7sD3D3Xc5xzd4rHfzopyd886W41Keo",
+          "locations": [
+            "notes[1].id"
+          ]
+        },
+        "workflow_task_id_ref1": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "H5FMdEZCHc6JToKxYYE7QezzHokdj4QRwHMMXNCo9dL8",
+          "content_hash": "7GCr4FLcF93f1xwrfjmBKV72bRN1p9zZFFHdpfzrqmpa",
+          "locations": [
+            "tasks[0].id"
+          ]
+        }
+      },
+      "dependencies": [
+        "workflow_note_id:AmUJajfoJrwfigaLtFYp6XT91DLdoc9cUA4G1RaFo71H",
+        "action:E4wEbC885HB2XYasmwano532nsUChNodaqLjrNdxbohC",
+        "transition_id:EJrtwfKPkULxAMei4YjVw8kJXTfTuVQyRUd4R999EXEC",
+        "workflow_task_id:6YhzbyaP2Z6w6GuKi8MuXd7dLYApssH8jhRrBHa7ZChV",
+        "workflow_task_id:Dx1qADJu6G8W5cjXVx72HnYq3WdyJ9Q4MzT4ryyDE68s",
+        "workflow_task_id:H5FMdEZCHc6JToKxYYE7QezzHokdj4QRwHMMXNCo9dL8",
+        "transition_id:4nmD765tHziSRRR898x8waszZ15ZEZFhynniN3u1TPAd",
+        "transition_id:GgRpWQid4PLoEdn9UCDGbnLMxVt4tjZ1yJaMKWsi4YoS",
+        "workflow_note_id:46mAwYchNtoThGZ6D9wp5VxS4Pgh8SseybY882B2WGjs",
+        "action:8G15nwxs8pwdF8mcvAzY8im9SWfxUeBfMyqbrX993jDs",
+        "workflow_task_id:2a8oKncm1tCBBL4m8Vp4b3U9vXbNhU3vhj6z33L8fo7X",
+        "action:222mDbnuV6wouvJFoEaqL9LMWdGmGdJVmMKEQV2Mihtq",
+        "transition_id:88UYMK5si8CWxFdkafD8hCUGLwNXpWNmY4n9VY3eMDLk"
+      ]
+    },
+    "trigger:Go4DLe5tESjnpwASh7krBxrRgvja448emkvjLMJYrFLx": {
+      "type": "trigger",
+      "content_hash": "4nKniHewRjhGxUBXRAxtucfFoHJifYeMbYVwxejyC4a1",
+      "hash": "4fVdQ9EkErKhf86LHbcWtbcJZgES6Rm51gwPbKBcVhCy",
+      "fields": {
+        "autoActivateManagedOrgs": false,
+        "criteria": {
+          "condition": {}
+        },
+        "enabled": true,
+        "formId": "@@@form_ref1@@@",
+        "isActivatedForOwner": true,
+        "packOverrides": [],
+        "parameters": {
+          "form_id": "@@@form_ref1@@@"
+        },
+        "triggerTypeId": "@@@trigger_type_ref1@@@",
+        "vars": [],
+        "workflowId": "@@@workflow_ref1@@@"
+      },
+      "nonfunctional_fields": {
+        "description": null,
+        "name": "Form Submission"
+      },
+      "references": {
+        "trigger_type_ref1": {
+          "kind": "string",
+          "type": "trigger_type",
+          "src_key_hash": "EphSjHVtvVRaW4p9MGvhHDDfyFAzXGKhwrEkKopiXzjD",
+          "content_hash": "Fv6DC3j7LWMDgfKVdikhAM5buyDZJdu9zZyyATsFscAw",
+          "locations": [
+            "triggerTypeId"
+          ]
+        },
+        "workflow_ref1": {
+          "kind": "string",
+          "type": "workflow",
+          "src_key_hash": "66g1T5pwD9d7h3a6i8nREsfWVpReKiuxSiBFNJtd99vA",
+          "content_hash": "3gUkD8e6in4EtUAJxuAyCU8eX7hsRfaDb1vfJNYwbQQm",
+          "locations": [
+            "workflowId"
+          ]
+        },
+        "form_ref1": {
+          "kind": "string",
+          "type": "form",
+          "src_key_hash": "2bvd1DFfPmBCsgy78rYRXUEa2CWxQvUejFntojFdHuwS",
+          "content_hash": "5SfJP4y5qrSgLxt2HfhfFucc8m6R2FyTyTWL9dU9LGNy",
+          "locations": [
+            "parameters.form_id",
+            "formId"
+          ]
+        }
+      },
+      "dependencies": [
+        "form:2bvd1DFfPmBCsgy78rYRXUEa2CWxQvUejFntojFdHuwS",
+        "workflow:66g1T5pwD9d7h3a6i8nREsfWVpReKiuxSiBFNJtd99vA",
+        "trigger_type:EphSjHVtvVRaW4p9MGvhHDDfyFAzXGKhwrEkKopiXzjD"
+      ]
+    }
+  },
+  "__typename": "ExportBundle"
+}

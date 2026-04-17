@@ -1,0 +1,765 @@
+{
+  "version": 2,
+  "exportedAt": "2025-10-11T16:12:17.096599+00:00",
+  "signing": {
+    "cert": "-----BEGIN CERTIFICATE-----\nMIICazCCAfGgAwIBAgIUFJtHAR8D+ZfChHcAXHemH7s8zRowCgYIKoZIzj0EAwIwfDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkZMMQ4wDAYDVQQHEwVUYW1wYTEOMAwGA1UEChMFUmV3c3QxEzARBgNVBAsTClJld3N0IERldnMxKzApBgNVBAMTImxvY2FsIFJld3N0IEltcG9ydC9FeHBvcnQgQ0EyIHYxLjEwHhcNMjIwNjAzMTkwMDU1WhcNMjUwNTIzMTkwMTI1WjBDMQswCQYDVQQGEwJVUzELMAkGA1UECBMCRkwxDjAMBgNVBAcTBVRhbXBhMRcwFQYDVQQDEw5sb2NhbC5yZXdzdC5pbzB2MBAGByqGSM49AgEGBSuBBAAiA2IABMcTJzyLIvX1+3545EJbFeNVjahxVq6TFQ7n/IYZs4yEMQzDWZjAyHhJPZk3Dxq/wFzesXMYJu41rhxfz7AZh15LtFGfy9V2B4X5KH7sGJWqOan0mabuF83llruTLA/NQaNtMGswDgYDVR0PAQH/BAQDAgeAMB0GA1UdDgQWBBTDePOSC6hckrg6usrK2giZv9GxpjAfBgNVHSMEGDAWgBTojdemsJqfnB19iyMxmIi3OGYw6TAZBgNVHREEEjAQgg5sb2NhbC5yZXdzdC5pbzAKBggqhkjOPQQDAgNoADBlAjEA8NsLnuGhfTPC7dB0ojWf5WmH64qFZuPFD6Q0RwGYO0D1Tn2x5+/37kW3HFcGHV0wAjBM7LSidsc7E9+fmcesnN5hM34eGMP+YWCoEeFIPPANXQKemAgUVf35iXyU64sVEC4=\n-----END CERTIFICATE-----",
+    "hash": "sha512",
+    "signature": "MGUCMQCGVbqzO1cSJOm0XzRmEmEI2KDF1Z9F9MM8VROGbQnaraELM49aCKKBWtwQCVKrHS8CMD8Pyd0Gch8oxMCmyLIhlBRvjMvRDa4jFGp15MPw239dy0kKmOrw15c2Q1uAm6eAHQ=="
+  },
+  "objects": {
+    "trigger_type:BnyX75ESh9QPrCEwMW4sYzKDN2kUhSrJgdYVAxRy4pxQ": {
+      "type": "trigger_type",
+      "content_hash": "A3qAuVRaMet6hmXzfULwNsktw3jhyuRkt8E9LAbJCP7i",
+      "hash": "BgxjTDSUcb1fzGABhpZD1tnJecbPFAVmpUa9d2SUPepJ",
+      "fields": {
+        "ref": "core.Always Pass"
+      }
+    },
+    "action:Bhv6RcmxPTGweu9ihHvffTL4febKrTmJKHrnyVTYjGgg": {
+      "type": "action",
+      "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+      "hash": "Arr2RCEM96WqU2EkvigszSfsW9GZHa4HJC5a1fL9qZ5g",
+      "fields": {
+        "ref": "core.noop"
+      }
+    },
+    "transition_id:9wuKPqWEjc2ZYwirifo8PjT7EXMKyaTfwCVzs4ZCmFnd": {
+      "type": "transition_id",
+      "content_hash": "9a3R3oQizegjtF1dB3wVxnEWFa29iNsN8DwiNu9aMP92",
+      "hash": "H1MA6mKW5HQ6hHXYkCuqLCCeeKmeYNojVs2gfu1BUfyv",
+      "fields": {
+        "id": "${UUID}"
+      }
+    },
+    "workflow_note_id:6fRyQCQXuxZwdWEQNGAXfcE67xfdDreucyh7XFHP8WWJ": {
+      "type": "workflow_note_id",
+      "content_hash": "29xt7bqAm6oC7xEQkWpqEGBz7meKYHnYJaEJqgcwAagF",
+      "hash": "A57n4ppVbnxmDyxyvmh4QE43WWMBHtsaKMwgqGciptrN",
+      "fields": {
+        "id": "${UUID}"
+      }
+    },
+    "pack:BzX4Kwu1yApdegL7YrKt2x1sqX3TUaQ6kBwZtJgKQc2S": {
+      "type": "pack",
+      "content_hash": "CnXrW1PNdw47zALpnKeDvHTGyYEqr8rALTp8sD1WFfFj",
+      "hash": "5BMZkkforMJSz92qyy8mLLMttsNpZJ9WqbbQgZvJAucq",
+      "fields": {
+        "ref": "microsoft_graph"
+      }
+    },
+    "workflow_task_id:8ry43FYBWFiGYsVTq3URh9pLaBR6d4e4gwR7nwMCq42b": {
+      "type": "workflow_task_id",
+      "content_hash": "95XCEBNqhNgmDQSdn52vFGzUV7cjh7fnBNxMAvegmXw9",
+      "hash": "94X9P2ZfxW6h2twVTqey25kq51QfQfkp7mfWnKGCmtUj",
+      "fields": {
+        "id": "6524f0333eb24a629077b2649cc94984"
+      }
+    },
+    "action:DA7mh33Sxjs7ZpqJpqBqqf4LqVMA3oe94XsB9cS9FPLE": {
+      "type": "action",
+      "content_hash": "33xTLFt8PprUiYQkEpTe7tSTAyG9U9JoXer4ZA8qaa5K",
+      "hash": "2K81BfYzip9YmEhN1nQ967yd7Q8P8FM3a7eAMkhVMujy",
+      "fields": {
+        "ref": "transforms.append_collected_results"
+      }
+    },
+    "transition_id:8BSVxjrcWgDtTt3Ee4knUJz8FsnSxpirHYcc2869A3BH": {
+      "type": "transition_id",
+      "content_hash": "7uSZnLTLX7sFbwWBQiSB9YbB4avxcPZr61xCX2sggC3M",
+      "hash": "9FgKbGgApk4pgcascxsvt3BGp1PBJ9E37CphHPTwk2f3",
+      "fields": {
+        "id": "${UUID}"
+      }
+    },
+    "workflow_task_id:EaMgug1nniwWA8XsasgA4GScoraqqMB5TBQgdLU5kgAz": {
+      "type": "workflow_task_id",
+      "content_hash": "AWLC8QQBdtHBmS7kM4QcdrhdGa4HC6MbXkEeNKFuFx7",
+      "hash": "781fpwnKQYzU8XBvwSPLCenLKxV79R4k97S3zdLEAjcF",
+      "fields": {
+        "id": "926aacb8c7524f14abc43f832e3a64c4"
+      }
+    },
+    "transition_id:9ArN7xcVdEsjLkjPUf9yzd5YcS1QRVpigj5XjzfYpWCE": {
+      "type": "transition_id",
+      "content_hash": "9QrhQkHYDqo6ZLVHysDRnYzGKS8PVjSsqsZYJkskwqEr",
+      "hash": "B3WyRMTsjeT35evRBGFVhTYGtuK49ZWZHZH2sSsQw75E",
+      "fields": {
+        "id": "${UUID}"
+      }
+    },
+    "workflow_task_id:9nMBdSuLks9mJndsHCD9YCpWzYdDpNQP1pw3nDREBEyu": {
+      "type": "workflow_task_id",
+      "content_hash": "88S3m4F5Q3FEKCLtToPSE8NKtbzhdeUu5mQ4LQS6XLWd",
+      "hash": "32ixnymW9XfqiphfDqHDPWPp45ezYJzYsaK3Fg36yvNJ",
+      "fields": {
+        "id": "a1a710fd6f9d414682fa8b5a81cb1312"
+      }
+    },
+    "action:BCqA2S3bJjSK9dRYvoN4qgCKjqD6zjFdCpdZVt1QdbW3": {
+      "type": "action",
+      "content_hash": "23N3ubJaPa6X5iBRydHACFjBkPCx3ojoiFwyDcNZB5a1",
+      "hash": "AchMyaNUwhPjK8j3wVV34tZM4hrNovi1XH4z1MkHzuFP",
+      "fields": {
+        "ref": "microsoft_graph.graph_api_request"
+      }
+    },
+    "workflow_task_id:DzGXuXQ5DCr6jfvfmrHYDKL17ge1CGtitZMZtXZETuRc": {
+      "type": "workflow_task_id",
+      "content_hash": "pLLEss9pmEDZS7ypRTuVESqrupfiLMF5PjM9ND5JEDq",
+      "hash": "SNSHXvooHFpgQ6GEk2BKLgDpWC9kuqFE1swRtJsb75B",
+      "fields": {
+        "id": "fc4af94ba6044f02b07cc294c4b73f0e"
+      }
+    },
+    "transition_id:2qRRJerR7iLNW8QmDRWL8XdgJm4A496r6WpFH6phj7Qm": {
+      "type": "transition_id",
+      "content_hash": "h9kZWxJkPERoua5YrJy7JRXqLZst36zS9Fh3QpSWk2B",
+      "hash": "4oVXHoeynjhubXFYLvcgWNHzEQ2DCc31uKvBRT5s1Ecu",
+      "fields": {
+        "id": "${UUID}"
+      }
+    },
+    "transition_id:td7coR9uxY6fJCUDoSeDHsTWzN7Vhy9n4JidiYXmqww": {
+      "type": "transition_id",
+      "content_hash": "5pF6KTez32YPdKbX94dYFvZ3B1VeqzwrG3frbDCfzK4e",
+      "hash": "4aFPMPVV1abuWgs6rkgVT5SAmCGXvs6eL8EyaJGQXn9n",
+      "fields": {
+        "id": "${UUID}"
+      }
+    },
+    "transition_id:EmzvHbqZi6HMkELhneLsz7dyhpSakfzcyXNjGAAYTHEs": {
+      "type": "transition_id",
+      "content_hash": "8GtzEdmGLnid7PUHqJR5qYVzwu6TAGGwyG2vdfWt9qBZ",
+      "hash": "G6tnhSzMRH6ZkkaJP4U3abFYMVD5XmNDe8oqj7z9uUUJ",
+      "fields": {
+        "id": "${UUID}"
+      }
+    },
+    "workflow_task_id:ASNszXrZ2wBoXiCP5x4Vuz638qvV4Xg3hqnTiW9Ef7mV": {
+      "type": "workflow_task_id",
+      "content_hash": "A87Z5eW3Yoi93wg6H4ydidrQf8NUyKUHnFw7CxDaBqeD",
+      "hash": "5DF31DVerRz6hY3HUoGB5kvK8F5Zy1jWbVUzLQYo9oW2",
+      "fields": {
+        "id": "c7c74c7026d342e0b93e71e3549b8133"
+      }
+    },
+    "workflow_note_id:YTm37v36ibU1LtDrNpV1RpAKDnGGXdpx4gBE4DRMQLF": {
+      "type": "workflow_note_id",
+      "content_hash": "8tx5ot9CcgJGUo1WQPcFZY9ikkZFc1NbCcxYfw1kjXan",
+      "hash": "DEFfTJdZLHdwrfRE3Ym4Bz5GoqVF4objFpSgMF1cwYyR",
+      "fields": {
+        "id": "${UUID}"
+      }
+    },
+    "workflow_note_id:3W2vC4buJiKx4kdCzZYeQVbqt2wYc6k6A5m8diXeh5pC": {
+      "type": "workflow_note_id",
+      "content_hash": "3WYpDsRAwce9NWXcQsKgJCjyqahncrP4JTWkd6m71eAp",
+      "hash": "5YGxnD4m9AfBU5qVNMUqWRQY2r4MV3ZMduwFbYpGEvzq",
+      "fields": {
+        "id": "${UUID}"
+      }
+    },
+    "trigger:ACLYFb3jzjhezkRGKELptvGgqsrGJ1K3gNEBH6pVELNa": {
+      "type": "trigger",
+      "content_hash": "5YfJqyeT5JFugtcXHjQ7rTkdJ3F6vcmCsvkAoMgXZZkf",
+      "hash": "2J26Sm3tv5V8QUZZNQ4E3DXQ1WCwMcpM6XQarckDqZAB",
+      "fields": {
+        "autoActivateManagedOrgs": true,
+        "criteria": {
+          "condition": {}
+        },
+        "enabled": true,
+        "formId": null,
+        "isActivatedForOwner": true,
+        "packOverrides": [
+          {
+            "packId": "@@@pack_ref1@@@",
+            "configFallbackMode": "USE_DEFAULT",
+            "configSelectionMode": "USE_DEFAULT",
+            "searchInput": null
+          }
+        ],
+        "parameters": {},
+        "triggerTypeId": "@@@trigger_type_ref1@@@",
+        "vars": [],
+        "workflowId": "@@@workflow_ref1@@@"
+      },
+      "nonfunctional_fields": {
+        "description": null,
+        "name": "Manual Trigger"
+      },
+      "references": {
+        "pack_ref1": {
+          "kind": "string",
+          "type": "pack",
+          "src_key_hash": "BzX4Kwu1yApdegL7YrKt2x1sqX3TUaQ6kBwZtJgKQc2S",
+          "content_hash": "CnXrW1PNdw47zALpnKeDvHTGyYEqr8rALTp8sD1WFfFj",
+          "locations": [
+            "packOverrides[0].packId"
+          ]
+        },
+        "workflow_ref1": {
+          "kind": "string",
+          "type": "workflow",
+          "src_key_hash": "2iPPwt5vvwBkvcbjwdrmuGRe3F4JVZgZLQZ1PmJPSQE7",
+          "content_hash": "6ij8Z1zxbgDBb2Lf2Y3r1nZ6cLz45m6MDJV9ekTH9Xuw",
+          "locations": [
+            "workflowId"
+          ]
+        },
+        "trigger_type_ref1": {
+          "kind": "string",
+          "type": "trigger_type",
+          "src_key_hash": "BnyX75ESh9QPrCEwMW4sYzKDN2kUhSrJgdYVAxRy4pxQ",
+          "content_hash": "A3qAuVRaMet6hmXzfULwNsktw3jhyuRkt8E9LAbJCP7i",
+          "locations": [
+            "triggerTypeId"
+          ]
+        }
+      },
+      "dependencies": [
+        "trigger_type:BnyX75ESh9QPrCEwMW4sYzKDN2kUhSrJgdYVAxRy4pxQ",
+        "pack:BzX4Kwu1yApdegL7YrKt2x1sqX3TUaQ6kBwZtJgKQc2S",
+        "workflow:2iPPwt5vvwBkvcbjwdrmuGRe3F4JVZgZLQZ1PmJPSQE7"
+      ]
+    },
+    "workflow:2iPPwt5vvwBkvcbjwdrmuGRe3F4JVZgZLQZ1PmJPSQE7": {
+      "type": "workflow",
+      "content_hash": "6ij8Z1zxbgDBb2Lf2Y3r1nZ6cLz45m6MDJV9ekTH9Xuw",
+      "hash": "JDjLuXgEUMdG8hvbzDvDT5Ztoy5cEBm7cxc5TND5k4q9",
+      "fields": {
+        "humanSecondsSaved": 0,
+        "notes": [
+          {
+            "id": "@@@workflow_note_id_ref1@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref2@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref3@@@"
+          }
+        ],
+        "output": [],
+        "parameters": {},
+        "tasks": [
+          {
+            "id": "@@@workflow_task_id_ref1@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "BEGIN",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref3@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref1@@@",
+                "publish": [
+                  {
+                    "key": "expected_roles",
+                    "value": "{{\r\n[\r\n    {\"Name\": \"Application Administrator\", \"Id\": \"${UUID}\"},\r\n    {\"Name\": \"User Administrator\", \"Id\": \"${UUID}\"},\r\n    {\"Name\": \"Intune Administrator\", \"Id\": \"${UUID}\"},\r\n    {\"Name\": \"Exchange Administrator\", \"Id\": \"${UUID}\"},\r\n    {\"Name\": \"Security Administrator\", \"Id\": \"${UUID}\"},\r\n    {\"Name\": \"Cloud App Security Administrator\", \"Id\": \"${UUID}\"},\r\n    {\"Name\": \"Cloud Device Administrator\", \"Id\": \"${UUID}\"},\r\n    {\"Name\": \"Teams Administrator\", \"Id\": \"${UUID}\"},\r\n    {\"Name\": \"Sharepoint Administrator\", \"Id\": \"${UUID}\"},\r\n    {\"Name\": \"Authentication Policy Administrator\", \"Id\": \"${UUID}\"},\r\n    {\"Name\": \"Privileged Role Administrator\", \"Id\": \"${UUID}\"},\r\n    {\"Name\": \"Privileged Authentication Administrator\", \"Id\": \"${UUID}\"}\r\n]\r\n}}\r\n"
+                  }
+                ],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref2@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "end_with_error",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref2@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref3@@@",
+            "action": {
+              "id": "@@@action_ref2@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "json": null,
+              "params": null,
+              "headers": null,
+              "base_url": "https://graph.microsoft.com/v1.0",
+              "endpoint": "/users",
+              "raw_body": null,
+              "client_kwargs": {
+                "use_delegated_admin": true
+              },
+              "request_method": "GET",
+              "raw_body_from_url": null,
+              "require_2xx_status": false
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "microsoft_graph_graph_api_request",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref4@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref3@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              },
+              {
+                "do": [
+                  "@@@workflow_task_id_ref2@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref4@@@",
+                "publish": [
+                  {
+                    "key": "error",
+                    "value": "{{ CTX.check_org_permission.error }}"
+                  }
+                ],
+                "to": null,
+                "when": "{{ FAILED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "check_org_permission",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_FIRST",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref4@@@",
+            "action": {
+              "id": "@@@action_ref2@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "json": null,
+              "params": null,
+              "headers": null,
+              "base_url": "https://graph.microsoft.com/v1.0",
+              "endpoint": "/roleManagement/directory/roleAssignments?$filter=roleDefinitionId eq '{{ item().Id }}'&$expand=principal",
+              "raw_body": null,
+              "client_kwargs": {
+                "use_delegated_admin": false
+              },
+              "request_method": "GET",
+              "raw_body_from_url": null,
+              "require_2xx_status": null
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "microsoft_graph_graph_api_request_1",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref5@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref5@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "check_roles",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": {
+              "items": "{{ CTX.expected_roles }}",
+              "concurrency": "1"
+            },
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref5@@@",
+            "action": {
+              "id": "@@@action_ref3@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "params": {
+                "array": "{{ CTX.check_roles }}",
+                "base_list": "{{ CTX.expected_roles }}",
+                "attribute_name": "role_detail"
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "transforms_beta_append_with_items_results",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref6@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "collected_role_data",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          }
+        ],
+        "timeout": 28800,
+        "type": "STANDARD",
+        "varsSchema": {}
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "name": "CSP/CPV Permission Checker",
+        "notes[0].content": "This functional block handles the initial setup and configuration of the CSP/CPV Permission Checker workflow.\n\n**Purpose**: Establishes the baseline configuration by defining the expected privileged roles that need to be monitored and validated within the Microsoft 365 environment.\n\n**Key Tasks**:\n- **BEGIN**: Initializes the workflow execution and publishes the predefined list of critical administrative roles\n\n**Expected Roles Configured**:\nThe workflow monitors 12 high-privilege administrative roles including:\n- Application Administrator\n- User Administrator  \n- Intune Administrator\n- Exchange Administrator\n- Security Administrator\n- Cloud App Security Administrator\n- Cloud Device Administrator\n- Teams Administrator\n- SharePoint Administrator\n- Authentication Policy Administrator\n- Privileged Role Administrator\n- Privileged Authentication Administrator\n\n**Data Flow**: \n- Input: None (workflow start)\n- Output: `expected_roles` context variable containing the complete list of roles to be analyzed\n\n**Connection to Next Block**: Upon successful initialization, this block triggers the Permission Validation process to verify organizational access permissions before proceeding with role analysis.",
+        "notes[0].metadata": {
+          "x": 753,
+          "y": 177,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367,
+          "height": 118,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "c7c74c7026d342e0b93e71e3549b8133"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[0].title": "Workflow Initialization & Configuration",
+        "notes[1].content": "This functional block validates organizational permissions and handles authentication verification before proceeding with detailed role analysis.\n\n**Purpose**: Ensures the workflow has the necessary permissions to access Microsoft Graph API endpoints and retrieve user/role information from the target organization.\n\n**Key Tasks**:\n- **microsoft_graph_graph_api_request**: Performs an initial test request to the `/users` endpoint using delegated admin permissions to verify organizational access\n- **end_with_error**: Handles authentication failures by gracefully terminating the workflow with appropriate error context\n\n**Authentication Strategy**:\n- Uses delegated admin permissions (`use_delegated_admin: true`)\n- Targets the `/users` endpoint as a permission validation test\n- Implements conditional branching based on authentication success/failure\n\n**Error Handling**:\n- On SUCCESS: Proceeds to role assignment analysis\n- On FAILURE: Publishes error context and terminates workflow execution\n- Error information is captured in `CTX.check_org_permission.error`\n\n**Data Flow**:\n- Input: Organizational context and authentication credentials\n- Output: `check_org_permission` result containing validation status\n- Error Output: Error details published to workflow context\n\n**Connection to Next Block**: Upon successful permission validation, this block enables the Role Assignment Analysis process to begin collecting detailed role assignment data for each configured administrative role.",
+        "notes[1].metadata": {
+          "x": 753,
+          "y": 369,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 799,
+          "height": 310,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "a1a710fd6f9d414682fa8b5a81cb1312",
+            "926aacb8c7524f14abc43f832e3a64c4"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[1].title": "Permission Validation & Authentication Check",
+        "notes[2].content": "This functional block performs comprehensive analysis of role assignments for all configured administrative roles and consolidates the collected data into a structured format.\n\n**Purpose**: Systematically retrieves detailed role assignment information for each privileged administrative role, including principal details (users/groups assigned to each role) and consolidates this data for analysis or reporting.\n\n**Key Tasks**:\n- **microsoft_graph_graph_api_request_1**: Executes parallel API calls to retrieve role assignments for each administrative role using the Microsoft Graph `/roleManagement/directory/roleAssignments` endpoint\n- **transforms_beta_append_with_items_results**: Processes and consolidates the collected role assignment data by appending detailed results to the original role configuration\n\n**Data Collection Strategy**:\n- Uses `with_items` iteration over `expected_roles` to process each role individually\n- Queries role assignments with filtering: `roleDefinitionId eq '{{ item().Id }}'`\n- Expands principal information to include user/group details: `$expand=principal`\n- Executes with concurrency of 1 to manage API rate limits\n- Uses standard permissions (`use_delegated_admin: false`)\n\n**Data Processing**:\n- Collects results from all parallel role queries into `check_roles` context\n- Transforms and appends detailed role assignment data to the original `expected_roles` list\n- Creates enriched dataset with `role_detail` attribute containing assignment information\n- Final consolidated data stored in `collected_role_data` context\n\n**Data Flow**:\n- Input: `expected_roles` list from initialization block\n- Processing: Individual role assignment queries with principal expansion\n- Output: `collected_role_data` containing comprehensive role assignment analysis\n\n**Key Insights Generated**:\n- Complete inventory of users/groups assigned to each privileged role\n- Principal details including user information and assignment scope\n- Consolidated view of administrative access across the organization\n\n**Workflow Completion**: This block represents the final data collection phase, producing the complete CSP/CPV permission analysis dataset for downstream consumption or reporting.",
+        "notes[2].metadata": {
+          "x": 465,
+          "y": 601.560449442221,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 378.3939201283954,
+          "height": 293.43955055777894,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "6524f0333eb24a629077b2649cc94984",
+            "fc4af94ba6044f02b07cc294c4b73f0e"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[2].title": "Role Assignment Analysis & Data Collection",
+        "tasks[0].description": "Action that does nothing",
+        "tasks[0].metadata": {
+          "x": 768,
+          "y": 192
+        },
+        "tasks[0].next[0].label": "",
+        "tasks[1].description": "Action that does nothing",
+        "tasks[1].metadata": {
+          "x": 1200,
+          "y": 576
+        },
+        "tasks[1].next[0].label": "",
+        "tasks[2].description": "Send a request to any Microsoft Graph endpoint",
+        "tasks[2].metadata": {
+          "x": 768,
+          "y": 384
+        },
+        "tasks[2].next[0].label": "",
+        "tasks[2].next[1].label": "",
+        "tasks[3].description": "Send a request to any Microsoft Graph endpoint",
+        "tasks[3].metadata": {
+          "x": 491.3939201283954,
+          "y": 616.560449442221
+        },
+        "tasks[3].next[0].label": "",
+        "tasks[4].description": "This function extracts a nested 'result.result' list from each item in a specified list (Collected List) and appends it to another specified list (Base List) as an attribute with a provided name (Attribute Name).",
+        "tasks[4].metadata": {
+          "x": 480,
+          "y": 792
+        },
+        "tasks[4].next[0].label": ""
+      },
+      "references": {
+        "workflow_note_id_ref3": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "3W2vC4buJiKx4kdCzZYeQVbqt2wYc6k6A5m8diXeh5pC",
+          "content_hash": "3WYpDsRAwce9NWXcQsKgJCjyqahncrP4JTWkd6m71eAp",
+          "locations": [
+            "notes[2].id"
+          ]
+        },
+        "workflow_task_id_ref4": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "8ry43FYBWFiGYsVTq3URh9pLaBR6d4e4gwR7nwMCq42b",
+          "content_hash": "95XCEBNqhNgmDQSdn52vFGzUV7cjh7fnBNxMAvegmXw9",
+          "locations": [
+            "tasks[3].id",
+            "tasks[2].next[0].do[0]"
+          ]
+        },
+        "workflow_task_id_ref5": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "DzGXuXQ5DCr6jfvfmrHYDKL17ge1CGtitZMZtXZETuRc",
+          "content_hash": "pLLEss9pmEDZS7ypRTuVESqrupfiLMF5PjM9ND5JEDq",
+          "locations": [
+            "tasks[4].id",
+            "tasks[3].next[0].do[0]"
+          ]
+        },
+        "action_ref2": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "BCqA2S3bJjSK9dRYvoN4qgCKjqD6zjFdCpdZVt1QdbW3",
+          "content_hash": "23N3ubJaPa6X5iBRydHACFjBkPCx3ojoiFwyDcNZB5a1",
+          "locations": [
+            "tasks[2].action.id",
+            "tasks[3].action.id"
+          ]
+        },
+        "workflow_task_id_ref3": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "9nMBdSuLks9mJndsHCD9YCpWzYdDpNQP1pw3nDREBEyu",
+          "content_hash": "88S3m4F5Q3FEKCLtToPSE8NKtbzhdeUu5mQ4LQS6XLWd",
+          "locations": [
+            "tasks[2].id",
+            "tasks[0].next[0].do[0]"
+          ]
+        },
+        "transition_id_ref2": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "8BSVxjrcWgDtTt3Ee4knUJz8FsnSxpirHYcc2869A3BH",
+          "content_hash": "7uSZnLTLX7sFbwWBQiSB9YbB4avxcPZr61xCX2sggC3M",
+          "locations": [
+            "tasks[1].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref2": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "EaMgug1nniwWA8XsasgA4GScoraqqMB5TBQgdLU5kgAz",
+          "content_hash": "AWLC8QQBdtHBmS7kM4QcdrhdGa4HC6MbXkEeNKFuFx7",
+          "locations": [
+            "tasks[1].id",
+            "tasks[2].next[1].do[0]"
+          ]
+        },
+        "workflow_task_id_ref1": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "ASNszXrZ2wBoXiCP5x4Vuz638qvV4Xg3hqnTiW9Ef7mV",
+          "content_hash": "A87Z5eW3Yoi93wg6H4ydidrQf8NUyKUHnFw7CxDaBqeD",
+          "locations": [
+            "tasks[0].id"
+          ]
+        },
+        "transition_id_ref1": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "9wuKPqWEjc2ZYwirifo8PjT7EXMKyaTfwCVzs4ZCmFnd",
+          "content_hash": "9a3R3oQizegjtF1dB3wVxnEWFa29iNsN8DwiNu9aMP92",
+          "locations": [
+            "tasks[0].next[0].id"
+          ]
+        },
+        "transition_id_ref5": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "td7coR9uxY6fJCUDoSeDHsTWzN7Vhy9n4JidiYXmqww",
+          "content_hash": "5pF6KTez32YPdKbX94dYFvZ3B1VeqzwrG3frbDCfzK4e",
+          "locations": [
+            "tasks[3].next[0].id"
+          ]
+        },
+        "transition_id_ref6": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "2qRRJerR7iLNW8QmDRWL8XdgJm4A496r6WpFH6phj7Qm",
+          "content_hash": "h9kZWxJkPERoua5YrJy7JRXqLZst36zS9Fh3QpSWk2B",
+          "locations": [
+            "tasks[4].next[0].id"
+          ]
+        },
+        "transition_id_ref4": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "EmzvHbqZi6HMkELhneLsz7dyhpSakfzcyXNjGAAYTHEs",
+          "content_hash": "8GtzEdmGLnid7PUHqJR5qYVzwu6TAGGwyG2vdfWt9qBZ",
+          "locations": [
+            "tasks[2].next[1].id"
+          ]
+        },
+        "workflow_note_id_ref2": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "6fRyQCQXuxZwdWEQNGAXfcE67xfdDreucyh7XFHP8WWJ",
+          "content_hash": "29xt7bqAm6oC7xEQkWpqEGBz7meKYHnYJaEJqgcwAagF",
+          "locations": [
+            "notes[1].id"
+          ]
+        },
+        "action_ref3": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "DA7mh33Sxjs7ZpqJpqBqqf4LqVMA3oe94XsB9cS9FPLE",
+          "content_hash": "33xTLFt8PprUiYQkEpTe7tSTAyG9U9JoXer4ZA8qaa5K",
+          "locations": [
+            "tasks[4].action.id"
+          ]
+        },
+        "action_ref1": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "Bhv6RcmxPTGweu9ihHvffTL4febKrTmJKHrnyVTYjGgg",
+          "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+          "locations": [
+            "tasks[0].action.id",
+            "tasks[1].action.id"
+          ]
+        },
+        "transition_id_ref3": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "9ArN7xcVdEsjLkjPUf9yzd5YcS1QRVpigj5XjzfYpWCE",
+          "content_hash": "9QrhQkHYDqo6ZLVHysDRnYzGKS8PVjSsqsZYJkskwqEr",
+          "locations": [
+            "tasks[2].next[0].id"
+          ]
+        },
+        "workflow_note_id_ref1": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "YTm37v36ibU1LtDrNpV1RpAKDnGGXdpx4gBE4DRMQLF",
+          "content_hash": "8tx5ot9CcgJGUo1WQPcFZY9ikkZFc1NbCcxYfw1kjXan",
+          "locations": [
+            "notes[0].id"
+          ]
+        }
+      },
+      "dependencies": [
+        "transition_id:td7coR9uxY6fJCUDoSeDHsTWzN7Vhy9n4JidiYXmqww",
+        "workflow_task_id:9nMBdSuLks9mJndsHCD9YCpWzYdDpNQP1pw3nDREBEyu",
+        "action:Bhv6RcmxPTGweu9ihHvffTL4febKrTmJKHrnyVTYjGgg",
+        "transition_id:8BSVxjrcWgDtTt3Ee4knUJz8FsnSxpirHYcc2869A3BH",
+        "workflow_task_id:EaMgug1nniwWA8XsasgA4GScoraqqMB5TBQgdLU5kgAz",
+        "transition_id:9wuKPqWEjc2ZYwirifo8PjT7EXMKyaTfwCVzs4ZCmFnd",
+        "workflow_note_id:6fRyQCQXuxZwdWEQNGAXfcE67xfdDreucyh7XFHP8WWJ",
+        "transition_id:9ArN7xcVdEsjLkjPUf9yzd5YcS1QRVpigj5XjzfYpWCE",
+        "transition_id:EmzvHbqZi6HMkELhneLsz7dyhpSakfzcyXNjGAAYTHEs",
+        "action:BCqA2S3bJjSK9dRYvoN4qgCKjqD6zjFdCpdZVt1QdbW3",
+        "workflow_task_id:ASNszXrZ2wBoXiCP5x4Vuz638qvV4Xg3hqnTiW9Ef7mV",
+        "workflow_note_id:YTm37v36ibU1LtDrNpV1RpAKDnGGXdpx4gBE4DRMQLF",
+        "workflow_task_id:8ry43FYBWFiGYsVTq3URh9pLaBR6d4e4gwR7nwMCq42b",
+        "workflow_note_id:3W2vC4buJiKx4kdCzZYeQVbqt2wYc6k6A5m8diXeh5pC",
+        "workflow_task_id:DzGXuXQ5DCr6jfvfmrHYDKL17ge1CGtitZMZtXZETuRc",
+        "action:DA7mh33Sxjs7ZpqJpqBqqf4LqVMA3oe94XsB9cS9FPLE",
+        "transition_id:2qRRJerR7iLNW8QmDRWL8XdgJm4A496r6WpFH6phj7Qm"
+      ]
+    }
+  },
+  "__typename": "ExportBundle"
+}

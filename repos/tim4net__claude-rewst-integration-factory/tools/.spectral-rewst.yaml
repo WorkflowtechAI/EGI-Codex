@@ -1,0 +1,30 @@
+# Rewst Custom Integration v2 - Spectral Ruleset
+# This matches the exact ruleset used by Rewst's OpenAPI validation
+# Source: packages/engine/engine/agents/kiro/process_openapi_document_request.py
+
+extends: [[spectral:oas, recommended]]
+
+rules:
+  # Disabled rules - Rewst does not enforce these
+  oas3-valid-schema-example: false
+  oas2-valid-schema-example: false
+  description-duplication: false
+  operation-description: false
+  operation-parameter-description: false
+  no-http-verbs-in-path: false
+  component-description: false
+  oas3-parameter-description: false
+  oas2-parameter-description: false
+  paths-kebab-case: false
+  operation-tag-defined: false
+  oas3-api-servers: false
+  oas2-api-servers: false
+  operation-4xx-response: false
+  operation-2xx-response: false
+  operation-success-response: false
+  operation-tags: false
+  path-keys-no-trailing-slash: false
+  no-$ref-siblings: false
+  oas3-unused-component: false
+  oas2-unused-definition: false
+  oas3-missing-example: false

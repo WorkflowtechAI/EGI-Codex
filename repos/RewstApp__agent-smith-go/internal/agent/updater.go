@@ -1,0 +1,360 @@
+package agent
+
+import (
+	"encoding/json"
+	"fmt"
+	"io"
+	"net/http"
+	"os"
+	"time"
+
+	"github.com/RewstApp/agent-smith-go/internal/version"
+	"github.com/hashicorp/go-hclog"
+)
+
+type Asset struct {
+	Id   int    `json:"id"`
+	Name string `json:"name"`
+	Url  string `json:"url"`
+}
+
+type Release struct {
+	Id      int     `json:"id"`
+	TagName string  `json:"tag_name"`
+	Assets  []Asset `json:"assets"`
+}
+
+type Updater interface {
+	Check() (Release, error)
+	Update(updaterExecutablePath string) error
+	SelectAsset(release Release) (Asset, error)
+	Download(asset Asset) (string, error)
+	Run() error
+}
+
+// updateIntervalStr is overridable via -ldflags for integration testing.
+// Example: -ldflags "-X github.com/RewstApp/agent-smith-go/internal/agent.updateIntervalStr=30s"
+var updateIntervalStr = ""
+
+// baseBackoffStr is overridable via -ldflags for integration testing.
+// Example: -ldflags "-X github.com/RewstApp/agent-smith-go/internal/agent.baseBackoffStr=5s"
+var baseBackoffStr = ""
+
+// maxRetriesStr is overridable via -ldflags for integration testing.
+// Example: -ldflags "-X github.com/RewstApp/agent-smith-go/internal/agent.maxRetriesStr=3"
+var maxRetriesStr = ""
+
+const (
+	defaultUpdateInterval = 48 * time.Hour
+	defaultBaseBackoff    = 5 * time.Minute
+	defaultMaxRetries     = 5
+)
+
+// DefaultUpdateInterval returns the auto-update check interval.
+// Uses updateIntervalStr if set via ldflags, otherwise defaults to 48 hours.
+func DefaultUpdateInterval() time.Duration {
+	if updateIntervalStr != "" {
+		if d, err := time.ParseDuration(updateIntervalStr); err == nil {
+			return d
+		}
+	}
+	return defaultUpdateInterval
+}
+
+// DefaultBaseBackoff returns the base backoff duration for update retries.
+// Uses baseBackoffStr if set via ldflags, otherwise defaults to 5 minutes.
+func DefaultBaseBackoff() time.Duration {
+	if baseBackoffStr != "" {
+		if d, err := time.ParseDuration(baseBackoffStr); err == nil {
+			return d
+		}
+	}
+	return defaultBaseBackoff
+}
+
+// DefaultMaxRetries returns the maximum number of update retry attempts.
+// Uses maxRetriesStr if set via ldflags, otherwise defaults to 5.
+func DefaultMaxRetries() int {
+	if maxRetriesStr != "" {
+		var n int
+		if _, err := fmt.Sscanf(maxRetriesStr, "%d", &n); err == nil && n > 0 {
+			return n
+		}
+	}
+	return defaultMaxRetries
+}
+
+type RunCommandFunc = func(path string, args []string) error
+
+const (
+	checkTimeout    = 30 * time.Second
+	downloadTimeout = 5 * time.Minute
+)
+
+type defaultUpdater struct {
+	logger           hclog.Logger
+	device           *Device
+	latestReleaseUrl string
+	githubToken      string
+	runCommand       RunCommandFunc
+	checkClient      *http.Client
+	downloadClient   *http.Client
+	chmod            func(name string, mode os.FileMode) error
+}
+
+func NewUpdater(
+	logger hclog.Logger,
+	device *Device,
+	latestReleaseUrl string,
+	githubToken string,
+	runCommand RunCommandFunc,
+) Updater {
+	return &defaultUpdater{
+		logger:           logger,
+		device:           device,
+		latestReleaseUrl: latestReleaseUrl,
+		githubToken:      githubToken,
+		runCommand:       runCommand,
+		checkClient:      &http.Client{Timeout: checkTimeout},
+		downloadClient:   &http.Client{Timeout: downloadTimeout},
+		chmod:            os.Chmod,
+	}
+}
+
+func (u *defaultUpdater) Check() (Release, error) {
+	release := Release{}
+	u.logger.Info("Checking for updates")
+	if u.githubToken != "" {
+		u.logger.Info("GitHub token provided for update check")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, u.latestReleaseUrl, nil)
+	if err != nil {
+		return release, err
+	}
+	if u.githubToken != "" {
+		req.Header.Set("Authorization", "Bearer "+u.githubToken)
+	}
+
+	resp, err := u.checkClient.Do(req)
+	if err != nil {
+		u.logger.Error("Failed to fetch latest release", "url", u.latestReleaseUrl, "error", err)
+		return release, err
+	}
+	defer func() {
+		err = resp.Body.Close()
+		if err != nil {
+			u.logger.Error("Failed to close response", "error", err)
+		}
+	}()
+
+	if resp.StatusCode != http.StatusOK {
+		u.logger.Error(
+			"Failed to fetch latest release",
+			"url",
+			u.latestReleaseUrl,
+			"status",
+			resp.StatusCode,
+		)
+		return release, fmt.Errorf("unexpected status code: %d", resp.StatusCode)
+	}
+
+	if err := json.NewDecoder(resp.Body).Decode(&release); err != nil {
+		u.logger.Error("Failed to parse release", "error", err)
+		return release, err
+	}
+
+	return release, nil
+}
+
+func (u *defaultUpdater) Update(updaterExecutablePath string) error {
+	args := []string{
+		"--org-id",
+		u.device.RewstOrgId,
+		"--update",
+		"--logging-level",
+		string(u.device.LoggingLevel),
+	}
+
+	if u.device.UseSyslog {
+		args = append(args, "--syslog")
+	}
+
+	if u.device.DisableAgentPostback {
+		args = append(args, "--disable-agent-postback")
+	}
+
+	if u.device.DisableAutoUpdates {
+		args = append(args, "--no-auto-updates")
+	}
+
+	u.logger.Debug("Running update command", "path", updaterExecutablePath, "args", args)
+
+	return u.runCommand(updaterExecutablePath, args)
+}
+
+func (u *defaultUpdater) Download(asset Asset) (string, error) {
+	req, err := http.NewRequest(http.MethodGet, asset.Url, nil)
+	if err != nil {
+		return "", err
+	}
+
+	req.Header.Add("Accept", "application/octet-stream")
+	if u.githubToken != "" {
+		req.Header.Set("Authorization", "Bearer "+u.githubToken)
+	}
+
+	resp, err := u.downloadClient.Do(req)
+	if err != nil {
+		return "", err
+	}
+	defer func() {
+		_ = resp.Body.Close()
+	}()
+
+	if resp.StatusCode != http.StatusOK {
+		return "", fmt.Errorf("download failed with status code: %d", resp.StatusCode)
+	}
+
+	file, err := os.CreateTemp("", "installer-*.bin")
+	if err != nil {
+		return "", err
+	}
+
+	success := false
+	defer func() {
+		_ = file.Close()
+		if !success {
+			if removeErr := os.Remove(file.Name()); removeErr != nil {
+				u.logger.Error(
+					"Failed to remove temp installer file",
+					"path", file.Name(),
+					"error", removeErr,
+				)
+			}
+		}
+	}()
+
+	_, err = io.Copy(file, resp.Body)
+	if err != nil {
+		return "", err
+	}
+	if err = u.chmod(file.Name(), 0o755); err != nil {
+		return "", fmt.Errorf("failed to set executable permission on installer: %w", err)
+	}
+
+	success = true
+	return file.Name(), nil
+}
+
+func (u *defaultUpdater) Run() error {
+	latestRelease, err := u.Check()
+	if err != nil {
+		return err
+	}
+
+	u.logger.Info("Latest release", "tag_name", latestRelease.TagName)
+
+	if latestRelease.TagName == version.Version {
+		u.logger.Info("No updates available")
+		return nil
+	}
+
+	u.logger.Info("Updating agent", "version", latestRelease.TagName)
+
+	applicableAsset, err := u.SelectAsset(latestRelease)
+	if err != nil {
+		return err
+	}
+
+	executablePath, err := u.Download(applicableAsset)
+	if err != nil {
+		return err
+	}
+
+	return u.Update(executablePath)
+}
+
+type AutoUpdateRunner struct {
+	logger      hclog.Logger
+	updater     Updater
+	interval    time.Duration
+	maxRetries  int
+	baseBackoff time.Duration
+	stop        chan struct{}
+	done        chan struct{}
+}
+
+func NewAutoUpdateRunner(
+	logger hclog.Logger,
+	updater Updater,
+	interval time.Duration,
+	maxRetries int,
+	baseBackoff time.Duration,
+) *AutoUpdateRunner {
+	return &AutoUpdateRunner{
+		logger:      logger,
+		updater:     updater,
+		interval:    interval,
+		maxRetries:  maxRetries,
+		baseBackoff: baseBackoff,
+		stop:        make(chan struct{}),
+		done:        make(chan struct{}),
+	}
+}
+
+func (r *AutoUpdateRunner) Start() {
+	r.logger.Info("Starting auto updater", "version", version.Version, "interval", r.interval)
+
+	go func() {
+		defer close(r.done)
+
+		timer := time.NewTimer(r.interval)
+		defer timer.Stop()
+
+		for {
+			select {
+			case <-r.stop:
+				r.logger.Info("Auto updater stopped")
+				return
+			case <-timer.C:
+				if err := r.updater.Run(); err != nil {
+					r.logger.Error("Update failed, starting retry backoff", "error", err)
+					if r.retryWithBackoff() {
+						return
+					}
+				}
+				timer.Reset(r.interval)
+			}
+		}
+	}()
+}
+
+func (r *AutoUpdateRunner) Stop() {
+	close(r.stop)
+	<-r.done
+}
+
+func (r *AutoUpdateRunner) retryWithBackoff() bool {
+	for attempt := range r.maxRetries {
+		backoff := r.baseBackoff * (1 << attempt)
+		r.logger.Info("Retrying update", "attempt", attempt+1, "backoff", backoff)
+
+		select {
+		case <-r.stop:
+			return true
+		case <-time.After(backoff):
+		}
+
+		if err := r.updater.Run(); err != nil {
+			r.logger.Error("Retry failed", "attempt", attempt+1, "error", err)
+			continue
+		}
+
+		r.logger.Info("Update succeeded on retry", "attempt", attempt+1)
+		return false
+	}
+
+	r.logger.Error("All retries exhausted")
+	return false
+}

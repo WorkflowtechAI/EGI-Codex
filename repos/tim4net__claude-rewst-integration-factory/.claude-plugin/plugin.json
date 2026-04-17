@@ -1,0 +1,11 @@
+{
+  "name": "rewst-openapi",
+  "description": "Create custom integrations for Rewst. Includes 8 skills: validate, fix, transform, create, from-url, subset, merge, document. Plus a CLI linter using Rewst's exact validation rules.",
+  "version": "1.2.1",
+  "author": {
+    "name": "Tim Fournet",
+    "url": "https://github.com/tim4net"
+  },
+  "repository": "https://github.com/tim4net/claude-rewst-integration-factory",
+  "license": "MIT"
+}

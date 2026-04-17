@@ -1,0 +1,678 @@
+{
+  "version": 2,
+  "exportedAt": "2025-10-11T16:12:27.521590+00:00",
+  "signing": {
+    "cert": "-----BEGIN CERTIFICATE-----\nMIICazCCAfGgAwIBAgIUFJtHAR8D+ZfChHcAXHemH7s8zRowCgYIKoZIzj0EAwIwfDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkZMMQ4wDAYDVQQHEwVUYW1wYTEOMAwGA1UEChMFUmV3c3QxEzARBgNVBAsTClJld3N0IERldnMxKzApBgNVBAMTImxvY2FsIFJld3N0IEltcG9ydC9FeHBvcnQgQ0EyIHYxLjEwHhcNMjIwNjAzMTkwMDU1WhcNMjUwNTIzMTkwMTI1WjBDMQswCQYDVQQGEwJVUzELMAkGA1UECBMCRkwxDjAMBgNVBAcTBVRhbXBhMRcwFQYDVQQDEw5sb2NhbC5yZXdzdC5pbzB2MBAGByqGSM49AgEGBSuBBAAiA2IABMcTJzyLIvX1+3545EJbFeNVjahxVq6TFQ7n/IYZs4yEMQzDWZjAyHhJPZk3Dxq/wFzesXMYJu41rhxfz7AZh15LtFGfy9V2B4X5KH7sGJWqOan0mabuF83llruTLA/NQaNtMGswDgYDVR0PAQH/BAQDAgeAMB0GA1UdDgQWBBTDePOSC6hckrg6usrK2giZv9GxpjAfBgNVHSMEGDAWgBTojdemsJqfnB19iyMxmIi3OGYw6TAZBgNVHREEEjAQgg5sb2NhbC5yZXdzdC5pbzAKBggqhkjOPQQDAgNoADBlAjEA8NsLnuGhfTPC7dB0ojWf5WmH64qFZuPFD6Q0RwGYO0D1Tn2x5+/37kW3HFcGHV0wAjBM7LSidsc7E9+fmcesnN5hM34eGMP+YWCoEeFIPPANXQKemAgUVf35iXyU64sVEC4=\n-----END CERTIFICATE-----",
+    "hash": "sha512",
+    "signature": "MGUCMFLbbt038T14ReeHMXqrxE6g+pVvFfpMx4yrNpNiCfRdSsY4QtzvRt611d/KHaKm1wIxAN0WWeUpcSpjyKBORPW6gcxdnaN26+7SeMGLnEqK6y0H4NmtET9rWdbfM/4q5agw6g=="
+  },
+  "objects": {
+    "transition_id:9AxqQ8AykAscBXCQvTd1mZSdZNUriVSQaCHNqL3oAfZc": {
+      "type": "transition_id",
+      "content_hash": "6ZksZJhFX8WaS7HmYnq5Yve1jvUmSMEyjcJcr7p1kBuD",
+      "hash": "Gt2iiZwjUC4QDDf6EJgJAoedW1ZUb5UcoRrAaCTmH4yB",
+      "fields": {
+        "id": "bfc706d0-32f4-41a9-8928-518d3a6932ae"
+      }
+    },
+    "workflow_note_id:Azs1XUW1TC3ZqRN33AePqnVHoW6XAEcgiysKfaBjpUXm": {
+      "type": "workflow_note_id",
+      "content_hash": "EwygwQx567yCrbAWuqBQpUrrA1NEVfpNoNuGqzCMRFtM",
+      "hash": "FrSsmvtRC91HJZAXY1nCS8fRcQssR4B1hgRwFi3F9ztw",
+      "fields": {
+        "id": "b82fe7ed-864b-426a-9f5f-9b54a000f640"
+      }
+    },
+    "workflow_task_id:MkaP7LPRNFP7RHzWek8ow7DMcDVXVUMwiwSnDsoMAaP": {
+      "type": "workflow_task_id",
+      "content_hash": "GUC7C4iqioZuUC7jMWT6JchfX6fYa5B5C5NERNNYU53e",
+      "hash": "GMExYstWoyRHcaCUSdEbaHYTRKncoFDFTayU6xCqtqwW",
+      "fields": {
+        "id": "0967ac96fca9428c9be71b96d50c7a5e"
+      }
+    },
+    "workflow_note_id:HCQmw9TsBUnJB4hGtdD5fQQwGmtFZ74neJeJemTNMHE9": {
+      "type": "workflow_note_id",
+      "content_hash": "SJJLhUbDvnXZm4cZGhLWpbTpk741HDQQVP3Ck7oREqg",
+      "hash": "89DUhGwnYAP2zPz9pZnjcjohNuyu1zHvhtSCnZRnfGhf",
+      "fields": {
+        "id": "9bac7a8d-d116-4f0d-9fd5-abe8eb567838"
+      }
+    },
+    "workflow_task_id:9xMGtHxKU7DKAemELxWoeXpWxssrAKSC5gksZsirHYmf": {
+      "type": "workflow_task_id",
+      "content_hash": "7wAyKYPZ9YXZ6D7SSEpadqUDEVkA8XS1EswdYpQQG2uB",
+      "hash": "6QeBrCtnPUoRcWGjKVFv7j2RPBQ9GYVhkJNPLYhsGadP",
+      "fields": {
+        "id": "d3d847a3bb474fc78b91ba10b76312f2"
+      }
+    },
+    "transition_id:6issHAzcGrfoKrncNYBqoeDt3MhTyhmLhX6zEMFmegMF": {
+      "type": "transition_id",
+      "content_hash": "CjiTSJ1nycYfmK6CrpCYRSV5j96C5dHBgyY1PfJeWpR3",
+      "hash": "4BHycdtrjKvm6YC97MxMpVANsqnNRTZ4gMSLpCtDFAeQ",
+      "fields": {
+        "id": "a3c9adf3-733d-4e71-af6e-a0d1f0198519"
+      }
+    },
+    "transition_id:2R7AeeXaJmXm8H47jbsRojbtYHLBJDSejV8Wqkg6CkjJ": {
+      "type": "transition_id",
+      "content_hash": "nHnCbuM1oxfVhuUDChex49i6NcFbPJ9FrEYL5k4S8H9",
+      "hash": "7yHsEsqE6eRKZdVqyqPGEWE3Hadze2wb8jrRWjne7MdS",
+      "fields": {
+        "id": "465cd49a-d671-4d3a-816c-7f06f4fe07b3"
+      }
+    },
+    "workflow_note_id:AP5wqoPWGcN4EVZwwK7phNyRwCmMfMnoo2juKymdvJYU": {
+      "type": "workflow_note_id",
+      "content_hash": "7fA6WJvX6h8dUU93TmuiGRsNGJs8M8GDWv55vfxMxuWW",
+      "hash": "4qyMyB2p2ZZ8SBs4ngWsbrK9mSb2kihkuggRsNGT1Pdm",
+      "fields": {
+        "id": "23597311-85f5-4505-8f5c-c9f51c9097dc"
+      }
+    },
+    "workflow_task_id:8zNptueT4FFibxQ9ah6FbVwF6v8k5qLyMu12R7BVHuSw": {
+      "type": "workflow_task_id",
+      "content_hash": "EJ2gyJG7pmmzWmc6czWozuvrn1jGCXFSEDYzdcJ2TsoM",
+      "hash": "HBMYYmHDa45Xo3H32noiAegjTuVwFj4W5L9gju7rjCzm",
+      "fields": {
+        "id": "f277415b01764af7b881004537f83f0b"
+      }
+    },
+    "transition_id:4RYeLcVyi4is8KkpXYdqNbsFJKimUvRv2U5vize1J1GJ": {
+      "type": "transition_id",
+      "content_hash": "3ACs6pmn4KKViRGFRUbM71nnWNupv8WUTTEoGUZ9x5br",
+      "hash": "BxFRaFe78Pi2A3J88YDFQR3DpdEsjyK1Ta65GuAwj1pY",
+      "fields": {
+        "id": "eaf1b144-f900-48cf-bfd8-d836ab6b04da"
+      }
+    },
+    "workflow_task_id:3jgb6RbPG8HiokyHubzNKDQhZd6BGykSbBfMBZYFv2JY": {
+      "type": "workflow_task_id",
+      "content_hash": "GqGU4x93TieD4X3ioSqyWJ77rTXiKCfiACfCkbk3WC5c",
+      "hash": "6dUGtktNogrQAPkPWYT9GHBEentd8A395ubKQwE9a3hT",
+      "fields": {
+        "id": "65917810e70c42c2a789933fd4b04b37"
+      }
+    },
+    "workflow_note_id:2hpkhD1UPsAGFz27jApF3hyVnm6uy5RQoZQwWSYChzgX": {
+      "type": "workflow_note_id",
+      "content_hash": "3RuvJjoYqNBUjVpFWbqKYNBVrJ9sKdWyJp4htePBhNvE",
+      "hash": "48bZDgcMCRYemdiZHfWLqAmJL6EG3TNiMdfhjtUYoxv2",
+      "fields": {
+        "id": "520ee155-4142-4e18-9ff0-9cb159ac1875"
+      }
+    },
+    "workflow_note_id:9axzFkqVxKmYJnSks1oVoSSvoJxHaCU8syX4gQu21kwQ": {
+      "type": "workflow_note_id",
+      "content_hash": "BNkGDmQBmmkzZL2hrohsZBb7ZiMPWQLFv3ojg1oijmrq",
+      "hash": "qZr8bNLXYdQxMmfAPpp32Bth2QYoHxe8CHEyXeXy5qQ",
+      "fields": {
+        "id": "9246715a-866f-445d-b499-fe740f893d90"
+      }
+    },
+    "action:EH8XhYYyCqQcjE3fWEpAhXeVY7KuHV8w9h9QVsFwiyQZ": {
+      "type": "action",
+      "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+      "hash": "Arr2RCEM96WqU2EkvigszSfsW9GZHa4HJC5a1fL9qZ5g",
+      "fields": {
+        "ref": "core.noop"
+      }
+    },
+    "workflow_note_id:7ofVgMQjEm8Ct6M3atbacvbqwcMLkw6y842vS48V6r25": {
+      "type": "workflow_note_id",
+      "content_hash": "HdxUw4LTrNKZyRWgHfWXU9wjoWGC5jg158Vzrrdx2NHD",
+      "hash": "AT1FD9wXVnzm3mjJCkuYYM6TEFop4TXzfQG2Xu5fXVNn",
+      "fields": {
+        "id": "16f31d37-7c0c-438e-97bc-6c7a150e6752"
+      }
+    },
+    "action:978qUipwWU1afb3pBxAMq2wf4W5WzecAZ3nk4iZQgrq7": {
+      "type": "action",
+      "content_hash": "ErFWpeaNYKuPinHXogTf2cSzoCXbFKsHAoPuupz6D7mx",
+      "hash": "5QUngDc2L5NVvtFd7qBLHQSfsYaneF8f8d1xkngewBx4",
+      "fields": {
+        "ref": "transforms.parse_csv"
+      }
+    },
+    "action:ExJmwbmrAYeqywjZW2FMDiSF7ynk2iyxtUa4k2CbGFTh": {
+      "type": "action",
+      "content_hash": "FMu3hsNV7SdbaFHCpQXe4YsxtfRZHq3LfQ8Ej6uv322w",
+      "hash": "CDXNu8XJkn4bBRzcx18z5UYnjXiUM2WB6hTMAwGhMQ4K",
+      "fields": {
+        "ref": "core.http_request"
+      }
+    },
+    "workflow:8h2g48tWduRxiRcgMKavud72WpHgra1cDn6LevcTwmNN": {
+      "type": "workflow",
+      "content_hash": "6b6wUj6obYHV1WxCLb9VykgJtJaNDp67U7xub2n2j1W4",
+      "hash": "8ff8urrb9YqLsYdjjYxr8YMsxEXceq5bEmf3kw8ED3Lh",
+      "fields": {
+        "humanSecondsSaved": 0,
+        "notes": [
+          {
+            "id": "@@@workflow_note_id_ref1@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref2@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref3@@@"
+          }
+        ],
+        "output": [],
+        "parameters": {},
+        "tasks": [
+          {
+            "id": "@@@workflow_task_id_ref1@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": null,
+            "join": null,
+            "mockInput": {},
+            "name": "core_noop",
+            "next": [
+              {
+                "do": ["@@@workflow_task_id_ref2@@@"],
+                "from": null,
+                "id": "@@@transition_id_ref1@@@",
+                "publish": [
+                  {
+                    "key": "csv_data",
+                    "value": "first_name,last_name,email,company_name"
+                  }
+                ],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": null,
+            "retry": null,
+            "runAsOrgId": null,
+            "timeout": null,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref2@@@",
+            "action": {
+              "id": "@@@action_ref2@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "params": {
+                "text": "{{ CTX.csv_data }}",
+                "separator": ","
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "transforms_parse_csv",
+            "next": [
+              {
+                "do": ["@@@workflow_task_id_ref3@@@"],
+                "from": null,
+                "id": "@@@transition_id_ref2@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "invite_list",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref3@@@",
+            "action": {
+              "workflow_id": "@@@workflow_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "email": "{{ item().email }}",
+              "last_name": "{{ item().last_name }}",
+              "first_name": "{{ item().first_name }}",
+              "company_name": "{{ item().company_name }}"
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "workflows_invite_customer_to_webinar",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref3@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": {
+              "items": "{{ CTX.invite_list }}",
+              "concurrency": "1"
+            },
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          }
+        ],
+        "timeout": 28800,
+        "type": "STANDARD",
+        "varsSchema": {}
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "name": "[CX Ops] Collect List of Webinar Registrants [1]",
+        "notes[0].content": "## Purpose\nThis block initializes the workflow with sample webinar registrant data, setting up the foundation for the entire customer outreach process.\n\n## Tasks Included\n- **core_noop**: Provides the initial CSV dataset containing webinar registrant information\n\n## Functionality\n- Publishes a comprehensive CSV dataset with customer details (first_name, last_name, email, company_name)\n- Contains 34 sample registrant records from various IT consulting companies\n- Serves as the data source that feeds into the subsequent processing pipeline\n\n## Key Outputs\n- `csv_data`: Raw CSV string containing all registrant information with headers\n- Data includes companies like ITECH Solutions, Afineol IT Consulting, VersaTrust, and others\n\n## Workflow Connection\nThis block provides the foundational data that flows into the Data Processing block, where the CSV will be parsed and structured for individual customer processing.",
+        "notes[0].metadata": {
+          "x": 441,
+          "y": 225,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367,
+          "height": 118,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": ["d3d847a3bb474fc78b91ba10b76312f2"],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[0].title": "Data Initialization & Setup",
+        "notes[1].content": "## Purpose\nThis block transforms the raw CSV data into structured JSON format, making individual customer records accessible for processing and enabling iteration over each registrant.\n\n## Tasks Included\n- **transforms_parse_csv**: Converts CSV string data into structured JSON array with individual customer objects\n\n## Functionality\n- Parses the incoming CSV data using comma delimiter\n- Transforms the first line into JSON keys (first_name, last_name, email, company_name)\n- Converts each subsequent line into individual customer record objects\n- Prepares data structure for individual customer processing\n\n## Key Processing Details\n- **Input**: Raw CSV string from the Data Initialization block (`{{ CTX.csv_data }}`)\n- **Delimiter**: Comma separator for proper field parsing\n- **Output**: Structured JSON array where each element represents one webinar registrant\n\n## Data Transformation\nConverts from:\n```\nfirst_name,last_name,email,company_name\nAlden,Wilson,${USER_EMAIL},ITECH Solutions\n```\n\nTo structured JSON objects ready for individual processing.\n\n## Workflow Connection\nThis block receives raw CSV data from the Data Initialization block and outputs structured customer records that feed into the Customer Engagement block for individual webinar invitations.",
+        "notes[1].metadata": {
+          "x": 441,
+          "y": 417,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367,
+          "height": 118,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": ["65917810e70c42c2a789933fd4b04b37"],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[1].title": "Data Processing & Transformation",
+        "notes[2].content": "## Purpose\nThis block executes the core business objective by sending personalized webinar invitations to each customer in the registrant list, completing the customer outreach automation.\n\n## Tasks Included\n- **workflows_invite_customer_to_webinar**: Processes individual customer records and sends webinar invitations\n\n## Functionality\n- Iterates through each parsed customer record from the previous block\n- Extracts individual customer details (first_name, last_name, email, company_name)\n- Executes personalized webinar invitation workflow for each registrant\n- Handles the complete customer engagement process\n\n## Customer Data Processing\nFor each customer record, the task processes:\n- **Email**: Customer's email address for invitation delivery\n- **First Name**: For personalized greeting\n- **Last Name**: For complete customer identification  \n- **Company Name**: For business context and personalization\n\n## Iteration Logic\nUses `{{ item() }}` context to access individual customer records:\n- `{{ item().email }}` - Customer email\n- `{{ item().first_name }}` - Customer first name\n- `{{ item().last_name }}` - Customer last name\n- `{{ item().company_name }}` - Customer company\n\n## Business Impact\nThis block delivers the primary value of the workflow by:\n- Automating personalized customer outreach\n- Ensuring all 34 registrants receive webinar invitations\n- Maintaining professional, personalized communication with business context\n\n## Workflow Connection\nThis is the final execution block that receives structured customer data from the Data Processing block and completes the end-to-end customer engagement process.",
+        "notes[2].metadata": {
+          "x": 321,
+          "y": 585,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367,
+          "height": 118,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": ["f277415b01764af7b881004537f83f0b"],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[2].title": "Customer Engagement & Webinar Outreach",
+        "tasks[0].description": "Action that does nothing",
+        "tasks[0].metadata": {
+          "x": 456,
+          "y": 240
+        },
+        "tasks[0].next[0].label": "",
+        "tasks[1].description": "Parse CSV Data into JSON. The first line will be keys, and subsequent lines will be values",
+        "tasks[1].metadata": {
+          "x": 456,
+          "y": 432
+        },
+        "tasks[1].next[0].label": "",
+        "tasks[2].description": "",
+        "tasks[2].metadata": {
+          "x": 336,
+          "y": 600
+        },
+        "tasks[2].next[0].label": ""
+      },
+      "references": {
+        "workflow_task_id_ref2": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "3jgb6RbPG8HiokyHubzNKDQhZd6BGykSbBfMBZYFv2JY",
+          "content_hash": "GqGU4x93TieD4X3ioSqyWJ77rTXiKCfiACfCkbk3WC5c",
+          "locations": ["tasks[1].id", "tasks[0].next[0].do[0]"]
+        },
+        "transition_id_ref2": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "9AxqQ8AykAscBXCQvTd1mZSdZNUriVSQaCHNqL3oAfZc",
+          "content_hash": "6ZksZJhFX8WaS7HmYnq5Yve1jvUmSMEyjcJcr7p1kBuD",
+          "locations": ["tasks[1].next[0].id"]
+        },
+        "workflow_note_id_ref2": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "AP5wqoPWGcN4EVZwwK7phNyRwCmMfMnoo2juKymdvJYU",
+          "content_hash": "7fA6WJvX6h8dUU93TmuiGRsNGJs8M8GDWv55vfxMxuWW",
+          "locations": ["notes[1].id"]
+        },
+        "workflow_ref1": {
+          "kind": "string",
+          "type": "workflow",
+          "src_key_hash": "HfKEAPiomd3fuNaT15V8hAiqa1zfStyoF8eF36hHqFQQ",
+          "content_hash": "DaL4juATV3zgaaARKQu8aViq2tQoEBinTevJUBdSn7eb",
+          "locations": ["tasks[2].action.workflow_id"]
+        },
+        "workflow_task_id_ref1": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "9xMGtHxKU7DKAemELxWoeXpWxssrAKSC5gksZsirHYmf",
+          "content_hash": "7wAyKYPZ9YXZ6D7SSEpadqUDEVkA8XS1EswdYpQQG2uB",
+          "locations": ["tasks[0].id"]
+        },
+        "workflow_task_id_ref3": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "8zNptueT4FFibxQ9ah6FbVwF6v8k5qLyMu12R7BVHuSw",
+          "content_hash": "EJ2gyJG7pmmzWmc6czWozuvrn1jGCXFSEDYzdcJ2TsoM",
+          "locations": ["tasks[2].id", "tasks[1].next[0].do[0]"]
+        },
+        "action_ref1": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "EH8XhYYyCqQcjE3fWEpAhXeVY7KuHV8w9h9QVsFwiyQZ",
+          "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+          "locations": ["tasks[0].action.id"]
+        },
+        "workflow_note_id_ref3": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "9axzFkqVxKmYJnSks1oVoSSvoJxHaCU8syX4gQu21kwQ",
+          "content_hash": "BNkGDmQBmmkzZL2hrohsZBb7ZiMPWQLFv3ojg1oijmrq",
+          "locations": ["notes[2].id"]
+        },
+        "action_ref2": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "978qUipwWU1afb3pBxAMq2wf4W5WzecAZ3nk4iZQgrq7",
+          "content_hash": "ErFWpeaNYKuPinHXogTf2cSzoCXbFKsHAoPuupz6D7mx",
+          "locations": ["tasks[1].action.id"]
+        },
+        "workflow_note_id_ref1": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "2hpkhD1UPsAGFz27jApF3hyVnm6uy5RQoZQwWSYChzgX",
+          "content_hash": "3RuvJjoYqNBUjVpFWbqKYNBVrJ9sKdWyJp4htePBhNvE",
+          "locations": ["notes[0].id"]
+        },
+        "transition_id_ref1": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "6issHAzcGrfoKrncNYBqoeDt3MhTyhmLhX6zEMFmegMF",
+          "content_hash": "CjiTSJ1nycYfmK6CrpCYRSV5j96C5dHBgyY1PfJeWpR3",
+          "locations": ["tasks[0].next[0].id"]
+        },
+        "transition_id_ref3": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "2R7AeeXaJmXm8H47jbsRojbtYHLBJDSejV8Wqkg6CkjJ",
+          "content_hash": "nHnCbuM1oxfVhuUDChex49i6NcFbPJ9FrEYL5k4S8H9",
+          "locations": ["tasks[2].next[0].id"]
+        }
+      },
+      "dependencies": [
+        "transition_id:9AxqQ8AykAscBXCQvTd1mZSdZNUriVSQaCHNqL3oAfZc",
+        "workflow_task_id:9xMGtHxKU7DKAemELxWoeXpWxssrAKSC5gksZsirHYmf",
+        "transition_id:6issHAzcGrfoKrncNYBqoeDt3MhTyhmLhX6zEMFmegMF",
+        "transition_id:2R7AeeXaJmXm8H47jbsRojbtYHLBJDSejV8Wqkg6CkjJ",
+        "workflow_note_id:AP5wqoPWGcN4EVZwwK7phNyRwCmMfMnoo2juKymdvJYU",
+        "workflow_task_id:8zNptueT4FFibxQ9ah6FbVwF6v8k5qLyMu12R7BVHuSw",
+        "workflow:HfKEAPiomd3fuNaT15V8hAiqa1zfStyoF8eF36hHqFQQ",
+        "workflow_task_id:3jgb6RbPG8HiokyHubzNKDQhZd6BGykSbBfMBZYFv2JY",
+        "workflow_note_id:2hpkhD1UPsAGFz27jApF3hyVnm6uy5RQoZQwWSYChzgX",
+        "workflow_note_id:9axzFkqVxKmYJnSks1oVoSSvoJxHaCU8syX4gQu21kwQ",
+        "action:EH8XhYYyCqQcjE3fWEpAhXeVY7KuHV8w9h9QVsFwiyQZ",
+        "action:978qUipwWU1afb3pBxAMq2wf4W5WzecAZ3nk4iZQgrq7"
+      ]
+    },
+    "workflow:HfKEAPiomd3fuNaT15V8hAiqa1zfStyoF8eF36hHqFQQ": {
+      "type": "workflow",
+      "content_hash": "DaL4juATV3zgaaARKQu8aViq2tQoEBinTevJUBdSn7eb",
+      "hash": "9yb4zLJKkwZaQTF8N5xqiWnBfemNHtyfzhqKsFqdzWYa",
+      "fields": {
+        "humanSecondsSaved": 0,
+        "notes": [
+          {
+            "id": "@@@workflow_note_id_ref1@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref2@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref3@@@"
+          }
+        ],
+        "output": [],
+        "parameters": {
+          "email": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          },
+          "last_name": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          },
+          "first_name": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          },
+          "company_name": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          }
+        },
+        "tasks": [
+          {
+            "id": "@@@workflow_task_id_ref1@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "url": "https://teams.microsoft.com/api/webinar/prod/beta/webinar/VtqdWutbQEiD4Zr8GtojiA,Zmh2BeQ5Ik-UsO-_qA-prw,dOrtbnsiqEyQodJ37Ir6Zw,emdJFBjjIU2ccaYDQIPr9Q,w4njN4RQ-kukLSvZy7trow,Xbmmwo1d7UCksI0iFtLMBA/attendee",
+              "body": "{\r\n\"Questions\":[\r\n    {\"InternalName\":\"PredefinedQuestionFirstName\",\"Value\":\"{{ CTX.first_name }}\"},\r\n    {\"InternalName\":\"PredefinedQuestionLastName\",\"Value\":\"{{ CTX.last_name }}\"},\r\n    {\"InternalName\":\"PredefinedQuestionEmail\",\"Value\":\"{{ CTX.email }}\"},\r\n    {\"InternalName\":\"Organization\",\"Value\":\"{{ CTX.company_name }}\"}\r\n    ],\r\n    \"TimezoneOffset\":300,\"LocalizedTimezone\":\"(UTC-05:00) Eastern Time (US & Canada)\",\r\n    \"Language\":\"en-gb\",\"TimeZoneDetails\":{\"TimeZone\":\"Eastern Standard Time\",\"UtcOffset\":300\r\n}\r\n}",
+              "json": null,
+              "files": [],
+              "method": "POST",
+              "params": null,
+              "cookies": null,
+              "headers": {
+                "Content-Type": "application/json",
+                "X-Skypetoken": "eyJhbGc..."
+              },
+              "timeout": 5,
+              "auth_password": null,
+              "auth_username": null,
+              "allow_redirects": true,
+              "require_2xx_status": null
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "core_http_request",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref1@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": ["auth_password"],
+                "result": []
+              }
+            }
+          }
+        ],
+        "timeout": 28800,
+        "type": "STANDARD",
+        "varsSchema": {}
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "name": "Invite Customer to Webinar",
+        "notes[0].content": "This functional block handles the collection and processing of customer information required for webinar registration.\n\n**Purpose**: Prepare and validate customer data inputs before sending to the Microsoft Teams webinar API.\n\n**Key Data Processing**:\n- **First Name**: Extracted from workflow context ({{ CTX.first_name }})\n- **Last Name**: Extracted from workflow context ({{ CTX.last_name }})\n- **Email Address**: Extracted from workflow context ({{ CTX.email }})\n- **Company Name**: Extracted from workflow context ({{ CTX.company_name }})\n\n**Data Transformation**:\n- Maps customer data to Microsoft Teams API format using predefined question fields\n- Structures data according to Teams webinar attendee registration schema\n- Applies timezone configuration (Eastern Time UTC-05:00)\n- Sets language preference to English (en-gb)\n\n**Input Requirements**:\nThe workflow expects these context variables to be populated:\n- `first_name`: Customer's first name\n- `last_name`: Customer's last name  \n- `email`: Customer's email address\n- `company_name`: Customer's organization name\n\n**Connection to Next Block**: Processed customer data is formatted and passed to the API Integration block for webinar registration.",
+        "notes[0].metadata": {
+          "x": 217.9999713290842,
+          "y": 205.99996161847668,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 391,
+          "height": 153,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": ["0967ac96fca9428c9be71b96d50c7a5e"],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[0].title": "Customer Data Processing & Validation",
+        "notes[1].content": "This functional block manages the secure integration with Microsoft Teams webinar registration API.\n\n**Purpose**: Execute the webinar registration by sending formatted customer data to Microsoft Teams via authenticated API call.\n\n**API Configuration**:\n- **Endpoint**: Microsoft Teams webinar attendee registration API\n- **Method**: POST request to register new attendee\n- **Authentication**: Uses X-Skypetoken header for secure API access\n- **Content Type**: JSON payload format\n- **Timeout**: 5-second timeout for reliable response handling\n\n**Security Features**:\n- Authenticated API calls using Microsoft Teams token\n- Secure HTTPS communication\n- Proper content-type headers for data integrity\n- Redirect handling enabled for API endpoint changes\n\n**API Payload Structure**:\n- Sends customer information as structured Questions array\n- Includes timezone and localization settings\n- Maps internal field names to Teams API requirements:\n  - PredefinedQuestionFirstName \u2192 Customer first name\n  - PredefinedQuestionLastName \u2192 Customer last name\n  - PredefinedQuestionEmail \u2192 Customer email\n  - Organization \u2192 Customer company name\n\n**Error Handling**:\n- 5-second timeout prevents hanging requests\n- HTTP redirect following enabled for endpoint flexibility\n- Standard HTTP status code handling\n\n**Expected Output**: API response confirming successful webinar registration or error details for troubleshooting.",
+        "notes[1].metadata": {
+          "x": 189.9997337700674,
+          "y": 173.9998363735059,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 451,
+          "height": 207,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": ["0967ac96fca9428c9be71b96d50c7a5e"],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[1].title": "Microsoft Teams API Integration",
+        "notes[2].content": "This functional block manages the overall workflow execution flow and response processing from the webinar registration API.\n\n**Purpose**: Control workflow execution logic and handle the response from the Microsoft Teams API registration call.\n\n**Execution Control**:\n- **Transition Mode**: FOLLOW_ALL - ensures all connected tasks execute\n- **Join Strategy**: Standard join (0) for single-task execution\n- **Timeout**: 600-second maximum execution time for the task\n- **Retry Policy**: Standard retry handling for transient failures\n\n**Success Path Handling**:\n- **Condition**: {{ SUCCEEDED }} - triggers when API call completes successfully\n- **Next Task ID**: ${UUID} (currently no follow-up tasks configured)\n- **Response Processing**: API response available for downstream tasks or workflow output\n\n**Workflow State Management**:\n- Task enabled for execution\n- No mocking configured (runs against live API)\n- No custom organization context override\n- Standard error propagation behavior\n\n**Integration Points**:\n- **Input Source**: Receives customer data from workflow context variables\n- **Output Destination**: API response available for potential follow-up tasks\n- **Error Handling**: Standard workflow error handling applies\n\n**Future Extension Points**:\n- Success/failure notification tasks can be added to the next task chain\n- Response data can be processed for confirmation emails or logging\n- Additional validation or retry logic can be inserted before API call\n\n**Current State**: Single-task workflow focused on webinar registration with room for expansion based on business requirements.",
+        "notes[2].metadata": {
+          "x": 168.9996477573199,
+          "y": 138.99976567069987,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 509,
+          "height": 271,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": ["0967ac96fca9428c9be71b96d50c7a5e"],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[2].title": "Workflow Execution & Response Handling",
+        "parameters.company_name.description": "",
+        "parameters.company_name.label": "",
+        "parameters.email.description": "",
+        "parameters.email.label": "",
+        "parameters.first_name.description": "",
+        "parameters.first_name.label": "",
+        "parameters.last_name.description": "",
+        "parameters.last_name.label": "",
+        "tasks[0].description": "Perform an HTTP request",
+        "tasks[0].metadata": {
+          "x": 240,
+          "y": 240
+        },
+        "tasks[0].next[0].label": ""
+      },
+      "references": {
+        "workflow_note_id_ref1": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "7ofVgMQjEm8Ct6M3atbacvbqwcMLkw6y842vS48V6r25",
+          "content_hash": "HdxUw4LTrNKZyRWgHfWXU9wjoWGC5jg158Vzrrdx2NHD",
+          "locations": ["notes[0].id"]
+        },
+        "workflow_task_id_ref1": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "MkaP7LPRNFP7RHzWek8ow7DMcDVXVUMwiwSnDsoMAaP",
+          "content_hash": "GUC7C4iqioZuUC7jMWT6JchfX6fYa5B5C5NERNNYU53e",
+          "locations": ["tasks[0].id"]
+        },
+        "workflow_note_id_ref2": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "Azs1XUW1TC3ZqRN33AePqnVHoW6XAEcgiysKfaBjpUXm",
+          "content_hash": "EwygwQx567yCrbAWuqBQpUrrA1NEVfpNoNuGqzCMRFtM",
+          "locations": ["notes[1].id"]
+        },
+        "transition_id_ref1": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "4RYeLcVyi4is8KkpXYdqNbsFJKimUvRv2U5vize1J1GJ",
+          "content_hash": "3ACs6pmn4KKViRGFRUbM71nnWNupv8WUTTEoGUZ9x5br",
+          "locations": ["tasks[0].next[0].id"]
+        },
+        "action_ref1": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "ExJmwbmrAYeqywjZW2FMDiSF7ynk2iyxtUa4k2CbGFTh",
+          "content_hash": "FMu3hsNV7SdbaFHCpQXe4YsxtfRZHq3LfQ8Ej6uv322w",
+          "locations": ["tasks[0].action.id"]
+        },
+        "workflow_note_id_ref3": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "HCQmw9TsBUnJB4hGtdD5fQQwGmtFZ74neJeJemTNMHE9",
+          "content_hash": "SJJLhUbDvnXZm4cZGhLWpbTpk741HDQQVP3Ck7oREqg",
+          "locations": ["notes[2].id"]
+        }
+      },
+      "dependencies": [
+        "workflow_note_id:Azs1XUW1TC3ZqRN33AePqnVHoW6XAEcgiysKfaBjpUXm",
+        "workflow_task_id:MkaP7LPRNFP7RHzWek8ow7DMcDVXVUMwiwSnDsoMAaP",
+        "workflow_note_id:HCQmw9TsBUnJB4hGtdD5fQQwGmtFZ74neJeJemTNMHE9",
+        "transition_id:4RYeLcVyi4is8KkpXYdqNbsFJKimUvRv2U5vize1J1GJ",
+        "workflow_note_id:7ofVgMQjEm8Ct6M3atbacvbqwcMLkw6y842vS48V6r25",
+        "action:ExJmwbmrAYeqywjZW2FMDiSF7ynk2iyxtUa4k2CbGFTh"
+      ]
+    }
+  },
+  "__typename": "ExportBundle"
+}

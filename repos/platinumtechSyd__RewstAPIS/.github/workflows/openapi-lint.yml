@@ -1,0 +1,36 @@
+name: Lint All OpenAPI Specs
+
+on:
+  push:
+    paths:
+      - '**/*.yaml'
+      - '**/*.yml'
+      - '**/*.json'
+  pull_request:
+    paths:
+      - '**/*.yaml'
+      - '**/*.yml'
+      - '**/*.json'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install Redocly CLI
+      run: npm install -g @redocly/cli
+
+    - name: Find and lint all YAML/YML files
+      run: |
+        find . -name "*.yaml" -o -name "*.yml" | while read file; do
+          echo "Linting $file"
+          redocly lint "$file"
+        done

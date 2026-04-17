@@ -1,0 +1,20 @@
+Organization Variables Required
+
+MFA_Choice: This has what the organization is using for their MFA. For example, if they use DUO, then it will be DUO_MFA and for Microsoft it will be MS_MFA.
+
+Trigger
+This is set to run after the New User Creation as a workflow listener
+ 
+Workflow
+1. START: Absolutely nothing
+2. rewst_get_organization_variable: Get the MFA_Choice Org Variable. Then does a check to see if it is Duo or other MFA. If it isn't Duo, it bombs out
+3. Duo_directory_sync: Forces a directory sync in duo
+4. duo_list_users: Gets the list of users from Duo
+1. duo_user: Makes the result easier to read
+5. User_Check: Checks if the user has been sync'd correctly. Loops for 3 times and bombs out if it can't find the user
+6. begin_user_enrollment: Checks if a phone number was provided. Adds note to the ticket if it was not provided
+7. Create_Phone: Creates the phone in Duo. If it already exists, it adds the note to the ticket
+8. Assign_Phone_to_User: Assigns this newly created phone to the user
+9. Send_Activation_Code_via_SMS: Sends the activation sms to the phone number provided
+10. FINISH: Absolutely nothing
+

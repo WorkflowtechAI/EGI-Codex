@@ -1,0 +1,184 @@
+/**
+ * @vitest-environment jsdom
+ */
+
+import { beforeEach, describe, expect, it, vi } from 'vitest';
+
+import { downloadHTMLFile, exportDeckToHTML } from './export-html.js';
+
+function createDeck(slideCount) {
+  return {
+    title: 'Offline Deck',
+    defaultTheme: 'rewst',
+    slides: Array.from({ length: slideCount }, (_, index) => ({
+      id: `slide-${index + 1}`,
+      type: index % 2 === 0 ? 'title' : 'content',
+      title: `Slide ${index + 1}`,
+      notes: `Speaker note ${index + 1}`,
+    })),
+  };
+}
+
+function mockCaptureSlide() {
+  return vi.fn(() => Promise.resolve('data:image/png;base64,fake-slide'));
+}
+
+describe('export-html', () => {
+  let anchor;
+  let createElement;
+  let createObjectURL;
+  let revokeObjectURL;
+
+  beforeEach(() => {
+    vi.clearAllMocks();
+
+    anchor = {
+      href: '',
+      download: '',
+      click: vi.fn(),
+    };
+
+    createElement = vi.fn((tagName) => {
+      if (tagName === 'a') {
+        return anchor;
+      }
+
+      return { tagName };
+    });
+
+    createObjectURL = vi.fn(() => 'blob:html-export');
+    revokeObjectURL = vi.fn();
+
+    Object.defineProperty(globalThis, 'document', {
+      value: {
+        createElement,
+      },
+      configurable: true,
+      writable: true,
+    });
+
+    Object.defineProperty(globalThis, 'URL', {
+      value: {
+        createObjectURL,
+        revokeObjectURL,
+      },
+      configurable: true,
+      writable: true,
+    });
+  });
+
+  it('exportDeckToHTML returns a string starting with doctype', async () => {
+    const html = await exportDeckToHTML({
+      deck: createDeck(1),
+      defaultTheme: 'rewst',
+      captureSlide: mockCaptureSlide(),
+    });
+
+    expect(html.startsWith('<!DOCTYPE html>')).toBe(true);
+  });
+
+  it('output contains base64 image data', async () => {
+    const captureSlide = mockCaptureSlide();
+    const html = await exportDeckToHTML({
+      deck: createDeck(2),
+      defaultTheme: 'rewst',
+      captureSlide,
+    });
+
+    expect(html).toContain('data:image/png;base64,fake-slide');
+    expect(captureSlide).toHaveBeenCalledTimes(2);
+  });
+
+  it('output contains speaker notes from the deck', async () => {
+    const html = await exportDeckToHTML({
+      deck: createDeck(2),
+      defaultTheme: 'rewst',
+      captureSlide: mockCaptureSlide(),
+    });
+
+    expect(html).toContain('Speaker note 1');
+    expect(html).toContain('Speaker note 2');
+  });
+
+  it('output contains keyboard navigation listener code', async () => {
+    const html = await exportDeckToHTML({
+      deck: createDeck(1),
+      defaultTheme: 'rewst',
+      captureSlide: mockCaptureSlide(),
+    });
+
+    expect(html).toContain("window.addEventListener('keydown'");
+    expect(html).toContain("case 'ArrowRight'");
+    expect(html).toContain("case 'PageDown'");
+    expect(html).toContain("case 'N'");
+  });
+
+  it('output contains the presenter mode toggle button', async () => {
+    const html = await exportDeckToHTML({
+      deck: createDeck(1),
+      defaultTheme: 'rewst',
+      captureSlide: mockCaptureSlide(),
+    });
+
+    expect(html).toContain('id="mode-toggle"');
+    expect(html).toContain('Toggle presenter mode');
+  });
+
+  it('downloadHTMLFile creates and clicks an anchor element', () => {
+    downloadHTMLFile('<!DOCTYPE html><html></html>', 'deck.html');
+
+    expect(createElement).toHaveBeenCalledWith('a');
+    expect(createObjectURL).toHaveBeenCalledWith(expect.any(Blob));
+    expect(anchor.href).toBe('blob:html-export');
+    expect(anchor.download).toBe('deck.html');
+    expect(anchor.click).toHaveBeenCalledTimes(1);
+    expect(revokeObjectURL).toHaveBeenCalledWith('blob:html-export');
+  });
+
+  it('calls onProgress for each slide', async () => {
+    const onProgress = vi.fn();
+
+    await exportDeckToHTML({
+      deck: createDeck(3),
+      defaultTheme: 'rewst',
+      captureSlide: mockCaptureSlide(),
+      onProgress,
+    });
+
+    expect(onProgress).toHaveBeenCalledTimes(3);
+    expect(onProgress).toHaveBeenNthCalledWith(1, 1, 3);
+    expect(onProgress).toHaveBeenNthCalledWith(2, 2, 3);
+    expect(onProgress).toHaveBeenNthCalledWith(3, 3, 3);
+  });
+
+  it('handles layout slides in the deck', async () => {
+    const deck = {
+      title: 'Layout Test',
+      defaultTheme: 'rewst',
+      slides: [
+        {
+          type: 'layout',
+          layout: 'two-column',
+          theme: 'rewst',
+          blocks: [
+            { slot: 'title', kind: 'heading', text: 'Test Layout' },
+            { slot: 'left', kind: 'list', items: ['a', 'b'] },
+            { slot: 'right', kind: 'metric', value: '42', label: 'Answer' },
+          ],
+          notes: 'Layout slide notes',
+        },
+      ],
+    };
+
+    const html = await exportDeckToHTML({
+      deck,
+      defaultTheme: 'rewst',
+      captureSlide: mockCaptureSlide(),
+      onProgress: vi.fn(),
+    });
+
+    expect(html).toContain('<!DOCTYPE html>');
+    expect(html).toContain('Layout slide notes');
+    expect(html).toContain('data:image/png');
+  });
+});

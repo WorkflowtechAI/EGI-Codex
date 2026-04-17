@@ -1,0 +1,1190 @@
+{
+  "version": 2,
+  "exportedAt": "2025-10-11T16:12:03.322088+00:00",
+  "signing": {
+    "cert": "-----BEGIN CERTIFICATE-----\nMIICazCCAfGgAwIBAgIUFJtHAR8D+ZfChHcAXHemH7s8zRowCgYIKoZIzj0EAwIwfDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkZMMQ4wDAYDVQQHEwVUYW1wYTEOMAwGA1UEChMFUmV3c3QxEzARBgNVBAsTClJld3N0IERldnMxKzApBgNVBAMTImxvY2FsIFJld3N0IEltcG9ydC9FeHBvcnQgQ0EyIHYxLjEwHhcNMjIwNjAzMTkwMDU1WhcNMjUwNTIzMTkwMTI1WjBDMQswCQYDVQQGEwJVUzELMAkGA1UECBMCRkwxDjAMBgNVBAcTBVRhbXBhMRcwFQYDVQQDEw5sb2NhbC5yZXdzdC5pbzB2MBAGByqGSM49AgEGBSuBBAAiA2IABMcTJzyLIvX1+3545EJbFeNVjahxVq6TFQ7n/IYZs4yEMQzDWZjAyHhJPZk3Dxq/wFzesXMYJu41rhxfz7AZh15LtFGfy9V2B4X5KH7sGJWqOan0mabuF83llruTLA/NQaNtMGswDgYDVR0PAQH/BAQDAgeAMB0GA1UdDgQWBBTDePOSC6hckrg6usrK2giZv9GxpjAfBgNVHSMEGDAWgBTojdemsJqfnB19iyMxmIi3OGYw6TAZBgNVHREEEjAQgg5sb2NhbC5yZXdzdC5pbzAKBggqhkjOPQQDAgNoADBlAjEA8NsLnuGhfTPC7dB0ojWf5WmH64qFZuPFD6Q0RwGYO0D1Tn2x5+/37kW3HFcGHV0wAjBM7LSidsc7E9+fmcesnN5hM34eGMP+YWCoEeFIPPANXQKemAgUVf35iXyU64sVEC4=\n-----END CERTIFICATE-----",
+    "hash": "sha512",
+    "signature": "MGUCMHbbnEDeVdtvNp008p0qSpIv3rJxaCSjTKAPKdaJKt/K5UMtQAmQnISZuctQpRT7hwIxAPO2nO/jb1bHlosK6yphYhSYgTfwDctWDf00kUzMw3yuToGzwi5loJqVzr33rNoh8A=="
+  },
+  "objects": {
+    "action:GP8HZzKkGSqa5N28Mzz7t97WTPTqYbPfUHzwPKWBGJWj": {
+      "type": "action",
+      "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+      "hash": "Arr2RCEM96WqU2EkvigszSfsW9GZHa4HJC5a1fL9qZ5g",
+      "fields": {
+        "ref": "core.noop"
+      }
+    },
+    "workflow_note_id:H13MTsqBEiBU4jTF13eSw5S9C6cRmkm6rfVpXnuHGM5e": {
+      "type": "workflow_note_id",
+      "content_hash": "GkJHzDsZkda7Boi2XiEbr8oAVLjUEmu1vu8nAJ5QXCkU",
+      "hash": "6Wvai3SfJMJD3yjZPAQ45ePTCVMDKhKFHv6BRyeEwGKd",
+      "fields": {
+        "id": "c0228caa-2c84-476f-b801-ca31cd6d8d8e"
+      }
+    },
+    "form_field_id:6zZh8ETEAJuAVgh5ZEJVBS3df4TQJwge8gZCiWf7Fg3a": {
+      "type": "form_field_id",
+      "content_hash": "CmN1n9h8JPEStzw8iFZ5VJe514Qp4tvctEHC3jxWEnLS",
+      "hash": "6XGZthuLzDHkCQbhKC7iB2JfP7KazeyqRRWZtAV7xJL",
+      "fields": {
+        "id": "598f1540-6b9f-4499-a576-4ccdbfeb8bf1"
+      }
+    },
+    "form_field_id:6TypNuudz1fYHnTZFHNyC5JG7WEVfH5mewDiQdUXeNSW": {
+      "type": "form_field_id",
+      "content_hash": "DT6qnf9xykvsxa8W3HGsDV5KERFtrj3dVnmLgYeMAPEv",
+      "hash": "DA7AQxa3b9SiieY4VwbWSA7CGJFmAShTsor1RW7G3uxT",
+      "fields": {
+        "id": "4fda5b87-90a7-433b-9cd4-3001b03d65ba"
+      }
+    },
+    "transition_id:Gb54i9m1gEygvtkmj7PJPtdtXRJCYLYZyXavtD1JFmhu": {
+      "type": "transition_id",
+      "content_hash": "3hAjtvPyFncfP9Xex22VVyyzKgskWeYEC3GN4ggGrK25",
+      "hash": "ALPnqQbPgAnwXWT5nzUfBkPdi9gm4BKXgwRA9dZ693sm",
+      "fields": {
+        "id": "1ff14ff2-6fda-404c-87c4-c5163cb627bb"
+      }
+    },
+    "workflow_note_id:PvDQtfwN7mne7EUCVzDVnA92WHgEQ88JymhJGUTC2wi": {
+      "type": "workflow_note_id",
+      "content_hash": "4wQcK8og799RPw3bQGkXDMuxvERoUDc2dLd1o3BM5n7X",
+      "hash": "FnFKmutGQin6UxFExd7RzRSPoscBnpVvTCmGLdvj6Y16",
+      "fields": {
+        "id": "b65855fe-3bc0-4b75-bc53-e035ba922152"
+      }
+    },
+    "form_field_id:8g1tJ9tBMnd2QNxbyun6jx4miTAwyiXsngEGojyctfWY": {
+      "type": "form_field_id",
+      "content_hash": "99C8NkjykeN3CEGYHc8zaVmHm2cnGjbS5VVGKgiE7iJz",
+      "hash": "6YZnDZ23V56XVzLcSN7FiuiZgFa13udJJY2pyt4TVpyc",
+      "fields": {
+        "id": "3dd37584-95f4-485a-92d9-edfc038d2f9a"
+      }
+    },
+    "form_field_id:8ZaBe88z1GCNTrxJtAgVJtRXF3CiFv59gpR3a3h2fDUi": {
+      "type": "form_field_id",
+      "content_hash": "GEmbXyKtkkni7Ao7REpdvTTjYHFSC6q6SdeGwLmwya9A",
+      "hash": "ArUMtDQYFksbKNz27BJnC81dtVnpcKqLUJSzmBeRVFUp",
+      "fields": {
+        "id": "5fda18c8-07b0-41a1-83dd-ec3af454de27"
+      }
+    },
+    "transition_id:7xLiDWvfLPPrx4ZxPy3iTCttymHYvKA96VeGqTVqirez": {
+      "type": "transition_id",
+      "content_hash": "yeuyboZXtZYQiHihw4PJtEKd3Wf4dXEthoM2v1FiJqc",
+      "hash": "1s3dxHb3r64cxWGwE8qf4pjZjcq7aoe3efhCwkwtN3S",
+      "fields": {
+        "id": "39261bec-2a0b-4b88-a63c-c3eb43c4d414"
+      }
+    },
+    "form_field_id:G5mBbYZtuwVS76WkcL8KbqUULDNzB74uuLJDt27Y2dQr": {
+      "type": "form_field_id",
+      "content_hash": "C2MMDQkNLN3bG6w3P5QcUhPnp16MSSnndxxfrQMXbQ6A",
+      "hash": "7EJGA9L4fEqgSonpVmytRu6KqKMpfuJhuRyuKiVg5fPX",
+      "fields": {
+        "id": "2b4c0c7a-ef09-4a43-96c2-208ca64f0f57"
+      }
+    },
+    "form_field_id:6Txqhh1zecdjo9HvWCzU2AmaJE8fUTx4B6BdaDMagv1C": {
+      "type": "form_field_id",
+      "content_hash": "BybVeWfVuP3mhp58vavFVB4qE7XDBdzDaDMuVZUA8dVS",
+      "hash": "57wQ7rxyAq5LfHFuv7RMiNoHizYS9PVQ3MhPRLZRZkka",
+      "fields": {
+        "id": "1b6c8d15-c1ca-4561-8224-1cff6f7a2915"
+      }
+    },
+    "pack:4YdD2Re4WwvqW5WRvwztC7ikvVQTZYueFD7sqcYYdMta": {
+      "type": "pack",
+      "content_hash": "Cdqvnca5kZWDcq71uRTUhed8M6QV4A8fbA4SYpEuxC2W",
+      "hash": "2U1thiw7d6Qaqj1KxNJDH8ErHkM7uA2zUtd9vS4H664t",
+      "fields": {
+        "ref": "openai"
+      }
+    },
+    "transition_id:B5ykqw7T2g85RfNCqZPhPH4zcTDYxEmHJaheGFEXTYS7": {
+      "type": "transition_id",
+      "content_hash": "HygPWbdA32L4CyjkPVHUMRTrbQ8nLvVyJYpp78Dkfj9Y",
+      "hash": "97GZQJPxtQZfuU6Ji9npnjRKobcFMpVa3W4yMgdxWWF5",
+      "fields": {
+        "id": "9a184a54-c0ad-4642-98bf-4e7f14178e78"
+      }
+    },
+    "workflow_note_id:DVPwCYmvApeuqq8jHkjj6nKTmx7DNfzi9bhhQWAM5pyP": {
+      "type": "workflow_note_id",
+      "content_hash": "EwTyjyxJQYDfjg5w9WZvqbm5r8mMCDCkJvH85gJbPReG",
+      "hash": "3YEh4UBHLm8hGx5vFKBeH8mRPsfGys9A1zWTNymxBb9s",
+      "fields": {
+        "id": "f0f711ef-d026-401e-b88e-d73cd8258933"
+      }
+    },
+    "form_field_id:ExKP54ZWzjaKMxngeKzxeq2swodEdEsennabYXtn7GcW": {
+      "type": "form_field_id",
+      "content_hash": "887r3bhrGjmfuTKdBssvQSwFw6F3iAscuStE1N45JntW",
+      "hash": "3TzMVPRRTDYa2sKd23p7gCNB63YihQEN6deRk9sqLDUo",
+      "fields": {
+        "id": "13221a59-9a35-4897-b83e-15a25b93f143"
+      }
+    },
+    "form_field_id:5W1Wgvc6ZG7jgF355sehAy7XbWQEGn2e7aQTzjTXm9YJ": {
+      "type": "form_field_id",
+      "content_hash": "3wqxG9GefyVmxWGYFvThPRgUcE47GXmqsZ3naj988Tm6",
+      "hash": "3GaKVg6rHoXY8Zyc8tMPagcRyx2E2aEpGSSBQTbHxrHc",
+      "fields": {
+        "id": "0b797026-04b0-4623-af5c-6f3983c8cc17"
+      }
+    },
+    "action:HrLe7Jt6gp8VcCbnBnbsdWZmV9e4mzBhii8gV4FZKzp3": {
+      "type": "action",
+      "content_hash": "3Bn5cBFXNiF7JitnRionXXHnWQ2J6NkNqWRAL7n6Z44k",
+      "hash": "9wdHUmKzMLCCrRZuXE2vzkStnq5SHWAJz35ZGV5G3q83",
+      "fields": {
+        "ref": "openai.create_chat_completion"
+      }
+    },
+    "workflow_task_id:C5YDfQQkLLNKV7MNpXMVnAFq4BvLRwNraMa4UyvxhBsW": {
+      "type": "workflow_task_id",
+      "content_hash": "Aa2jd9K4dM38mcbCKTW3gyScZq935imgkTCMPk32ACYM",
+      "hash": "2UCAqwRS9XVc6rSz3NCERfaFnejfm7i5tR1Uhe4LgQkJ",
+      "fields": {
+        "id": "7fcc8878abc24044a1ce007ba5254b68"
+      }
+    },
+    "workflow_task_id:5nCY98tLXNTd1aQ5oTj3m9a9UaaEDMouPahLNDLpoUtE": {
+      "type": "workflow_task_id",
+      "content_hash": "6P4SuHK2SWWqH3vVkwmPB6gvuBtxzaibFdi4eqjCTYtX",
+      "hash": "xExCMWFkkSDsuBc8rCurEd55N3S6nhrVjL8mnKLjrsb",
+      "fields": {
+        "id": "bff070e2b82d422cbc4801ef4f57768a"
+      }
+    },
+    "trigger_type:D6N8FetPmioDM9CxHiPuPniKuYmkV4aLJAMTAqCTbJMB": {
+      "type": "trigger_type",
+      "content_hash": "Fv6DC3j7LWMDgfKVdikhAM5buyDZJdu9zZyyATsFscAw",
+      "hash": "53b99LEfP118tag3kWdzUGgyhH94QRPpzAGCaXkNsXZn",
+      "fields": {
+        "ref": "core.Form Submission"
+      }
+    },
+    "transition_id:9NXug2QRcGC1xyBmQASNE6SKKCbCUJf4prREXNYuUqZL": {
+      "type": "transition_id",
+      "content_hash": "9QnWMQJ4cDL6hZMRYLxoHkX98MvG9TMytHQ8jGAQ4dwn",
+      "hash": "8KHZrQAJWegduMyf2GhmhAbpRHBHvj2BKdNT6JDv7wu2",
+      "fields": {
+        "id": "8f2fa248-5b26-49a4-b86f-7c825ff82e57"
+      }
+    },
+    "transition_id:HbAXt4J9rxjs7KgjZNCNsjdCUGwL9Rfy6hjxtpwcp7Xo": {
+      "type": "transition_id",
+      "content_hash": "9usaAkozQDBseJLtYjEMnkYhK5fYtoyKoeVduuXgpq9d",
+      "hash": "4KmbN7to9xRVUybBKWHGYJ2ASxuKMeeQny3ZGry1s7zy",
+      "fields": {
+        "id": "af0a03fb-5e95-45ed-b760-c68913c903f5"
+      }
+    },
+    "action:FmnCUP9FU2A1FTbs5yPFFEoqhvsLRHMcqXhoUxUQ4xnL": {
+      "type": "action",
+      "content_hash": "DcoQjYdQYKa7t5hHgDqssUN6t7ryHHkZZPfezpoQ9z5s",
+      "hash": "9inx3M7WvA8CavFkGXV94kWsh6XGWa2CKK8CRwbF1fRo",
+      "fields": {
+        "ref": "core.sendmail"
+      }
+    },
+    "workflow_task_id:BPPiVxJTL3yKUy3J2WPfEH6AaqgRDWghuT5oe7Q37sBL": {
+      "type": "workflow_task_id",
+      "content_hash": "HmaaCsQvLrzXy3Z2Lv8gKNySeGg2Aw37rKZ92SR4ZNRX",
+      "hash": "CjaaPVESppRYMgzEC1m5FMFBSbg58pWD2DfYMVUxgaH2",
+      "fields": {
+        "id": "863cf124077f485fb67edb011b540764"
+      }
+    },
+    "form_field_id:FU3o2Vz387s4nLT75ymHbfy1YgxmYrAbsZtKxti8imx": {
+      "type": "form_field_id",
+      "content_hash": "3ugQ1SbFN7kQ3ung241nqEwVdZTNj7axNgMzpFHQ5ACo",
+      "hash": "EEVepdD2tyuvZEzY1uSJPEXBVcBAGxuXfVUTV1frHJ6c",
+      "fields": {
+        "id": "43d2b345-0209-4cb6-8671-ce5d57dc25e9"
+      }
+    },
+    "workflow_task_id:6K3hRKeBjdJF7Bx3cdNs5BHiwc5swd3ymJnSLgBdeiq9": {
+      "type": "workflow_task_id",
+      "content_hash": "8RGiyNc8vtMPfGLXptQ3g1btatc578wLqwqcU2M8EWcu",
+      "hash": "DwCPTytMn6DfodRdEQJtjAZ2eXr72acS1psa7dwWdykQ",
+      "fields": {
+        "id": "0b1a36b6207f414fba99509194bc0fa6"
+      }
+    },
+    "form_field_id:yTGs63Pz4CN1dktEedMHVygG8NVdyJjFCu2WFmZfwqD": {
+      "type": "form_field_id",
+      "content_hash": "8gXqBKio9FKvz7QNfCA6b2HqhNUgxmfCfLEor8Us8Jxb",
+      "hash": "4m1gt3qzfmkNk6TukBa42Gd5tJ7ryfxPRxmHFgNxXS2i",
+      "fields": {
+        "id": "2f7b7f3b-41c2-4039-a459-09d2315dd456"
+      }
+    },
+    "workflow:FoBiZBKisrBSGwQpBhJswjQ82XWH6Xy3e7orcwKUp4ZN": {
+      "type": "workflow",
+      "content_hash": "BSAfo6pDYrjcNuWtXSsm55qVpEtGa9Hh4qhfkYhBNSes",
+      "hash": "Gte8fzpPXAbWW8mBGDSKNH71VJPsyDRtb9NngubVRmrp",
+      "fields": {
+        "humanSecondsSaved": 0,
+        "notes": [
+          {
+            "id": "@@@workflow_note_id_ref1@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref2@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref3@@@"
+          }
+        ],
+        "output": [],
+        "parameters": {},
+        "tasks": [
+          {
+            "id": "@@@workflow_task_id_ref1@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "core_noop",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref4@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref1@@@",
+                "publish": [
+                  {
+                    "key": "form_inputs",
+                    "value": "{%- set keys = CTX()|list -%}\r\n{%- set excluded_keys = [\"execution_id\",\"organization\",\"originating_execution_id\",\"rewst\",\"user\",\"sentry_trace\",\"trigger_instance\"] -%}\r\n{%- set form_inputs = {} -%}\r\n{%- for key in keys -%}\r\n    {%- if key not in excluded_keys -%}\r\n        {%- do form_inputs.update({key: CTX[key]}) -%}\r\n    {%- endif -%}\r\n{%- endfor -%}\r\n{{ form_inputs }}"
+                  },
+                  {
+                    "key": "form_submitter",
+                    "value": "{{ CTX.user.username }}"
+                  },
+                  {
+                    "key": "trials",
+                    "value": "{{\r\n{\r\n  \"trial_of_fellowship\": {\r\n    \"description\": \"Get the user to reflect on their collaborative style: whether they prefer precise answers from experts, enjoy collective problem-solving, or are keen on sharing and soaking in deep expertise within a community of automation enthusiasts.\",\r\n    \"user_question\": \"Upon reaching the Tower of Community, what's your approach to collaboration?\",\r\n    \"answer_persona_mapping\": {\r\n      \"code_architect\": {\r\n        \"statement\": \"I ascend to the Elders\u2019 Council, sharing my deep expertise and soaking wisdom from the greatest minds in automation.\",\r\n        \"value\": 1\r\n      },\r\n      \"task_master\": {\r\n        \"statement\": \"I consult my Rewst Sages who I meet with regularly and offer precise, ready-to-use answers to quicken my quest.\",\r\n        \"value\": 2\r\n      },\r\n      \"auto_mage\": {\r\n        \"statement\": \"I join the Guild of Shared Wisdom, where we collectively solve quests and offer guidance.\",\r\n        \"value\": 3\r\n      }\r\n    }\r\n  },\r\n  \"trial_of_fusion\": {\r\n    \"description\": \"Explore the user's approach to integration, investigating if they utilize Rewst's built-in integration runes, manually set up basic integrations with guidance, or establish complex, custom integrations via APIs.\",\r\n    \"user_question\": \"At the Bridge of Integration, how do you merge your magical abilities with external platforms?\",\r\n    \"answer_persona_mapping\": {\r\n      \"code_architect\": {\r\n        \"statement\": \"I invoke the Spirit of APIs to establish complex, custom integrations that augment Rewst\u2019s powers.\",\r\n        \"value\": 1\r\n      },\r\n      \"task_master\": {\r\n        \"statement\": \"I use Rewst\u2019s Built-In Integration Runes, making connections without the need for extra spells.\",\r\n        \"value\": 2\r\n      },\r\n      \"auto_mage\": {\r\n        \"statement\": \"With the Oracle of Documentation and the Bridge\u2019s Guardians, I set up and extend the power of out-of-the-box integrations.\",\r\n        \"value\": 3\r\n      }\r\n    }\r\n  },\r\n  \"trial_of_knowledge\": {\r\n    \"description\": \"Navigate the user through the Grand Library of Automation to choose their path of learning: mastering pre-built automations, adapting existing automations, or creating advanced automation spells from scratch.\",\r\n    \"user_question\": \"In the Grand Library of Automation, which enchanted volume calls to you?\",\r\n    \"answer_persona_mapping\": {\r\n      \"code_architect\": {\r\n        \"statement\": \"The Scroll of Complexity: Creating Advanced Automation Spells from Scratch.\",\r\n        \"value\": 1\r\n      },\r\n      \"task_master\": {\r\n        \"statement\": \"The Book of Pre-set Spells: Mastering Pre-Built Automations in Rewst.\",\r\n        \"value\": 2\r\n      },\r\n      \"auto_mage\": {\r\n        \"statement\": \"The Codex of Adaptation: Using Rewst to Customize Your Own Automation Magic.\",\r\n        \"value\": 3\r\n      }\r\n    }\r\n  },\r\n  \"trial_of_purpose\": {\r\n    \"description\": \"Explore the user's objectives with Rewst, uncovering whether they seek to streamline operations, collaborate to refine existing automations, or innovate new automation spells.\",\r\n    \"user_question\": \"Deep within the Forest of Objectives, you find the Mirror of Goals. What reflection captures your intent?\",\r\n    \"answer_persona_mapping\": {\r\n      \"code_architect\": {\r\n        \"statement\": \"A citadel of innovation where masters of code invent groundbreaking automation spells that redefine what's possible.\",\r\n        \"value\": 1\r\n      },\r\n      \"task_master\": {\r\n        \"statement\": \"A realm efficiently run by pre-built automation spells, sparing its inhabitants from manual toil.\",\r\n        \"value\": 2\r\n      },\r\n      \"auto_mage\": {\r\n        \"statement\": \"A collaborative haven where mages and sorcerers fine-tune existing automation spells to tackle unique challenges.\",\r\n        \"value\": 3\r\n      }\r\n    }\r\n  },\r\n  \"trial_of_skill\": {\r\n    \"description\": \"Challenge the user to determine their level of coding expertise, whether they prefer a user-friendly interface, need guidance with coding, or are master coders ready to create new automation spells.\",\r\n    \"user_question\": \"As you venture into the Cave of Code, a scroll of unfamiliar script awaits. How do you approach this enigma?\",\r\n    \"answer_persona_mapping\": {\r\n      \"code_architect\": {\r\n        \"statement\": \"Ah, a script to unravel! I delve in, eager to master it and compose new spells, enhancing Rewst's native capabilities.\",\r\n        \"value\": 1\r\n      },\r\n      \"task_master\": {\r\n        \"statement\": \"I seek a Staff of User-Friendly Interface to bypass code and utilize Rewst\u2019s pre-built automation spells.\",\r\n        \"value\": 2\r\n      },\r\n      \"auto_mage\": {\r\n        \"statement\": \"With a blend of curiosity and caution, I seek guidance to decipher and adapt the unfamiliar script to my needs.\",\r\n        \"value\": 3\r\n      }\r\n    }\r\n  }\r\n}\r\n}}"
+                  },
+                  {
+                    "key": "merged_data",
+                    "value": "{{\r\n    [\r\n        {\r\n        \"trial_discovery\": key,\r\n        \"trial_question\": CTX.trials[key].user_question,\r\n        \"trial_selected_option\": CTX.trials[key].answer_persona_mapping[persona].statement,\r\n        \"trial_selected_persona\": persona,\r\n        \"trial_selected_value\": CTX.trials[key].answer_persona_mapping[persona].value,\r\n        }\r\n        for key, value in CTX.form_inputs.items()\r\n        for persona in CTX.trials[key].answer_persona_mapping\r\n        if persona == value\r\n    ]\r\n}}"
+                  },
+                  {
+                    "key": "roles_counts",
+                    "value": "{%- set roles_counts = {} -%}\r\n{%- set total_trials = CTX.form_inputs.keys() | length -%}\r\n\r\n{%- for trial, role in CTX.form_inputs.items() -%}\r\n    {%- if roles_counts.get(role) -%}\r\n        {%- do roles_counts.update({role: roles_counts[role] + 1}) -%}\r\n    {%- else -%}\r\n        {%- do roles_counts.update({role: 1}) -%}\r\n    {%- endif -%}\r\n{%- endfor -%}\r\n{{ roles_counts }}"
+                  },
+                  {
+                    "key": "form_analysis",
+                    "value": "{% set role_counts = {} %}\r\n{% set inverted_data = {\"code_architect\": [], \"auto_mage\": [], \"task_master\": []} %}\r\n{% for trial, role in CTX.form_inputs.items() %}\r\n  {% set count = role_counts.get(role, 0) + 1 %}\r\n  {% do role_counts.update({role: count}) %}\r\n  {% do inverted_data[role].append(trial) %}\r\n{% endfor %}\r\n{% set unique_roles = role_counts.keys()|list %}\r\n{% set max_count = max(role_counts.values()) %}\r\n{% set dominant_roles = [role for role, count in role_counts.items() if count == max_count] %}\r\n{% set other_roles = [role for role, count in role_counts.items() if count < max_count and count > 1] %}\r\n{% set lesser_role = \"no\" if unique_roles|length == 1 or other_roles|length == 0 else (\"hybrid\" if dominant_roles|length > 1 else other_roles[0]) %}\r\n{% set lesser_role = \"hybrid\" if dominant_roles|length > 1 else lesser_role %}\r\n{% set deviations_list = [{\"trial\": trial, \"role_deviation\": role} for trial, role in CTX.form_inputs.items() if role_counts[role] == 1] %}\r\n{{ {\r\n    \"num_unique_roles\": unique_roles|length,\r\n    \"max_num_same_role\": max_count,\r\n    \"pure_role\": unique_roles|length == 1,\r\n    \"dominant_role\": dominant_roles if dominant_roles|length > 1 else dominant_roles[0],\r\n    \"lesser_role\": lesser_role,\r\n    \"deviations_count\": deviations_list|length,\r\n    \"deviations_list\": deviations_list,\r\n    \"role_selections_by_trial\": {\"code_architect\": inverted_data[\"code_architect\"],\r\n    \"auto_mage\": inverted_data[\"auto_mage\"],\r\n    \"task_master\": inverted_data[\"task_master\"]}\r\n  }\r\n}}"
+                  }
+                ],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              },
+              {
+                "do": [
+                  "@@@workflow_task_id_ref3@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref2@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_FIRST",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref2@@@",
+            "action": {
+              "id": "@@@action_ref2@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "to": "{{ CTX.form_submitter }}",
+              "title": "Here are your Rewst Role Alignment Results",
+              "sender": "noreply",
+              "message": "{{ CTX.ai_object }}",
+              "subject": "Your Rewst Role Alignment Results",
+              "render_markdown": true
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "core_sendmail",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref3@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref3@@@",
+            "action": {
+              "id": "@@@action_ref3@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "json_body": {
+                "n": 1,
+                "stop": [],
+                "user": null,
+                "model": "gpt-4-1106-preview",
+                "top_p": null,
+                "stream": null,
+                "messages": [
+                  {
+                    "role": "system",
+                    "content": "### Revised AI Prompt for Generating a User-Specific Email Template in Rewst's Trials of Discovery\r\n\r\nIn an era characterized by automation advancements, Rewst's **Trials of Discovery** serve as a defining experience for our user community. This document outlines the structure of an email template to communicate the outcomes and key takeaways from a user's journey through these trials. It aims to be practical, contextually relevant, and adheres to best practices in technical writing and formatting standards.\r\n\r\n#### Guidelines for Crafting the Email:\r\n---\r\n##### 1. **Introduction**\r\n- **Header:** `Summary of Your Journey: Trials of Discovery Results`\r\n- **Greeting:** `Dear [User's Dominant Role or a Unique name for their Hybrid Role],`\r\n---\r\n##### 2. Objective Summary\r\n- Summarize the purpose of the **Trials of Discovery** and its relevance to Rewst's automation services.\r\n---\r\n##### 3. Role Allocation\r\n- Present the user's identified roles in a straightforward, bullet-point format.\r\n  - **Primary Role:** `[Role Title]`\r\n  - **Secondary Role:** `[Role Title or N/A]`\r\n  - **Deviations:** \r\n    - **Specific Trial:** `[Role Title]`\r\n    - ...\r\n---\r\n##### 4. Skills and Adaptability Overview\r\n- Provide a brief overview of the skills and adaptability the user demonstrated in the trials. Relate these to real-world applications in automation and system management.\r\n---\r\n##### 5. Detailed Outcomes\r\n- Enumerate the user's actions, questions encountered, and responses in each trial.\r\n  - **Trial Name:** `[Trial Name]`\r\n  - **Observations:** `[Factual Statements]`\r\n  - **Questions Posed:** `[Questions Encountered]`\r\n  - **User's Responses:**\r\n    - **Role Title:** `[User's Answers]`\r\n---\r\n##### 6. Conclusion\r\n- Offer a succinct conclusion highlighting the user's accomplishments and the next steps in their journey with Rewst.\r\n- **Sign-Off:** `Sincerely, [Your Team's Name]`"
+                  },
+                  {
+                    "role": "user",
+                    "content": "Heres the results of my role alignment quest:\r\n{{ CTX.merged_data }}\r\nHere's the analysis to consider:\r\n{{ CTX.form_analysis }}"
+                  },
+                  {
+                    "role": "assistant",
+                    "content": "heres the backstory from the trials objectives:\r\n{{ CTX.trials }}"
+                  }
+                ],
+                "logit_bias": null,
+                "max_tokens": null,
+                "temperature": 1,
+                "presence_penalty": null,
+                "frequency_penalty": null
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "open_ai_create_chat_completion_2",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref4@@@",
+                "publish": [
+                  {
+                    "key": "content",
+                    "value": "{{ (choice.message.content for choice in CTX.analyze_responses.choices) | first }}"
+                  }
+                ],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "analyze_responses",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref4@@@",
+            "action": {
+              "id": "@@@action_ref3@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "json_body": {
+                "n": 1,
+                "stop": [],
+                "user": null,
+                "model": "gpt-4-1106-preview",
+                "top_p": null,
+                "stream": null,
+                "messages": [
+                  {
+                    "role": "user",
+                    "content": "Given the following form inputs:\r\n{{ CTX.form_inputs }}\r\n\r\nPlease analyze and provide a friendly format with each as its own bullet point for an email output with the following details to be delivered to the user who completed the survey. Respond as if you're responding directly to the person who submitted the form only. Dont ackowledge the prompt in your response just give the following:\r\n- The number of unique roles.\r\n- The maximum number of times a single role appears.\r\n- Whether or not all roles are the same (pure_role).\r\n- The role that appears most frequently (dominant_role).\r\n- A secondary role if there's one that appears more than once but less than the dominant role (lesser_role).\r\n- The number of roles that appear only once (deviations_count).\r\n- A list of trials along with the roles that appear only once in the form inputs (deviations_list).\r\n- A breakdown of trials based on the roles (role_selections_by_trial).\r\n\r\nThen add an insightful ancedote based on the overall consumed knowledge from the answers for anything interesting discovered:\r\n{{ CTX.merged_data }}"
+                  },
+                  {
+                    "role": "assistant",
+                    "content": "heres the backstory from the trials objectives:\n{{ CTX.trials }}\n\nhere's the form analysis to verify your content against:\n{{ CTX.form_analysis }}"
+                  }
+                ],
+                "logit_bias": null,
+                "max_tokens": null,
+                "temperature": 1,
+                "presence_penalty": null,
+                "frequency_penalty": null
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "open_ai_create_chat_completion_2",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref2@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref5@@@",
+                "publish": [
+                  {
+                    "key": "ai_object",
+                    "value": "{{ (choice.message.content for choice in CTX.test_object.choices)|first }}"
+                  }
+                ],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "test_object",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          }
+        ],
+        "timeout": 28800,
+        "type": "STANDARD",
+        "varsSchema": {}
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "name": "[Role Alignment] Form Submission",
+        "notes[0].content": "## Overview\nThis functional block serves as the foundation of the Role Alignment workflow, responsible for capturing, processing, and analyzing form submission data to determine user personas and characteristics.\n\n## Key Objectives\n- Extract and clean form input data from user submissions\n- Map user responses to predefined role personas (Code Architect, Task Master, Auto Mage)\n- Perform comprehensive statistical analysis of role alignment patterns\n- Prepare structured data for downstream AI processing\n\n## Included Tasks\n- **core_noop**: Initial data capture and context preparation\n  - Extracts form inputs while filtering out system variables\n  - Identifies the form submitter for personalization\n  - Establishes trial definitions and persona mappings\n  - Creates merged data structure linking responses to personas\n\n## Data Transformations\nThis block performs several critical data transformations:\n- **Form Input Sanitization**: Removes system variables (execution_id, organization, etc.) to focus on user responses\n- **Response-to-Persona Mapping**: Links each trial response to corresponding persona characteristics\n- **Statistical Analysis**: Calculates role distribution, dominant patterns, and deviations\n- **Data Structuring**: Prepares clean, analyzable datasets for AI consumption\n\n## Key Outputs\n- `form_inputs`: Cleaned user response data\n- `form_submitter`: User identification for personalization\n- `merged_data`: Structured trial-to-persona mappings\n- `form_analysis`: Comprehensive statistical breakdown including dominant roles, deviations, and patterns\n\n## Connection Points\nThis block feeds directly into the AI Content Generation phase, providing the structured data foundation needed for personalized content creation. The analysis results become the primary input for AI-driven insights and recommendations.",
+        "notes[0].metadata": {
+          "x": 657,
+          "y": 273,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367,
+          "height": 118,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "7fcc8878abc24044a1ce007ba5254b68"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[0].title": "Data Processing & Analysis Engine",
+        "notes[1].content": "## Overview\nThis functional block leverages OpenAI's GPT models to transform raw role alignment data into personalized, insightful content tailored to each user's unique persona profile and trial responses.\n\n## Key Objectives\n- Generate personalized analysis of user's role alignment results\n- Create comprehensive email content with professional formatting\n- Provide contextual insights based on trial responses and persona patterns\n- Deliver actionable recommendations aligned with user's identified roles\n\n## Included Tasks\n- **open_ai_create_chat_completion_2 (First Instance)**: Analytical Content Generation\n  - Processes form inputs and merged trial data\n  - Generates friendly, bullet-point analysis of role patterns\n  - Creates insightful anecdotes based on user responses\n  - Focuses on statistical breakdown and pattern recognition\n\n- **open_ai_create_chat_completion_2 (Second Instance)**: Professional Email Formatting\n  - Transforms analysis into structured email template\n  - Applies professional formatting standards and best practices\n  - Personalizes content based on dominant role identification\n  - Creates comprehensive journey summary with actionable next steps\n\n## AI Processing Approach\nThe dual-AI approach ensures both analytical depth and professional presentation:\n- **First AI Call**: Focuses on data analysis, pattern recognition, and insight generation\n- **Second AI Call**: Emphasizes professional communication, formatting, and user experience\n\n## Content Personalization Features\n- **Role-Specific Addressing**: Greets users by their dominant role or hybrid designation\n- **Trial-Specific Insights**: References specific trials and user choices\n- **Pattern Analysis**: Highlights unique combinations and deviations\n- **Contextual Recommendations**: Provides next steps based on identified persona\n\n## Key Outputs\n- `ai_object`: Initial analytical content with insights and patterns\n- `content`: Final formatted email content ready for delivery\n\n## Connection Points\nThis block receives structured data from the Data Processing phase and transforms it into human-readable, personalized content. The generated content flows directly to the Communication & Delivery block for final user outreach.",
+        "notes[1].metadata": {
+          "x": 369,
+          "y": 489,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 991,
+          "height": 142,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "0b1a36b6207f414fba99509194bc0fa6",
+            "863cf124077f485fb67edb011b540764"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[1].title": "AI Content Generation & Personalization",
+        "notes[2].content": "## Overview\nThis functional block serves as the final delivery mechanism, ensuring that personalized role alignment results reach users through professional email communication with proper formatting and presentation.\n\n## Key Objectives\n- Deliver personalized role alignment results directly to users\n- Ensure professional presentation with markdown rendering\n- Provide immediate feedback on completed assessments\n- Complete the user journey with actionable insights and next steps\n\n## Included Tasks\n- **core_sendmail**: Professional Email Delivery\n  - Sends personalized results to the form submitter\n  - Applies professional email formatting with markdown rendering\n  - Uses branded sender address (${NOREPLY_EMAIL})\n  - Delivers comprehensive role alignment analysis and recommendations\n\n## Communication Features\n- **Personalized Addressing**: Email sent directly to the form submitter's address\n- **Professional Branding**: Uses Rewst's official no-reply sender address\n- **Rich Formatting**: Markdown rendering enabled for enhanced readability\n- **Clear Subject Line**: \"Your Rewst Role Alignment Results\" for immediate recognition\n- **Comprehensive Content**: Full analysis, insights, and recommendations included\n\n## Email Structure\nThe delivered email contains:\n- Personalized greeting based on identified role\n- Statistical breakdown of role alignment patterns\n- Detailed trial-by-trial analysis\n- Insights into unique persona combinations\n- Actionable next steps for Rewst platform engagement\n- Professional formatting with clear sections and bullet points\n\n## Quality Assurance\n- Automatic markdown rendering ensures consistent formatting\n- Professional sender address maintains brand credibility\n- Clear subject line ensures high open rates\n- Personalized content increases engagement and relevance\n\n## Key Inputs\n- `form_submitter`: Target email address for delivery\n- `ai_object`: Personalized content generated by AI processing\n\n## Workflow Completion\nThis block represents the successful completion of the Role Alignment workflow, delivering valuable insights directly to users and enabling them to better understand their automation personas within the Rewst ecosystem.\n\n## Connection Points\nThis is the terminal block of the workflow, receiving finalized content from the AI Content Generation phase and delivering it to end users. No downstream processing occurs after successful email delivery.",
+        "notes[2].metadata": {
+          "x": 369,
+          "y": 729,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367,
+          "height": 118,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "bff070e2b82d422cbc4801ef4f57768a"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[2].title": "Communication & Results Delivery",
+        "tasks[0].description": "Action that does nothing",
+        "tasks[0].metadata": {
+          "x": 672,
+          "y": 288
+        },
+        "tasks[0].next[0].label": "",
+        "tasks[0].next[1].label": "",
+        "tasks[1].description": "This sends an email",
+        "tasks[1].metadata": {
+          "x": 384,
+          "y": 744
+        },
+        "tasks[1].next[0].label": "",
+        "tasks[2].description": "Given a chat conversation, the model will return a chat completion response.",
+        "tasks[2].metadata": {
+          "x": 1008,
+          "y": 528
+        },
+        "tasks[2].next[0].label": "",
+        "tasks[3].description": "Given a chat conversation, the model will return a chat completion response.",
+        "tasks[3].metadata": {
+          "x": 384,
+          "y": 504
+        },
+        "tasks[3].next[0].label": ""
+      },
+      "references": {
+        "action_ref2": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "FmnCUP9FU2A1FTbs5yPFFEoqhvsLRHMcqXhoUxUQ4xnL",
+          "content_hash": "DcoQjYdQYKa7t5hHgDqssUN6t7ryHHkZZPfezpoQ9z5s",
+          "locations": [
+            "tasks[1].action.id"
+          ]
+        },
+        "transition_id_ref5": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "9NXug2QRcGC1xyBmQASNE6SKKCbCUJf4prREXNYuUqZL",
+          "content_hash": "9QnWMQJ4cDL6hZMRYLxoHkX98MvG9TMytHQ8jGAQ4dwn",
+          "locations": [
+            "tasks[3].next[0].id"
+          ]
+        },
+        "action_ref3": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "HrLe7Jt6gp8VcCbnBnbsdWZmV9e4mzBhii8gV4FZKzp3",
+          "content_hash": "3Bn5cBFXNiF7JitnRionXXHnWQ2J6NkNqWRAL7n6Z44k",
+          "locations": [
+            "tasks[2].action.id",
+            "tasks[3].action.id"
+          ]
+        },
+        "workflow_task_id_ref3": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "BPPiVxJTL3yKUy3J2WPfEH6AaqgRDWghuT5oe7Q37sBL",
+          "content_hash": "HmaaCsQvLrzXy3Z2Lv8gKNySeGg2Aw37rKZ92SR4ZNRX",
+          "locations": [
+            "tasks[2].id",
+            "tasks[0].next[1].do[0]"
+          ]
+        },
+        "workflow_note_id_ref3": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "PvDQtfwN7mne7EUCVzDVnA92WHgEQ88JymhJGUTC2wi",
+          "content_hash": "4wQcK8og799RPw3bQGkXDMuxvERoUDc2dLd1o3BM5n7X",
+          "locations": [
+            "notes[2].id"
+          ]
+        },
+        "workflow_task_id_ref4": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "6K3hRKeBjdJF7Bx3cdNs5BHiwc5swd3ymJnSLgBdeiq9",
+          "content_hash": "8RGiyNc8vtMPfGLXptQ3g1btatc578wLqwqcU2M8EWcu",
+          "locations": [
+            "tasks[3].id",
+            "tasks[0].next[0].do[0]"
+          ]
+        },
+        "workflow_task_id_ref1": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "C5YDfQQkLLNKV7MNpXMVnAFq4BvLRwNraMa4UyvxhBsW",
+          "content_hash": "Aa2jd9K4dM38mcbCKTW3gyScZq935imgkTCMPk32ACYM",
+          "locations": [
+            "tasks[0].id"
+          ]
+        },
+        "action_ref1": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "GP8HZzKkGSqa5N28Mzz7t97WTPTqYbPfUHzwPKWBGJWj",
+          "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+          "locations": [
+            "tasks[0].action.id"
+          ]
+        },
+        "transition_id_ref2": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "Gb54i9m1gEygvtkmj7PJPtdtXRJCYLYZyXavtD1JFmhu",
+          "content_hash": "3hAjtvPyFncfP9Xex22VVyyzKgskWeYEC3GN4ggGrK25",
+          "locations": [
+            "tasks[0].next[1].id"
+          ]
+        },
+        "transition_id_ref3": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "HbAXt4J9rxjs7KgjZNCNsjdCUGwL9Rfy6hjxtpwcp7Xo",
+          "content_hash": "9usaAkozQDBseJLtYjEMnkYhK5fYtoyKoeVduuXgpq9d",
+          "locations": [
+            "tasks[1].next[0].id"
+          ]
+        },
+        "transition_id_ref4": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "7xLiDWvfLPPrx4ZxPy3iTCttymHYvKA96VeGqTVqirez",
+          "content_hash": "yeuyboZXtZYQiHihw4PJtEKd3Wf4dXEthoM2v1FiJqc",
+          "locations": [
+            "tasks[2].next[0].id"
+          ]
+        },
+        "transition_id_ref1": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "B5ykqw7T2g85RfNCqZPhPH4zcTDYxEmHJaheGFEXTYS7",
+          "content_hash": "HygPWbdA32L4CyjkPVHUMRTrbQ8nLvVyJYpp78Dkfj9Y",
+          "locations": [
+            "tasks[0].next[0].id"
+          ]
+        },
+        "workflow_note_id_ref2": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "DVPwCYmvApeuqq8jHkjj6nKTmx7DNfzi9bhhQWAM5pyP",
+          "content_hash": "EwTyjyxJQYDfjg5w9WZvqbm5r8mMCDCkJvH85gJbPReG",
+          "locations": [
+            "notes[1].id"
+          ]
+        },
+        "workflow_task_id_ref2": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "5nCY98tLXNTd1aQ5oTj3m9a9UaaEDMouPahLNDLpoUtE",
+          "content_hash": "6P4SuHK2SWWqH3vVkwmPB6gvuBtxzaibFdi4eqjCTYtX",
+          "locations": [
+            "tasks[1].id",
+            "tasks[3].next[0].do[0]"
+          ]
+        },
+        "workflow_note_id_ref1": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "H13MTsqBEiBU4jTF13eSw5S9C6cRmkm6rfVpXnuHGM5e",
+          "content_hash": "GkJHzDsZkda7Boi2XiEbr8oAVLjUEmu1vu8nAJ5QXCkU",
+          "locations": [
+            "notes[0].id"
+          ]
+        }
+      },
+      "dependencies": [
+        "action:HrLe7Jt6gp8VcCbnBnbsdWZmV9e4mzBhii8gV4FZKzp3",
+        "workflow_task_id:C5YDfQQkLLNKV7MNpXMVnAFq4BvLRwNraMa4UyvxhBsW",
+        "transition_id:7xLiDWvfLPPrx4ZxPy3iTCttymHYvKA96VeGqTVqirez",
+        "transition_id:9NXug2QRcGC1xyBmQASNE6SKKCbCUJf4prREXNYuUqZL",
+        "action:GP8HZzKkGSqa5N28Mzz7t97WTPTqYbPfUHzwPKWBGJWj",
+        "transition_id:HbAXt4J9rxjs7KgjZNCNsjdCUGwL9Rfy6hjxtpwcp7Xo",
+        "action:FmnCUP9FU2A1FTbs5yPFFEoqhvsLRHMcqXhoUxUQ4xnL",
+        "workflow_note_id:H13MTsqBEiBU4jTF13eSw5S9C6cRmkm6rfVpXnuHGM5e",
+        "workflow_task_id:BPPiVxJTL3yKUy3J2WPfEH6AaqgRDWghuT5oe7Q37sBL",
+        "transition_id:B5ykqw7T2g85RfNCqZPhPH4zcTDYxEmHJaheGFEXTYS7",
+        "workflow_note_id:DVPwCYmvApeuqq8jHkjj6nKTmx7DNfzi9bhhQWAM5pyP",
+        "transition_id:Gb54i9m1gEygvtkmj7PJPtdtXRJCYLYZyXavtD1JFmhu",
+        "workflow_task_id:6K3hRKeBjdJF7Bx3cdNs5BHiwc5swd3ymJnSLgBdeiq9",
+        "workflow_note_id:PvDQtfwN7mne7EUCVzDVnA92WHgEQ88JymhJGUTC2wi",
+        "workflow_task_id:5nCY98tLXNTd1aQ5oTj3m9a9UaaEDMouPahLNDLpoUtE"
+      ]
+    },
+    "form:8DMdDbFdk5Sq4ju7S8fnVk4HTBmdaYgPmETCZzhCyvUz": {
+      "type": "form",
+      "content_hash": "9euTnMPK3ZNJdLvd6BUiei5eedZRjW1aY7QBWn9Wz3wp",
+      "hash": "FgDqmiNAarTQc9hd1T1fyezEJ8Dws9jqSDpzqcpPEJXh",
+      "fields": {
+        "fields": [
+          {
+            "id": "@@@form_field_id_ref1@@@",
+            "type": "TEXT",
+            "schema": {
+              "name": "text_markdown",
+              "text": "---\r\n:::warning\r\nIn the mystical realm of Rewst, where automation spells reign supreme, a quest awaits to determine your destiny.\r\nUndertake the five **Trials of Discovery** below to reveal your role in the epic saga that is Rewst.\r\n:::\r\n---\r\n# Trials of Discovery\r\nYour choices in each Trial shape your destiny in the Kingdom of Rewst. Who shall you become? Choose wisely and let your role guide you in this transformative journey through the world of Rewst.\r\n\r\n---\r\n:::tip\r\n**Trial of Purpose**",
+              "type": "TEXT",
+              "hidden": false,
+              "static": true,
+              "default": null,
+              "freeSolo": false,
+              "autoPopulate": false,
+              "overrideCache": false
+            },
+            "index": 0,
+            "conditions": []
+          },
+          {
+            "id": "@@@form_field_id_ref2@@@",
+            "type": "RADIO",
+            "schema": {
+              "enum": [
+                {
+                  "label": "A realm efficiently run by pre-built automation spells, sparing its inhabitants from manual toil.",
+                  "value": "task_master"
+                },
+                {
+                  "label": "A collaborative haven where mages and sorcerers fine-tune existing automation spells to tackle unique challenges.",
+                  "value": "auto_mage"
+                },
+                {
+                  "label": "A citadel of innovation where masters of code invent groundbreaking automation spells that redefine what's possible.",
+                  "value": "code_architect"
+                }
+              ],
+              "name": "trial_of_purpose",
+              "type": "string",
+              "hidden": false,
+              "default": null,
+              "freeSolo": false,
+              "required": false,
+              "autoPopulate": false,
+              "ui:component": "radio",
+              "overrideCache": false
+            },
+            "index": 1,
+            "conditions": []
+          },
+          {
+            "id": "@@@form_field_id_ref3@@@",
+            "type": "TEXT",
+            "schema": {
+              "name": "text_markdown2",
+              "text": "---\r\n:::tip\r\n**Trial of Knowledge**",
+              "type": "TEXT",
+              "hidden": false,
+              "static": true,
+              "default": null,
+              "freeSolo": false,
+              "autoPopulate": false,
+              "overrideCache": false
+            },
+            "index": 2,
+            "conditions": []
+          },
+          {
+            "id": "@@@form_field_id_ref4@@@",
+            "type": "RADIO",
+            "schema": {
+              "enum": [
+                {
+                  "label": "The Book of Pre-set Spells: Mastering Pre-Built Automations in Rewst.",
+                  "value": "task_master"
+                },
+                {
+                  "label": "The Codex of Adaptation: Using Rewst to Customize Your Own Automation Magic.",
+                  "value": "auto_mage"
+                },
+                {
+                  "label": "The Scroll of Complexity: Creating Advanced Automation Spells from Scratch.",
+                  "value": "code_architect"
+                }
+              ],
+              "name": "trial_of_knowledge",
+              "type": "string",
+              "hidden": false,
+              "default": null,
+              "freeSolo": false,
+              "required": false,
+              "autoPopulate": false,
+              "ui:component": "radio",
+              "overrideCache": false
+            },
+            "index": 3,
+            "conditions": []
+          },
+          {
+            "id": "@@@form_field_id_ref5@@@",
+            "type": "TEXT",
+            "schema": {
+              "name": "text_markdown3",
+              "text": "---\r\n:::tip\r\n**Trial of Skill**",
+              "type": "TEXT",
+              "hidden": false,
+              "static": true,
+              "default": null,
+              "freeSolo": false,
+              "autoPopulate": false,
+              "overrideCache": false
+            },
+            "index": 4,
+            "conditions": []
+          },
+          {
+            "id": "@@@form_field_id_ref6@@@",
+            "type": "RADIO",
+            "schema": {
+              "enum": [
+                {
+                  "label": "I seek a Staff of User-Friendly Interface to bypass code and utilize Rewst\u2019s pre-built automation spells.",
+                  "value": "task_master"
+                },
+                {
+                  "label": "With a blend of curiosity and caution, I seek guidance to decipher and adapt the unfamiliar script to my needs.",
+                  "value": "auto_mage"
+                },
+                {
+                  "label": "Ah, a script to unravel! I delve in, eager to master it and compose new spells, enhancing Rewst's native capabilities.",
+                  "value": "code_architect"
+                }
+              ],
+              "name": "trial_of_skill",
+              "type": "string",
+              "hidden": false,
+              "default": null,
+              "freeSolo": false,
+              "required": false,
+              "autoPopulate": false,
+              "ui:component": "radio",
+              "overrideCache": false
+            },
+            "index": 5,
+            "conditions": []
+          },
+          {
+            "id": "@@@form_field_id_ref7@@@",
+            "type": "TEXT",
+            "schema": {
+              "name": "text_markdown4",
+              "text": "---\r\n:::tip\r\n**Trial of Fusion**",
+              "type": "TEXT",
+              "hidden": false,
+              "static": true,
+              "default": null,
+              "freeSolo": false,
+              "autoPopulate": false,
+              "overrideCache": false
+            },
+            "index": 6,
+            "conditions": []
+          },
+          {
+            "id": "@@@form_field_id_ref8@@@",
+            "type": "RADIO",
+            "schema": {
+              "enum": [
+                {
+                  "label": "I use Rewst\u2019s Built-In Integration Runes, making connections without the need for extra spells.",
+                  "value": "task_master"
+                },
+                {
+                  "label": "With the Oracle of Documentation and the Bridge\u2019s Guardians, I set up and extend the power of out-of-the-box integrations.",
+                  "value": "auto_mage"
+                },
+                {
+                  "label": "I invoke the Spirit of APIs to establish complex, custom integrations that augment Rewst\u2019s powers.",
+                  "value": "code_architect"
+                }
+              ],
+              "name": "trial_of_fusion",
+              "type": "string",
+              "hidden": false,
+              "default": null,
+              "freeSolo": false,
+              "required": false,
+              "autoPopulate": false,
+              "ui:component": "radio",
+              "overrideCache": false
+            },
+            "index": 7,
+            "conditions": []
+          },
+          {
+            "id": "@@@form_field_id_ref9@@@",
+            "type": "TEXT",
+            "schema": {
+              "name": "text_markdown6",
+              "text": "---\r\n:::tip\r\n**Trial of Fellowship**",
+              "type": "TEXT",
+              "hidden": false,
+              "static": true,
+              "default": null,
+              "freeSolo": false,
+              "autoPopulate": false,
+              "overrideCache": false
+            },
+            "index": 8,
+            "conditions": []
+          },
+          {
+            "id": "@@@form_field_id_ref10@@@",
+            "type": "RADIO",
+            "schema": {
+              "enum": [
+                {
+                  "label": "I consult my Rewst Sages who I meet with regularly and offer precise, ready-to-use answers to quicken my quest.",
+                  "value": "task_master"
+                },
+                {
+                  "label": "I join the Guild of Shared Wisdom, where we collectively solve quests and offer guidance.",
+                  "value": "auto_mage"
+                },
+                {
+                  "label": "I ascend to the Elders\u2019 Council, sharing my deep expertise and soaking wisdom from the greatest minds in automation.",
+                  "value": "code_architect"
+                }
+              ],
+              "name": "trial_of_fellowship",
+              "type": "string",
+              "hidden": false,
+              "default": null,
+              "freeSolo": false,
+              "required": false,
+              "autoPopulate": false,
+              "ui:component": "radio",
+              "overrideCache": false
+            },
+            "index": 9,
+            "conditions": []
+          }
+        ]
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "fields[1].schema.description": "Magical Aspirations",
+        "fields[1].schema.label": "Deep within the Forest of Objectives, you find the Mirror of Goals.  What reflection captures your intent?",
+        "fields[3].schema.description": "Enchanted Learning",
+        "fields[3].schema.label": "In the Grand Library of Automation, which enchanted volume calls to you?",
+        "fields[5].schema.description": "Code Conjury",
+        "fields[5].schema.label": "As you venture into the Cave of Code, a scroll of unfamiliar script awaits. How do you approach this enigma?",
+        "fields[7].schema.description": "Integration Alchemy",
+        "fields[7].schema.label": "At the Bridge of Integration, how do you merge your magical abilities with external platforms?",
+        "fields[9].schema.description": "Guild Interaction",
+        "fields[9].schema.label": "Upon reaching the Tower of Community, what's your approach to collaboration?",
+        "name": "[Role Alignment] The Quest for Mastery in the Kingdom of Rewst"
+      },
+      "references": {
+        "form_field_id_ref10": {
+          "kind": "string",
+          "type": "form_field_id",
+          "src_key_hash": "5W1Wgvc6ZG7jgF355sehAy7XbWQEGn2e7aQTzjTXm9YJ",
+          "content_hash": "3wqxG9GefyVmxWGYFvThPRgUcE47GXmqsZ3naj988Tm6",
+          "locations": [
+            "fields[9].id"
+          ]
+        },
+        "form_field_id_ref7": {
+          "kind": "string",
+          "type": "form_field_id",
+          "src_key_hash": "FU3o2Vz387s4nLT75ymHbfy1YgxmYrAbsZtKxti8imx",
+          "content_hash": "3ugQ1SbFN7kQ3ung241nqEwVdZTNj7axNgMzpFHQ5ACo",
+          "locations": [
+            "fields[6].id"
+          ]
+        },
+        "form_field_id_ref2": {
+          "kind": "string",
+          "type": "form_field_id",
+          "src_key_hash": "6zZh8ETEAJuAVgh5ZEJVBS3df4TQJwge8gZCiWf7Fg3a",
+          "content_hash": "CmN1n9h8JPEStzw8iFZ5VJe514Qp4tvctEHC3jxWEnLS",
+          "locations": [
+            "fields[1].id"
+          ]
+        },
+        "form_field_id_ref1": {
+          "kind": "string",
+          "type": "form_field_id",
+          "src_key_hash": "ExKP54ZWzjaKMxngeKzxeq2swodEdEsennabYXtn7GcW",
+          "content_hash": "887r3bhrGjmfuTKdBssvQSwFw6F3iAscuStE1N45JntW",
+          "locations": [
+            "fields[0].id"
+          ]
+        },
+        "form_field_id_ref5": {
+          "kind": "string",
+          "type": "form_field_id",
+          "src_key_hash": "6Txqhh1zecdjo9HvWCzU2AmaJE8fUTx4B6BdaDMagv1C",
+          "content_hash": "BybVeWfVuP3mhp58vavFVB4qE7XDBdzDaDMuVZUA8dVS",
+          "locations": [
+            "fields[4].id"
+          ]
+        },
+        "form_field_id_ref9": {
+          "kind": "string",
+          "type": "form_field_id",
+          "src_key_hash": "8g1tJ9tBMnd2QNxbyun6jx4miTAwyiXsngEGojyctfWY",
+          "content_hash": "99C8NkjykeN3CEGYHc8zaVmHm2cnGjbS5VVGKgiE7iJz",
+          "locations": [
+            "fields[8].id"
+          ]
+        },
+        "form_field_id_ref6": {
+          "kind": "string",
+          "type": "form_field_id",
+          "src_key_hash": "6TypNuudz1fYHnTZFHNyC5JG7WEVfH5mewDiQdUXeNSW",
+          "content_hash": "DT6qnf9xykvsxa8W3HGsDV5KERFtrj3dVnmLgYeMAPEv",
+          "locations": [
+            "fields[5].id"
+          ]
+        },
+        "form_field_id_ref8": {
+          "kind": "string",
+          "type": "form_field_id",
+          "src_key_hash": "yTGs63Pz4CN1dktEedMHVygG8NVdyJjFCu2WFmZfwqD",
+          "content_hash": "8gXqBKio9FKvz7QNfCA6b2HqhNUgxmfCfLEor8Us8Jxb",
+          "locations": [
+            "fields[7].id"
+          ]
+        },
+        "form_field_id_ref3": {
+          "kind": "string",
+          "type": "form_field_id",
+          "src_key_hash": "G5mBbYZtuwVS76WkcL8KbqUULDNzB74uuLJDt27Y2dQr",
+          "content_hash": "C2MMDQkNLN3bG6w3P5QcUhPnp16MSSnndxxfrQMXbQ6A",
+          "locations": [
+            "fields[2].id"
+          ]
+        },
+        "form_field_id_ref4": {
+          "kind": "string",
+          "type": "form_field_id",
+          "src_key_hash": "8ZaBe88z1GCNTrxJtAgVJtRXF3CiFv59gpR3a3h2fDUi",
+          "content_hash": "GEmbXyKtkkni7Ao7REpdvTTjYHFSC6q6SdeGwLmwya9A",
+          "locations": [
+            "fields[3].id"
+          ]
+        }
+      },
+      "dependencies": [
+        "form_field_id:8g1tJ9tBMnd2QNxbyun6jx4miTAwyiXsngEGojyctfWY",
+        "form_field_id:8ZaBe88z1GCNTrxJtAgVJtRXF3CiFv59gpR3a3h2fDUi",
+        "form_field_id:G5mBbYZtuwVS76WkcL8KbqUULDNzB74uuLJDt27Y2dQr",
+        "form_field_id:6Txqhh1zecdjo9HvWCzU2AmaJE8fUTx4B6BdaDMagv1C",
+        "form_field_id:6zZh8ETEAJuAVgh5ZEJVBS3df4TQJwge8gZCiWf7Fg3a",
+        "form_field_id:FU3o2Vz387s4nLT75ymHbfy1YgxmYrAbsZtKxti8imx",
+        "form_field_id:6TypNuudz1fYHnTZFHNyC5JG7WEVfH5mewDiQdUXeNSW",
+        "form_field_id:ExKP54ZWzjaKMxngeKzxeq2swodEdEsennabYXtn7GcW",
+        "form_field_id:5W1Wgvc6ZG7jgF355sehAy7XbWQEGn2e7aQTzjTXm9YJ",
+        "form_field_id:yTGs63Pz4CN1dktEedMHVygG8NVdyJjFCu2WFmZfwqD"
+      ]
+    },
+    "trigger:7hcdYyUFbYGX8ZdeASr1S198iF1dXc9ervFhLLtJoMhJ": {
+      "type": "trigger",
+      "content_hash": "AChP8GjRngpxQfugurY86Wjv6k3beG4mou6FkDMdCYew",
+      "hash": "9jzA3sxgamaEZyha3Vyup7NEF4asCzsPwhxH8hygkCx4",
+      "fields": {
+        "autoActivateManagedOrgs": true,
+        "criteria": {
+          "condition": {}
+        },
+        "enabled": true,
+        "formId": "@@@form_ref1@@@",
+        "isActivatedForOwner": true,
+        "packOverrides": [
+          {
+            "packId": "@@@pack_ref1@@@",
+            "configFallbackMode": "USE_DEFAULT",
+            "configSelectionMode": "USE_DEFAULT",
+            "searchInput": null
+          }
+        ],
+        "parameters": {
+          "form_id": "@@@form_ref1@@@"
+        },
+        "triggerTypeId": "@@@trigger_type_ref1@@@",
+        "vars": [],
+        "workflowId": "@@@workflow_ref1@@@"
+      },
+      "nonfunctional_fields": {
+        "description": null,
+        "name": "Form Submission"
+      },
+      "references": {
+        "pack_ref1": {
+          "kind": "string",
+          "type": "pack",
+          "src_key_hash": "4YdD2Re4WwvqW5WRvwztC7ikvVQTZYueFD7sqcYYdMta",
+          "content_hash": "Cdqvnca5kZWDcq71uRTUhed8M6QV4A8fbA4SYpEuxC2W",
+          "locations": [
+            "packOverrides[0].packId"
+          ]
+        },
+        "form_ref1": {
+          "kind": "string",
+          "type": "form",
+          "src_key_hash": "8DMdDbFdk5Sq4ju7S8fnVk4HTBmdaYgPmETCZzhCyvUz",
+          "content_hash": "9euTnMPK3ZNJdLvd6BUiei5eedZRjW1aY7QBWn9Wz3wp",
+          "locations": [
+            "parameters.form_id",
+            "formId"
+          ]
+        },
+        "workflow_ref1": {
+          "kind": "string",
+          "type": "workflow",
+          "src_key_hash": "FoBiZBKisrBSGwQpBhJswjQ82XWH6Xy3e7orcwKUp4ZN",
+          "content_hash": "BSAfo6pDYrjcNuWtXSsm55qVpEtGa9Hh4qhfkYhBNSes",
+          "locations": [
+            "workflowId"
+          ]
+        },
+        "trigger_type_ref1": {
+          "kind": "string",
+          "type": "trigger_type",
+          "src_key_hash": "D6N8FetPmioDM9CxHiPuPniKuYmkV4aLJAMTAqCTbJMB",
+          "content_hash": "Fv6DC3j7LWMDgfKVdikhAM5buyDZJdu9zZyyATsFscAw",
+          "locations": [
+            "triggerTypeId"
+          ]
+        }
+      },
+      "dependencies": [
+        "workflow:FoBiZBKisrBSGwQpBhJswjQ82XWH6Xy3e7orcwKUp4ZN",
+        "trigger_type:D6N8FetPmioDM9CxHiPuPniKuYmkV4aLJAMTAqCTbJMB",
+        "pack:4YdD2Re4WwvqW5WRvwztC7ikvVQTZYueFD7sqcYYdMta",
+        "form:8DMdDbFdk5Sq4ju7S8fnVk4HTBmdaYgPmETCZzhCyvUz"
+      ]
+    }
+  },
+  "__typename": "ExportBundle"
+}

@@ -1,0 +1,1960 @@
+{
+  "version": 2,
+  "exportedAt": "2025-10-11T16:11:29.614133+00:00",
+  "signing": {
+    "cert": "-----BEGIN CERTIFICATE-----\nMIICazCCAfGgAwIBAgIUFJtHAR8D+ZfChHcAXHemH7s8zRowCgYIKoZIzj0EAwIwfDELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkZMMQ4wDAYDVQQHEwVUYW1wYTEOMAwGA1UEChMFUmV3c3QxEzARBgNVBAsTClJld3N0IERldnMxKzApBgNVBAMTImxvY2FsIFJld3N0IEltcG9ydC9FeHBvcnQgQ0EyIHYxLjEwHhcNMjIwNjAzMTkwMDU1WhcNMjUwNTIzMTkwMTI1WjBDMQswCQYDVQQGEwJVUzELMAkGA1UECBMCRkwxDjAMBgNVBAcTBVRhbXBhMRcwFQYDVQQDEw5sb2NhbC5yZXdzdC5pbzB2MBAGByqGSM49AgEGBSuBBAAiA2IABMcTJzyLIvX1+3545EJbFeNVjahxVq6TFQ7n/IYZs4yEMQzDWZjAyHhJPZk3Dxq/wFzesXMYJu41rhxfz7AZh15LtFGfy9V2B4X5KH7sGJWqOan0mabuF83llruTLA/NQaNtMGswDgYDVR0PAQH/BAQDAgeAMB0GA1UdDgQWBBTDePOSC6hckrg6usrK2giZv9GxpjAfBgNVHSMEGDAWgBTojdemsJqfnB19iyMxmIi3OGYw6TAZBgNVHREEEjAQgg5sb2NhbC5yZXdzdC5pbzAKBggqhkjOPQQDAgNoADBlAjEA8NsLnuGhfTPC7dB0ojWf5WmH64qFZuPFD6Q0RwGYO0D1Tn2x5+/37kW3HFcGHV0wAjBM7LSidsc7E9+fmcesnN5hM34eGMP+YWCoEeFIPPANXQKemAgUVf35iXyU64sVEC4=\n-----END CERTIFICATE-----",
+    "hash": "sha512",
+    "signature": "MGYCMQCFZ6CoPY7DLG9eLDjq/MA6eFesQhwwerwbk+S0z+uxplovjhTy2DiRA2Fvnhgb5EQCMQDRMshNi/4EF4fgQSe1wvD76Js768KrKVoO4GE0GX/XqAR1sOAmzkxjzDboTPhi0hc="
+  },
+  "objects": {
+    "workflow_task_id:7KjrALCykvLFGG4CUS55X3WpC4c85eiaG9D2vCXdFERB": {
+      "type": "workflow_task_id",
+      "content_hash": "CCoxnnMRXF2i2K7houasi9MZFryCE614eMPUgHCSAFFK",
+      "hash": "HQdi62cGvoqWEVLATgB4NRqT9kAAGQPHLxK3w7KEij8M",
+      "fields": {
+        "id": "a49a210c78a240248e5658bc05d53ad1"
+      }
+    },
+    "transition_id:GSADHYej6gumS1x9QqwuPipNvBhmx4NG2L9v2No2pf71": {
+      "type": "transition_id",
+      "content_hash": "FTFzgZ1n9YxcA8BRakWjWkcx897yyUPxVb1R2VXHQkJc",
+      "hash": "4eWSsphG1sriyzkqhobGgaC2j9PvVkzxCqPNUkuUGuD5",
+      "fields": {
+        "id": "3f6b052b-05bd-47fa-979d-be04ebed4e56"
+      }
+    },
+    "action:CyYCjMHw1VqkxcuEfxjUQyYPBeVF6mGvbAYenpoW7wuF": {
+      "type": "action",
+      "content_hash": "A6dknns1ZQDmbzoNGk6JVPkLmq7doMXzautqoH1FcyvE",
+      "hash": "8f6XxtUBYKQZEGxw4jVfScc3aEcpAUQt6QKtz6Vd7dnp",
+      "fields": {
+        "ref": "hubspot.search_companies"
+      }
+    },
+    "workflow_task_id:8p8rvMbfM1zFtBUFT6tnW75k8DkaUNTe22M41y9paUDs": {
+      "type": "workflow_task_id",
+      "content_hash": "DjE6Yr1sCbniz7tjSMP7cJMevCHvcEQb6nrmdgwjmMec",
+      "hash": "4ykWgPVKyUSgWyTXrCRhwiuw9FqGnQm7WopRMyvhZo3r",
+      "fields": {
+        "id": "4b296bcf261749de9415f646dbf7d79c"
+      }
+    },
+    "transition_id:4kSRMqd4vAvgJBHh6fuLPZztWGqLB2PszYJdsPEQ3ikV": {
+      "type": "transition_id",
+      "content_hash": "Dt8gxyj92nxZiV9UmUiWpBEspMKeVvr1niHezzqjdzg",
+      "hash": "FBHiWBk3tW5AyPJPRwVSRfRFu7x1HhjhwWYMxTZFbXUB",
+      "fields": {
+        "id": "b866a353-de6e-43ca-9a36-2331d9365c62"
+      }
+    },
+    "action:BRDGaM7JkemwywAKMoY6p1imZ7ZkqaDo4NTXqjDdqWUQ": {
+      "type": "action",
+      "content_hash": "7YTuTcv9atKCqwFjhYrRiXAhAeeJyDGZGjhn7rXf5yy1",
+      "hash": "4a3um85o7xUdhMwE6bTxZmVkL7eQL2kyHSUC8sPiw9Vb",
+      "fields": {
+        "ref": "discord.list_guild_channels"
+      }
+    },
+    "action:Evw3qebHupPoPa7Vgyi8bZnzWJJiKFirkqsbnmXSBnNj": {
+      "type": "action",
+      "content_hash": "A2Ax8QjCWbe2vwUbzeWcwXtmu2voh2CCFfV4PTQjeWPU",
+      "hash": "Hp7SraSBKt9hxNKzXMzTVZc2AkJPNexCb5SREoyq1pVY",
+      "fields": {
+        "ref": "discord.add_role_to_user"
+      }
+    },
+    "workflow_task_id:G9Gd61786v6ezJLdZYVpaxaqJRq2SVBEwPLqugSco86H": {
+      "type": "workflow_task_id",
+      "content_hash": "2FiGYYzVoaHAya5EvV38UaZQgiCnspavjUkGS8VVZJm7",
+      "hash": "ARhJvNQpMKEkF54aUabN846ioc1ovksdCipxmZybTREm",
+      "fields": {
+        "id": "cce508c6b8df454a8e1b579c3577fadf"
+      }
+    },
+    "workflow_task_id:BKPi3mu3ZbrevNaQ9p6vUiUtzwC4EJy63U6puTSJ92V8": {
+      "type": "workflow_task_id",
+      "content_hash": "671Q6bc8jYhscyqZkVRHM3442gXUsj1fBVrG5GtJjNPW",
+      "hash": "HZcDE9ajDd6mSVzredNQqQno8QCfSBxrMk2HGcJoF6qZ",
+      "fields": {
+        "id": "6a1786dc46a9424b87086acaf837a050"
+      }
+    },
+    "transition_id:3t4wtmfas11BPU9ZbXCm4Mf8Vt6KEGZKaK9tJW3Ad6r6": {
+      "type": "transition_id",
+      "content_hash": "AZmu1v4DgVwefuRPTJCeoxUUWiz4RpPriCUbtEU7sMGY",
+      "hash": "FpwHus5aqSjb2tG9Epd2GwHti72eWAS1ebS6rWsqFc5Y",
+      "fields": {
+        "id": "b3b6ae13-1418-4cc0-a787-b74b00f0c85c"
+      }
+    },
+    "transition_id:5uWJ6jCBLPAPN33dt62eEiaL4ZwdCE6CXrB7J1Wh6vqM": {
+      "type": "transition_id",
+      "content_hash": "3we7YT4xxYLFzUBpAjsXztspwuhfe5yjrxYd4tm5zPRm",
+      "hash": "HeUTi8qRXeH6VzDnKXEANpGqBZxnrLQNEt9eEfUgJHQF",
+      "fields": {
+        "id": "5a67acdf-bf69-42f0-a351-fde973c9afb9"
+      }
+    },
+    "workflow_note_id:ERFJrkLJ5WnKbPkYbkEmEtML8TfMfVPBYdZ57ZKKtDXz": {
+      "type": "workflow_note_id",
+      "content_hash": "BEtEGbxKum1kQvfBxmxs9DGXDKGAEqy46Gp699AgnWKR",
+      "hash": "6cLu5QqcYT5QetfG8br3ZhH9MysRCZJ1orr53S6JtuK4",
+      "fields": {
+        "id": "c5b9de4f-5bf6-4a75-81c8-6101d89f5c6e"
+      }
+    },
+    "transition_id:5X8STEmU8UQZGgerL6MBS38WiqGEMvXacChr9nzPZLUG": {
+      "type": "transition_id",
+      "content_hash": "AZRG6A3hGqaNGTZ3vRChuNXDgUzbyrApgDdJ6XEpjYXr",
+      "hash": "BubTeticfFVLhQtm9hYCpuWYGDgneXjX61GseZ8aRNpk",
+      "fields": {
+        "id": "63698ece-f8ab-43b4-a65b-86bcaeeffc72"
+      }
+    },
+    "transition_id:7NhwYEpTJJ98d9W2odzoJ4gAbMtzprgeBUu86WzNQ8r8": {
+      "type": "transition_id",
+      "content_hash": "8mrMNb8yvVDqrtpKwRJtgmaSq9aD4x7EsJRnqmHeyiQx",
+      "hash": "2oVA9ExiSp5zmZhewKVFyoSBgjtsCNdsZ4jBubQb85iJ",
+      "fields": {
+        "id": "e506713e-3756-43f2-827e-ad1d6fc93293"
+      }
+    },
+    "transition_id:9jG78qaASbpy4QHXsPnRaPkqMCH7zH7B85KxNAEkCm1P": {
+      "type": "transition_id",
+      "content_hash": "8JvJtE7RinbmLbEgWaB2rQoL8rBkF3WsCbZ4pm2S6n7Z",
+      "hash": "GVmS94hGECrFsxDBSEgdspbQF8DNgrwMkWQusSTnfRAx",
+      "fields": {
+        "id": "bc6abae3-9fe9-47b5-9d5c-56040bba020e"
+      }
+    },
+    "action:6V7a6UXb8mEK3jgRoqk3YGXjxurNAJPWkc43VTeVqT4i": {
+      "type": "action",
+      "content_hash": "FMu3hsNV7SdbaFHCpQXe4YsxtfRZHq3LfQ8Ej6uv322w",
+      "hash": "CDXNu8XJkn4bBRzcx18z5UYnjXiUM2WB6hTMAwGhMQ4K",
+      "fields": {
+        "ref": "core.http_request"
+      }
+    },
+    "workflow_task_id:4CYmQHcj1nXE8e9eb85KSr6K863kqt5si1xtZKmgxK4x": {
+      "type": "workflow_task_id",
+      "content_hash": "2hizwMuQRk4ceyYFbzAeh1GtxUBKBMp1c2Z5QUFnXd8F",
+      "hash": "G2L3VGjGSXYY6dnvqa9AL3BT8PfkEBzx8rRnxNp2HuuS",
+      "fields": {
+        "id": "9f115bd9df434ce185cf381b211210b3"
+      }
+    },
+    "workflow_note_id:u6VCmvhF46fg3iZGtph35qKnvTQGLYMVV7yVaRT1XsV": {
+      "type": "workflow_note_id",
+      "content_hash": "CqvChMph8axpFSc9m6LJZ4hRCmBGQ9seBqoUNfUXMGAE",
+      "hash": "An7Hxzert9t3sfSmp9MwAKomfkmdgaBrudQBAER2wfRN",
+      "fields": {
+        "id": "832f192f-6969-47e6-81ca-315c95e992bd"
+      }
+    },
+    "workflow_task_id:G8JSHBSJkZ6EjnDQxeasJCEoUDZhrYiebSxBXjwQsAm7": {
+      "type": "workflow_task_id",
+      "content_hash": "GzcAPz1jUtCUPAATSEMs19ZU9jHxyq6N4Ui9JSvaUE1p",
+      "hash": "FePfRvzW8SuaBHrCBQBLt76FrhAfiJJk1EGtDCo6uQvS",
+      "fields": {
+        "id": "d195a24e3dea4ac88b3d5f52a0e9a3ef"
+      }
+    },
+    "workflow_task_id:3yYLo49xEiCmjQT3qUs917M9piBWF2mcaw6rvk1Bm8e1": {
+      "type": "workflow_task_id",
+      "content_hash": "CJ25gKoW2gwhUbuqDCg4tz26o5gW5tfFmStiQEMDQam3",
+      "hash": "5f2FQqrLaff4vLQZYQLqnn7cyEy11MrJighSXSr2TZ2K",
+      "fields": {
+        "id": "dcd25fef8fa44c588bb5223249a8d7e0"
+      }
+    },
+    "transition_id:E1wWFQmy5852gwmbUnGvCrcBuqGF6KPCvNjkJHGDmAsq": {
+      "type": "transition_id",
+      "content_hash": "LgCPq6ADyHa69GCSFHRg1vHcCwhDWMZbLZgxbE2TQVH",
+      "hash": "8GDP3o2NSZgcAjbUW9wf1RAFdPkUD644kwLToGoFPsVf",
+      "fields": {
+        "id": "fa6bbe56-c602-48f3-9613-4f5f39a46502"
+      }
+    },
+    "workflow_task_id:23XdwhTtpVZHXNZpYAtQkLyQ1Cixv3T4yJgFRLnRp51S": {
+      "type": "workflow_task_id",
+      "content_hash": "6qZxUnk27m1eRqvQExoYYdK5imNyWkAzNQK18tam2HxZ",
+      "hash": "AeMcdE8Bo1UPQofrvuAHTZkKVxEn1XpyAf2Xrrvcf83P",
+      "fields": {
+        "id": "f035e40021154204ae35c8ab0d37829f"
+      }
+    },
+    "transition_id:J1y5rnrVFpW4xsok5nyooehvWy8GDH7GXJkxLA1Cu4s9": {
+      "type": "transition_id",
+      "content_hash": "2Sy4Z84jDKKgZGmxxACnELEK9s6rtKZYacP3phXfk8GG",
+      "hash": "3rVTZKrDwvMuJBxa9Vw6dDhZrJUBFowhKq4RLr4we75n",
+      "fields": {
+        "id": "f154cb28-6b5c-4f81-8dcd-74ead049b1bf"
+      }
+    },
+    "workflow_task_id:DaYddpaTN2SyqszeHTP66DDxxR3JNFLQ3uaNpdwnUTst": {
+      "type": "workflow_task_id",
+      "content_hash": "EvNx9UkWfjCiE9ifYKgbAzMiy36K3bj79FSVKpMxQPJ8",
+      "hash": "2uGkUR31nmstBzsH8gvWu1eRpCQRKvQVBtvGYkidJqnv",
+      "fields": {
+        "id": "28a5fdca6f5b4d3a90ed3924e57f25e5"
+      }
+    },
+    "action:7cYtqa94QLzJ43HzbeBD4uUFB7vd3GYS3rQDe3QwcRxW": {
+      "type": "action",
+      "content_hash": "9JrLtVk9zUnRwAvwaBwYkm5dptmneow8ihM6xa1yprKf",
+      "hash": "DKTQGYko1SAE7GAHk2yrt48tRYnNdXjj5yLvw26Kt1hL",
+      "fields": {
+        "ref": "hubspot.search_contacts"
+      }
+    },
+    "transition_id:Dm52Wb7P8jFcKhdrHgjzCHW9Cv77XtgUwSoL6Z1S1poJ": {
+      "type": "transition_id",
+      "content_hash": "3mSwwxtBRpuVxhGesLqwB2KNbT4P1zAQGjU2dyB68sDm",
+      "hash": "5FnPAqEKGKbFUfdqXhP2FEqcpwF1ZocDg7yWaBzaD1m4",
+      "fields": {
+        "id": "2624fb17-35b9-4f6a-936c-7b0a9dd9b078"
+      }
+    },
+    "transition_id:25iq2jxpwmUVNyBsBK8LkGZabVebUusu793rwHNKBiXr": {
+      "type": "transition_id",
+      "content_hash": "9yMyp1dmsiYtYnFYBw429NC91ZzVxtfU21WwLruUudYD",
+      "hash": "7tXWycE2T21F5uLB6hiZbdCbAKoDbTbadrLSdmbpdFyP",
+      "fields": {
+        "id": "4c748cd9-432e-4d22-bd67-1d1e20829e09"
+      }
+    },
+    "action:Fg4vZ77kC5sa72HP2LSDFnzJ25texodHsRVHNU4pBhnw": {
+      "type": "action",
+      "content_hash": "27nv29ZhyzAjLMXWsk4tYzKWfyTqJPrxYnfvVohkYpXb",
+      "hash": "47Py4jfv9BVFGqYpE2aHGpnvYXpw1RJMM2pQ8sR8FWPm",
+      "fields": {
+        "ref": "discord.create_channel_message"
+      }
+    },
+    "workflow_task_id:7N1jxo21QmYahxLnfekUjqd5xnWEmVF7S2Tb91TfDc2x": {
+      "type": "workflow_task_id",
+      "content_hash": "xSmWKPj6c2XyQYmnbpgxed3THVQotazjVn68hWDkJRJ",
+      "hash": "3YGeuv8nDJjcxziqSDAdaRRzAy6ASaTMDHb11M5DreZH",
+      "fields": {
+        "id": "6623669284b345bb9353ffe2ef86a395"
+      }
+    },
+    "transition_id:HRRj5kvQHnpxUCMMWTwYRQoSDmmKgaQwdzoUkgrZxXN3": {
+      "type": "transition_id",
+      "content_hash": "967uiE3K8NwwpBQmcZAea2qEjVs7QcbP6ZW68P2HnqGq",
+      "hash": "6sEZTkpFrKT3GttWzSX3YEemqG5ZbwoJMV1qydT1NYLS",
+      "fields": {
+        "id": "afc80e81-2e98-4718-8e5c-9e64bfdfc3b0"
+      }
+    },
+    "workflow_task_id:CRN47HuHChAiJKw7phvxmR4jTc7FVP3gkkR6StA7LYzN": {
+      "type": "workflow_task_id",
+      "content_hash": "7SSAyJrFE66y2Co1AtQenxz74QNSEkyoHM7VAeggZadU",
+      "hash": "54YCUjj6m51fNtyHtdyA26qLwzCPqy7ZTeLAFD4oyv9a",
+      "fields": {
+        "id": "68bccda0e36e4656af2ea48b9a903c51"
+      }
+    },
+    "workflow_note_id:3xmYdjZNFgobvpcCfT1q47JfGX6vEsPu4E6j5n7qoBCp": {
+      "type": "workflow_note_id",
+      "content_hash": "HQV4DHupPgiqoFhtoGguETQRw4XhLWXCNXQq5t1WybGT",
+      "hash": "AbxQRu1mCy17jUYbK9RZEDBiwnwXieSCHt3miNBkVhR3",
+      "fields": {
+        "id": "1ab17580-57b3-420b-8fc6-68e27e28adf5"
+      }
+    },
+    "workflow_task_id:F79AmTE4xiqRzg1FshZXTnxZWm9sa1nHecnYXpGX3quF": {
+      "type": "workflow_task_id",
+      "content_hash": "EWJKffcXvDCnxgE4MHoFapkwNYevvT4r1rXombcC17Fd",
+      "hash": "DEzbK2oTrgrcDPduBECS8LGGyP9odHkdEVze6TUp5ykb",
+      "fields": {
+        "id": "ee4ead0fb59a4fcf8c98a36bc401ec3c"
+      }
+    },
+    "action:7UHLNfVzyuLcFKmUmAkxMamFc9pgNB2ScvWhLjNx3a73": {
+      "type": "action",
+      "content_hash": "8VZNKvSP1cd24o5JpEPT44Zb77AHVQmSgkhphCcZNHDK",
+      "hash": "CGqs6jLd1dvnM8LRxUxP8FFEszkiLedPRyay6SSB2jXT",
+      "fields": {
+        "ref": "rewst.get_organization"
+      }
+    },
+    "workflow_note_id:6PHPVKhZofnpiFLmGKdjWyzarQ86Qn7t6up2jHEerxPH": {
+      "type": "workflow_note_id",
+      "content_hash": "5a3tgu7Le3geSZhZvKiEAxtFx4cL5qsDKbuepqckMqwq",
+      "hash": "CtgYZq2gbkKH3xhowNjz9cRf8Mne2DoA4rv3BPNayRuQ",
+      "fields": {
+        "id": "bcf333be-6e35-4ce6-a39a-03b8ebaccfff"
+      }
+    },
+    "transition_id:56vFTcoASCidhspeLDHLsbtGe4B7D8DzDCFEQuPPL2Tk": {
+      "type": "transition_id",
+      "content_hash": "CQHYp44Ya7er1QpyjZfkH1ocg8nmYb6gceM4Nkauwwwz",
+      "hash": "3EXagTeLrzDpUz3MCSJy7h8YAc9bEZFJXDrYxbW5Rc7k",
+      "fields": {
+        "id": "7d76edc0-fcd0-442c-ae51-b6b7d2e25600"
+      }
+    },
+    "transition_id:8SJQ3Z4ziW3dufhc4Q9XVkfhRJc9RCgCPNCSArc7N5rN": {
+      "type": "transition_id",
+      "content_hash": "EtEJ7ddpRE61LudZDJngevA3aH3UuVNpSKR8VBYKKzk4",
+      "hash": "FageJ3wFrvmRKNcWzZw9cXMiBL1hFPhW1vzEXZV7aKUL",
+      "fields": {
+        "id": "15c71ce2-4b57-4665-82a1-ecdbe54f5d50"
+      }
+    },
+    "transition_id:6Wu6wsxPWE1XCCDo8ixKYGKmnvkdj3t9AGtYz8HMMFgX": {
+      "type": "transition_id",
+      "content_hash": "2PYQXwNWEXafhTVmQ2WgjgRdKUdkXgJYzKVDmq3N7aS3",
+      "hash": "AtYWnm8Xd36Q8kvfvthtsjebCmNYa2YmsHdxXhYwByiK",
+      "fields": {
+        "id": "a38d1b15-dd61-4bf6-a304-194235fd704b"
+      }
+    },
+    "transition_id:FeC1WFWXfcQMaSqMZZdrcTWR5awx36dimVh7rtqheyNw": {
+      "type": "transition_id",
+      "content_hash": "5fnqEbge3tiu4rokdA7ShnNfJZ2wKVrKg7oDjfRcgzgW",
+      "hash": "GbEaEtkoDTej2HumbpenMNA3yvchE4i1ep52b7BkMrNy",
+      "fields": {
+        "id": "ec30fa48-ca49-40a4-ae22-cdbf9db8122b"
+      }
+    },
+    "workflow_task_id:DnxTkPAmooRmxw99XLZmTKiEY85sMmSfcnzrGCHqxS7V": {
+      "type": "workflow_task_id",
+      "content_hash": "AyzBEhsULeGERkPqP4N1gxaPKXRWhz4iwTPWL8zNjGNs",
+      "hash": "DGJxtHBsHNmhDEzyUssVKJSy8yUvPqH38sh93ZCQHU8P",
+      "fields": {
+        "id": "bfacc78d186f48299d37bb5a9efc5b3e"
+      }
+    },
+    "transition_id:8maDKm63K4be8tRZZvwGDH47FkyBU9kLUs64wWBFmhqr": {
+      "type": "transition_id",
+      "content_hash": "2fkrDoLgvNfaWJ6fu7gDHCQVNiJoRbScs9216emYKxoo",
+      "hash": "AYT3v4jAsTtcoX4RJGHKxjaJ2qtExwFbzyZGDFKCMErY",
+      "fields": {
+        "id": "fafa1b56-2b10-478c-9342-de8b2e57d7fe"
+      }
+    },
+    "transition_id:5R9TyEzS1szT7iFJzNUbpa15dfVfe5P7V1m3MmgF4DHP": {
+      "type": "transition_id",
+      "content_hash": "2mkf8oyJNqq37S2igLcH6rWaHfEAz23nTHhDRCHDehdx",
+      "hash": "BYiqSVKnTqchorbzHyMY3rmU73waBcpqGBcozp5ggw1S",
+      "fields": {
+        "id": "55195a47-4f91-4e06-8789-893aa83d8d22"
+      }
+    },
+    "action:AiDgDy1GDM4nDaxD6NnqhS8ik8ZVey3sNF7WbwqLPn1G": {
+      "type": "action",
+      "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+      "hash": "Arr2RCEM96WqU2EkvigszSfsW9GZHa4HJC5a1fL9qZ5g",
+      "fields": {
+        "ref": "core.noop"
+      }
+    },
+    "workflow_task_id:4LvA1Qe8EWKftSPPKHUVDX81M7ajeJr3B4Zot51QtEtv": {
+      "type": "workflow_task_id",
+      "content_hash": "FMvJDZqd3xsEWYpcqWKUr22MFWA5HMA8nVrRaVaSHnZ4",
+      "hash": "5hQLtGDdmVhjGiyAPXaiwobL7YtowyZXDfyHHaCg7Qsn",
+      "fields": {
+        "id": "a42c856a97ba4a93a6dc2f327e54d036"
+      }
+    },
+    "workflow_task_id:J7qt97fYKHSYfNmcyh6hFhBYyYT9rZNXcCr8hwWTrecG": {
+      "type": "workflow_task_id",
+      "content_hash": "HyTzP97mVtGrJopBBeYnRC8zuSgCFiGxbAgiUV2k4hX4",
+      "hash": "CdSdDCE9fuGF3nApW3PzXSQvLZFtQjYtZbixXLac2ksT",
+      "fields": {
+        "id": "5e831d109925464d84b0d2fd1b4d941a"
+      }
+    },
+    "transition_id:2wEAJSDbS7sZJJD6YuSrDZxjrddeRXxnDH8oJBeSSEKS": {
+      "type": "transition_id",
+      "content_hash": "GAjdZCpRm2r9eKCaoC642qxGutnd4pZGCjhntkN8tpqW",
+      "hash": "7vQfpysdnDzwXSZQtHt7nawsXS7xdh8meZNwzuAXRgku",
+      "fields": {
+        "id": "d11bf27f-f5e5-4c23-b749-f0003a697239"
+      }
+    },
+    "action:21MJUh7HZvtgKKHws1vdiYq3k2ng2JvXxEQdqExD2tKt": {
+      "type": "action",
+      "content_hash": "5vfYQndyWHQUBZVt6cjPW4L3UHywbujTtCHLkVogkptd",
+      "hash": "6BF8TP7wavzPbsFPtYNHCL3rCzp8fqH9E3Yzc5Z6FDEb",
+      "fields": {
+        "ref": "hubspot.update_company"
+      }
+    },
+    "action:7iTG3fm7AWhWxgmDGERG6PcTmyxYx9hqjwMNwo8NoDou": {
+      "type": "action",
+      "content_hash": "Aj7g63oBpFTyTLgcv25UHmfMB5WmghbjNdHZYGy7KxYN",
+      "hash": "JAbYYJfYDMeHf1dt791VFAinW1gZoCwsGcGznS61qhTC",
+      "fields": {
+        "ref": "transforms.set_variable"
+      }
+    },
+    "transition_id:FcyYMFV41f4iXqG7sN713CCG1yP5LLGRjhqSN4ZqqVxz": {
+      "type": "transition_id",
+      "content_hash": "Bxd7Dt8CwV735PbRZSWdDA1CnhjTrFrqTdPfqFoo1vF2",
+      "hash": "DYpr2rEkdeRbmqTQXveXtEHabC812GKb9ZZ8kxE4mouq",
+      "fields": {
+        "id": "703cd3ee-7602-42c7-bccb-d2b4a4eb8089"
+      }
+    },
+    "workflow_task_id:5bqxsg1tkei47ditWk6R17p4QAuQFfthZi8oFSsFycYD": {
+      "type": "workflow_task_id",
+      "content_hash": "9YoJcPNVk9nJmAXRxcjYvga4BjUKWNZLtXCJib3amYr2",
+      "hash": "AvwXgwHTqku18jfxMJjBKh1zrM2pGtkJh4ExgK8RB2C6",
+      "fields": {
+        "id": "8743f19a1dba4d84b55b20189b8c581b"
+      }
+    },
+    "transition_id:Ascfv1EWiWC9z2q8jiDiESq4Auko15ykQL2YSKJJ5f42": {
+      "type": "transition_id",
+      "content_hash": "85myTCacvshHdtES3BeTCvSHxqe54gosbnpBb9UcLpUD",
+      "hash": "CdAKyfyVDLFCPpYHjozS8pGSYxePPy8E8A5Vh9CqXpar",
+      "fields": {
+        "id": "7b305e4d-1032-4653-8da4-c940fcb38aea"
+      }
+    },
+    "workflow:2shT95yWMD4cnpTErcTzuqMcyvANy3iiLqZW1WPTAz54": {
+      "type": "workflow",
+      "content_hash": "B7fHFU9qzRsecoMrTzXxwyjaEBoLz4oiYezEz8UNeBs1",
+      "hash": "62HSPVcoUM7hz2wGHVD63NfoVD4RSuAirGDy2QERqPSE",
+      "fields": {
+        "humanSecondsSaved": 0,
+        "notes": [
+          {
+            "id": "@@@workflow_note_id_ref1@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref2@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref3@@@"
+          },
+          {
+            "id": "@@@workflow_note_id_ref4@@@"
+          }
+        ],
+        "output": [],
+        "parameters": {
+          "email": {
+            "type": "string",
+            "required": false,
+            "multiline": false
+          }
+        },
+        "tasks": [
+          {
+            "id": "@@@workflow_task_id_ref1@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "begin",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref9@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref1@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref2@@@",
+            "action": {
+              "id": "@@@action_ref2@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "params": {
+                "text": "{{\r\n    {\r\n        'channel_id': channel.id,\r\n        'channel_name': channel.name,\r\n        'user_ids': [\r\n            overwrite.id for overwrite in channel.permission_overwrites\r\n            if overwrite.type == 1 and overwrite.allow == '1024'\r\n        ]\r\n    }\r\n    for channel in CTX.list_channels\r\n    if channel.name == CTX.channel_name\r\n}}"
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "collected_channel_details",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref3@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref2@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "channel_details",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref3@@@",
+            "action": {
+              "id": "@@@action_ref3@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "path_params": {
+                "role_id": "{{ CTX.alpha_role }}",
+                "user_id": "{{ item() }}",
+                "guild_id": "${DISCORD_SERVER_ID}"
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "discord_add_alpha_role",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref5@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref3@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": {
+              "items": "{{ CTX.channel_details[0].user_ids }}",
+              "concurrency": "1"
+            },
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref4@@@",
+            "action": {
+              "id": "@@@action_ref4@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "path_params": {
+                "guild_id": "${DISCORD_SERVER_ID}"
+              }
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "discord_list_channels",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref2@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref4@@@",
+                "publish": [
+                  {
+                    "key": "channel_id",
+                    "value": "{{ (channel.id for channel in CTX.list_channels if channel.name == CTX.channel_name)|first }}"
+                  }
+                ],
+                "to": null,
+                "when": "{{ CTX.list_channels|length > 0 }}"
+              },
+              {
+                "do": [
+                  "@@@workflow_task_id_ref14@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref5@@@",
+                "publish": [],
+                "to": null,
+                "when": ""
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "list_channels",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_FIRST",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref5@@@",
+            "action": {
+              "id": "@@@action_ref5@@@"
+            },
+            "humanSecondsSaved": 30,
+            "input": {
+              "json_body": {
+                "tts": null,
+                "nonce": null,
+                "embeds": [],
+                "content": "Hey {{ CTX.channel_name }} team, we've enabled your access into App Platform, and invited you into the Alpha Channel! \ud83c\udf89\r\n\r\nBefore diving into the platform functionality, make sure to check out the recording for a review of Alpha goals and demo of the platform here: [App Platform Overview](<https://www.youtube.com/watch?v=i2-nXwD18o4>). We'll be having another session in the first week of February, but this should help get you up to speed quickly in the meantime. You can also check out our [latest open mic](<https://www.youtube.com/watch?v=BescuXiYUWU>) for inspiration from some of our early alpha testers.\r\n\r\nLet us know in the <#${CHANNEL_ID_APP_PLATFORM}> channel any questions you've got. We'll reserve conversations here in <#{{ CTX.channel_id }}> for standard (non app-platform) support for now.\r\n\r\nOne last note: although we've lifted the SSL limits that were limiting our rollout, there's still a slight delay in certificate creation. You might notice it take 10-20 minutes for new apps/domains to go live. The team is currently investigating options for live status monitoring.\r\n\r\nHappy Building!"
+              },
+              "path_params": {
+                "channel_id": "{{ CTX.channel_id }}"
+              }
+            },
+            "isMocked": false,
+            "join": 1,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "discord_message_channel",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref10@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref6@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "post_message_to_channel",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref6@@@",
+            "action": {
+              "id": "@@@action_ref6@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "url": "${REWST_API_ENDPOINT}",
+              "body": "{\r\n  \"operationName\": \"updateOrgFeatureFlagSetting\",\r\n  \"query\": \"mutation updateOrgFeatureFlagSetting($orgId: ID!, $featureFlagId: ID!, $isEnabled: Boolean!) { updateOrganizationFeatureFlagSetting( orgId: $orgId featureFlagId: $featureFlagId isEnabled: $isEnabled ) { isEnabled __typename } }\",\r\n  \"variables\": {\r\n    \"orgId\": \"{{ CTX.org_id }}\",\r\n    \"featureFlagId\": \"${FEATURE_FLAG_APP_PLATFORM}\",\r\n    \"isEnabled\": true\r\n  }\r\n}",
+              "json": {},
+              "files": [],
+              "method": "POST",
+              "params": null,
+              "cookies": null,
+              "headers": {
+                "Cookie": "_ga=${ANALYTICS_TOKEN}; hubspotutk=${HUBSPOT_TOKEN}; __hstc=${HUBSPOT_TRACKING}; _ga_2TN9SNJQC2=GS1.1.1705452147.11.0.1705452157.0.0.0; appSession=${SESSION_TOKEN}",
+                "Content-Type": "application/json"
+              },
+              "timeout": 5,
+              "auth_password": null,
+              "auth_username": null,
+              "allow_redirects": true,
+              "require_2xx_status": null
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "enable_app_platform_access",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref4@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref7@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ CTX.enable_alpha.data.data.updateOrganizationFeatureFlagSetting.isEnabled }}"
+              },
+              {
+                "do": [
+                  "@@@workflow_task_id_ref11@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref8@@@",
+                "publish": [],
+                "to": null,
+                "when": ""
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "enable_alpha",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_FIRST",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [
+                  "auth_password"
+                ],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref7@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "end",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref9@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref8@@@",
+            "action": {
+              "id": "@@@action_ref7@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "query": "{{ CTX.email_domain }}",
+              "filters": [],
+              "properties": "name,domain,alpha_access,product_organization_id"
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "hs_search_companies",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref16@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref10@@@",
+                "publish": [
+                  {
+                    "key": "company_id",
+                    "value": "{{ CTX.get_company[0].id }}"
+                  },
+                  {
+                    "key": "org_id",
+                    "value": "{{ CTX.get_company[0].properties.product_organization_id }}"
+                  }
+                ],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              },
+              {
+                "do": [
+                  "@@@workflow_task_id_ref12@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref11@@@",
+                "publish": [],
+                "to": null,
+                "when": ""
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "get_company",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_FIRST",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref9@@@",
+            "action": {
+              "id": "@@@action_ref8@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "query": "{{ CTX.email }}",
+              "properties": "app_platform_submission_date,product_user_id,app_platform_alpha,attended_training,discord_username,feature_preview_interest,training_completion,success_manager,latest_open_mic_attendance,city,ip_city,hs_ip_timezone,firstname,lastname,hs_email_domain,email,hs_object_id,company,training_materials_onboarding_score,training_feedback,alpha_acceptance,contact_type,jobtitle,alpha_availability,hs_timezone,hs_analytics_last_url,latest_certification_date,certified_level",
+              "filter_value": null,
+              "filter_operation": null,
+              "filter_parameter": null
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "hs_search_contacts",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref8@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref12@@@",
+                "publish": [
+                  {
+                    "key": "channel_name",
+                    "value": "{{ CTX.get_contacts[0].properties.hs_email_domain.split(\".\")|first }}"
+                  },
+                  {
+                    "key": "discord_username",
+                    "value": "{{ CTX.get_contacts[0].properties.discord_username.split(\"#\")|first if CTX.get_contacts[0].properties.discord_username else '' }}"
+                  },
+                  {
+                    "key": "company_name",
+                    "value": "{{ CTX.get_contacts[0].properties.company }}"
+                  },
+                  {
+                    "key": "email_domain",
+                    "value": "{{ CTX.get_contacts[0].properties.hs_email_domain }}"
+                  },
+                  {
+                    "key": "product_user_id",
+                    "value": "{{ CTX.get_contacts[0].properties.product_user_id }}"
+                  }
+                ],
+                "to": null,
+                "when": "{{ SUCCEEDED and CTX.get_contacts|length > 0 }}"
+              },
+              {
+                "do": [
+                  "@@@workflow_task_id_ref13@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref13@@@",
+                "publish": [],
+                "to": null,
+                "when": ""
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "get_contacts",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_FIRST",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref10@@@",
+            "action": {
+              "id": "@@@action_ref9@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "zip": null,
+              "city": null,
+              "name": "{{ CTX.company_name }}",
+              "type": null,
+              "phone": null,
+              "state": null,
+              "domain": "{{ CTX.email_domain }}",
+              "address": null,
+              "country": null,
+              "website": null,
+              "address2": null,
+              "industry": null,
+              "company_id": "{{ CTX.company_id }}",
+              "twitterbio": null,
+              "description": null,
+              "annual_revenue": null,
+              "custom_properties": {
+                "alpha_access": "App Platform"
+              },
+              "numberofemployees": null,
+              "number_of_employees": null,
+              "facebook_company_page": null
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "hs_update_company",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref7@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref14@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref11@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "no_alpha",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref15@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref12@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "no_company",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref16@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref13@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "no_contact",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref17@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref14@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "no_discord",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref18@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref15@@@",
+            "action": {
+              "id": "@@@action_ref1@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {},
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "no_org",
+            "next": [
+              {
+                "do": [],
+                "from": null,
+                "id": "@@@transition_id_ref19@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED }}"
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_ALL",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          },
+          {
+            "id": "@@@workflow_task_id_ref16@@@",
+            "action": {
+              "id": "@@@action_ref10@@@"
+            },
+            "humanSecondsSaved": 0,
+            "input": {
+              "org_id": "{{ CTX.org_id }}"
+            },
+            "isMocked": false,
+            "join": 0,
+            "mockInput": {
+              "mock_result": {}
+            },
+            "name": "rewst_get_organization",
+            "next": [
+              {
+                "do": [
+                  "@@@workflow_task_id_ref6@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref20@@@",
+                "publish": [],
+                "to": null,
+                "when": "{{ SUCCEEDED and CTX.get_org|length > 0 }}"
+              },
+              {
+                "do": [
+                  "@@@workflow_task_id_ref15@@@"
+                ],
+                "from": null,
+                "id": "@@@transition_id_ref21@@@",
+                "publish": [],
+                "to": null,
+                "when": ""
+              }
+            ],
+            "packOverrides": [],
+            "publishResultAs": "get_org",
+            "retry": null,
+            "runAsOrgId": "",
+            "timeout": 600,
+            "transitionMode": "FOLLOW_FIRST",
+            "with": null,
+            "securitySchema": {
+              "redact": {
+                "input": [],
+                "result": []
+              }
+            }
+          }
+        ],
+        "timeout": 28800,
+        "type": "STANDARD",
+        "varsSchema": {
+          "alpha_role": {
+            "type": "string",
+            "default": "${ROLE_ID_APP_PLATFORM_BETA}",
+            "required": false,
+            "multiline": false
+          }
+        }
+      },
+      "nonfunctional_fields": {
+        "description": "",
+        "name": "[Beta Process] Add Beta Access to Community",
+        "notes[0].content": "This functional block handles the initial discovery and validation of contact and company information from HubSpot. It serves as the foundation for the entire beta access workflow by establishing the key identities and relationships needed for subsequent processing.\n\n**Key Tasks Included:**\n- **begin**: Workflow initialization point\n- **hs_search_contacts**: Searches HubSpot for the contact using the provided email address\n- **hs_search_companies**: Locates the associated company in HubSpot using the email domain\n- **rewst_get_organization**: Retrieves the corresponding Rewst organization data\n\n**Process Flow:**\nThe workflow starts by searching for the contact in HubSpot using their email address. If found, it extracts critical information including the email domain, Discord username, company name, and product user ID. Using the email domain, it then searches for the associated company in HubSpot to retrieve the company ID and organization ID. Finally, it validates that the organization exists in Rewst.\n\n**Key Outputs:**\n- Contact details (name, Discord username, product user ID)\n- Company information (name, domain, HubSpot company ID)\n- Rewst organization ID for access provisioning\n- Channel name derived from email domain\n\n**Error Handling:**\nThe workflow includes fallback paths for scenarios where contacts or companies cannot be found, routing to appropriate \"no contact\" or \"no company\" endpoints to gracefully handle missing data.",
+        "notes[0].metadata": {
+          "x": 464.9999999999999,
+          "y": 321,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367.0000000000001,
+          "height": 693.9999999999999,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "d195a24e3dea4ac88b3d5f52a0e9a3ef",
+            "8743f19a1dba4d84b55b20189b8c581b",
+            "28a5fdca6f5b4d3a90ed3924e57f25e5",
+            "f035e40021154204ae35c8ab0d37829f"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[0].title": "Contact & Company Discovery Process",
+        "notes[1].content": "This functional block manages the core access provisioning process, enabling App Platform (beta) access for the organization and updating the company record to reflect the new access status.\n\n**Key Tasks Included:**\n- **enable_app_platform_access**: Makes a GraphQL API call to Rewst to enable the App Platform feature flag for the organization\n- **hs_update_company**: Updates the HubSpot company record to mark \"App Platform\" as the alpha access status\n\n**Process Flow:**\nOnce the organization is validated, this block enables the App Platform feature flag in Rewst using a GraphQL mutation. The request targets the specific organization ID and sets the feature flag (ID: ${FEATURE_FLAG_APP_PLATFORM}) to enabled. Upon successful activation, it updates the company record in HubSpot to reflect the new access status by setting the \"alpha_access\" custom property to \"App Platform\".\n\n**Key Inputs:**\n- Organization ID from the discovery process\n- Company ID from HubSpot search\n- Company name and email domain for record updates\n\n**Success Criteria:**\nThe access is considered successfully provisioned when:\n- The GraphQL response confirms `isEnabled: true` for the feature flag\n- The HubSpot company record is updated with the alpha access status\n\n**Integration Points:**\nThis block connects the Rewst platform configuration with HubSpot CRM tracking, ensuring both systems reflect the customer's new access level. The success of this block determines whether the workflow proceeds to Discord notification or routes to error handling.",
+        "notes[1].metadata": {
+          "x": 464.99999999999994,
+          "y": 1089,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 367.00000000000017,
+          "height": 1006,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "6a1786dc46a9424b87086acaf837a050",
+            "4b296bcf261749de9415f646dbf7d79c"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[1].title": "Platform Access Provisioning",
+        "notes[2].content": "This functional block handles the Discord community integration, managing role assignments and sending welcome notifications to newly granted beta access users.\n\n**Key Tasks Included:**\n- **discord_list_channels**: Retrieves all channels from the Discord guild to locate the appropriate team channel\n- **collected_channel_details**: Processes channel data to extract channel ID, name, and authorized user IDs from permission overwrites\n- **discord_add_alpha_role**: Assigns the alpha role to authorized users in the Discord server\n- **discord_message_channel**: Sends a comprehensive welcome message to the team's Discord channel\n\n**Process Flow:**\nAfter successful access provisioning, the workflow queries Discord to find all channels in the guild (server ID: ${DISCORD_SERVER_ID}). It then locates the specific team channel matching the channel name derived from the email domain. The workflow extracts user IDs from channel permission overwrites (users with '1024' allow permission) and assigns them the alpha role. Finally, it sends a detailed welcome message to the team channel.\n\n**Channel Discovery Logic:**\nThe workflow uses a sophisticated channel matching system that:\n- Searches for channels by name matching the derived channel name\n- Extracts user IDs from permission overwrites where type=1 (user) and allow='1024' (view channel permission)\n- Publishes the channel ID for subsequent message delivery\n\n**Welcome Message Content:**\nThe notification includes:\n- Congratulatory message about App Platform access\n- Link to platform overview recording\n- Reference to latest open mic session\n- Instructions for support channels\n- Note about SSL certificate delays (10-20 minutes for new apps/domains)\n\n**Error Handling:**\nIncludes fallback paths for scenarios where Discord channels cannot be found or accessed, routing to \"no_discord\" endpoints to handle integration failures gracefully.",
+        "notes[2].metadata": {
+          "x": 461.5061719340998,
+          "y": 1281,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 370.4938280659003,
+          "height": 645.9999999999998,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "9f115bd9df434ce185cf381b211210b3",
+            "bfacc78d186f48299d37bb5a9efc5b3e",
+            "68bccda0e36e4656af2ea48b9a903c51",
+            "5e831d109925464d84b0d2fd1b4d941a"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[2].title": "Discord Integration & Community Notification",
+        "notes[3].content": "This functional block manages error scenarios and workflow termination points, ensuring graceful handling of various failure conditions throughout the beta access process.\n\n**Key Tasks Included:**\n- **no_company**: Handles cases where no matching company is found in HubSpot\n- **no_org**: Manages scenarios where the Rewst organization cannot be located or accessed\n- **no_alpha**: Addresses situations where App Platform access cannot be enabled\n- **no_discord**: Handles Discord integration failures or missing channels\n- **no_contact**: Manages cases where the contact cannot be found in HubSpot\n- **end**: Successful workflow completion endpoint\n\n**Error Scenarios Covered:**\n\n**Contact/Company Discovery Failures:**\n- Contact not found in HubSpot search results\n- Company not located using email domain\n- Missing or invalid organization mapping\n\n**Access Provisioning Failures:**\n- Organization not found in Rewst\n- Feature flag activation unsuccessful\n- GraphQL API errors or authentication issues\n\n**Discord Integration Failures:**\n- Guild channels not accessible\n- Target channel not found by name\n- Permission issues with role assignment\n- Message delivery failures\n\n**Workflow Design Pattern:**\nEach major functional block includes conditional branching that routes failed operations to appropriate \"no_*\" tasks. These tasks use the core.noop action, which serves as a clean termination point without causing workflow errors. This pattern ensures that partial failures don't crash the entire process and provides clear audit trails for troubleshooting.\n\n**Monitoring & Debugging:**\nThe error handling structure makes it easy to identify where failures occur in the beta access process, enabling quick resolution of common issues like missing HubSpot records or Discord permission problems.",
+        "notes[3].metadata": {
+          "x": 465.0000000000001,
+          "y": 670.9857614464004,
+          "fill": "rgba(66, 158, 255, 0.05)",
+          "width": 870.9999999999999,
+          "height": 1592.0142385535996,
+          "stroke": "rgba(66, 158, 255, 0.7)",
+          "padding": 15,
+          "task_ids": [
+            "ee4ead0fb59a4fcf8c98a36bc401ec3c",
+            "a42c856a97ba4a93a6dc2f327e54d036",
+            "cce508c6b8df454a8e1b579c3577fadf",
+            "6623669284b345bb9353ffe2ef86a395",
+            "a49a210c78a240248e5658bc05d53ad1",
+            "dcd25fef8fa44c588bb5223249a8d7e0"
+          ],
+          "fillEnabled": true,
+          "positioning_mode": "task_container"
+        },
+        "notes[3].title": "Error Handling & Workflow Termination",
+        "parameters.email.description": "",
+        "parameters.email.label": "",
+        "tasks[0].description": "Action that does nothing",
+        "tasks[0].metadata": {
+          "x": 480,
+          "y": 336
+        },
+        "tasks[0].next[0].label": "",
+        "tasks[1].description": "Set a variable as an action",
+        "tasks[1].metadata": {
+          "x": 476.5061719340998,
+          "y": 1470.7594709387008
+        },
+        "tasks[1].next[0].label": "",
+        "tasks[2].description": "Add a role to a user",
+        "tasks[2].metadata": {
+          "x": 479.9999999999999,
+          "y": 1656.0000000000002
+        },
+        "tasks[2].next[0].label": "",
+        "tasks[3].description": "List all channels in a guild (server)",
+        "tasks[3].metadata": {
+          "x": 479.9999999999999,
+          "y": 1296
+        },
+        "tasks[3].next[0].label": "Channel Found",
+        "tasks[3].next[1].label": "No Discord",
+        "tasks[4].description": "",
+        "tasks[4].metadata": {
+          "x": 480.0000000000001,
+          "y": 1823.9999999999998
+        },
+        "tasks[4].next[0].label": "",
+        "tasks[5].description": "Perform an HTTP request",
+        "tasks[5].metadata": {
+          "x": 479.99999999999994,
+          "y": 1104
+        },
+        "tasks[5].next[0].label": "Alpha Enabled",
+        "tasks[5].next[1].label": "Not Enabled",
+        "tasks[6].description": "Action that does nothing",
+        "tasks[6].metadata": {
+          "x": 480.0000000000001,
+          "y": 2160
+        },
+        "tasks[6].next[0].label": "",
+        "tasks[7].description": "search companies in hubspot",
+        "tasks[7].metadata": {
+          "x": 480,
+          "y": 719.9999999999999
+        },
+        "tasks[7].next[0].label": "",
+        "tasks[7].next[1].label": "No Company",
+        "tasks[8].description": "search contacts in hubspot",
+        "tasks[8].metadata": {
+          "x": 480,
+          "y": 528
+        },
+        "tasks[8].next[0].label": "Contact Found",
+        "tasks[8].next[1].label": "No Contact",
+        "tasks[9].description": "update a company in hubspot",
+        "tasks[9].metadata": {
+          "x": 480.0000000000001,
+          "y": 1992
+        },
+        "tasks[9].next[0].label": "",
+        "tasks[10].description": "Action that does nothing",
+        "tasks[10].metadata": {
+          "x": 984,
+          "y": 1223.9999999999998
+        },
+        "tasks[10].next[0].label": "",
+        "tasks[11].description": "Action that does nothing",
+        "tasks[11].metadata": {
+          "x": 984,
+          "y": 864.0000000000001
+        },
+        "tasks[11].next[0].label": "",
+        "tasks[12].description": "Action that does nothing",
+        "tasks[12].metadata": {
+          "x": 976.9035950234002,
+          "y": 685.9857614464004
+        },
+        "tasks[12].next[0].label": "",
+        "tasks[13].description": "Action that does nothing",
+        "tasks[13].metadata": {
+          "x": 984,
+          "y": 1416
+        },
+        "tasks[13].next[0].label": "",
+        "tasks[14].description": "Action that does nothing",
+        "tasks[14].metadata": {
+          "x": 984,
+          "y": 1056
+        },
+        "tasks[14].next[0].label": "",
+        "tasks[15].description": "Get data for a single organization in Rewst",
+        "tasks[15].metadata": {
+          "x": 479.9999999999999,
+          "y": 911.9999999999999
+        },
+        "tasks[15].next[0].label": "Org Found",
+        "tasks[15].next[1].label": "No Org",
+        "varsSchema.alpha_role.description": "",
+        "varsSchema.alpha_role.label": ""
+      },
+      "references": {
+        "transition_id_ref15": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "9jG78qaASbpy4QHXsPnRaPkqMCH7zH7B85KxNAEkCm1P",
+          "content_hash": "8JvJtE7RinbmLbEgWaB2rQoL8rBkF3WsCbZ4pm2S6n7Z",
+          "locations": [
+            "tasks[10].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref2": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "DnxTkPAmooRmxw99XLZmTKiEY85sMmSfcnzrGCHqxS7V",
+          "content_hash": "AyzBEhsULeGERkPqP4N1gxaPKXRWhz4iwTPWL8zNjGNs",
+          "locations": [
+            "tasks[1].id",
+            "tasks[3].next[0].do[0]"
+          ]
+        },
+        "workflow_task_id_ref12": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "F79AmTE4xiqRzg1FshZXTnxZWm9sa1nHecnYXpGX3quF",
+          "content_hash": "EWJKffcXvDCnxgE4MHoFapkwNYevvT4r1rXombcC17Fd",
+          "locations": [
+            "tasks[11].id",
+            "tasks[7].next[1].do[0]"
+          ]
+        },
+        "transition_id_ref9": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "4kSRMqd4vAvgJBHh6fuLPZztWGqLB2PszYJdsPEQ3ikV",
+          "content_hash": "Dt8gxyj92nxZiV9UmUiWpBEspMKeVvr1niHezzqjdzg",
+          "locations": [
+            "tasks[6].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref9": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "5bqxsg1tkei47ditWk6R17p4QAuQFfthZi8oFSsFycYD",
+          "content_hash": "9YoJcPNVk9nJmAXRxcjYvga4BjUKWNZLtXCJib3amYr2",
+          "locations": [
+            "tasks[8].id",
+            "tasks[0].next[0].do[0]"
+          ]
+        },
+        "workflow_task_id_ref14": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "7N1jxo21QmYahxLnfekUjqd5xnWEmVF7S2Tb91TfDc2x",
+          "content_hash": "xSmWKPj6c2XyQYmnbpgxed3THVQotazjVn68hWDkJRJ",
+          "locations": [
+            "tasks[13].id",
+            "tasks[3].next[1].do[0]"
+          ]
+        },
+        "transition_id_ref10": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "25iq2jxpwmUVNyBsBK8LkGZabVebUusu793rwHNKBiXr",
+          "content_hash": "9yMyp1dmsiYtYnFYBw429NC91ZzVxtfU21WwLruUudYD",
+          "locations": [
+            "tasks[7].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref10": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "8p8rvMbfM1zFtBUFT6tnW75k8DkaUNTe22M41y9paUDs",
+          "content_hash": "DjE6Yr1sCbniz7tjSMP7cJMevCHvcEQb6nrmdgwjmMec",
+          "locations": [
+            "tasks[9].id",
+            "tasks[4].next[0].do[0]"
+          ]
+        },
+        "transition_id_ref20": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "J1y5rnrVFpW4xsok5nyooehvWy8GDH7GXJkxLA1Cu4s9",
+          "content_hash": "2Sy4Z84jDKKgZGmxxACnELEK9s6rtKZYacP3phXfk8GG",
+          "locations": [
+            "tasks[15].next[0].id"
+          ]
+        },
+        "transition_id_ref7": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "8maDKm63K4be8tRZZvwGDH47FkyBU9kLUs64wWBFmhqr",
+          "content_hash": "2fkrDoLgvNfaWJ6fu7gDHCQVNiJoRbScs9216emYKxoo",
+          "locations": [
+            "tasks[5].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref7": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "3yYLo49xEiCmjQT3qUs917M9piBWF2mcaw6rvk1Bm8e1",
+          "content_hash": "CJ25gKoW2gwhUbuqDCg4tz26o5gW5tfFmStiQEMDQam3",
+          "locations": [
+            "tasks[6].id",
+            "tasks[9].next[0].do[0]"
+          ]
+        },
+        "action_ref2": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "7iTG3fm7AWhWxgmDGERG6PcTmyxYx9hqjwMNwo8NoDou",
+          "content_hash": "Aj7g63oBpFTyTLgcv25UHmfMB5WmghbjNdHZYGy7KxYN",
+          "locations": [
+            "tasks[1].action.id"
+          ]
+        },
+        "action_ref9": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "21MJUh7HZvtgKKHws1vdiYq3k2ng2JvXxEQdqExD2tKt",
+          "content_hash": "5vfYQndyWHQUBZVt6cjPW4L3UHywbujTtCHLkVogkptd",
+          "locations": [
+            "tasks[9].action.id"
+          ]
+        },
+        "transition_id_ref17": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "8SJQ3Z4ziW3dufhc4Q9XVkfhRJc9RCgCPNCSArc7N5rN",
+          "content_hash": "EtEJ7ddpRE61LudZDJngevA3aH3UuVNpSKR8VBYKKzk4",
+          "locations": [
+            "tasks[12].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref3": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "CRN47HuHChAiJKw7phvxmR4jTc7FVP3gkkR6StA7LYzN",
+          "content_hash": "7SSAyJrFE66y2Co1AtQenxz74QNSEkyoHM7VAeggZadU",
+          "locations": [
+            "tasks[2].id",
+            "tasks[1].next[0].do[0]"
+          ]
+        },
+        "action_ref7": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "CyYCjMHw1VqkxcuEfxjUQyYPBeVF6mGvbAYenpoW7wuF",
+          "content_hash": "A6dknns1ZQDmbzoNGk6JVPkLmq7doMXzautqoH1FcyvE",
+          "locations": [
+            "tasks[7].action.id"
+          ]
+        },
+        "workflow_task_id_ref5": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "J7qt97fYKHSYfNmcyh6hFhBYyYT9rZNXcCr8hwWTrecG",
+          "content_hash": "HyTzP97mVtGrJopBBeYnRC8zuSgCFiGxbAgiUV2k4hX4",
+          "locations": [
+            "tasks[4].id",
+            "tasks[2].next[0].do[0]"
+          ]
+        },
+        "transition_id_ref1": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "5X8STEmU8UQZGgerL6MBS38WiqGEMvXacChr9nzPZLUG",
+          "content_hash": "AZRG6A3hGqaNGTZ3vRChuNXDgUzbyrApgDdJ6XEpjYXr",
+          "locations": [
+            "tasks[0].next[0].id"
+          ]
+        },
+        "transition_id_ref6": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "E1wWFQmy5852gwmbUnGvCrcBuqGF6KPCvNjkJHGDmAsq",
+          "content_hash": "LgCPq6ADyHa69GCSFHRg1vHcCwhDWMZbLZgxbE2TQVH",
+          "locations": [
+            "tasks[4].next[0].id"
+          ]
+        },
+        "transition_id_ref8": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "5uWJ6jCBLPAPN33dt62eEiaL4ZwdCE6CXrB7J1Wh6vqM",
+          "content_hash": "3we7YT4xxYLFzUBpAjsXztspwuhfe5yjrxYd4tm5zPRm",
+          "locations": [
+            "tasks[5].next[1].id"
+          ]
+        },
+        "action_ref4": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "BRDGaM7JkemwywAKMoY6p1imZ7ZkqaDo4NTXqjDdqWUQ",
+          "content_hash": "7YTuTcv9atKCqwFjhYrRiXAhAeeJyDGZGjhn7rXf5yy1",
+          "locations": [
+            "tasks[3].action.id"
+          ]
+        },
+        "action_ref5": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "Fg4vZ77kC5sa72HP2LSDFnzJ25texodHsRVHNU4pBhnw",
+          "content_hash": "27nv29ZhyzAjLMXWsk4tYzKWfyTqJPrxYnfvVohkYpXb",
+          "locations": [
+            "tasks[4].action.id"
+          ]
+        },
+        "transition_id_ref2": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "7NhwYEpTJJ98d9W2odzoJ4gAbMtzprgeBUu86WzNQ8r8",
+          "content_hash": "8mrMNb8yvVDqrtpKwRJtgmaSq9aD4x7EsJRnqmHeyiQx",
+          "locations": [
+            "tasks[1].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref11": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "G9Gd61786v6ezJLdZYVpaxaqJRq2SVBEwPLqugSco86H",
+          "content_hash": "2FiGYYzVoaHAya5EvV38UaZQgiCnspavjUkGS8VVZJm7",
+          "locations": [
+            "tasks[10].id",
+            "tasks[5].next[1].do[0]"
+          ]
+        },
+        "transition_id_ref5": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "2wEAJSDbS7sZJJD6YuSrDZxjrddeRXxnDH8oJBeSSEKS",
+          "content_hash": "GAjdZCpRm2r9eKCaoC642qxGutnd4pZGCjhntkN8tpqW",
+          "locations": [
+            "tasks[3].next[1].id"
+          ]
+        },
+        "transition_id_ref18": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "6Wu6wsxPWE1XCCDo8ixKYGKmnvkdj3t9AGtYz8HMMFgX",
+          "content_hash": "2PYQXwNWEXafhTVmQ2WgjgRdKUdkXgJYzKVDmq3N7aS3",
+          "locations": [
+            "tasks[13].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref8": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "DaYddpaTN2SyqszeHTP66DDxxR3JNFLQ3uaNpdwnUTst",
+          "content_hash": "EvNx9UkWfjCiE9ifYKgbAzMiy36K3bj79FSVKpMxQPJ8",
+          "locations": [
+            "tasks[7].id",
+            "tasks[8].next[0].do[0]"
+          ]
+        },
+        "workflow_task_id_ref15": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "4LvA1Qe8EWKftSPPKHUVDX81M7ajeJr3B4Zot51QtEtv",
+          "content_hash": "FMvJDZqd3xsEWYpcqWKUr22MFWA5HMA8nVrRaVaSHnZ4",
+          "locations": [
+            "tasks[14].id",
+            "tasks[15].next[1].do[0]"
+          ]
+        },
+        "workflow_task_id_ref6": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "BKPi3mu3ZbrevNaQ9p6vUiUtzwC4EJy63U6puTSJ92V8",
+          "content_hash": "671Q6bc8jYhscyqZkVRHM3442gXUsj1fBVrG5GtJjNPW",
+          "locations": [
+            "tasks[5].id",
+            "tasks[15].next[0].do[0]"
+          ]
+        },
+        "workflow_note_id_ref3": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "6PHPVKhZofnpiFLmGKdjWyzarQ86Qn7t6up2jHEerxPH",
+          "content_hash": "5a3tgu7Le3geSZhZvKiEAxtFx4cL5qsDKbuepqckMqwq",
+          "locations": [
+            "notes[2].id"
+          ]
+        },
+        "action_ref3": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "Evw3qebHupPoPa7Vgyi8bZnzWJJiKFirkqsbnmXSBnNj",
+          "content_hash": "A2Ax8QjCWbe2vwUbzeWcwXtmu2voh2CCFfV4PTQjeWPU",
+          "locations": [
+            "tasks[2].action.id"
+          ]
+        },
+        "action_ref10": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "7UHLNfVzyuLcFKmUmAkxMamFc9pgNB2ScvWhLjNx3a73",
+          "content_hash": "8VZNKvSP1cd24o5JpEPT44Zb77AHVQmSgkhphCcZNHDK",
+          "locations": [
+            "tasks[15].action.id"
+          ]
+        },
+        "transition_id_ref12": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "FeC1WFWXfcQMaSqMZZdrcTWR5awx36dimVh7rtqheyNw",
+          "content_hash": "5fnqEbge3tiu4rokdA7ShnNfJZ2wKVrKg7oDjfRcgzgW",
+          "locations": [
+            "tasks[8].next[0].id"
+          ]
+        },
+        "transition_id_ref4": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "HRRj5kvQHnpxUCMMWTwYRQoSDmmKgaQwdzoUkgrZxXN3",
+          "content_hash": "967uiE3K8NwwpBQmcZAea2qEjVs7QcbP6ZW68P2HnqGq",
+          "locations": [
+            "tasks[3].next[0].id"
+          ]
+        },
+        "transition_id_ref13": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "3t4wtmfas11BPU9ZbXCm4Mf8Vt6KEGZKaK9tJW3Ad6r6",
+          "content_hash": "AZmu1v4DgVwefuRPTJCeoxUUWiz4RpPriCUbtEU7sMGY",
+          "locations": [
+            "tasks[8].next[1].id"
+          ]
+        },
+        "transition_id_ref16": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "56vFTcoASCidhspeLDHLsbtGe4B7D8DzDCFEQuPPL2Tk",
+          "content_hash": "CQHYp44Ya7er1QpyjZfkH1ocg8nmYb6gceM4Nkauwwwz",
+          "locations": [
+            "tasks[11].next[0].id"
+          ]
+        },
+        "transition_id_ref11": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "Dm52Wb7P8jFcKhdrHgjzCHW9Cv77XtgUwSoL6Z1S1poJ",
+          "content_hash": "3mSwwxtBRpuVxhGesLqwB2KNbT4P1zAQGjU2dyB68sDm",
+          "locations": [
+            "tasks[7].next[1].id"
+          ]
+        },
+        "workflow_task_id_ref4": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "4CYmQHcj1nXE8e9eb85KSr6K863kqt5si1xtZKmgxK4x",
+          "content_hash": "2hizwMuQRk4ceyYFbzAeh1GtxUBKBMp1c2Z5QUFnXd8F",
+          "locations": [
+            "tasks[3].id",
+            "tasks[5].next[0].do[0]"
+          ]
+        },
+        "action_ref1": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "AiDgDy1GDM4nDaxD6NnqhS8ik8ZVey3sNF7WbwqLPn1G",
+          "content_hash": "CdPL6KHuhM7mBvTHi4QnQbxCitnoxuRrq1BfHNnQYzKB",
+          "locations": [
+            "tasks[0].action.id",
+            "tasks[6].action.id",
+            "tasks[10].action.id",
+            "tasks[11].action.id",
+            "tasks[12].action.id",
+            "tasks[13].action.id",
+            "tasks[14].action.id"
+          ]
+        },
+        "transition_id_ref19": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "5R9TyEzS1szT7iFJzNUbpa15dfVfe5P7V1m3MmgF4DHP",
+          "content_hash": "2mkf8oyJNqq37S2igLcH6rWaHfEAz23nTHhDRCHDehdx",
+          "locations": [
+            "tasks[14].next[0].id"
+          ]
+        },
+        "workflow_task_id_ref13": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "7KjrALCykvLFGG4CUS55X3WpC4c85eiaG9D2vCXdFERB",
+          "content_hash": "CCoxnnMRXF2i2K7houasi9MZFryCE614eMPUgHCSAFFK",
+          "locations": [
+            "tasks[12].id",
+            "tasks[8].next[1].do[0]"
+          ]
+        },
+        "workflow_task_id_ref1": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "G8JSHBSJkZ6EjnDQxeasJCEoUDZhrYiebSxBXjwQsAm7",
+          "content_hash": "GzcAPz1jUtCUPAATSEMs19ZU9jHxyq6N4Ui9JSvaUE1p",
+          "locations": [
+            "tasks[0].id"
+          ]
+        },
+        "workflow_note_id_ref4": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "u6VCmvhF46fg3iZGtph35qKnvTQGLYMVV7yVaRT1XsV",
+          "content_hash": "CqvChMph8axpFSc9m6LJZ4hRCmBGQ9seBqoUNfUXMGAE",
+          "locations": [
+            "notes[3].id"
+          ]
+        },
+        "action_ref8": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "7cYtqa94QLzJ43HzbeBD4uUFB7vd3GYS3rQDe3QwcRxW",
+          "content_hash": "9JrLtVk9zUnRwAvwaBwYkm5dptmneow8ihM6xa1yprKf",
+          "locations": [
+            "tasks[8].action.id"
+          ]
+        },
+        "workflow_task_id_ref16": {
+          "kind": "string",
+          "type": "workflow_task_id",
+          "src_key_hash": "23XdwhTtpVZHXNZpYAtQkLyQ1Cixv3T4yJgFRLnRp51S",
+          "content_hash": "6qZxUnk27m1eRqvQExoYYdK5imNyWkAzNQK18tam2HxZ",
+          "locations": [
+            "tasks[15].id",
+            "tasks[7].next[0].do[0]"
+          ]
+        },
+        "transition_id_ref3": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "FcyYMFV41f4iXqG7sN713CCG1yP5LLGRjhqSN4ZqqVxz",
+          "content_hash": "Bxd7Dt8CwV735PbRZSWdDA1CnhjTrFrqTdPfqFoo1vF2",
+          "locations": [
+            "tasks[2].next[0].id"
+          ]
+        },
+        "transition_id_ref14": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "GSADHYej6gumS1x9QqwuPipNvBhmx4NG2L9v2No2pf71",
+          "content_hash": "FTFzgZ1n9YxcA8BRakWjWkcx897yyUPxVb1R2VXHQkJc",
+          "locations": [
+            "tasks[9].next[0].id"
+          ]
+        },
+        "transition_id_ref21": {
+          "kind": "string",
+          "type": "transition_id",
+          "src_key_hash": "Ascfv1EWiWC9z2q8jiDiESq4Auko15ykQL2YSKJJ5f42",
+          "content_hash": "85myTCacvshHdtES3BeTCvSHxqe54gosbnpBb9UcLpUD",
+          "locations": [
+            "tasks[15].next[1].id"
+          ]
+        },
+        "workflow_note_id_ref1": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "ERFJrkLJ5WnKbPkYbkEmEtML8TfMfVPBYdZ57ZKKtDXz",
+          "content_hash": "BEtEGbxKum1kQvfBxmxs9DGXDKGAEqy46Gp699AgnWKR",
+          "locations": [
+            "notes[0].id"
+          ]
+        },
+        "action_ref6": {
+          "kind": "string",
+          "type": "action",
+          "src_key_hash": "6V7a6UXb8mEK3jgRoqk3YGXjxurNAJPWkc43VTeVqT4i",
+          "content_hash": "FMu3hsNV7SdbaFHCpQXe4YsxtfRZHq3LfQ8Ej6uv322w",
+          "locations": [
+            "tasks[5].action.id"
+          ]
+        },
+        "workflow_note_id_ref2": {
+          "kind": "string",
+          "type": "workflow_note_id",
+          "src_key_hash": "3xmYdjZNFgobvpcCfT1q47JfGX6vEsPu4E6j5n7qoBCp",
+          "content_hash": "HQV4DHupPgiqoFhtoGguETQRw4XhLWXCNXQq5t1WybGT",
+          "locations": [
+            "notes[1].id"
+          ]
+        }
+      },
+      "dependencies": [
+        "workflow_task_id:7KjrALCykvLFGG4CUS55X3WpC4c85eiaG9D2vCXdFERB",
+        "transition_id:GSADHYej6gumS1x9QqwuPipNvBhmx4NG2L9v2No2pf71",
+        "workflow_task_id:8p8rvMbfM1zFtBUFT6tnW75k8DkaUNTe22M41y9paUDs",
+        "action:CyYCjMHw1VqkxcuEfxjUQyYPBeVF6mGvbAYenpoW7wuF",
+        "transition_id:4kSRMqd4vAvgJBHh6fuLPZztWGqLB2PszYJdsPEQ3ikV",
+        "action:BRDGaM7JkemwywAKMoY6p1imZ7ZkqaDo4NTXqjDdqWUQ",
+        "action:Evw3qebHupPoPa7Vgyi8bZnzWJJiKFirkqsbnmXSBnNj",
+        "workflow_task_id:G9Gd61786v6ezJLdZYVpaxaqJRq2SVBEwPLqugSco86H",
+        "workflow_task_id:BKPi3mu3ZbrevNaQ9p6vUiUtzwC4EJy63U6puTSJ92V8",
+        "transition_id:3t4wtmfas11BPU9ZbXCm4Mf8Vt6KEGZKaK9tJW3Ad6r6",
+        "transition_id:5uWJ6jCBLPAPN33dt62eEiaL4ZwdCE6CXrB7J1Wh6vqM",
+        "workflow_note_id:ERFJrkLJ5WnKbPkYbkEmEtML8TfMfVPBYdZ57ZKKtDXz",
+        "transition_id:5X8STEmU8UQZGgerL6MBS38WiqGEMvXacChr9nzPZLUG",
+        "transition_id:7NhwYEpTJJ98d9W2odzoJ4gAbMtzprgeBUu86WzNQ8r8",
+        "transition_id:9jG78qaASbpy4QHXsPnRaPkqMCH7zH7B85KxNAEkCm1P",
+        "action:6V7a6UXb8mEK3jgRoqk3YGXjxurNAJPWkc43VTeVqT4i",
+        "workflow_task_id:4CYmQHcj1nXE8e9eb85KSr6K863kqt5si1xtZKmgxK4x",
+        "workflow_note_id:u6VCmvhF46fg3iZGtph35qKnvTQGLYMVV7yVaRT1XsV",
+        "workflow_task_id:G8JSHBSJkZ6EjnDQxeasJCEoUDZhrYiebSxBXjwQsAm7",
+        "workflow_task_id:3yYLo49xEiCmjQT3qUs917M9piBWF2mcaw6rvk1Bm8e1",
+        "transition_id:E1wWFQmy5852gwmbUnGvCrcBuqGF6KPCvNjkJHGDmAsq",
+        "workflow_task_id:23XdwhTtpVZHXNZpYAtQkLyQ1Cixv3T4yJgFRLnRp51S",
+        "transition_id:J1y5rnrVFpW4xsok5nyooehvWy8GDH7GXJkxLA1Cu4s9",
+        "workflow_task_id:DaYddpaTN2SyqszeHTP66DDxxR3JNFLQ3uaNpdwnUTst",
+        "action:7cYtqa94QLzJ43HzbeBD4uUFB7vd3GYS3rQDe3QwcRxW",
+        "transition_id:Dm52Wb7P8jFcKhdrHgjzCHW9Cv77XtgUwSoL6Z1S1poJ",
+        "transition_id:25iq2jxpwmUVNyBsBK8LkGZabVebUusu793rwHNKBiXr",
+        "action:Fg4vZ77kC5sa72HP2LSDFnzJ25texodHsRVHNU4pBhnw",
+        "workflow_task_id:7N1jxo21QmYahxLnfekUjqd5xnWEmVF7S2Tb91TfDc2x",
+        "transition_id:HRRj5kvQHnpxUCMMWTwYRQoSDmmKgaQwdzoUkgrZxXN3",
+        "workflow_task_id:CRN47HuHChAiJKw7phvxmR4jTc7FVP3gkkR6StA7LYzN",
+        "workflow_note_id:3xmYdjZNFgobvpcCfT1q47JfGX6vEsPu4E6j5n7qoBCp",
+        "workflow_task_id:F79AmTE4xiqRzg1FshZXTnxZWm9sa1nHecnYXpGX3quF",
+        "action:7UHLNfVzyuLcFKmUmAkxMamFc9pgNB2ScvWhLjNx3a73",
+        "workflow_note_id:6PHPVKhZofnpiFLmGKdjWyzarQ86Qn7t6up2jHEerxPH",
+        "transition_id:56vFTcoASCidhspeLDHLsbtGe4B7D8DzDCFEQuPPL2Tk",
+        "transition_id:8SJQ3Z4ziW3dufhc4Q9XVkfhRJc9RCgCPNCSArc7N5rN",
+        "transition_id:6Wu6wsxPWE1XCCDo8ixKYGKmnvkdj3t9AGtYz8HMMFgX",
+        "transition_id:FeC1WFWXfcQMaSqMZZdrcTWR5awx36dimVh7rtqheyNw",
+        "workflow_task_id:DnxTkPAmooRmxw99XLZmTKiEY85sMmSfcnzrGCHqxS7V",
+        "transition_id:8maDKm63K4be8tRZZvwGDH47FkyBU9kLUs64wWBFmhqr",
+        "transition_id:5R9TyEzS1szT7iFJzNUbpa15dfVfe5P7V1m3MmgF4DHP",
+        "action:AiDgDy1GDM4nDaxD6NnqhS8ik8ZVey3sNF7WbwqLPn1G",
+        "workflow_task_id:4LvA1Qe8EWKftSPPKHUVDX81M7ajeJr3B4Zot51QtEtv",
+        "workflow_task_id:J7qt97fYKHSYfNmcyh6hFhBYyYT9rZNXcCr8hwWTrecG",
+        "transition_id:2wEAJSDbS7sZJJD6YuSrDZxjrddeRXxnDH8oJBeSSEKS",
+        "action:21MJUh7HZvtgKKHws1vdiYq3k2ng2JvXxEQdqExD2tKt",
+        "action:7iTG3fm7AWhWxgmDGERG6PcTmyxYx9hqjwMNwo8NoDou",
+        "transition_id:FcyYMFV41f4iXqG7sN713CCG1yP5LLGRjhqSN4ZqqVxz",
+        "workflow_task_id:5bqxsg1tkei47ditWk6R17p4QAuQFfthZi8oFSsFycYD",
+        "transition_id:Ascfv1EWiWC9z2q8jiDiESq4Auko15ykQL2YSKJJ5f42"
+      ]
+    }
+  },
+  "__typename": "ExportBundle"
+}
