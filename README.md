@@ -1,6 +1,6 @@
-# Rewst Codex
+# EGI Automation Codex
 
-A curated catalog of community-built Rewst automation content, pulled from public sources (GitHub, Reddit, blog posts, practitioner interviews) and organized for use by Eudai Gestalt Integrations (EGI) and its clients.
+A curated catalog of community-built automation content, pulled from public sources (GitHub, Reddit, blog posts, practitioner interviews) and organized for use by Eudai Gestalt Integrations (EGI) and its clients.
 
 ## What's in here
 
