@@ -117,7 +117,7 @@ RoboRewsty is Rewst's in-product AI workflow builder; specs generated from a wel
 
 Profiles under `contributors/`. Pass 2 set:
 
-- `contributors/david-braun-egi.md` — David Braun, `GestaltWorks`. EGI principal, catalog consumer.
+- `contributors/david-braun-egi.md` — David Braun, `WorkflowtechAI`. EGI principal, catalog consumer.
 - `contributors/brandon-martinez-giga.md` — eTop Technology, `gigacodedev`, personal blog at `blog.gigacode.dev`
 - `contributors/nick-zipse.md` — Rewst Automation Strategist, `nick-zip-rewst-pub`
 - `contributors/john-duprey.md` — `JohnDuprey`, CIPP interop
@@ -169,7 +169,7 @@ Areas where the catalog is incomplete and where future discovery passes will foc
 
 - GitHub community workflow hub: <https://github.com/gigacodedev/Rewst>
 - Rewst official org on GitHub: <https://github.com/RewstApp>
-- EGI GitHub: <https://github.com/GestaltWorks>
+- EGI GitHub: <https://github.com/WorkflowtechAI>
 - Rewst docs: <https://docs.rewst.help>
 - Rewst blog: <https://rewst.io/resources/blog>
 - Rewst success stories (Workflow Wizards new home): <https://rewst.io/success-stories/>

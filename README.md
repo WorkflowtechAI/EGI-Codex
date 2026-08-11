@@ -28,4 +28,4 @@ If you authored a repo snapshotted here and want it removed, re-attributed, or u
 
 ## Who maintains this
 
-Eudai Gestalt Integrations (EGI). Primary maintainer: David Braun ([GestaltWorks](https://github.com/GestaltWorks)).
+Eudai Gestalt Integrations (EGI). Primary maintainer: David Braun ([WorkflowtechAI](https://github.com/WorkflowtechAI)).
