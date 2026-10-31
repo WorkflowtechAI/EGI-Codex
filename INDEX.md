@@ -14,7 +14,7 @@ Rewst-Codex/
 ├── reference/                   cross-cutting notes: blog resolutions, event context, Reddit authors
 ├── scripts/                     standalone PowerShell/Python/JS pulled out of repos (future)
 ├── dashboards/                  AppBuilder builds and styling assets (future)
-├── workflows/                   loose .bundle.json files not tied to a repo (future)
+├── workflows/                   EGI-authored workflow packs and loose .bundle.json files
 ├── blog-posts/                  saved articles, write-ups, teardowns (future)
 └── discord-exports/             authorized exports from Rewst community Discord (future)
 ```
@@ -112,6 +112,14 @@ RoboRewsty is Rewst's in-product AI workflow builder; specs generated from a wel
 | `RewstApp__agent-smith-tray` | Rewst (official) | Optional Windows tray icon for Agent Smith. Shows service status and exposes configurable links to end users. |
 | `tfournet__install-agent-smith` | Tim Fournet | Installer tooling for Agent Smith. Useful when provisioning agents at scale or in restricted environments. |
 | `nikolazleo__Rewst_Workflow_Executions` | nikolazleo | LogicMonitor DataSources for Rewst workflow execution metrics and config drift, plus LM Logs Syslog integration. Requires the Rewst GraphQL Task beta (contact Rewst support for access). |
+
+## EGI-authored workflows
+
+Under `workflows/`. EGI's own reusable builds, MIT-licensed per `NOTICE`.
+
+| Pack | Platform | What |
+|---|---|---|
+| `workflows/autotask-offline-coverage/` | Autotask PSA (native workflow rules) | 11 workflow rules plus notification templates that keep a HelpDesk moving while the dispatcher is offline: auto-acknowledgment, critical-intake alerts to an on-call group, untouched and stalled ticket alerts, SLA warning and breach, Waiting Customer reminder, auto-close and reopen. Includes prerequisites, build order, test plan and tuning notes. |
 
 ## Contributors
 
